@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.startup">
+         <startup class="Myplugin.CloneControl.Startup" />
+   </extension>
+
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            id="org.eclipse.jdt.ui.CompilationUnitEditor"
+            name="MyEditor"
+            class="MyEditors.MyEditor"
+            contributorClass="org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditorActionContributor"
+            default="true">
+      <contentTypeBinding
+            contentTypeId="org.eclipse.jdt.core.javaSource"/> 
+      </editor>
+   </extension>
+   
+   <extension
+         point="org.eclipse.ui.commands">
+      <category
+            id="Myplugin.CloneControl.category.Clones"
+            name="Clone_Control">
+      </category>
+      <command
+            categoryId="Myplugin.CloneControl.category.Clones"
+            id="Myplugin.CloneControl.command.LoadExistedClones"
+            name="LoadExistedClones">
+      </command>
+      <command
+            categoryId="Myplugin.CloneControl.category.Clones"
+            id="Myplugin.CloneControl.command.TrainPredictor"
+            name="TrainPredictor">
+      </command>
+      <command
+            categoryId="Myplugin.CloneControl.category.Clones"
+            id="Myplugin.CloneControl.command.LoadARFFFile"
+            name="LoadARFFFile">
+      </command>
+      <command
+            categoryId="Myplugin.CloneControl.category.Clones"
+            id="Myplugin.CloneControl.command.LoadModel"
+            name="LoadModel">
+      </command>
+      <command
+            categoryId="Myplugin.CloneControl.category.Clones"
+            id="Myplugin.CloneControl.command.ShowClones"
+            name="ShowClones">
+      </command>
+      
+   </extension>
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            allPopups="false"
+            locationURI="menu:org.eclipse.ui.main.menu?after=additions">
+         <menu
+               label="Clones">
+            <command
+                  commandId="Myplugin.CloneControl.command.LoadExistedClones"
+                  label="Load Existed Clone File"
+                  style="push">
+            </command>
+            <command
+                  commandId="Myplugin.CloneControl.command.TrainPredictor"
+                  label="Train Predictor"
+                  style="push">
+            </command>
+            <command
+                  commandId="Myplugin.CloneControl.command.LoadARFFFile"
+                  label="Load ARFF File"
+                  style="push">
+            </command>
+            <command
+                  commandId="Myplugin.CloneControl.command.LoadModel"
+                  label="Load Model"
+                  style="push">
+            </command>
+            <command
+                  commandId="Myplugin.CloneControl.command.ShowClones"
+                  label="Show Clones"
+                  style="push">
+            </command>
+         </menu>
+      </menuContribution>
+   </extension>
+   <extension
+         point="org.eclipse.ui.handlers">
+      <handler
+            class="Command.LoadExistedClones"
+            commandId="Myplugin.CloneControl.command.LoadExistedClones">
+      </handler>
+      <handler
+            class="Command.TrainPredictor"
+            commandId="Myplugin.CloneControl.command.TrainPredictor">
+      </handler>
+      <handler
+            class="Command.LoadARFFFile"
+            commandId="Myplugin.CloneControl.command.LoadARFFFile">
+      </handler>
+      <handler
+            class="Command.LoadModel"
+            commandId="Myplugin.CloneControl.command.LoadModel">
+      </handler>
+      <handler
+            class="Command.ShowClones"
+            commandId="Myplugin.CloneControl.command.ShowClones">
+      </handler>
+   </extension>
+ 
+ </plugin>
