@@ -1,0 +1,834 @@
+<clones>
+<systeminfo processor="nicad5" system="mina-2.1.3" granularity="blocks-blind" threshold="30%" minlines="10" maxlines="2500"/>
+<cloneinfo npcs="9869" npairs="548"/>
+<runinfo ncompares="544038" cputime="484"/>
+<classinfo nclasses="138"/>
+
+<class classid="1" nclones="2" nlines="10" similarity="100">
+<source file="mina-2.1.3/mina-benchmarks/src/test/java/org/apache/mina/core/BenchmarkClientFactory.java" startline="29" endline="38" pcid="6"></source>
+<source file="mina-2.1.3/mina-benchmarks/src/test/java/org/apache/mina/core/BenchmarkServerFactory.java" startline="32" endline="41" pcid="7"></source>
+</class>
+
+<class classid="2" nclones="2" nlines="13" similarity="76">
+<source file="mina-2.1.3/mina-benchmarks/src/test/java/org/apache/mina/core/MinaBenchmarkClient.java" startline="60" endline="71" pcid="11"></source>
+<source file="mina-2.1.3/mina-benchmarks/src/test/java/org/apache/mina/core/NettyBenchmarkClient.java" startline="70" endline="80" pcid="40"></source>
+</class>
+
+<class classid="3" nclones="2" nlines="48" similarity="72">
+<source file="mina-2.1.3/mina-benchmarks/src/test/java/org/apache/mina/core/MinaBenchmarkServer.java" startline="65" endline="112" pcid="20"></source>
+<source file="mina-2.1.3/mina-benchmarks/src/test/java/org/apache/mina/core/NettyBenchmarkServer.java" startline="112" endline="159" pcid="56"></source>
+</class>
+
+<class classid="4" nclones="2" nlines="12" similarity="83">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/buffer/AbstractIoBuffer.java" startline="1457" endline="1469" pcid="237"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/buffer/AbstractIoBuffer.java" startline="1475" endline="1487" pcid="240"></source>
+</class>
+
+<class classid="5" nclones="3" nlines="22" similarity="83">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/buffer/AbstractIoBuffer.java" startline="1664" endline="1690" pcid="277"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/buffer/AbstractIoBuffer.java" startline="1985" endline="2006" pcid="334"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/buffer/AbstractIoBuffer.java" startline="1765" endline="1791" pcid="299"></source>
+</class>
+
+<class classid="6" nclones="2" nlines="13" similarity="84">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/buffer/AbstractIoBuffer.java" startline="1730" endline="1742" pcid="288"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/buffer/AbstractIoBuffer.java" startline="1742" endline="1754" pcid="293"></source>
+</class>
+
+<class classid="7" nclones="2" nlines="39" similarity="78">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/buffer/AbstractIoBuffer.java" startline="1802" endline="1847" pcid="305"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/buffer/AbstractIoBuffer.java" startline="2101" endline="2138" pcid="345"></source>
+</class>
+
+<class classid="8" nclones="2" nlines="11" similarity="90">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/buffer/AbstractIoBuffer.java" startline="2385" endline="2394" pcid="391"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/buffer/AbstractIoBuffer.java" startline="2434" endline="2444" pcid="399"></source>
+</class>
+
+<class classid="9" nclones="6" nlines="10" similarity="70">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/filterchain/DefaultIoFilterChain.java" startline="117" endline="129" pcid="738"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/filterchain/DefaultIoFilterChain.java" startline="272" endline="286" pcid="759"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/filterchain/DefaultIoFilterChain.java" startline="135" endline="147" pcid="741"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/handler/chain/IoHandlerChain.java" startline="332" endline="344" pcid="4351"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/handler/chain/IoHandlerChain.java" startline="315" endline="324" pcid="4348"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/filterchain/DefaultIoFilterChain.java" startline="292" endline="307" pcid="762"></source>
+</class>
+
+<class classid="10" nclones="3" nlines="21" similarity="72">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/filterchain/DefaultIoFilterChain.java" startline="313" endline="336" pcid="765"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/filterchain/DefaultIoFilterChain.java" startline="396" endline="430" pcid="781"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/filterchain/DefaultIoFilterChain.java" startline="459" endline="478" pcid="792"></source>
+</class>
+
+<class classid="11" nclones="2" nlines="32" similarity="87">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/filterchain/DefaultIoFilterChain.java" startline="342" endline="386" pcid="770"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/filterchain/DefaultIoFilterChain.java" startline="392" endline="436" pcid="779"></source>
+</class>
+
+<class classid="12" nclones="13" nlines="13" similarity="71">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/filterchain/DefaultIoFilterChain.java" startline="541" endline="552" pcid="808"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/filterchain/DefaultIoFilterChain.java" startline="646" endline="657" pcid="832"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/filterchain/DefaultIoFilterChain.java" startline="678" endline="689" pcid="841"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/filterchain/DefaultIoFilterChain.java" startline="587" endline="600" pcid="818"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/filterchain/DefaultIoFilterChain.java" startline="785" endline="796" pcid="866"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/filterchain/DefaultIoFilterChain.java" startline="731" endline="739" pcid="853"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/filterchain/DefaultIoFilterChain.java" startline="749" endline="762" pcid="857"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/filterchain/DefaultIoFilterChain.java" startline="621" endline="632" pcid="826"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/filterchain/DefaultIoFilterChain.java" startline="570" endline="581" pcid="814"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/filterchain/DefaultIoFilterChain.java" startline="663" endline="676" pcid="836"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/filterchain/DefaultIoFilterChain.java" startline="772" endline="783" pcid="862"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/filterchain/DefaultIoFilterChain.java" startline="702" endline="710" pcid="847"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/filterchain/DefaultIoFilterChain.java" startline="602" endline="610" pcid="822"></source>
+</class>
+
+<class classid="13" nclones="3" nlines="24" similarity="88">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/filterchain/DefaultIoFilterChain.java" startline="855" endline="886" pcid="877"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/handler/chain/IoHandlerChain.java" startline="350" endline="381" pcid="4354"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/filterchain/DefaultIoFilterChainBuilder.java" startline="561" endline="588" pcid="1028"></source>
+</class>
+
+<class classid="14" nclones="55" nlines="10" similarity="70">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/filterchain/DefaultIoFilterChain.java" startline="933" endline="944" pcid="890"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/filterchain/DefaultIoFilterChain.java" startline="983" endline="993" pcid="906"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/filterchain/DefaultIoFilterChain.java" startline="963" endline="972" pcid="901"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/service/IoServiceStatistics.java" startline="459" endline="468" pcid="1924"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/service/IoServiceStatistics.java" startline="515" endline="524" pcid="1933"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/service/IoServiceStatistics.java" startline="497" endline="506" pcid="1930"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/service/IoServiceStatistics.java" startline="218" endline="227" pcid="1880"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/handler/stream/StreamIoHandler.java" startline="128" endline="136" pcid="4480"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/service/IoServiceStatistics.java" startline="260" endline="269" pcid="1889"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/service/IoServiceStatistics.java" startline="477" endline="486" pcid="1927"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/service/IoServiceStatistics.java" startline="232" endline="241" pcid="1883"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/service/IoServiceStatistics.java" startline="246" endline="255" pcid="1886"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/codec/textline/TextLineDecoder.java" startline="347" endline="357" pcid="3064"></source>
+<source file="mina-2.1.3/mina-example/src/main/java/org/apache/mina/example/udp/client/MemMonClient.java" startline="71" endline="79" pcid="8058"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/proxy/handlers/socks/Socks5LogicHandler.java" startline="459" endline="467" pcid="4965"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/transport/socket/nio/NioProcessor.java" startline="141" endline="150" pcid="5477"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/polling/AbstractPollingIoConnector.java" startline="205" endline="213" pcid="1349"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/polling/AbstractPollingIoAcceptor.java" startline="242" endline="250" pcid="1271"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/transport/socket/nio/NioDatagramAcceptor.java" startline="136" endline="144" pcid="5235"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/handler/stream/IoSessionInputStream.java" startline="114" endline="122" pcid="4447"></source>
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/transport/AbstractBindTest.java" startline="135" endline="145" pcid="7097"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/transport/socket/nio/NioProcessor.java" startline="176" endline="186" pcid="5485"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/util/ExpiringMap.java" startline="455" endline="466" pcid="6346"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/util/ExpiringMap.java" startline="412" endline="423" pcid="6335"></source>
+<source file="mina-2.1.3/mina-example/src/main/java/org/apache/mina/example/tcp/perf/BogusSslContextFactory.java" startline="86" endline="95" pcid="7964"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/transport/socket/nio/NioDatagramAcceptor.java" startline="243" endline="253" pcid="5262"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/session/DummySession.java" startline="169" endline="177" pcid="2303"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/service/AbstractIoService.java" startline="320" endline="330" pcid="1722"></source>
+<source file="mina-2.1.3/mina-example/src/main/java/org/apache/mina/example/echoserver/ssl/BogusSslContextFactory.java" startline="86" endline="94" pcid="7588"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/polling/AbstractPollingIoAcceptor.java" startline="608" endline="620" pcid="1318"></source>
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/filter/executor/ExecutorFilterRegressionTest.java" startline="142" endline="150" pcid="6756"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/transport/socket/nio/NioDatagramAcceptor.java" startline="203" endline="212" pcid="5251"></source>
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/core/IoServiceListenerSupportTest.java" startline="179" endline="191" pcid="6636"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/util/NamePreservingRunnable.java" startline="74" endline="82" pcid="6423"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/polling/AbstractPollingIoConnector.java" startline="383" endline="391" pcid="1358"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/util/ExpiringMap.java" startline="375" endline="385" pcid="6326"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/proxy/handlers/http/HttpSmartProxyHandler.java" startline="133" endline="141" pcid="4774"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/service/IoServiceListenerSupport.java" startline="179" endline="187" pcid="1821"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/service/IoServiceListenerSupport.java" startline="254" endline="262" pcid="1837"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/proxy/handlers/http/HttpProxyRequest.java" startline="198" endline="206" pcid="4734"></source>
+<source file="mina-2.1.3/mina-example/src/main/java/org/apache/mina/example/echoserver/ssl/SslServerSocketFactory.java" startline="66" endline="76" pcid="7619"></source>
+<source file="mina-2.1.3/mina-example/src/main/java/org/apache/mina/example/imagine/step1/client/ImageClient.java" startline="63" endline="72" pcid="7715"></source>
+<source file="mina-2.1.3/mina-example/src/main/java/org/apache/mina/example/echoserver/ssl/SslSocketFactory.java" startline="93" endline="103" pcid="7641"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/polling/AbstractPollingIoProcessor.java" startline="839" endline="849" pcid="1501"></source>
+<source file="mina-2.1.3/mina-example/src/main/java/org/apache/mina/example/haiku/HaikuValidatorIoHandler.java" startline="34" endline="43" pcid="7662"></source>
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/filter/executor/PriorityThreadPoolExecutorTest.java" startline="276" endline="285" pcid="6787"></source>
+<source file="mina-2.1.3/mina-core/src/test/java/testcase/MyRequestDecoder.java" startline="45" endline="53" pcid="7472"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/proxy/handlers/socks/Socks4LogicHandler.java" startline="121" endline="129" pcid="4893"></source>
+<source file="mina-2.1.3/mina-transport-serial/src/main/java/org/apache/mina/transport/serial/SerialSessionImpl.java" startline="154" endline="165" pcid="9827"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/service/IoServiceListenerSupport.java" startline="150" endline="166" pcid="1814"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/codec/textline/TextLineDecoder.java" startline="128" endline="139" pcid="3036"></source>
+<source file="mina-2.1.3/mina-http/src/main/java/org/apache/mina/http/DateUtil.java" startline="71" endline="79" pcid="8361"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/future/DefaultIoFuture.java" startline="277" endline="290" pcid="1154"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/executor/IoEventQueueThrottle.java" startline="175" endline="184" pcid="3232"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/ssl/SslFilter.java" startline="479" endline="491" pcid="3946"></source>
+</class>
+
+<class classid="15" nclones="2" nlines="11" similarity="100">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/filterchain/DefaultIoFilterChainBuilder.java" startline="246" endline="257" pcid="972"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/filterchain/DefaultIoFilterChainBuilder.java" startline="266" endline="277" pcid="975"></source>
+</class>
+
+<class classid="16" nclones="3" nlines="14" similarity="78">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/filterchain/DefaultIoFilterChainBuilder.java" startline="285" endline="301" pcid="978"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/filterchain/DefaultIoFilterChainBuilder.java" startline="309" endline="325" pcid="982"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/filterchain/DefaultIoFilterChainBuilder.java" startline="333" endline="349" pcid="986"></source>
+</class>
+
+<class classid="17" nclones="2" nlines="11" similarity="72">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/filterchain/DefaultIoFilterChainBuilder.java" startline="613" endline="624" pcid="1038"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/session/IoEvent.java" startline="49" endline="61" pcid="2372"></source>
+</class>
+
+<class classid="18" nclones="4" nlines="10" similarity="70">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/future/DefaultIoFuture.java" startline="311" endline="324" pcid="1161"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/util/byteaccess/ByteArrayPool.java" startline="114" endline="123" pcid="5988"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/handler/stream/IoSessionInputStream.java" startline="63" endline="74" pcid="4433"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/polling/AbstractPollingIoProcessor.java" startline="178" endline="190" pcid="1427"></source>
+</class>
+
+<class classid="19" nclones="3" nlines="27" similarity="78">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/polling/AbstractPollingIoAcceptor.java" startline="221" endline="251" pcid="1266"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/polling/AbstractPollingIoConnector.java" startline="188" endline="214" pcid="1344"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/transport/socket/nio/NioDatagramAcceptor.java" startline="126" endline="145" pcid="5231"></source>
+</class>
+
+<class classid="20" nclones="2" nlines="22" similarity="95">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/polling/AbstractPollingIoAcceptor.java" startline="342" endline="383" pcid="1276"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/transport/socket/nio/NioDatagramAcceptor.java" startline="516" endline="559" pcid="5320"></source>
+</class>
+
+<class classid="21" nclones="3" nlines="15" similarity="76">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/polling/AbstractPollingIoAcceptor.java" startline="393" endline="414" pcid="1281"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/transport/socket/nio/NioDatagramAcceptor.java" startline="483" endline="498" pcid="5314"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/polling/AbstractPollingIoConnector.java" startline="401" endline="416" pcid="1362"></source>
+</class>
+
+<class classid="22" nclones="5" nlines="10" similarity="70">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/polling/AbstractPollingIoAcceptor.java" startline="404" endline="413" pcid="1283"></source>
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/filter/ssl/SslEngineTest.java" startline="222" endline="232" pcid="6926"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/proxy/event/IoSessionEventQueue.java" startline="99" endline="107" pcid="4540"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/ssl/SslHandler.java" startline="859" endline="869" pcid="4150"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/transport/socket/nio/NioProcessor.java" startline="189" endline="201" pcid="5488"></source>
+</class>
+
+<class classid="23" nclones="2" nlines="10" similarity="100">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/polling/AbstractPollingIoAcceptor.java" startline="420" endline="431" pcid="1286"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/transport/socket/nio/NioDatagramAcceptor.java" startline="813" endline="825" pcid="5375"></source>
+</class>
+
+<class classid="24" nclones="2" nlines="64" similarity="92">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/polling/AbstractPollingIoAcceptor.java" startline="444" endline="531" pcid="1288"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/polling/AbstractPollingIoConnector.java" startline="423" endline="497" pcid="1366"></source>
+</class>
+
+<class classid="25" nclones="3" nlines="36" similarity="70">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/polling/AbstractPollingIoAcceptor.java" startline="452" endline="508" pcid="1289"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/transport/socket/nio/NioDatagramAcceptor.java" startline="161" endline="201" pcid="5240"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/polling/AbstractPollingIoConnector.java" startline="428" endline="475" pcid="1367"></source>
+</class>
+
+<class classid="26" nclones="3" nlines="14" similarity="73">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/polling/AbstractPollingIoAcceptor.java" startline="471" endline="485" pcid="1291"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/polling/AbstractPollingIoProcessor.java" startline="652" endline="674" pcid="1474"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/polling/AbstractPollingIoConnector.java" startline="439" endline="453" pcid="1369"></source>
+</class>
+
+<class classid="27" nclones="2" nlines="36" similarity="91">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/polling/AbstractPollingIoAcceptor.java" startline="572" endline="623" pcid="1311"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/transport/socket/nio/NioDatagramAcceptor.java" startline="216" endline="258" pcid="5255"></source>
+</class>
+
+<class classid="28" nclones="4" nlines="25" similarity="74">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/polling/AbstractPollingIoAcceptor.java" startline="631" endline="661" pcid="1322"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/polling/AbstractPollingIoConnector.java" startline="523" endline="549" pcid="1393"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/transport/socket/nio/NioDatagramAcceptor.java" startline="439" endline="470" pcid="5304"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/polling/AbstractPollingIoConnector.java" startline="499" endline="521" pcid="1386"></source>
+</class>
+
+<class classid="29" nclones="2" nlines="17" similarity="72">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/polling/AbstractPollingIoConnector.java" startline="526" endline="542" pcid="1394"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/transport/socket/nio/NioDatagramAcceptor.java" startline="353" endline="375" pcid="5288"></source>
+</class>
+
+<class classid="30" nclones="2" nlines="13" similarity="73">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/service/AbstractIoAcceptor.java" startline="242" endline="255" pcid="1602"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/service/AbstractIoAcceptor.java" startline="261" endline="279" pcid="1605"></source>
+</class>
+
+<class classid="31" nclones="2" nlines="13" similarity="78">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/service/AbstractIoAcceptor.java" startline="496" endline="508" pcid="1649"></source>
+<source file="mina-2.1.3/mina-statemachine/src/main/java/org/apache/mina/statemachine/event/Event.java" startline="107" endline="122" pcid="9106"></source>
+</class>
+
+<class classid="32" nclones="2" nlines="11" similarity="72">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/service/AbstractIoConnector.java" startline="352" endline="367" pcid="1692"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/ssl/SslFilter.java" startline="692" endline="700" pcid="3995"></source>
+</class>
+
+<class classid="33" nclones="6" nlines="11" similarity="72">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/session/AbstractIoSession.java" startline="474" endline="489" pcid="2050"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/session/AbstractIoSession.java" startline="494" endline="509" pcid="2053"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/executor/OrderedThreadPoolExecutor.java" startline="214" endline="227" pcid="3251"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/executor/PriorityThreadPoolExecutor.java" startline="263" endline="276" pcid="3379"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/codec/demux/DemuxingProtocolEncoder.java" startline="266" endline="276" pcid="2628"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/codec/demux/DemuxingProtocolDecoder.java" startline="242" endline="255" pcid="2582"></source>
+</class>
+
+<class classid="34" nclones="2" nlines="13" similarity="92">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/session/AbstractIoSession.java" startline="889" endline="902" pcid="2110"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/session/AbstractIoSession.java" startline="926" endline="941" pcid="2115"></source>
+</class>
+
+<class classid="35" nclones="2" nlines="15" similarity="73">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/session/AbstractIoSession.java" startline="1008" endline="1022" pcid="2128"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/codec/AbstractProtocolEncoderOutput.java" startline="56" endline="68" pcid="2503"></source>
+</class>
+
+<class classid="36" nclones="3" nlines="12" similarity="75">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/session/AbstractIoSession.java" startline="1122" endline="1136" pcid="2149"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/session/AbstractIoSession.java" startline="1195" endline="1209" pcid="2164"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/session/AbstractIoSessionConfig.java" startline="153" endline="167" pcid="2219"></source>
+</class>
+
+<class classid="37" nclones="2" nlines="17" similarity="82">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/session/AbstractIoSession.java" startline="1217" endline="1230" pcid="2168"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/session/AbstractIoSessionConfig.java" startline="181" endline="195" pcid="2224"></source>
+</class>
+
+<class classid="38" nclones="3" nlines="10" similarity="90">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/core/session/AttributeKey.java" startline="82" endline="94" pcid="2252"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/codec/textline/LineDelimiter.java" startline="118" endline="130" pcid="3011"></source>
+<source file="mina-2.1.3/mina-statemachine/src/main/java/org/apache/mina/statemachine/transition/MethodTransition.java" startline="294" endline="306" pcid="9375"></source>
+</class>
+
+<class classid="39" nclones="2" nlines="19" similarity="89">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/codec/demux/DemuxingProtocolDecoder.java" startline="101" endline="121" pcid="2554"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/codec/demux/DemuxingProtocolEncoder.java" startline="64" endline="85" pcid="2594"></source>
+</class>
+
+<class classid="40" nclones="2" nlines="13" similarity="92">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/codec/demux/DemuxingProtocolEncoder.java" startline="206" endline="226" pcid="2619"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/handler/demux/DemuxingIoHandler.java" startline="342" endline="362" pcid="4395"></source>
+</class>
+
+<class classid="41" nclones="2" nlines="10" similarity="80">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/codec/ProtocolCodecFilter.java" startline="329" endline="342" pcid="2722"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/codec/ProtocolCodecFilter.java" startline="442" endline="454" pcid="2741"></source>
+</class>
+
+<class classid="42" nclones="2" nlines="10" similarity="100">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/codec/ProtocolCodecFilter.java" startline="343" endline="354" pcid="2725"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/codec/ProtocolCodecFilter.java" startline="368" endline="376" pcid="2730"></source>
+</class>
+
+<class classid="43" nclones="2" nlines="12" similarity="100">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/codec/ProtocolCodecFilter.java" startline="485" endline="496" pcid="2746"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/codec/ProtocolCodecFilter.java" startline="503" endline="514" pcid="2750"></source>
+</class>
+
+<class classid="44" nclones="3" nlines="47" similarity="73">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/codec/statemachine/ConsumeToCrLfDecodingState.java" startline="58" endline="120" pcid="2865"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/codec/statemachine/ConsumeToDynamicTerminatorDecodingState.java" startline="39" endline="86" pcid="2882"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/codec/statemachine/ConsumeToTerminatorDecodingState.java" startline="50" endline="89" pcid="2906"></source>
+</class>
+
+<class classid="45" nclones="2" nlines="27" similarity="92">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/codec/statemachine/ConsumeToCrLfDecodingState.java" startline="76" endline="104" pcid="2870"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/codec/statemachine/ConsumeToTerminatorDecodingState.java" startline="53" endline="80" pcid="2907"></source>
+</class>
+
+<class classid="46" nclones="4" nlines="11" similarity="100">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/codec/statemachine/ConsumeToCrLfDecodingState.java" startline="126" endline="136" pcid="2879"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/codec/statemachine/ConsumeToDynamicTerminatorDecodingState.java" startline="92" endline="102" pcid="2893"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/codec/statemachine/ConsumeToTerminatorDecodingState.java" startline="95" endline="105" pcid="2915"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/codec/statemachine/FixedLengthDecodingState.java" startline="89" endline="100" pcid="2973"></source>
+</class>
+
+<class classid="47" nclones="2" nlines="30" similarity="80">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/codec/textline/TextLineDecoder.java" startline="274" endline="309" pcid="3055"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/codec/textline/TextLineDecoder.java" startline="333" endline="366" pcid="3062"></source>
+</class>
+
+<class classid="48" nclones="3" nlines="18" similarity="70">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/executor/OrderedThreadPoolExecutor.java" startline="184" endline="209" pcid="3246"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/executor/UnorderedThreadPoolExecutor.java" startline="160" endline="179" pcid="3510"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/executor/PriorityThreadPoolExecutor.java" startline="222" endline="258" pcid="3372"></source>
+</class>
+
+<class classid="49" nclones="3" nlines="15" similarity="93">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/executor/OrderedThreadPoolExecutor.java" startline="248" endline="269" pcid="3256"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/executor/PriorityThreadPoolExecutor.java" startline="297" endline="318" pcid="3384"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/executor/UnorderedThreadPoolExecutor.java" startline="193" endline="209" pcid="3517"></source>
+</class>
+
+<class classid="50" nclones="3" nlines="13" similarity="84">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/executor/OrderedThreadPoolExecutor.java" startline="297" endline="310" pcid="3267"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/executor/PriorityThreadPoolExecutor.java" startline="346" endline="359" pcid="3395"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/executor/UnorderedThreadPoolExecutor.java" startline="236" endline="249" pcid="3529"></source>
+</class>
+
+<class classid="51" nclones="3" nlines="13" similarity="100">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/executor/OrderedThreadPoolExecutor.java" startline="316" endline="331" pcid="3271"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/executor/PriorityThreadPoolExecutor.java" startline="365" endline="380" pcid="3399"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/executor/UnorderedThreadPoolExecutor.java" startline="252" endline="267" pcid="3533"></source>
+</class>
+
+<class classid="52" nclones="3" nlines="12" similarity="91">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/executor/OrderedThreadPoolExecutor.java" startline="359" endline="371" pcid="3279"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/executor/UnorderedThreadPoolExecutor.java" startline="286" endline="298" pcid="3541"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/executor/PriorityThreadPoolExecutor.java" startline="408" endline="420" pcid="3407"></source>
+</class>
+
+<class classid="53" nclones="2" nlines="21" similarity="95">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/executor/OrderedThreadPoolExecutor.java" startline="377" endline="404" pcid="3283"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/executor/PriorityThreadPoolExecutor.java" startline="426" endline="453" pcid="3411"></source>
+</class>
+
+<class classid="54" nclones="2" nlines="19" similarity="100">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/executor/OrderedThreadPoolExecutor.java" startline="409" endline="430" pcid="3288"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/executor/PriorityThreadPoolExecutor.java" startline="458" endline="479" pcid="3416"></source>
+</class>
+
+<class classid="55" nclones="2" nlines="37" similarity="97">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/executor/OrderedThreadPoolExecutor.java" startline="436" endline="493" pcid="3293"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/executor/PriorityThreadPoolExecutor.java" startline="485" endline="542" pcid="3421"></source>
+</class>
+
+<class classid="56" nclones="3" nlines="11" similarity="90">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/executor/OrderedThreadPoolExecutor.java" startline="570" endline="579" pcid="3317"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/executor/UnorderedThreadPoolExecutor.java" startline="396" endline="405" pcid="3566"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/executor/PriorityThreadPoolExecutor.java" startline="619" endline="628" pcid="3445"></source>
+</class>
+
+<class classid="57" nclones="2" nlines="11" similarity="100">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/executor/OrderedThreadPoolExecutor.java" startline="585" endline="594" pcid="3320"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/executor/PriorityThreadPoolExecutor.java" startline="634" endline="643" pcid="3448"></source>
+</class>
+
+<class classid="58" nclones="2" nlines="18" similarity="100">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/executor/OrderedThreadPoolExecutor.java" startline="616" endline="638" pcid="3326"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/executor/PriorityThreadPoolExecutor.java" startline="665" endline="687" pcid="3454"></source>
+</class>
+
+<class classid="59" nclones="3" nlines="17" similarity="76">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/executor/OrderedThreadPoolExecutor.java" startline="644" endline="660" pcid="3330"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/executor/UnorderedThreadPoolExecutor.java" startline="439" endline="455" pcid="3576"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/executor/PriorityThreadPoolExecutor.java" startline="693" endline="709" pcid="3458"></source>
+</class>
+
+<class classid="60" nclones="3" nlines="35" similarity="91">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/executor/OrderedThreadPoolExecutor.java" startline="672" endline="710" pcid="3336"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/executor/UnorderedThreadPoolExecutor.java" startline="467" endline="506" pcid="3582"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/executor/PriorityThreadPoolExecutor.java" startline="721" endline="759" pcid="3464"></source>
+</class>
+
+<class classid="61" nclones="3" nlines="26" similarity="86">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/executor/OrderedThreadPoolExecutor.java" startline="712" endline="740" pcid="3348"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/executor/UnorderedThreadPoolExecutor.java" startline="508" endline="535" pcid="3594"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/executor/PriorityThreadPoolExecutor.java" startline="761" endline="792" pcid="3476"></source>
+</class>
+
+<class classid="62" nclones="2" nlines="15" similarity="100">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/executor/OrderedThreadPoolExecutor.java" startline="742" endline="760" pcid="3356"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/executor/PriorityThreadPoolExecutor.java" startline="794" endline="812" pcid="3485"></source>
+</class>
+
+<class classid="63" nclones="3" nlines="16" similarity="100">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/executor/OrderedThreadPoolExecutor.java" startline="762" endline="776" pcid="3360"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/executor/UnorderedThreadPoolExecutor.java" startline="537" endline="551" pcid="3602"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/executor/PriorityThreadPoolExecutor.java" startline="814" endline="828" pcid="3489"></source>
+</class>
+
+<class classid="64" nclones="2" nlines="11" similarity="81">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/firewall/Subnet.java" startline="69" endline="81" pcid="3681"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/firewall/Subnet.java" startline="81" endline="93" pcid="3684"></source>
+</class>
+
+<class classid="65" nclones="2" nlines="10" similarity="90">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/firewall/Subnet.java" startline="99" endline="109" pcid="3687"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/firewall/Subnet.java" startline="114" endline="124" pcid="3689"></source>
+</class>
+
+<class classid="66" nclones="3" nlines="21" similarity="76">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/logging/LoggingFilter.java" startline="118" endline="138" pcid="3769"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/logging/LoggingFilter.java" startline="148" endline="168" pcid="3770"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/logging/LoggingFilter.java" startline="177" endline="197" pcid="3771"></source>
+</class>
+
+<class classid="67" nclones="2" nlines="14" similarity="100">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/ssl/SslContextFactory.java" startline="102" endline="116" pcid="3860"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/ssl/SslContextFactory.java" startline="118" endline="132" pcid="3865"></source>
+</class>
+
+<class classid="68" nclones="2" nlines="17" similarity="70">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/ssl/SslFilter.java" startline="317" endline="333" pcid="3925"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/ssl/SslFilter.java" startline="736" endline="753" pcid="4003"></source>
+</class>
+
+<class classid="69" nclones="2" nlines="30" similarity="75">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/ssl/SslHandler.java" startline="699" endline="742" pcid="4127"></source>
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/filter/ssl/SslEngineTest.java" startline="206" endline="243" pcid="6924"></source>
+</class>
+
+<class classid="70" nclones="2" nlines="26" similarity="100">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/ssl/SslHandler.java" startline="759" endline="799" pcid="4138"></source>
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/filter/ssl/SslEngineTest.java" startline="163" endline="203" pcid="6918"></source>
+</class>
+
+<class classid="71" nclones="6" nlines="11" similarity="81">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/statistic/ProfilerTimerFilter.java" startline="356" endline="365" pcid="4175"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/statistic/ProfilerTimerFilter.java" startline="429" endline="438" pcid="4184"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/statistic/ProfilerTimerFilter.java" startline="381" endline="390" pcid="4178"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/statistic/ProfilerTimerFilter.java" startline="405" endline="414" pcid="4181"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/statistic/ProfilerTimerFilter.java" startline="454" endline="463" pcid="4187"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/statistic/ProfilerTimerFilter.java" startline="478" endline="487" pcid="4190"></source>
+</class>
+
+<class classid="72" nclones="5" nlines="37" similarity="100">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/statistic/ProfilerTimerFilter.java" startline="497" endline="546" pcid="4193"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/statistic/ProfilerTimerFilter.java" startline="737" endline="786" pcid="4221"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/statistic/ProfilerTimerFilter.java" startline="617" endline="666" pcid="4207"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/statistic/ProfilerTimerFilter.java" startline="677" endline="726" pcid="4214"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/filter/statistic/ProfilerTimerFilter.java" startline="557" endline="606" pcid="4200"></source>
+</class>
+
+<class classid="73" nclones="2" nlines="17" similarity="76">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/proxy/handlers/http/digest/HttpDigestAuthLogicHandler.java" startline="179" endline="196" pcid="4700"></source>
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/proxy/HttpAuthTest.java" startline="99" endline="114" pcid="7068"></source>
+</class>
+
+<class classid="74" nclones="2" nlines="40" similarity="73">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/transport/socket/AbstractDatagramSessionConfig.java" startline="38" endline="79" pcid="5147"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/transport/socket/AbstractSocketSessionConfig.java" startline="35" endline="82" pcid="5164"></source>
+</class>
+
+<class classid="75" nclones="2" nlines="50" similarity="72">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/transport/socket/nio/NioDatagramAcceptor.java" startline="377" endline="437" pcid="5294"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/transport/socket/nio/NioDatagramAcceptor.java" startline="843" endline="917" pcid="5379"></source>
+</class>
+
+<class classid="76" nclones="5" nlines="16" similarity="71">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/transport/socket/nio/NioDatagramAcceptor.java" startline="711" endline="733" pcid="5355"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/transport/socket/nio/NioSocketAcceptor.java" startline="239" endline="269" pcid="5566"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/transport/socket/nio/NioSocketConnector.java" startline="249" endline="264" pcid="5606"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/transport/socket/nio/NioDatagramConnector.java" startline="149" endline="170" pcid="5402"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/transport/socket/nio/NioSocketConnector.java" startline="240" endline="269" pcid="5604"></source>
+</class>
+
+<class classid="77" nclones="3" nlines="15" similarity="76">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/transport/socket/nio/NioDatagramAcceptor.java" startline="776" endline="792" pcid="5367"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/transport/socket/nio/NioProcessor.java" startline="331" endline="350" pcid="5510"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/transport/socket/nio/NioProcessor.java" startline="356" endline="372" pcid="5515"></source>
+</class>
+
+<class classid="78" nclones="2" nlines="12" similarity="75">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/transport/socket/nio/NioProcessor.java" startline="282" endline="297" pcid="5502"></source>
+<source file="mina-2.1.3/mina-transport-apr/src/main/java/org/apache/mina/transport/socket/apr/AprIoProcessor.java" startline="298" endline="308" pcid="9518"></source>
+</class>
+
+<class classid="79" nclones="2" nlines="10" similarity="100">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/transport/socket/nio/NioSocketSession.java" startline="96" endline="108" pcid="5623"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/transport/socket/nio/NioSocketSession.java" startline="114" endline="126" pcid="5626"></source>
+</class>
+
+<class classid="80" nclones="2" nlines="10" similarity="100">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/util/byteaccess/CompositeByteArray.java" startline="765" endline="776" pcid="6085"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/util/byteaccess/CompositeByteArray.java" startline="782" endline="793" pcid="6087"></source>
+</class>
+
+<class classid="81" nclones="2" nlines="18" similarity="83">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/util/byteaccess/CompositeByteArray.java" startline="799" endline="817" pcid="6089"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/util/byteaccess/CompositeByteArray.java" startline="1029" endline="1047" pcid="6131"></source>
+</class>
+
+<class classid="82" nclones="2" nlines="19" similarity="71">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/util/byteaccess/CompositeByteArray.java" startline="823" endline="838" pcid="6094"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/util/byteaccess/CompositeByteArray.java" startline="870" endline="889" pcid="6104"></source>
+</class>
+
+<class classid="83" nclones="2" nlines="11" similarity="72">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/util/byteaccess/CompositeByteArray.java" startline="978" endline="988" pcid="6122"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/util/byteaccess/CompositeByteArray.java" startline="1013" endline="1023" pcid="6128"></source>
+</class>
+
+<class classid="84" nclones="3" nlines="13" similarity="76">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/util/byteaccess/SimpleByteArrayFactory.java" startline="44" endline="58" pcid="6191"></source>
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/util/byteaccess/ByteAccessTest.java" startline="433" endline="449" pcid="7386"></source>
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/util/byteaccess/ByteAccessTest.java" startline="102" endline="115" pcid="7359"></source>
+</class>
+
+<class classid="85" nclones="2" nlines="10" similarity="70">
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/util/CircularQueue.java" startline="338" endline="346" pcid="6239"></source>
+<source file="mina-2.1.3/mina-core/src/main/java/org/apache/mina/util/CircularQueue.java" startline="370" endline="378" pcid="6245"></source>
+</class>
+
+<class classid="86" nclones="2" nlines="48" similarity="87">
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/core/buffer/IoBufferTest.java" startline="98" endline="166" pcid="6466"></source>
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/core/buffer/IoBufferTest.java" startline="172" endline="240" pcid="6467"></source>
+</class>
+
+<class classid="87" nclones="3" nlines="11" similarity="75">
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/core/buffer/IoBufferTest.java" startline="368" endline="385" pcid="6487"></source>
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/core/buffer/IoBufferTest.java" startline="403" endline="415" pcid="6489"></source>
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/core/buffer/IoBufferTest.java" startline="388" endline="400" pcid="6488"></source>
+</class>
+
+<class classid="88" nclones="2" nlines="12" similarity="83">
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/core/buffer/IoBufferTest.java" startline="962" endline="974" pcid="6529"></source>
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/core/buffer/IoBufferTest.java" startline="977" endline="989" pcid="6530"></source>
+</class>
+
+<class classid="89" nclones="2" nlines="17" similarity="70">
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/core/buffer/IoBufferTest.java" startline="1516" endline="1538" pcid="6562"></source>
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/core/buffer/IoBufferTest.java" startline="1566" endline="1588" pcid="6564"></source>
+</class>
+
+<class classid="90" nclones="2" nlines="15" similarity="93">
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/core/DefaultIoFilterChainBuilderTest.java" startline="72" endline="89" pcid="6576"></source>
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/core/IoFilterChainTest.java" startline="127" endline="142" pcid="6607"></source>
+</class>
+
+<class classid="91" nclones="2" nlines="20" similarity="95">
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/core/DefaultIoFilterChainBuilderTest.java" startline="126" endline="149" pcid="6579"></source>
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/core/IoFilterChainTest.java" startline="175" endline="196" pcid="6610"></source>
+</class>
+
+<class classid="92" nclones="5" nlines="16" similarity="72">
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/core/FutureTest.java" startline="48" endline="62" pcid="6582"></source>
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/core/FutureTest.java" startline="161" endline="179" pcid="6588"></source>
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/core/FutureTest.java" startline="136" endline="158" pcid="6587"></source>
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/core/FutureTest.java" startline="208" endline="231" pcid="6590"></source>
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/core/FutureTest.java" startline="182" endline="205" pcid="6589"></source>
+</class>
+
+<class classid="93" nclones="2" nlines="32" similarity="87">
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/core/IoServiceListenerSupportTest.java" startline="82" endline="130" pcid="6634"></source>
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/core/IoServiceListenerSupportTest.java" startline="207" endline="253" pcid="6641"></source>
+</class>
+
+<class classid="94" nclones="2" nlines="15" similarity="100">
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/core/service/AbstractIoServiceTest.java" startline="167" endline="180" pcid="6665"></source>
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/filter/logging/MdcInjectionFilterTest.java" startline="479" endline="492" pcid="6884"></source>
+</class>
+
+<class classid="95" nclones="2" nlines="11" similarity="90">
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/core/service/SslTestHandshakeExceptionDIRMINA1077Test.java" startline="88" endline="104" pcid="6673"></source>
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/filter/ssl/SslTest.java" startline="101" endline="117" pcid="6974"></source>
+</class>
+
+<class classid="96" nclones="2" nlines="92" similarity="77">
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/filter/codec/textline/TextLineDecoderTest.java" startline="43" endline="146" pcid="6729"></source>
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/filter/codec/textline/TextLineDecoderTest.java" startline="148" endline="258" pcid="6730"></source>
+</class>
+
+<class classid="97" nclones="2" nlines="15" similarity="73">
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/filter/executor/PriorityThreadPoolExecutorTest.java" startline="101" endline="121" pcid="6767"></source>
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/filter/executor/PriorityThreadPoolExecutorTest.java" startline="133" endline="153" pcid="6769"></source>
+</class>
+
+<class classid="98" nclones="2" nlines="11" similarity="72">
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/filter/firewall/SubnetIPv4Test.java" startline="39" endline="51" pcid="6802"></source>
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/filter/firewall/SubnetIPv4Test.java" startline="69" endline="81" pcid="6804"></source>
+</class>
+
+<class classid="99" nclones="2" nlines="11" similarity="90">
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/filter/keepalive/KeepAliveFilterTest.java" startline="132" endline="141" pcid="6817"></source>
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/filter/keepalive/KeepAliveFilterTest.java" startline="143" endline="152" pcid="6820"></source>
+</class>
+
+<class classid="100" nclones="4" nlines="11" similarity="72">
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/filter/logging/MdcInjectionFilterTest.java" startline="156" endline="166" pcid="6843"></source>
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/filter/logging/MdcInjectionFilterTest.java" startline="181" endline="190" pcid="6845"></source>
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/filter/logging/MdcInjectionFilterTest.java" startline="169" endline="178" pcid="6844"></source>
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/filter/logging/MdcInjectionFilterTest.java" startline="193" endline="204" pcid="6846"></source>
+</class>
+
+<class classid="101" nclones="3" nlines="14" similarity="92">
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/filter/ssl/SslDIRMINA937Test.java" startline="134" endline="152" pcid="6904"></source>
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/filter/ssl/SslEngineTest.java" startline="138" endline="156" pcid="6917"></source>
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/filter/ssl/SslTest.java" startline="157" endline="175" pcid="6978"></source>
+</class>
+
+<class classid="102" nclones="3" nlines="12" similarity="71">
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/filter/stream/AbstractStreamWriteFilterTest.java" startline="71" endline="96" pcid="6998"></source>
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/filter/stream/AbstractStreamWriteFilterTest.java" startline="138" endline="167" pcid="7000"></source>
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/filter/stream/AbstractStreamWriteFilterTest.java" startline="105" endline="130" pcid="6999"></source>
+</class>
+
+<class classid="103" nclones="2" nlines="30" similarity="100">
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/handler/demux/DemuxingIoHandlerTest.java" startline="71" endline="126" pcid="7061"></source>
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/handler/demux/DemuxingIoHandlerTest.java" startline="129" endline="184" pcid="7062"></source>
+</class>
+
+<class classid="104" nclones="2" nlines="41" similarity="70">
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/transport/vmpipe/VmPipeEventOrderTest.java" startline="43" endline="95" pcid="7311"></source>
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/transport/vmpipe/VmPipeEventOrderTest.java" startline="98" endline="151" pcid="7318"></source>
+</class>
+
+<class classid="105" nclones="2" nlines="20" similarity="80">
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/util/byteaccess/ByteAccessTest.java" startline="229" endline="249" pcid="7366"></source>
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/util/byteaccess/ByteAccessTest.java" startline="252" endline="272" pcid="7367"></source>
+</class>
+
+<class classid="106" nclones="8" nlines="10" similarity="70">
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/util/byteaccess/ByteAccessTest.java" startline="277" endline="287" pcid="7369"></source>
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/util/byteaccess/ByteAccessTest.java" startline="311" endline="321" pcid="7372"></source>
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/util/byteaccess/ByteAccessTest.java" startline="323" endline="333" pcid="7373"></source>
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/util/byteaccess/ByteAccessTest.java" startline="345" endline="355" pcid="7375"></source>
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/util/byteaccess/ByteAccessTest.java" startline="289" endline="299" pcid="7370"></source>
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/util/byteaccess/ByteAccessTest.java" startline="300" endline="310" pcid="7371"></source>
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/util/byteaccess/ByteAccessTest.java" startline="334" endline="344" pcid="7374"></source>
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/util/byteaccess/ByteAccessTest.java" startline="356" endline="366" pcid="7376"></source>
+</class>
+
+<class classid="107" nclones="2" nlines="20" similarity="90">
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/util/byteaccess/ByteAccessTest.java" startline="500" endline="518" pcid="7395"></source>
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/util/byteaccess/ByteAccessTest.java" startline="521" endline="541" pcid="7398"></source>
+</class>
+
+<class classid="108" nclones="2" nlines="21" similarity="71">
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/util/CircularQueueTest.java" startline="145" endline="169" pcid="7416"></source>
+<source file="mina-2.1.3/mina-core/src/test/java/org/apache/mina/util/CircularQueueTest.java" startline="172" endline="194" pcid="7420"></source>
+</class>
+
+<class classid="109" nclones="2" nlines="25" similarity="100">
+<source file="mina-2.1.3/mina-example/src/main/java/org/apache/mina/example/echoserver/ssl/BogusSslContextFactory.java" startline="82" endline="108" pcid="7586"></source>
+<source file="mina-2.1.3/mina-example/src/main/java/org/apache/mina/example/tcp/perf/BogusSslContextFactory.java" startline="82" endline="109" pcid="7962"></source>
+</class>
+
+<class classid="110" nclones="2" nlines="22" similarity="100">
+<source file="mina-2.1.3/mina-example/src/main/java/org/apache/mina/example/echoserver/ssl/BogusSslContextFactory.java" startline="110" endline="136" pcid="7595"></source>
+<source file="mina-2.1.3/mina-example/src/main/java/org/apache/mina/example/tcp/perf/BogusSslContextFactory.java" startline="111" endline="137" pcid="7971"></source>
+</class>
+
+<class classid="111" nclones="2" nlines="11" similarity="100">
+<source file="mina-2.1.3/mina-example/src/main/java/org/apache/mina/example/imagine/step1/server/ImageServerIoHandler.java" startline="92" endline="102" pcid="7763"></source>
+<source file="mina-2.1.3/mina-example/src/main/java/org/apache/mina/example/imagine/step3/server/ImageServerIoHandler.java" startline="134" endline="144" pcid="7774"></source>
+</class>
+
+<class classid="112" nclones="2" nlines="13" similarity="100">
+<source file="mina-2.1.3/mina-example/src/main/java/org/apache/mina/example/imagine/step1/server/ImageServerIoHandler.java" startline="116" endline="128" pcid="7764"></source>
+<source file="mina-2.1.3/mina-example/src/main/java/org/apache/mina/example/imagine/step3/server/ImageServerIoHandler.java" startline="158" endline="170" pcid="7775"></source>
+</class>
+
+<class classid="113" nclones="3" nlines="13" similarity="76">
+<source file="mina-2.1.3/mina-example/src/main/java/org/apache/mina/example/sumup/Client.java" startline="80" endline="92" pcid="7807"></source>
+<source file="mina-2.1.3/mina-example/src/test/java/org/apache/mina/example/proxy/telnet/ProxyTelnetTestClient.java" startline="109" endline="119" pcid="8264"></source>
+<source file="mina-2.1.3/mina-example/src/test/java/org/apache/mina/example/proxy/ProxyTestClient.java" startline="168" endline="178" pcid="8240"></source>
+</class>
+
+<class classid="114" nclones="2" nlines="21" similarity="100">
+<source file="mina-2.1.3/mina-example/src/main/java/org/apache/mina/example/tcp/perf/TcpClient.java" startline="85" endline="106" pcid="7991"></source>
+<source file="mina-2.1.3/mina-example/src/main/java/org/apache/mina/example/tcp/perf/TcpSslClient.java" startline="97" endline="118" pcid="8017"></source>
+</class>
+
+<class classid="115" nclones="2" nlines="14" similarity="100">
+<source file="mina-2.1.3/mina-example/src/main/java/org/apache/mina/example/tcp/perf/TcpClient.java" startline="152" endline="169" pcid="8002"></source>
+<source file="mina-2.1.3/mina-example/src/main/java/org/apache/mina/example/tcp/perf/TcpSslClient.java" startline="164" endline="181" pcid="8028"></source>
+</class>
+
+<class classid="116" nclones="3" nlines="14" similarity="100">
+<source file="mina-2.1.3/mina-example/src/main/java/org/apache/mina/example/tcp/perf/TcpServer.java" startline="65" endline="84" pcid="8005"></source>
+<source file="mina-2.1.3/mina-example/src/main/java/org/apache/mina/example/tcp/perf/TcpSslServer.java" startline="69" endline="88" pcid="8031"></source>
+<source file="mina-2.1.3/mina-example/src/main/java/org/apache/mina/example/udp/perf/UdpServer.java" startline="65" endline="84" pcid="8107"></source>
+</class>
+
+<class classid="117" nclones="2" nlines="26" similarity="77">
+<source file="mina-2.1.3/mina-filter-compression/src/test/java/org/apache/mina/filter/compression/CompressionFilterTest.java" startline="103" endline="145" pcid="8318"></source>
+<source file="mina-2.1.3/mina-filter-compression/src/test/java/org/apache/mina/filter/compression/CompressionFilterTest.java" startline="148" endline="186" pcid="8319"></source>
+</class>
+
+<class classid="118" nclones="2" nlines="84" similarity="72">
+<source file="mina-2.1.3/mina-http/src/main/java/org/apache/mina/http/HttpClientDecoder.java" startline="89" endline="209" pcid="8374"></source>
+<source file="mina-2.1.3/mina-http/src/main/java/org/apache/mina/http/HttpServerDecoder.java" startline="83" endline="180" pcid="8444"></source>
+</class>
+
+<class classid="119" nclones="2" nlines="39" similarity="74">
+<source file="mina-2.1.3/mina-http/src/main/java/org/apache/mina/http/HttpClientEncoder.java" startline="48" endline="97" pcid="8403"></source>
+<source file="mina-2.1.3/mina-http/src/main/java/org/apache/mina/http/HttpServerEncoder.java" startline="49" endline="87" pcid="8464"></source>
+</class>
+
+<class classid="120" nclones="3" nlines="24" similarity="70">
+<source file="mina-2.1.3/mina-http/src/test/java/org/apache/mina/http/HttpServerDecoderTest.java" startline="169" endline="189" pcid="8496"></source>
+<source file="mina-2.1.3/mina-http/src/test/java/org/apache/mina/http/HttpServerDecoderTest.java" startline="192" endline="213" pcid="8500"></source>
+<source file="mina-2.1.3/mina-http/src/test/java/org/apache/mina/http/HttpServerDecoderTest.java" startline="215" endline="243" pcid="8504"></source>
+</class>
+
+<class classid="121" nclones="3" nlines="17" similarity="94">
+<source file="mina-2.1.3/mina-http/src/test/java/org/apache/mina/http/HttpServerDecoderTest.java" startline="246" endline="261" pcid="8509"></source>
+<source file="mina-2.1.3/mina-http/src/test/java/org/apache/mina/http/HttpServerDecoderTest.java" startline="282" endline="297" pcid="8515"></source>
+<source file="mina-2.1.3/mina-http/src/test/java/org/apache/mina/http/HttpServerDecoderTest.java" startline="264" endline="279" pcid="8512"></source>
+</class>
+
+<class classid="122" nclones="2" nlines="25" similarity="74">
+<source file="mina-2.1.3/mina-integration-beans/src/main/java/org/apache/mina/integration/beans/ArrayEditor.java" startline="103" endline="138" pcid="8538"></source>
+<source file="mina-2.1.3/mina-integration-beans/src/main/java/org/apache/mina/integration/beans/CollectionEditor.java" startline="104" endline="133" pcid="8570"></source>
+</class>
+
+<class classid="123" nclones="2" nlines="17" similarity="70">
+<source file="mina-2.1.3/mina-integration-beans/src/test/java/org/apache/mina/integration/beans/InetSocketAddressEditorTest.java" startline="63" endline="79" pcid="8738"></source>
+<source file="mina-2.1.3/mina-integration-beans/src/test/java/org/apache/mina/integration/beans/VmPipeAddressEditorTest.java" startline="53" endline="64" pcid="8747"></source>
+</class>
+
+<class classid="124" nclones="2" nlines="13" similarity="78">
+<source file="mina-2.1.3/mina-integration-ognl/src/main/java/org/apache/mina/integration/ognl/AbstractPropertyAccessor.java" startline="39" endline="49" pcid="8993"></source>
+<source file="mina-2.1.3/mina-integration-ognl/src/main/java/org/apache/mina/integration/ognl/AbstractPropertyAccessor.java" startline="52" endline="67" pcid="8997"></source>
+</class>
+
+<class classid="125" nclones="3" nlines="18" similarity="75">
+<source file="mina-2.1.3/mina-statemachine/src/main/java/org/apache/mina/statemachine/StateMachine.java" startline="196" endline="217" pcid="9176"></source>
+<source file="mina-2.1.3/mina-statemachine/src/main/java/org/apache/mina/statemachine/StateMachine.java" startline="217" endline="243" pcid="9181"></source>
+<source file="mina-2.1.3/mina-statemachine/src/main/java/org/apache/mina/statemachine/StateMachine.java" startline="243" endline="265" pcid="9186"></source>
+</class>
+
+<class classid="126" nclones="2" nlines="16" similarity="93">
+<source file="mina-2.1.3/mina-statemachine/src/main/java/org/apache/mina/statemachine/StateMachine.java" startline="306" endline="325" pcid="9199"></source>
+<source file="mina-2.1.3/mina-statemachine/src/main/java/org/apache/mina/statemachine/StateMachine.java" startline="327" endline="345" pcid="9204"></source>
+</class>
+
+<class classid="127" nclones="2" nlines="12" similarity="91">
+<source file="mina-2.1.3/mina-statemachine/src/main/java/org/apache/mina/statemachine/StateMachineFactory.java" startline="386" endline="398" pcid="9263"></source>
+<source file="mina-2.1.3/mina-statemachine/src/main/java/org/apache/mina/statemachine/StateMachineFactory.java" startline="427" endline="440" pcid="9270"></source>
+</class>
+
+<class classid="128" nclones="2" nlines="18" similarity="73">
+<source file="mina-2.1.3/mina-statemachine/src/main/java/org/apache/mina/statemachine/transition/MethodSelfTransition.java" startline="72" endline="95" pcid="9322"></source>
+<source file="mina-2.1.3/mina-statemachine/src/main/java/org/apache/mina/statemachine/transition/MethodTransition.java" startline="154" endline="175" pcid="9344"></source>
+</class>
+
+<class classid="129" nclones="2" nlines="17" similarity="100">
+<source file="mina-2.1.3/mina-statemachine/src/main/java/org/apache/mina/statemachine/transition/MethodSelfTransition.java" startline="138" endline="154" pcid="9333"></source>
+<source file="mina-2.1.3/mina-statemachine/src/main/java/org/apache/mina/statemachine/transition/MethodTransition.java" startline="275" endline="291" pcid="9369"></source>
+</class>
+
+<class classid="130" nclones="2" nlines="11" similarity="83">
+<source file="mina-2.1.3/mina-statemachine/src/test/java/org/apache/mina/statemachine/StateMachineTest.java" startline="52" endline="62" pcid="9419"></source>
+<source file="mina-2.1.3/mina-statemachine/src/test/java/org/apache/mina/statemachine/StateMachineTest.java" startline="65" endline="77" pcid="9420"></source>
+</class>
+
+<class classid="131" nclones="2" nlines="10" similarity="70">
+<source file="mina-2.1.3/mina-statemachine/src/test/java/org/apache/mina/statemachine/StateTest.java" startline="61" endline="70" pcid="9438"></source>
+<source file="mina-2.1.3/mina-statemachine/src/test/java/org/apache/mina/statemachine/StateTest.java" startline="73" endline="82" pcid="9439"></source>
+</class>
+
+<class classid="132" nclones="3" nlines="25" similarity="74">
+<source file="mina-2.1.3/mina-transport-apr/src/main/java/org/apache/mina/transport/socket/apr/AprIoProcessor.java" startline="171" endline="199" pcid="9497"></source>
+<source file="mina-2.1.3/mina-transport-apr/src/main/java/org/apache/mina/transport/socket/apr/AprSocketConnector.java" startline="329" endline="351" pcid="9685"></source>
+<source file="mina-2.1.3/mina-transport-apr/src/main/java/org/apache/mina/transport/socket/apr/AprSocketAcceptor.java" startline="269" endline="291" pcid="9622"></source>
+</class>
+
+<class classid="133" nclones="2" nlines="17" similarity="94">
+<source file="mina-2.1.3/mina-transport-apr/src/main/java/org/apache/mina/transport/socket/apr/AprIoProcessor.java" startline="346" endline="366" pcid="9526"></source>
+<source file="mina-2.1.3/mina-transport-apr/src/main/java/org/apache/mina/transport/socket/apr/AprIoProcessor.java" startline="372" endline="392" pcid="9531"></source>
+</class>
+
+<class classid="134" nclones="2" nlines="11" similarity="90">
+<source file="mina-2.1.3/mina-transport-apr/src/main/java/org/apache/mina/transport/socket/apr/AprIoProcessor.java" startline="411" endline="419" pcid="9539"></source>
+<source file="mina-2.1.3/mina-transport-apr/src/main/java/org/apache/mina/transport/socket/apr/AprIoProcessor.java" startline="442" endline="450" pcid="9548"></source>
+</class>
+
+<class classid="135" nclones="2" nlines="14" similarity="92">
+<source file="mina-2.1.3/mina-transport-apr/src/main/java/org/apache/mina/transport/socket/apr/AprSocketAcceptor.java" startline="201" endline="218" pcid="9607"></source>
+<source file="mina-2.1.3/mina-transport-apr/src/main/java/org/apache/mina/transport/socket/apr/AprSocketConnector.java" startline="132" endline="151" pcid="9644"></source>
+</class>
+
+<class classid="136" nclones="2" nlines="11" similarity="100">
+<source file="mina-2.1.3/mina-transport-apr/src/main/java/org/apache/mina/transport/socket/apr/AprSocketAcceptor.java" startline="224" endline="234" pcid="9611"></source>
+<source file="mina-2.1.3/mina-transport-apr/src/main/java/org/apache/mina/transport/socket/apr/AprSocketConnector.java" startline="157" endline="167" pcid="9648"></source>
+</class>
+
+<class classid="137" nclones="2" nlines="42" similarity="92">
+<source file="mina-2.1.3/mina-transport-apr/src/main/java/org/apache/mina/transport/socket/apr/AprSocketAcceptor.java" startline="249" endline="292" pcid="9616"></source>
+<source file="mina-2.1.3/mina-transport-apr/src/main/java/org/apache/mina/transport/socket/apr/AprSocketConnector.java" startline="312" endline="352" pcid="9679"></source>
+</class>
+
+<class classid="138" nclones="4" nlines="14" similarity="73">
+<source file="mina-2.1.3/mina-transport-serial/src/main/java/org/apache/mina/transport/serial/SerialAddress.java" startline="227" endline="239" pcid="9757"></source>
+<source file="mina-2.1.3/mina-transport-serial/src/main/java/org/apache/mina/transport/serial/SerialAddress.java" startline="253" endline="267" pcid="9759"></source>
+<source file="mina-2.1.3/mina-transport-serial/src/main/java/org/apache/mina/transport/serial/SerialAddress.java" startline="241" endline="251" pcid="9758"></source>
+<source file="mina-2.1.3/mina-transport-serial/src/main/java/org/apache/mina/transport/serial/SerialAddress.java" startline="269" endline="287" pcid="9760"></source>
+</class>
+
+</clones>

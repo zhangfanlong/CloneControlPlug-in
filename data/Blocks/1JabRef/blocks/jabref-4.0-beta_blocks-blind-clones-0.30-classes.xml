@@ -1,0 +1,1191 @@
+<clones>
+<systeminfo processor="nicad5" system="jabref-4.0-beta" granularity="blocks-blind" threshold="30%" minlines="10" maxlines="2500"/>
+<cloneinfo npcs="20027" npairs="1154"/>
+<runinfo ncompares="2793304" cputime="1749"/>
+<classinfo nclasses="192"/>
+
+<class classid="1" nclones="71" nlines="10" similarity="70">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/cli/CrossrefFetcherEvaluator.java" startline="75" endline="85" pcid="197"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/collab/FileUpdateMonitor.java" startline="31" endline="39" pcid="401"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/worker/MarkEntriesAction.java" startline="47" endline="55" pcid="8382"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/openoffice/OpenOfficePanel.java" startline="170" endline="178" pcid="6638"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/gui/AbstractUITest.java" startline="54" endline="62" pcid="17068"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/pdfimport/ImportDialog.java" startline="180" endline="188" pcid="16443"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/entryeditor/EntryEditorTabRelatedArticles.java" startline="117" endline="126" pcid="2204"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/importer/fileformat/IsiImporter.java" startline="349" endline="359" pcid="11307"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/JabRefExecutorService.java" startline="82" endline="91" pcid="8463"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/JabRefExecutorService.java" startline="55" endline="64" pcid="8455"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/bst/TestVM.java" startline="172" endline="183" pcid="17547"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/JabRefFrame.java" startline="1840" endline="1851" pcid="5305"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/autosaveandbackup/BackupManager.java" startline="154" endline="162" pcid="8656"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/preferences/JabRefPreferences.java" startline="1211" endline="1223" pcid="16622"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/importer/fetcher/OAI2Fetcher.java" startline="112" endline="121" pcid="4656"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/EntryTypeDialog.java" startline="290" endline="298" pcid="2411"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/fieldeditors/FileListEditor.java" startline="202" endline="211" pcid="3231"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/mergeentries/EntryFetchAndMergeWorker.java" startline="34" endline="42" pcid="6241"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/collab/FileUpdateMonitor.java" startline="106" endline="115" pcid="416"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/shared/DBMSSynchronizer.java" startline="293" endline="301" pcid="16919"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/journals/ManageJournalAbbreviationsViewModel.java" startline="305" endline="313" pcid="5508"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/groups/GroupDialog.java" startline="519" endline="528" pcid="3856"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/importer/actions/AppendDatabaseAction.java" startline="139" endline="149" pcid="4303"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/importer/fileformat/BibtexParser.java" startline="312" endline="320" pcid="10832"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/undo/UndoableRemoveString.java" startline="34" endline="45" pcid="8128"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/undo/UndoableInsertEntry.java" startline="41" endline="52" pcid="8102"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/preftabs/AppearancePrefsTab.java" startline="309" endline="320" pcid="6888"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/undo/UndoableRemoveEntry.java" startline="47" endline="58" pcid="8123"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/undo/UndoableInsertString.java" startline="44" endline="55" pcid="8109"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/preftabs/NetworkTab.java" startline="136" endline="144" pcid="7106"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/importer/fetcher/INSPIREFetcher.java" startline="55" endline="68" pcid="4640"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/PreviewPanel.java" startline="224" endline="234" pcid="7374"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/contentselector/ContentSelectorDialog.java" startline="186" endline="194" pcid="1367"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/model/entry/identifier/Eprint.java" startline="104" endline="113" pcid="15511"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/model/entry/identifier/DOI.java" startline="152" endline="161" pcid="15496"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/filelist/FileListEntryEditor.java" startline="246" endline="255" pcid="3497"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/fieldeditors/JTextAreaWithHighlighting.java" startline="147" endline="157" pcid="3354"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/EntryMarker.java" startline="45" endline="55" pcid="2347"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/importer/fetcher/ArXiv.java" startline="323" endline="331" pcid="10401"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/groups/GroupDialog.java" startline="540" endline="551" pcid="3862"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/l10n/PropertiesLocaleCompletenessTest.java" startline="47" endline="56" pcid="18743"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/model/search/rules/GrammarBasedSearchRule.java" startline="106" endline="114" pcid="16156"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/preftabs/GeneralTab.java" startline="252" endline="265" pcid="7029"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/contentselector/ContentSelectorDialog.java" startline="196" endline="207" pcid="1370"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/importer/fetcher/ACMPortalFetcher.java" startline="381" endline="389" pcid="4497"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/BasePanel.java" startline="2126" endline="2135" pcid="1161"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/openoffice/OOPreFormatter.java" startline="90" endline="103" pcid="13592"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/openoffice/OOPreFormatter.java" startline="37" endline="46" pcid="13579"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/layout/format/HTMLChars.java" startline="92" endline="105" pcid="12759"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/layout/format/HTMLChars.java" startline="38" endline="47" pcid="12745"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/model/database/KeyChangeListener.java" startline="78" endline="86" pcid="14844"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/renderer/GeneralRenderer.java" startline="52" endline="60" pcid="7578"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/GUIGlobals.java" startline="53" endline="61" pcid="4192"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/externalfiletype/ExternalFileTypeEntryEditor.java" startline="189" endline="197" pcid="3018"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/openoffice/OOPreFormatter.java" startline="147" endline="155" pcid="13605"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/layout/format/Authors.java" startline="237" endline="247" pcid="12652"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/xmp/XMPUtil.java" startline="243" endline="251" pcid="14403"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/layout/format/HTMLChars.java" startline="152" endline="160" pcid="12774"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/mergeentries/FetchAndMergeEntry.java" startline="39" endline="47" pcid="6251"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/l10n/LocalizationParser.java" startline="239" endline="247" pcid="18708"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/model/cleanup/FieldFormatterCleanups.java" startline="77" endline="89" pcid="14645"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/undo/UndoableStringChange.java" startline="52" endline="65" pcid="8137"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/undo/UndoableStringChange.java" startline="35" endline="49" pcid="8134"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/importer/util/INSPIREBibtexFilterReader.java" startline="62" endline="71" pcid="12195"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/openoffice/OOPreFormatter.java" startline="88" endline="104" pcid="13591"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/layout/format/HTMLChars.java" startline="90" endline="106" pcid="12758"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/migrations/FileLinksUpgradeWarning.java" startline="187" endline="196" pcid="14522"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/maintable/MainTableSelectionListener.java" startline="426" endline="435" pcid="6066"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/openoffice/OOPreFormatter.java" startline="36" endline="50" pcid="13578"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/layout/format/HTMLChars.java" startline="37" endline="51" pcid="12744"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/model/entry/BibEntry.java" startline="508" endline="518" pcid="15097"></source>
+</class>
+
+<class classid="2" nclones="2" nlines="15" similarity="73">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/collab/ChangeScanner.java" startline="208" endline="221" pcid="313"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/collab/ChangeScanner.java" startline="241" endline="254" pcid="320"></source>
+</class>
+
+<class classid="3" nclones="2" nlines="26" similarity="85">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/collab/StringChange.java" startline="58" endline="82" pcid="474"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/collab/StringNameChange.java" startline="41" endline="72" pcid="483"></source>
+</class>
+
+<class classid="4" nclones="3" nlines="11" similarity="72">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/collab/StringChange.java" startline="59" endline="68" pcid="475"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/collab/StringRemoveChange.java" startline="39" endline="52" pcid="493"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/collab/StringNameChange.java" startline="49" endline="58" pcid="485"></source>
+</class>
+
+<class classid="5" nclones="3" nlines="11" similarity="72">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/actions/CleanupAction.java" startline="73" endline="86" pcid="535"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/importer/ImportInspectionDialog.java" startline="733" endline="747" pcid="4870"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/entryeditor/EntryEditor.java" startline="1466" endline="1479" pcid="2096"></source>
+</class>
+
+<class classid="6" nclones="2" nlines="12" similarity="75">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/actions/MassSetFieldAction.java" startline="181" endline="192" pcid="637"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/fieldeditors/EntryLinkListEditor.java" startline="303" endline="313" pcid="3146"></source>
+</class>
+
+<class classid="7" nclones="6" nlines="10" similarity="70">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/BasePanel.java" startline="362" endline="372" pcid="849"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/BasePanel.java" startline="375" endline="384" pcid="852"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/fieldeditors/EntryLinkListEditor.java" startline="304" endline="312" pcid="3147"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/mergeentries/EntryFetchAndMergeWorker.java" startline="50" endline="59" pcid="6246"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/customentrytypes/EntryTypeList.java" startline="110" endline="119" pcid="1509"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/entryeditor/FieldExtraComponents.java" startline="242" endline="251" pcid="2250"></source>
+</class>
+
+<class classid="8" nclones="2" nlines="11" similarity="72">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/BasePanel.java" startline="524" endline="534" pcid="871"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/worker/SendAsEMailAction.java" startline="87" endline="96" pcid="8398"></source>
+</class>
+
+<class classid="9" nclones="2" nlines="23" similarity="86">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/BasePanel.java" startline="866" endline="892" pcid="925"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/BasePanel.java" startline="894" endline="919" pcid="931"></source>
+</class>
+
+<class classid="10" nclones="2" nlines="23" similarity="86">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/BasePanel.java" startline="1067" endline="1096" pcid="966"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/exporter/SaveDatabaseAction.java" startline="223" endline="249" pcid="2576"></source>
+</class>
+
+<class classid="11" nclones="3" nlines="17" similarity="70">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/BasePanel.java" startline="1242" endline="1259" pcid="992"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/autocompleter/NameFieldAutoCompleter.java" startline="111" endline="126" pcid="8618"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/autocompleter/NameFieldAutoCompleter.java" startline="127" endline="142" pcid="8619"></source>
+</class>
+
+<class classid="12" nclones="4" nlines="14" similarity="71">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/BasePanel.java" startline="1618" endline="1631" pcid="1057"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/fieldeditors/TextArea.java" startline="119" endline="129" pcid="3380"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/JabRefFrame.java" startline="1679" endline="1689" pcid="5273"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/fieldeditors/TextField.java" startline="125" endline="136" pcid="3407"></source>
+</class>
+
+<class classid="13" nclones="2" nlines="11" similarity="100">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/BasePanel.java" startline="1981" endline="1992" pcid="1131"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/BasePanel.java" startline="1994" endline="2005" pcid="1134"></source>
+</class>
+
+<class classid="14" nclones="2" nlines="16" similarity="70">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/cleanup/CleanupPresetPanel.java" startline="103" endline="116" pcid="1281"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/remote/RemoteTest.java" startline="38" endline="55" pcid="19131"></source>
+</class>
+
+<class classid="15" nclones="2" nlines="13" similarity="78">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/contentselector/ContentSelectorDialog.java" startline="136" endline="146" pcid="1358"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/contentselector/ContentSelectorDialog.java" startline="171" endline="184" pcid="1364"></source>
+</class>
+
+<class classid="16" nclones="4" nlines="10" similarity="70">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/contentselector/ContentSelectorDialog.java" startline="378" endline="386" pcid="1406"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/maintable/MainTable.java" startline="517" endline="526" pcid="5855"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/bibtexkeypattern/BibtexKeyPatternUtil.java" startline="876" endline="884" pcid="9083"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/bibtexkeypattern/BibtexKeyPatternUtil.java" startline="1389" endline="1401" pcid="9158"></source>
+</class>
+
+<class classid="17" nclones="2" nlines="17" similarity="73">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/customentrytypes/EntryTypeList.java" startline="51" endline="76" pcid="1497"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/customentrytypes/FieldSetComponent.java" startline="236" endline="256" pcid="1539"></source>
+</class>
+
+<class classid="18" nclones="2" nlines="11" similarity="72">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/customentrytypes/FieldSetComponent.java" startline="220" endline="230" pcid="1536"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/mergeentries/MergeEntries.java" startline="346" endline="358" pcid="6298"></source>
+</class>
+
+<class classid="19" nclones="2" nlines="10" similarity="80">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/desktop/os/OSX.java" startline="17" endline="25" pcid="1700"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/desktop/os/Windows.java" startline="22" endline="32" pcid="1709"></source>
+</class>
+
+<class classid="20" nclones="2" nlines="10" similarity="70">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/entryeditor/EntryEditor.java" startline="1048" endline="1056" pcid="2020"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/layout/format/Authors.java" startline="204" endline="213" pcid="12645"></source>
+</class>
+
+<class classid="21" nclones="6" nlines="10" similarity="70">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/entryeditor/EntryEditor.java" startline="1260" endline="1268" pcid="2059"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/fieldeditors/EntryLinkListEditor.java" startline="445" endline="454" pcid="3180"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/fieldeditors/EntryLinkListEditor.java" startline="518" endline="527" pcid="3196"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/entryeditor/FileAnnotationTab.java" startline="128" endline="139" pcid="2307"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/filelist/FileListTableModel.java" startline="87" endline="97" pcid="3542"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/fieldeditors/EntryLinkListEditor.java" startline="535" endline="547" pcid="3201"></source>
+</class>
+
+<class classid="22" nclones="3" nlines="37" similarity="73">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/entryeditor/FieldExtraComponents.java" startline="122" endline="166" pcid="2225"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/entryeditor/FieldExtraComponents.java" startline="265" endline="306" pcid="2253"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/entryeditor/FieldExtraComponents.java" startline="316" endline="356" pcid="2261"></source>
+</class>
+
+<class classid="23" nclones="4" nlines="11" similarity="72">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/entryeditor/FieldExtraComponents.java" startline="365" endline="374" pcid="2269"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/entryeditor/FieldExtraComponents.java" startline="593" endline="606" pcid="2298"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/entryeditor/FieldExtraComponents.java" startline="534" endline="545" pcid="2292"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/entryeditor/FieldExtraComponents.java" startline="511" endline="524" pcid="2290"></source>
+</class>
+
+<class classid="24" nclones="3" nlines="10" similarity="70">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/entryeditor/FieldExtraComponents.java" startline="460" endline="469" pcid="2282"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/model/entry/InternalBibtexFields.java" startline="365" endline="373" pcid="15587"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/search/GlobalSearchBar.java" startline="250" endline="258" pcid="7638"></source>
+</class>
+
+<class classid="25" nclones="2" nlines="11" similarity="72">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/errorconsole/LogEventViewModel.java" startline="24" endline="34" pcid="2449"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/errorconsole/LogEventViewModel.java" startline="36" endline="46" pcid="2450"></source>
+</class>
+
+<class classid="26" nclones="5" nlines="11" similarity="72">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/exporter/RtfTransferable.java" startline="44" endline="52" pcid="2535"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/fieldeditors/HtmlTransferable.java" startline="63" endline="71" pcid="3330"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/fieldeditors/XmlTransferable.java" startline="41" endline="49" pcid="3434"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/model/search/rules/GrammarBasedSearchRule.java" startline="119" endline="127" pcid="16159"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/layout/format/IfPlural.java" startline="40" endline="49" pcid="12786"></source>
+</class>
+
+<class classid="27" nclones="2" nlines="32" similarity="81">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/externalfiles/DroppedFileHandler.java" startline="125" endline="168" pcid="2701"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/externalfiles/DroppedFileHandler.java" startline="176" endline="218" pcid="2710"></source>
+</class>
+
+<class classid="28" nclones="2" nlines="10" similarity="90">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/externalfiles/FindFullTextAction.java" startline="96" endline="107" pcid="2791"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/filelist/AttachFileAction.java" startline="30" endline="41" pcid="3462"></source>
+</class>
+
+<class classid="29" nclones="2" nlines="33" similarity="76">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/externalfiles/MoveFileAction.java" startline="41" endline="98" pcid="2796"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/externalfiles/RenameFileAction.java" startline="38" endline="91" pcid="2805"></source>
+</class>
+
+<class classid="30" nclones="2" nlines="11" similarity="100">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/externalfiles/WriteXMPAction.java" startline="133" endline="142" pcid="2865"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/externalfiles/WriteXMPEntryEditorAction.java" startline="64" endline="73" pcid="2889"></source>
+</class>
+
+<class classid="31" nclones="32" nlines="10" similarity="70">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/externalfiletype/ExternalFileType.java" startline="210" endline="221" pcid="2948"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/openoffice/OOBibBase.java" startline="1323" endline="1334" pcid="6620"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/openoffice/OOBibStyle.java" startline="873" endline="884" pcid="13565"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/journals/Abbreviation.java" startline="78" endline="87" pcid="12453"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/model/cleanup/FieldFormatterCleanup.java" startline="100" endline="109" pcid="14627"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/openoffice/CitationEntry.java" startline="56" endline="65" pcid="13451"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/model/metadata/SaveOrderConfig.java" startline="84" endline="96" pcid="16055"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/model/entry/Author.java" startline="151" endline="164" pcid="14872"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/model/entry/CustomEntryType.java" startline="68" endline="77" pcid="15384"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/model/entry/ParsedEntryLink.java" startline="44" endline="53" pcid="15696"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/importer/fileformat/CustomImporter.java" startline="60" endline="72" pcid="10996"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/model/entry/BibEntry.java" startline="690" endline="699" pcid="15130"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/model/bibtexkeypattern/AbstractBibtexKeyPattern.java" startline="36" endline="45" pcid="14572"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/model/metadata/SaveOrderConfig.java" startline="57" endline="67" pcid="16050"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/openoffice/CitationEntry.java" startline="37" endline="48" pcid="13446"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/model/groups/GroupTreeNode.java" startline="125" endline="135" pcid="15880"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/model/groups/ExplicitGroup.java" startline="40" endline="55" pcid="15854"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/model/groups/AbstractGroup.java" startline="49" endline="59" pcid="15800"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/model/entry/KeywordList.java" startline="171" endline="180" pcid="15668"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/model/entry/Keyword.java" startline="42" endline="53" pcid="15623"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/groups/GroupTreeNodeViewModel.java" startline="201" endline="211" pcid="4081"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/importer/Importer.java" startline="140" endline="149" pcid="12045"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/citationstyle/CitationStyle.java" startline="166" endline="176" pcid="9559"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/model/search/matchers/MatcherSet.java" startline="12" endline="24" pcid="16120"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/model/groups/WordKeywordGroup.java" startline="87" endline="102" pcid="15954"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/model/groups/RegexKeywordGroup.java" startline="36" endline="49" pcid="15923"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/model/pdf/FileAnnotation.java" startline="122" endline="137" pcid="16090"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/model/metadata/MetaData.java" startline="289" endline="306" pcid="16041"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/model/groups/SearchGroup.java" startline="31" endline="44" pcid="15930"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/model/cleanup/FieldFormatterCleanups.java" startline="37" endline="52" pcid="14635"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/l10n/LocalizationEntry.java" startline="31" endline="46" pcid="18659"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/groups/GroupNodeViewModel.java" startline="146" endline="160" pcid="3900"></source>
+</class>
+
+<class classid="32" nclones="4" nlines="14" similarity="72">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/externalfiletype/ExternalFileTypes.java" startline="224" endline="245" pcid="3061"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/externalfiletype/ExternalFileTypes.java" startline="298" endline="317" pcid="3077"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/model/metadata/ContentSelectors.java" startline="33" endline="46" pcid="15976"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/externalfiletype/ExternalFileTypes.java" startline="285" endline="298" pcid="3073"></source>
+</class>
+
+<class classid="33" nclones="2" nlines="13" similarity="100">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/fieldeditors/EntryLinkListEditor.java" startline="201" endline="211" pcid="3127"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/fieldeditors/FileListEditor.java" startline="275" endline="285" pcid="3242"></source>
+</class>
+
+<class classid="34" nclones="2" nlines="12" similarity="91">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/fieldeditors/EntryLinkListEditor.java" startline="291" endline="301" pcid="3143"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/fieldeditors/FileListEditor.java" startline="388" endline="397" pcid="3265"></source>
+</class>
+
+<class classid="35" nclones="2" nlines="19" similarity="100">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/fieldeditors/EntryLinkListEditor.java" startline="314" endline="332" pcid="3150"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/fieldeditors/FileListEditor.java" startline="399" endline="417" pcid="3268"></source>
+</class>
+
+<class classid="36" nclones="2" nlines="13" similarity="84">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/fieldeditors/EntryLinkListEditor.java" startline="477" endline="491" pcid="3188"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/filelist/FileListTableModel.java" startline="46" endline="58" pcid="3534"></source>
+</class>
+
+<class classid="37" nclones="2" nlines="12" similarity="91">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/fieldeditors/FileListEditorTransferHandler.java" startline="47" endline="57" pcid="3304"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/groups/EntryTableTransferHandler.java" startline="63" endline="73" pcid="3722"></source>
+</class>
+
+<class classid="38" nclones="2" nlines="17" similarity="70">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/fieldeditors/TextArea.java" startline="42" endline="68" pcid="3369"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/fieldeditors/TextField.java" startline="45" endline="68" pcid="3394"></source>
+</class>
+
+<class classid="39" nclones="2" nlines="10" similarity="70">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/FindUnlinkedFilesDialog.java" startline="225" endline="235" pcid="3577"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/shared/ConnectToSharedDatabaseDialog.java" startline="101" endline="110" pcid="7795"></source>
+</class>
+
+<class classid="40" nclones="2" nlines="11" similarity="72">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/FindUnlinkedFilesDialog.java" startline="639" endline="652" pcid="3624"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/search/JTextFieldChangeListenerUtil.java" startline="70" endline="80" pcid="7690"></source>
+</class>
+
+<class classid="41" nclones="2" nlines="11" similarity="72">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/FXDialog.java" startline="125" endline="134" pcid="3683"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/importer/actions/CheckForNewEntryTypesAction.java" startline="65" endline="74" pcid="4313"></source>
+</class>
+
+<class classid="42" nclones="2" nlines="28" similarity="76">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/groups/GroupDescriptions.java" startline="37" endline="66" pcid="3800"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/groups/GroupDescriptions.java" startline="96" endline="121" pcid="3806"></source>
+</class>
+
+<class classid="43" nclones="2" nlines="10" similarity="70">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/groups/GroupDialog.java" startline="616" endline="624" pcid="3881"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/model/TreeNode.java" startline="235" endline="243" pcid="16360"></source>
+</class>
+
+<class classid="44" nclones="2" nlines="12" similarity="91">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/importer/actions/OpenDatabaseAction.java" startline="232" endline="244" pcid="4359"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/JabRefGUI.java" startline="115" endline="129" pcid="8487"></source>
+</class>
+
+<class classid="45" nclones="2" nlines="62" similarity="80">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/importer/fetcher/DOAJFetcher.java" startline="40" endline="101" pcid="4525"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/importer/fetcher/SpringerFetcher.java" startline="41" endline="106" pcid="4691"></source>
+</class>
+
+<class classid="46" nclones="2" nlines="10" similarity="100">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/importer/fetcher/IEEEXploreFetcher.java" startline="389" endline="397" pcid="4623"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/importer/fetcher/IEEEXploreFetcher.java" startline="427" endline="435" pcid="4634"></source>
+</class>
+
+<class classid="47" nclones="2" nlines="16" similarity="76">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/importer/ImportCustomizationDialog.java" startline="265" endline="278" pcid="4772"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/importer/ZipFileChooser.java" startline="225" endline="238" pcid="5101"></source>
+</class>
+
+<class classid="48" nclones="2" nlines="27" similarity="74">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/importer/ImportInspectionDialog.java" startline="434" endline="467" pcid="4821"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/importer/ImportInspectionDialog.java" startline="474" endline="522" pcid="4826"></source>
+</class>
+
+<class classid="49" nclones="2" nlines="11" similarity="72">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/importer/ImportInspectionDialog.java" startline="693" endline="706" pcid="4862"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/plaintextimport/TagToMarkedTextStore.java" startline="33" endline="44" pcid="6745"></source>
+</class>
+
+<class classid="50" nclones="2" nlines="24" similarity="83">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/importer/ImportInspectionDialog.java" startline="1032" endline="1055" pcid="4926"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/search/SearchResultFrame.java" startline="500" endline="528" pcid="7756"></source>
+</class>
+
+<class classid="51" nclones="3" nlines="10" similarity="80">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/importer/ImportInspectionDialog.java" startline="1110" endline="1126" pcid="4941"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/importer/ImportInspectionDialog.java" startline="1300" endline="1309" pcid="4983"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/importer/ImportInspectionDialog.java" startline="1396" endline="1406" pcid="5002"></source>
+</class>
+
+<class classid="52" nclones="2" nlines="10" similarity="80">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/importer/ImportInspectionDialog.java" startline="1207" endline="1215" pcid="4961"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/JabRefFrame.java" startline="782" endline="794" pcid="5163"></source>
+</class>
+
+<class classid="53" nclones="4" nlines="13" similarity="71">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/importer/ImportInspectionDialog.java" startline="1255" endline="1267" pcid="4973"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/importer/ImportInspectionDialog.java" startline="1349" endline="1361" pcid="4992"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/importer/ImportInspectionDialog.java" startline="1299" endline="1310" pcid="4982"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/importer/ImportInspectionDialog.java" startline="1334" endline="1345" pcid="4989"></source>
+</class>
+
+<class classid="54" nclones="2" nlines="12" similarity="83">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/JabRefFrame.java" startline="2354" endline="2366" pcid="5392"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/JabRefFrame.java" startline="2368" endline="2378" pcid="5395"></source>
+</class>
+
+<class classid="55" nclones="2" nlines="25" similarity="84">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/journals/AbbreviateAction.java" startline="34" endline="61" pcid="5412"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/journals/UnabbreviateAction.java" startline="32" endline="58" pcid="5531"></source>
+</class>
+
+<class classid="56" nclones="2" nlines="21" similarity="85">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/journals/UndoableAbbreviator.java" startline="31" endline="54" pcid="5540"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/journals/UndoableUnabbreviator.java" startline="28" endline="51" pcid="5549"></source>
+</class>
+
+<class classid="57" nclones="2" nlines="12" similarity="75">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/keyboard/EmacsKeyBindings.java" startline="214" endline="226" pcid="5558"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/keyboard/EmacsKeyBindings.java" startline="238" endline="251" pcid="5563"></source>
+</class>
+
+<class classid="58" nclones="3" nlines="20" similarity="72">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/keyboard/EmacsKeyBindings.java" startline="320" endline="337" pcid="5575"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/keyboard/EmacsKeyBindings.java" startline="354" endline="371" pcid="5581"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/keyboard/EmacsKeyBindings.java" startline="459" endline="483" pcid="5600"></source>
+</class>
+
+<class classid="59" nclones="2" nlines="17" similarity="100">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/keyboard/EmacsKeyBindings.java" startline="730" endline="746" pcid="5643"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/keyboard/EmacsKeyBindings.java" startline="760" endline="776" pcid="5648"></source>
+</class>
+
+<class classid="60" nclones="2" nlines="10" similarity="70">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/maintable/MainTable.java" startline="328" endline="337" pcid="5817"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/exporter/BibTeXMLExportFormat.java" startline="202" endline="212" pcid="9816"></source>
+</class>
+
+<class classid="61" nclones="2" nlines="23" similarity="100">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/maintable/MainTableDataModel.java" startline="77" endline="102" pcid="5919"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/maintable/MainTableDataModel.java" startline="104" endline="129" pcid="5926"></source>
+</class>
+
+<class classid="62" nclones="2" nlines="16" similarity="70">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/maintable/MainTableSelectionListener.java" startline="375" endline="394" pcid="6053"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/search/SearchResultFrame.java" startline="507" endline="523" pcid="7757"></source>
+</class>
+
+<class classid="63" nclones="2" nlines="11" similarity="81">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/maintable/SpecialMainTableColumnsBuilder.java" startline="142" endline="152" pcid="6139"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/maintable/SpecialMainTableColumnsBuilder.java" startline="188" endline="199" pcid="6147"></source>
+</class>
+
+<class classid="64" nclones="2" nlines="10" similarity="70">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/menus/ChangeEntryTypeMenu.java" startline="56" endline="67" pcid="6173"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/menus/ChangeEntryTypeMenu.java" startline="67" endline="81" pcid="6176"></source>
+</class>
+
+<class classid="65" nclones="2" nlines="19" similarity="84">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/mergeentries/EntryFetchAndMergeWorker.java" startline="45" endline="62" pcid="6244"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/mergeentries/FetchAndMergeWorker.java" startline="58" endline="75" pcid="6262"></source>
+</class>
+
+<class classid="66" nclones="4" nlines="12" similarity="71">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/openoffice/OOBibBase.java" startline="352" endline="366" pcid="6436"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/openoffice/OOBibBase.java" startline="1116" endline="1131" pcid="6585"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/openoffice/OOBibBase.java" startline="707" endline="721" pcid="6507"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/openoffice/OOBibBase.java" startline="1237" endline="1248" pcid="6605"></source>
+</class>
+
+<class classid="67" nclones="6" nlines="12" similarity="71">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/openoffice/OOBibBase.java" startline="429" endline="441" pcid="6445"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/model/database/BibDatabase.java" startline="154" endline="165" pcid="14670"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/preftabs/AppearancePrefsTab.java" startline="63" endline="77" pcid="6871"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/model/groups/GroupTreeNode.java" startline="164" endline="182" pcid="15890"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/shared/TestManager.java" startline="16" endline="28" pcid="20012"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/shared/DBMSConnection.java" startline="59" endline="72" pcid="16762"></source>
+</class>
+
+<class classid="68" nclones="2" nlines="17" similarity="72">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/openoffice/OpenOfficePanel.java" startline="197" endline="216" pcid="6642"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/openoffice/OpenOfficePanel.java" startline="314" endline="339" pcid="6660"></source>
+</class>
+
+<class classid="69" nclones="2" nlines="10" similarity="70">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/plaintextimport/TagToMarkedTextStore.java" startline="47" endline="58" pcid="6748"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/openoffice/OpenOfficeFileSearch.java" startline="38" endline="47" pcid="13662"></source>
+</class>
+
+<class classid="70" nclones="2" nlines="11" similarity="90">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/preftabs/EntryEditorPrefsTab.java" startline="145" endline="154" pcid="6930"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/preftabs/TableColumnsTab.java" startline="311" endline="321" pcid="7230"></source>
+</class>
+
+<class classid="71" nclones="2" nlines="81" similarity="74">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/preftabs/NameFormatterTab.java" startline="88" endline="196" pcid="7058"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/preftabs/XmpPrefsTab.java" startline="56" endline="152" pcid="7322"></source>
+</class>
+
+<class classid="72" nclones="2" nlines="18" similarity="70">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/preftabs/NameFormatterTab.java" startline="105" endline="119" pcid="7061"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/preftabs/TableColumnsTab.java" startline="160" endline="179" pcid="7210"></source>
+</class>
+
+<class classid="73" nclones="3" nlines="19" similarity="71">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/preftabs/NameFormatterTab.java" startline="223" endline="245" pcid="7078"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/preftabs/TableColumnsTab.java" startline="462" endline="481" pcid="7241"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/preftabs/XmpPrefsTab.java" startline="163" endline="181" pcid="7334"></source>
+</class>
+
+<class classid="74" nclones="3" nlines="22" similarity="90">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/preftabs/NameFormatterTab.java" startline="256" endline="277" pcid="7083"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/preftabs/TableColumnsTab.java" startline="492" endline="513" pcid="7247"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/preftabs/XmpPrefsTab.java" startline="192" endline="213" pcid="7340"></source>
+</class>
+
+<class classid="75" nclones="2" nlines="21" similarity="81">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/preftabs/NameFormatterTab.java" startline="297" endline="320" pcid="7090"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/preftabs/TableColumnsTab.java" startline="757" endline="782" pcid="7292"></source>
+</class>
+
+<class classid="76" nclones="2" nlines="22" similarity="73">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/preftabs/TableColumnsTab.java" startline="543" endline="565" pcid="7257"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/preftabs/TableColumnsTab.java" startline="576" endline="598" pcid="7263"></source>
+</class>
+
+<class classid="77" nclones="2" nlines="46" similarity="76">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/push/PushToEmacs.java" startline="65" endline="128" pcid="7496"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/push/PushToVim.java" startline="64" endline="111" pcid="7547"></source>
+</class>
+
+<class classid="78" nclones="3" nlines="11" similarity="81">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/push/PushToEmacs.java" startline="131" endline="146" pcid="7507"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/push/PushToVim.java" startline="114" endline="131" pcid="7558"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/push/PushToLyx.java" startline="47" endline="59" pcid="7521"></source>
+</class>
+
+<class classid="79" nclones="3" nlines="10" similarity="70">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/SaveOrderConfigDisplay.java" startline="95" endline="105" pcid="7614"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/preferences/JabRefPreferences.java" startline="1525" endline="1535" pcid="16686"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/preferences/JabRefPreferences.java" startline="1537" endline="1547" pcid="16687"></source>
+</class>
+
+<class classid="80" nclones="2" nlines="12" similarity="83">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/SidePaneManager.java" startline="225" endline="237" pcid="7924"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/SidePaneManager.java" startline="239" endline="251" pcid="7927"></source>
+</class>
+
+<class classid="81" nclones="2" nlines="14" similarity="92">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/undo/UndoableFieldChange.java" startline="46" endline="61" pcid="8090"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/undo/UndoableFieldChange.java" startline="64" endline="78" pcid="8095"></source>
+</class>
+
+<class classid="82" nclones="2" nlines="27" similarity="77">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/util/comparator/IconComparator.java" startline="22" endline="48" pcid="8162"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/util/comparator/RankingFieldComparator.java" startline="19" endline="41" pcid="8173"></source>
+</class>
+
+<class classid="83" nclones="2" nlines="18" similarity="84">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/util/component/JTextAreaWithPlaceholder.java" startline="51" endline="68" pcid="8188"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/util/component/JTextFieldWithPlaceholder.java" startline="49" endline="68" pcid="8198"></source>
+</class>
+
+<class classid="84" nclones="2" nlines="11" similarity="90">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/util/DirectoryDialogConfiguration.java" startline="27" endline="43" pcid="8249"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/util/FileDialogConfiguration.java" startline="73" endline="86" pcid="8261"></source>
+</class>
+
+<class classid="85" nclones="2" nlines="28" similarity="80">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/util/ValueTableCellFactory.java" startline="39" endline="64" pcid="8292"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/gui/util/ViewModelListCellFactory.java" startline="44" endline="74" pcid="8303"></source>
+</class>
+
+<class classid="86" nclones="2" nlines="18" similarity="100">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/JabRefExecutorService.java" startline="48" endline="65" pcid="8453"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/JabRefExecutorService.java" startline="75" endline="92" pcid="8461"></source>
+</class>
+
+<class classid="87" nclones="3" nlines="10" similarity="70">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/auxparser/AuxParser.java" startline="158" endline="167" pcid="8683"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/importer/fileformat/BibtexParser.java" startline="296" endline="308" pcid="10829"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/importer/fileformat/MedlineImporterTestFiles.java" startline="55" endline="64" pcid="18365"></source>
+</class>
+
+<class classid="88" nclones="2" nlines="17" similarity="70">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/bibtex/comparator/FieldComparator.java" startline="62" endline="74" pcid="8771"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/pdfimport/ImportDialog.java" startline="210" endline="222" pcid="16450"></source>
+</class>
+
+<class classid="89" nclones="2" nlines="15" similarity="100">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/bibtexkeypattern/BibtexKeyPatternUtil.java" startline="1292" endline="1306" pcid="9136"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/bibtexkeypattern/BibtexKeyPatternUtil.java" startline="1319" endline="1333" pcid="9141"></source>
+</class>
+
+<class classid="90" nclones="3" nlines="10" similarity="70">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/bst/BibtexNameFormatter.java" startline="130" endline="138" pcid="9226"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/bst/BibtexTextPrefix.java" startline="57" endline="65" pcid="9298"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/bst/BibtexPurify.java" startline="65" endline="73" pcid="9285"></source>
+</class>
+
+<class classid="91" nclones="4" nlines="20" similarity="72">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/bst/BibtexNameFormatter.java" startline="296" endline="315" pcid="9265"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/bst/BibtexTextPrefix.java" startline="43" endline="57" pcid="9293"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/bst/VM.java" startline="644" endline="694" pcid="9430"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/bst/VM.java" startline="649" endline="680" pcid="9431"></source>
+</class>
+
+<class classid="92" nclones="3" nlines="12" similarity="75">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/bst/BibtexNameFormatter.java" startline="300" endline="310" pcid="9267"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/bst/BibtexWidth.java" startline="223" endline="232" pcid="9328"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/bst/VM.java" startline="656" endline="677" pcid="9433"></source>
+</class>
+
+<class classid="93" nclones="5" nlines="11" similarity="72">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/bst/VM.java" startline="129" endline="141" pcid="9365"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/bst/VM.java" startline="144" endline="156" pcid="9368"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/bst/VM.java" startline="220" endline="232" pcid="9381"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/bst/VM.java" startline="183" endline="195" pcid="9375"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/bst/VM.java" startline="201" endline="213" pcid="9378"></source>
+</class>
+
+<class classid="94" nclones="2" nlines="11" similarity="72">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/bst/VM.java" startline="375" endline="388" pcid="9404"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/bst/VM.java" startline="446" endline="458" pcid="9414"></source>
+</class>
+
+<class classid="95" nclones="2" nlines="14" similarity="71">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/cleanup/FileLinksCleanup.java" startline="20" endline="36" pcid="9663"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/cleanup/ISSNCleanup.java" startline="17" endline="31" pcid="9666"></source>
+</class>
+
+<class classid="96" nclones="2" nlines="10" similarity="70">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/cleanup/MoveFilesCleanup.java" startline="116" endline="127" pcid="9685"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/cleanup/RelativePathsCleanup.java" startline="37" endline="49" pcid="9692"></source>
+</class>
+
+<class classid="97" nclones="4" nlines="12" similarity="75">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/exporter/BibtexDatabaseWriter.java" startline="33" endline="43" pcid="9762"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/exporter/BibtexDatabaseWriter.java" startline="117" endline="127" pcid="9783"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/exporter/BibtexDatabaseWriter.java" startline="62" endline="73" pcid="9769"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/exporter/BibtexDatabaseWriter.java" startline="63" endline="72" pcid="9770"></source>
+</class>
+
+<class classid="98" nclones="4" nlines="10" similarity="70">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/exporter/BibtexDatabaseWriter.java" startline="34" endline="42" pcid="9763"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/xmp/XMPUtil.java" startline="476" endline="484" pcid="14432"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/l10n/LocalizationParser.java" startline="113" endline="122" pcid="18683"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/l10n/LocalizationConsistencyTest.java" startline="80" endline="95" pcid="18641"></source>
+</class>
+
+<class classid="99" nclones="2" nlines="10" similarity="70">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/exporter/GroupSerializer.java" startline="26" endline="37" pcid="9916"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/exporter/MetaDataSerializer.java" startline="116" endline="126" pcid="9948"></source>
+</class>
+
+<class classid="100" nclones="2" nlines="18" similarity="78">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/exporter/GroupSerializer.java" startline="39" endline="59" pcid="9917"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/exporter/GroupSerializer.java" startline="61" endline="78" pcid="9918"></source>
+</class>
+
+<class classid="101" nclones="4" nlines="10" similarity="72">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/exporter/ModsExportFormat.java" startline="229" endline="239" pcid="9964"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/exporter/ModsExportFormat.java" startline="292" endline="304" pcid="9976"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/exporter/ModsExportFormat.java" startline="250" endline="259" pcid="9968"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/exporter/ModsExportFormat.java" startline="411" endline="426" pcid="9997"></source>
+</class>
+
+<class classid="102" nclones="3" nlines="13" similarity="76">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/exporter/MSBibExportFormat.java" startline="44" endline="55" pcid="10004"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/exporter/OpenDocumentSpreadsheetCreator.java" startline="113" endline="126" pcid="10036"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/exporter/OpenOfficeDocumentCreator.java" startline="95" endline="108" pcid="10055"></source>
+</class>
+
+<class classid="103" nclones="2" nlines="16" similarity="93">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/exporter/OOCalcDatabase.java" startline="37" endline="54" pcid="10008"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/exporter/OpenDocumentRepresentation.java" startline="38" endline="57" pcid="10017"></source>
+</class>
+
+<class classid="104" nclones="2" nlines="134" similarity="70">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/exporter/OOCalcDatabase.java" startline="56" endline="193" pcid="10011"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/exporter/OpenDocumentRepresentation.java" startline="59" endline="199" pcid="10020"></source>
+</class>
+
+<class classid="105" nclones="2" nlines="10" similarity="90">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/exporter/OpenDocumentSpreadsheetCreator.java" startline="97" endline="111" pcid="10033"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/exporter/OpenOfficeDocumentCreator.java" startline="79" endline="93" pcid="10052"></source>
+</class>
+
+<class classid="106" nclones="2" nlines="18" similarity="100">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/exporter/OpenDocumentSpreadsheetCreator.java" startline="135" endline="151" pcid="10040"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/exporter/OpenOfficeDocumentCreator.java" startline="117" endline="133" pcid="10059"></source>
+</class>
+
+<class classid="107" nclones="2" nlines="18" similarity="84">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/importer/EntryBasedParserFetcher.java" startline="52" endline="70" pcid="10345"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/importer/SearchBasedParserFetcher.java" startline="54" endline="74" pcid="12132"></source>
+</class>
+
+<class classid="108" nclones="3" nlines="14" similarity="92">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/importer/fileformat/BibtexParser.java" startline="388" endline="404" pcid="10850"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/layout/LayoutHelper.java" startline="351" endline="368" pcid="13204"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/importer/fileformat/BibtexParser.java" startline="406" endline="422" pcid="10854"></source>
+</class>
+
+<class classid="109" nclones="3" nlines="11" similarity="100">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/importer/fileformat/GvkParser.java" startline="117" endline="127" pcid="11127"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/importer/fileformat/GvkParser.java" startline="129" endline="139" pcid="11130"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/importer/fileformat/GvkParser.java" startline="142" endline="152" pcid="11133"></source>
+</class>
+
+<class classid="110" nclones="2" nlines="16" similarity="81">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/importer/fileformat/GvkParser.java" startline="453" endline="467" pcid="11198"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/importer/fileformat/GvkParser.java" startline="469" endline="485" pcid="11202"></source>
+</class>
+
+<class classid="111" nclones="2" nlines="22" similarity="82">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/importer/fileformat/InspecImporter.java" startline="91" endline="112" pcid="11226"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/importer/fileformat/SilverPlatterImporter.java" startline="107" endline="129" pcid="11987"></source>
+</class>
+
+<class classid="112" nclones="3" nlines="11" similarity="90">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/importer/fileformat/IsiImporter.java" startline="70" endline="89" pcid="11238"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/importer/fileformat/OvidImporter.java" startline="60" endline="72" pcid="11687"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/importer/fileformat/MedlineImporter.java" startline="122" endline="135" pcid="11327"></source>
+</class>
+
+<class classid="113" nclones="4" nlines="11" similarity="70">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/importer/fileformat/MedlineImporter.java" startline="205" endline="216" pcid="11347"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/importer/fileformat/MedlineImporter.java" startline="441" endline="450" pcid="11408"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/importer/fileformat/MedlineImporter.java" startline="594" endline="605" pcid="11453"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/importer/fileformat/MedlineImporter.java" startline="232" endline="241" pcid="11356"></source>
+</class>
+
+<class classid="114" nclones="2" nlines="15" similarity="93">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/importer/fileformat/MedlinePlainImporter.java" startline="326" endline="337" pcid="11535"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/importer/fileformat/RisImporter.java" startline="119" endline="131" pcid="11914"></source>
+</class>
+
+<class classid="115" nclones="2" nlines="13" similarity="85">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/importer/fileformat/ModsImporter.java" startline="196" endline="207" pcid="11582"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/importer/fileformat/ModsImporter.java" startline="320" endline="333" pcid="11611"></source>
+</class>
+
+<class classid="116" nclones="2" nlines="14" similarity="71">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/importer/fileformat/MrDLibImporter.java" startline="45" endline="59" pcid="11645"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/importer/fileformat/MrDLibImporter.java" startline="133" endline="146" pcid="11659"></source>
+</class>
+
+<class classid="117" nclones="2" nlines="14" similarity="71">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/importer/fileformat/MrDLibImporter.java" startline="93" endline="104" pcid="11653"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/importer/util/JsonReader.java" startline="18" endline="31" pcid="12253"></source>
+</class>
+
+<class classid="118" nclones="2" nlines="27" similarity="70">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/importer/IdBasedParserFetcher.java" startline="59" endline="93" pcid="12017"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/importer/IdParserFetcher.java" startline="71" endline="97" pcid="12027"></source>
+</class>
+
+<class classid="119" nclones="2" nlines="13" similarity="78">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/importer/util/GroupsParser.java" startline="105" endline="118" pcid="12164"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/importer/util/GroupsParser.java" startline="120" endline="135" pcid="12166"></source>
+</class>
+
+<class classid="120" nclones="2" nlines="16" similarity="93">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/importer/util/GroupsParser.java" startline="166" endline="182" pcid="12172"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/importer/util/GroupsParser.java" startline="184" endline="200" pcid="12176"></source>
+</class>
+
+<class classid="121" nclones="2" nlines="14" similarity="78">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/importer/util/JSONEntryParser.java" startline="39" endline="50" pcid="12204"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/importer/util/JSONEntryParser.java" startline="159" endline="170" pcid="12235"></source>
+</class>
+
+<class classid="122" nclones="2" nlines="16" similarity="70">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/importer/util/MetaDataParser.java" startline="116" endline="131" pcid="12271"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/preferences/JabRefPreferences.java" startline="1036" endline="1053" pcid="16588"></source>
+</class>
+
+<class classid="123" nclones="2" nlines="14" similarity="85">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/importer/WebFetchers.java" startline="57" endline="70" pcid="12309"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/importer/WebFetchers.java" startline="72" endline="85" pcid="12310"></source>
+</class>
+
+<class classid="124" nclones="4" nlines="11" similarity="75">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/journals/AbbreviationParser.java" startline="40" endline="48" pcid="12460"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/protectedterms/ProtectedTermsParser.java" startline="50" endline="59" pcid="13820"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/protectedterms/ProtectedTermsParser.java" startline="61" endline="71" pcid="13824"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/journals/AbbreviationParser.java" startline="50" endline="59" pcid="12464"></source>
+</class>
+
+<class classid="125" nclones="2" nlines="11" similarity="100">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/journals/AbbreviationParser.java" startline="67" endline="77" pcid="12468"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/protectedterms/ProtectedTermsParser.java" startline="79" endline="89" pcid="13828"></source>
+</class>
+
+<class classid="126" nclones="2" nlines="11" similarity="72">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/journals/JournalAbbreviationLoader.java" startline="43" endline="53" pcid="12485"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/openoffice/StyleLoader.java" startline="102" endline="111" pcid="13710"></source>
+</class>
+
+<class classid="127" nclones="2" nlines="25" similarity="84">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/layout/format/AuthorAndsCommaReplacer.java" startline="17" endline="45" pcid="12582"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/layout/format/AuthorAndsReplacer.java" startline="17" endline="48" pcid="12584"></source>
+</class>
+
+<class classid="128" nclones="2" nlines="131" similarity="87">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/layout/format/HTMLChars.java" startline="17" endline="179" pcid="12741"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/openoffice/OOPreFormatter.java" startline="18" endline="178" pcid="13575"></source>
+</class>
+
+<class classid="129" nclones="3" nlines="25" similarity="73">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/layout/format/HTMLChars.java" startline="62" endline="90" pcid="12752"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/layout/format/RTFChars.java" startline="56" endline="89" pcid="12908"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/openoffice/OOPreFormatter.java" startline="62" endline="88" pcid="13586"></source>
+</class>
+
+<class classid="130" nclones="2" nlines="36" similarity="88">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/layout/format/HTMLChars.java" startline="181" endline="223" pcid="12778"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/openoffice/OOPreFormatter.java" startline="180" endline="223" pcid="13609"></source>
+</class>
+
+<class classid="131" nclones="2" nlines="35" similarity="72">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/layout/Layout.java" startline="33" endline="71" pcid="13041"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/layout/LayoutEntry.java" startline="136" endline="169" pcid="13060"></source>
+</class>
+
+<class classid="132" nclones="2" nlines="12" similarity="83">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/layout/Layout.java" startline="92" endline="110" pcid="13050"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/layout/Layout.java" startline="118" endline="133" pcid="13053"></source>
+</class>
+
+<class classid="133" nclones="2" nlines="10" similarity="80">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/layout/LayoutEntry.java" startline="249" endline="259" pcid="13078"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/layout/LayoutEntry.java" startline="259" endline="269" pcid="13081"></source>
+</class>
+
+<class classid="134" nclones="2" nlines="50" similarity="72">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/net/ProxyPreferences.java" startline="54" endline="105" pcid="13360"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/model/FieldChange.java" startline="47" endline="84" pcid="15782"></source>
+</class>
+
+<class classid="135" nclones="2" nlines="38" similarity="77">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/openoffice/OOBibStyle.java" startline="605" endline="647" pcid="13529"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/openoffice/OOBibStyle.java" startline="659" endline="705" pcid="13535"></source>
+</class>
+
+<class classid="136" nclones="2" nlines="17" similarity="70">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/remote/shared/Protocol.java" startline="51" endline="69" pcid="13889"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/preferences/JabRefPreferences.java" startline="1126" endline="1139" pcid="16602"></source>
+</class>
+
+<class classid="137" nclones="2" nlines="10" similarity="80">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/util/io/RegExpFileSearch.java" startline="275" endline="285" pcid="14177"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/model/strings/StringUtil.java" startline="380" endline="390" pcid="16273"></source>
+</class>
+
+<class classid="138" nclones="2" nlines="35" similarity="88">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/util/strings/DiffHighlighting.java" startline="26" endline="66" pcid="14204"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/logic/util/strings/DiffHighlighting.java" startline="68" endline="102" pcid="14209"></source>
+</class>
+
+<class classid="139" nclones="3" nlines="26" similarity="84">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/model/entry/AuthorList.java" startline="410" endline="437" pcid="14941"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/model/entry/AuthorList.java" startline="460" endline="488" pcid="14947"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/model/entry/AuthorList.java" startline="562" endline="591" pcid="14960"></source>
+</class>
+
+<class classid="140" nclones="2" nlines="20" similarity="90">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/model/entry/identifier/DOI.java" startline="60" endline="85" pcid="15482"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/model/entry/identifier/Eprint.java" startline="55" endline="80" pcid="15502"></source>
+</class>
+
+<class classid="141" nclones="2" nlines="13" similarity="76">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/model/groups/GroupTreeNode.java" startline="257" endline="272" pcid="15904"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/model/TreeNode.java" startline="93" endline="104" pcid="16340"></source>
+</class>
+
+<class classid="142" nclones="2" nlines="14" similarity="92">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/model/groups/WordKeywordGroup.java" startline="54" endline="68" pcid="15948"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/model/groups/WordKeywordGroup.java" startline="71" endline="84" pcid="15951"></source>
+</class>
+
+<class classid="143" nclones="2" nlines="19" similarity="84">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/model/strings/StringUtil.java" startline="464" endline="484" pcid="16290"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/model/strings/StringUtil.java" startline="494" endline="514" pcid="16295"></source>
+</class>
+
+<class classid="144" nclones="2" nlines="11" similarity="81">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/model/util/TreeCollector.java" startline="56" endline="68" pcid="16425"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/model/util/TreeCollector.java" startline="71" endline="83" pcid="16429"></source>
+</class>
+
+<class classid="145" nclones="2" nlines="15" similarity="93">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/shared/DBMSProcessor.java" startline="146" endline="170" pcid="16802"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/shared/PostgreSQLProcessor.java" startline="57" endline="81" pcid="16986"></source>
+</class>
+
+<class classid="146" nclones="2" nlines="11" similarity="72">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/shared/DBMSProcessor.java" startline="398" endline="413" pcid="16839"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/shared/DBMSProcessor.java" startline="532" endline="550" pcid="16862"></source>
+</class>
+
+<class classid="147" nclones="2" nlines="13" similarity="76">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/shared/DBMSProcessor.java" startline="488" endline="505" pcid="16853"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/shared/DBMSProcessor.java" startline="510" endline="522" pcid="16857"></source>
+</class>
+
+<class classid="148" nclones="2" nlines="17" similarity="77">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/shared/DBMSSynchronizer.java" startline="241" endline="253" pcid="16903"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/shared/DBMSSynchronizer.java" startline="287" endline="303" pcid="16916"></source>
+</class>
+
+<class classid="149" nclones="2" nlines="11" similarity="81">
+<source file="jabref-4.0-beta/src/main/java/org/jabref/shared/DBMSSynchronizer.java" startline="258" endline="268" pcid="16908"></source>
+<source file="jabref-4.0-beta/src/main/java/org/jabref/shared/DBMSSynchronizer.java" startline="273" endline="282" pcid="16912"></source>
+</class>
+
+<class classid="150" nclones="2" nlines="16" similarity="76">
+<source file="jabref-4.0-beta/src/test/java/org/jabref/gui/GUITest.java" startline="50" endline="65" pcid="17113"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/gui/GUITest.java" startline="100" endline="118" pcid="17116"></source>
+</class>
+
+<class classid="151" nclones="2" nlines="11" similarity="72">
+<source file="jabref-4.0-beta/src/test/java/org/jabref/gui/journals/ManageJournalAbbreviationsViewModelTest.java" startline="125" endline="135" pcid="17163"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/gui/journals/ManageJournalAbbreviationsViewModelTest.java" startline="462" endline="472" pcid="17185"></source>
+</class>
+
+<class classid="152" nclones="2" nlines="13" similarity="71">
+<source file="jabref-4.0-beta/src/test/java/org/jabref/gui/journals/ManageJournalAbbreviationsViewModelTest.java" startline="269" endline="280" pcid="17170"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/gui/journals/ManageJournalAbbreviationsViewModelTest.java" startline="369" endline="386" pcid="17177"></source>
+</class>
+
+<class classid="153" nclones="2" nlines="10" similarity="90">
+<source file="jabref-4.0-beta/src/test/java/org/jabref/gui/keyboard/KeyBindingsDialogViewModelTest.java" startline="41" endline="51" pcid="17188"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/gui/keyboard/KeyBindingsDialogViewModelTest.java" startline="55" endline="72" pcid="17189"></source>
+</class>
+
+<class classid="154" nclones="2" nlines="12" similarity="83">
+<source file="jabref-4.0-beta/src/test/java/org/jabref/gui/keyboard/KeyBindingsDialogViewModelTest.java" startline="127" endline="142" pcid="17194"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/gui/keyboard/KeyBindingsDialogViewModelTest.java" startline="146" endline="162" pcid="17195"></source>
+</class>
+
+<class classid="155" nclones="2" nlines="17" similarity="88">
+<source file="jabref-4.0-beta/src/test/java/org/jabref/gui/ParameterizedDialogNewEntryTest.java" startline="67" endline="87" pcid="17202"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/gui/ParameterizedDialogNewEntryTest.java" startline="106" endline="126" pcid="17205"></source>
+</class>
+
+<class classid="156" nclones="11" nlines="10" similarity="70">
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/autocompleter/BibtexKeyAutoCompleterTest.java" startline="150" endline="161" pcid="17267"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/autocompleter/NameFieldAutoCompleterTest.java" startline="156" endline="167" pcid="17313"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/autocompleter/EntireFieldAutoCompleterTest.java" startline="169" endline="180" pcid="17297"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/autocompleter/DefaultAutoCompleterTest.java" startline="169" endline="180" pcid="17281"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/autocompleter/NameFieldAutoCompleterTest.java" startline="332" endline="343" pcid="17326"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/autocompleter/NameFieldAutoCompleterTest.java" startline="318" endline="329" pcid="17325"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/autocompleter/NameFieldAutoCompleterTest.java" startline="249" endline="260" pcid="17320"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/autocompleter/NameFieldAutoCompleterTest.java" startline="277" endline="288" pcid="17322"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/autocompleter/NameFieldAutoCompleterTest.java" startline="263" endline="274" pcid="17321"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/autocompleter/NameFieldAutoCompleterTest.java" startline="222" endline="233" pcid="17318"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/autocompleter/NameFieldAutoCompleterTest.java" startline="291" endline="302" pcid="17323"></source>
+</class>
+
+<class classid="157" nclones="2" nlines="12" similarity="100">
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/autocompleter/DefaultAutoCompleterTest.java" startline="140" endline="153" pcid="17279"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/autocompleter/EntireFieldAutoCompleterTest.java" startline="140" endline="153" pcid="17295"></source>
+</class>
+
+<class classid="158" nclones="4" nlines="17" similarity="70">
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/auxparser/AuxParserTest.java" startline="40" endline="59" pcid="17331"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/auxparser/AuxParserTest.java" startline="62" endline="82" pcid="17333"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/auxparser/AuxParserTest.java" startline="101" endline="120" pcid="17337"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/auxparser/AuxParserTest.java" startline="123" endline="142" pcid="17339"></source>
+</class>
+
+<class classid="159" nclones="2" nlines="11" similarity="81">
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/bibtex/BibEntryWriterTest.java" startline="64" endline="80" pcid="17357"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/bibtex/BibEntryWriterTest.java" startline="83" endline="99" pcid="17358"></source>
+</class>
+
+<class classid="160" nclones="10" nlines="10" similarity="75">
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/bibtex/BibEntryWriterTest.java" startline="102" endline="123" pcid="17359"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/bibtex/BibEntryWriterTest.java" startline="302" endline="315" pcid="17366"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/bibtex/BibEntryWriterTest.java" startline="150" endline="182" pcid="17361"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/bibtex/BibEntryWriterTest.java" startline="260" endline="282" pcid="17364"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/bibtex/BibEntryWriterTest.java" startline="454" endline="488" pcid="17373"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/bibtex/BibEntryWriterTest.java" startline="346" endline="379" pcid="17368"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/bibtex/BibEntryWriterTest.java" startline="429" endline="451" pcid="17372"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/bibtex/BibEntryWriterTest.java" startline="126" endline="147" pcid="17360"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/bibtex/BibEntryWriterTest.java" startline="222" endline="256" pcid="17363"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/bibtex/BibEntryWriterTest.java" startline="185" endline="219" pcid="17362"></source>
+</class>
+
+<class classid="161" nclones="2" nlines="15" similarity="86">
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/bibtexkeypattern/MakeLabelWithDatabaseTest.java" startline="92" endline="106" pcid="17480"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/bibtexkeypattern/MakeLabelWithDatabaseTest.java" startline="109" endline="123" pcid="17481"></source>
+</class>
+
+<class classid="162" nclones="2" nlines="16" similarity="93">
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/bst/TestVM.java" startline="114" endline="133" pcid="17544"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/bst/TestVM.java" startline="136" endline="156" pcid="17545"></source>
+</class>
+
+<class classid="163" nclones="3" nlines="11" similarity="75">
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/cleanup/CleanupWorkerTest.java" startline="221" endline="234" pcid="17608"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/cleanup/CleanupWorkerTest.java" startline="237" endline="248" pcid="17609"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/cleanup/CleanupWorkerTest.java" startline="251" endline="263" pcid="17610"></source>
+</class>
+
+<class classid="164" nclones="3" nlines="14" similarity="73">
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/cleanup/MoveFilesCleanupTest.java" startline="58" endline="76" pcid="17626"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/cleanup/MoveFilesCleanupTest.java" startline="79" endline="101" pcid="17627"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/cleanup/MoveFilesCleanupTest.java" startline="104" endline="126" pcid="17628"></source>
+</class>
+
+<class classid="165" nclones="2" nlines="11" similarity="90">
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/cleanup/RenamePdfCleanupTest.java" startline="108" endline="122" pcid="17633"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/cleanup/RenamePdfCleanupTest.java" startline="125" endline="140" pcid="17634"></source>
+</class>
+
+<class classid="166" nclones="5" nlines="11" similarity="76">
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/exporter/BibtexDatabaseWriterTest.java" startline="268" endline="281" pcid="17656"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/exporter/BibtexDatabaseWriterTest.java" startline="342" endline="355" pcid="17665"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/exporter/BibtexDatabaseWriterTest.java" startline="284" endline="297" pcid="17658"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/exporter/BibtexDatabaseWriterTest.java" startline="320" endline="339" pcid="17662"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/exporter/BibtexDatabaseWriterTest.java" startline="300" endline="317" pcid="17660"></source>
+</class>
+
+<class classid="167" nclones="4" nlines="10" similarity="70">
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/exporter/BibTeXMLExporterTestFiles.java" startline="71" endline="86" pcid="17683"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/exporter/ModsExportFormatTestFiles.java" startline="76" endline="89" pcid="17726"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/exporter/ModsExportFormatTestFiles.java" startline="100" endline="114" pcid="17728"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/exporter/MSBibExportFormatTestFiles.java" startline="73" endline="88" pcid="17734"></source>
+</class>
+
+<class classid="168" nclones="2" nlines="11" similarity="72">
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/exporter/FieldFormatterCleanupsTest.java" startline="110" endline="123" pcid="17697"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/exporter/FieldFormatterCleanupsTest.java" startline="126" endline="141" pcid="17698"></source>
+</class>
+
+<class classid="169" nclones="2" nlines="15" similarity="93">
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/importer/fetcher/IsbnFetcherTest.java" startline="25" endline="40" pcid="18043"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/importer/fetcher/IsbnViaEbookDeFetcherTest.java" startline="21" endline="36" pcid="18059"></source>
+</class>
+
+<class classid="170" nclones="30" nlines="10" similarity="70">
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/importer/fileformat/BibtexParserTest.java" startline="134" endline="146" pcid="18158"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/importer/fileformat/BibtexParserTest.java" startline="600" endline="613" pcid="18187"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/importer/fileformat/BibtexParserTest.java" startline="1093" endline="1105" pcid="18225"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/importer/fileformat/BibtexParserTest.java" startline="1055" endline="1067" pcid="18222"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/importer/fileformat/BibtexParserTest.java" startline="856" endline="870" pcid="18205"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/importer/fileformat/BibtexParserTest.java" startline="1078" endline="1090" pcid="18224"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/importer/fileformat/BibtexParserTest.java" startline="772" endline="785" pcid="18200"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/importer/fileformat/BibtexParserTest.java" startline="788" endline="801" pcid="18201"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/importer/fileformat/BibtexParserTest.java" startline="833" endline="850" pcid="18204"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/importer/fileformat/BibtexParserTest.java" startline="546" endline="559" pcid="18184"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/importer/fileformat/BibtexParserTest.java" startline="1194" endline="1207" pcid="18233"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/importer/fileformat/BibtexParserTest.java" startline="683" endline="697" pcid="18193"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/importer/fileformat/BibtexParserTest.java" startline="456" endline="469" pcid="18180"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/importer/fileformat/BibtexParserTest.java" startline="700" endline="714" pcid="18194"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/importer/fileformat/BibtexParserTest.java" startline="437" endline="450" pcid="18179"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/importer/fileformat/BibtexParserTest.java" startline="581" endline="594" pcid="18186"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/importer/fileformat/BibtexParserTest.java" startline="421" endline="434" pcid="18178"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/importer/fileformat/BibtexParserTest.java" startline="804" endline="818" pcid="18202"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/importer/fileformat/BibtexParserTest.java" startline="530" endline="543" pcid="18183"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/importer/fileformat/BibtexParserTest.java" startline="562" endline="575" pcid="18185"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/importer/fileformat/BibtexParserTest.java" startline="149" endline="162" pcid="18159"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/importer/fileformat/BibtexParserTest.java" startline="178" endline="191" pcid="18161"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/importer/fileformat/BibtexParserTest.java" startline="194" endline="207" pcid="18162"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/importer/fileformat/BibtexParserTest.java" startline="210" endline="223" pcid="18163"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/importer/fileformat/BibtexParserTest.java" startline="226" endline="239" pcid="18164"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/importer/fileformat/BibtexParserTest.java" startline="1040" endline="1052" pcid="18221"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/importer/fileformat/BibtexParserTest.java" startline="242" endline="255" pcid="18165"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/importer/fileformat/BibtexParserTest.java" startline="258" endline="271" pcid="18166"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/importer/fileformat/BibtexParserTest.java" startline="309" endline="322" pcid="18169"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/importer/fileformat/BibtexParserTest.java" startline="1213" endline="1228" pcid="18234"></source>
+</class>
+
+<class classid="171" nclones="2" nlines="16" similarity="76">
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/importer/fileformat/BibtexParserTest.java" startline="356" endline="379" pcid="18172"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/importer/fileformat/BibtexParserTest.java" startline="400" endline="418" pcid="18177"></source>
+</class>
+
+<class classid="172" nclones="2" nlines="17" similarity="88">
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/importer/fileformat/BibtexParserTest.java" startline="472" endline="499" pcid="18181"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/importer/fileformat/BibtexParserTest.java" startline="502" endline="527" pcid="18182"></source>
+</class>
+
+<class classid="173" nclones="2" nlines="13" similarity="92">
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/importer/fileformat/BibtexParserTest.java" startline="1582" endline="1606" pcid="18260"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/importer/fileformat/BibtexParserTest.java" startline="1609" endline="1632" pcid="18261"></source>
+</class>
+
+<class classid="174" nclones="2" nlines="17" similarity="94">
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/importer/fileformat/IsiImporterTest.java" startline="261" endline="281" pcid="18348"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/importer/fileformat/IsiImporterTest.java" startline="284" endline="306" pcid="18349"></source>
+</class>
+
+<class classid="175" nclones="2" nlines="14" similarity="78">
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/l10n/LocalizationParser.java" startline="29" endline="49" pcid="18670"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/l10n/LocalizationParser.java" startline="51" endline="65" pcid="18673"></source>
+</class>
+
+<class classid="176" nclones="2" nlines="15" similarity="100">
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/l10n/LocalizationParser.java" startline="132" endline="150" pcid="18688"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/l10n/LocalizationParser.java" startline="152" endline="170" pcid="18692"></source>
+</class>
+
+<class classid="177" nclones="3" nlines="11" similarity="83">
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/openoffice/OOBibStyleTest.java" startline="46" endline="56" pcid="19011"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/openoffice/OOBibStyleTest.java" startline="77" endline="89" pcid="19013"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/openoffice/OOBibStyleTest.java" startline="59" endline="74" pcid="19012"></source>
+</class>
+
+<class classid="178" nclones="2" nlines="13" similarity="84">
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/openoffice/OOBibStyleTest.java" startline="183" endline="199" pcid="19020"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/openoffice/OOBibStyleTest.java" startline="202" endline="218" pcid="19021"></source>
+</class>
+
+<class classid="179" nclones="6" nlines="14" similarity="73">
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/openoffice/OOBibStyleTest.java" startline="221" endline="238" pcid="19022"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/openoffice/OOBibStyleTest.java" startline="297" endline="311" pcid="19026"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/openoffice/OOBibStyleTest.java" startline="261" endline="276" pcid="19024"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/openoffice/OOBibStyleTest.java" startline="241" endline="258" pcid="19023"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/openoffice/OOBibStyleTest.java" startline="279" endline="294" pcid="19025"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/openoffice/OOBibStyleTest.java" startline="495" endline="512" pcid="19039"></source>
+</class>
+
+<class classid="180" nclones="4" nlines="28" similarity="85">
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/openoffice/OOBibStyleTest.java" startline="314" endline="347" pcid="19027"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/openoffice/OOBibStyleTest.java" startline="421" endline="453" pcid="19033"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/openoffice/OOBibStyleTest.java" startline="350" endline="383" pcid="19029"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/openoffice/OOBibStyleTest.java" startline="386" endline="418" pcid="19031"></source>
+</class>
+
+<class classid="181" nclones="2" nlines="16" similarity="87">
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/openoffice/StyleLoaderTest.java" startline="107" endline="125" pcid="19056"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/openoffice/StyleLoaderTest.java" startline="128" endline="145" pcid="19060"></source>
+</class>
+
+<class classid="182" nclones="2" nlines="34" similarity="70">
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/xmp/XMPSchemaBibtexTest.java" startline="137" endline="178" pcid="19344"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/xmp/XMPSchemaBibtexTest.java" startline="181" endline="220" pcid="19349"></source>
+</class>
+
+<class classid="183" nclones="2" nlines="12" similarity="83">
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/xmp/XMPUtilTest.java" startline="267" endline="285" pcid="19376"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/xmp/XMPUtilTest.java" startline="293" endline="309" pcid="19377"></source>
+</class>
+
+<class classid="184" nclones="3" nlines="11" similarity="72">
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/xmp/XMPUtilTest.java" startline="458" endline="479" pcid="19389"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/xmp/XMPUtilTest.java" startline="1297" endline="1321" pcid="19445"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/xmp/XMPUtilTest.java" startline="736" endline="757" pcid="19403"></source>
+</class>
+
+<class classid="185" nclones="2" nlines="52" similarity="85">
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/xmp/XMPUtilTest.java" startline="580" endline="652" pcid="19394"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/xmp/XMPUtilTest.java" startline="669" endline="727" pcid="19399"></source>
+</class>
+
+<class classid="186" nclones="2" nlines="16" similarity="70">
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/xmp/XMPUtilTest.java" startline="842" endline="863" pcid="19410"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/xmp/XMPUtilTest.java" startline="872" endline="894" pcid="19412"></source>
+</class>
+
+<class classid="187" nclones="2" nlines="42" similarity="100">
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/xmp/XMPUtilTest.java" startline="924" endline="987" pcid="19418"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/logic/xmp/XMPUtilTest.java" startline="990" endline="1053" pcid="19422"></source>
+</class>
+
+<class classid="188" nclones="2" nlines="12" similarity="75">
+<source file="jabref-4.0-beta/src/test/java/org/jabref/model/entry/BibEntryTests.java" startline="49" endline="62" pcid="19571"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/model/entry/BibEntryTests.java" startline="65" endline="78" pcid="19572"></source>
+</class>
+
+<class classid="189" nclones="2" nlines="10" similarity="100">
+<source file="jabref-4.0-beta/src/test/java/org/jabref/model/TreeNodeTest.java" startline="198" endline="208" pcid="19869"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/model/TreeNodeTest.java" startline="225" endline="235" pcid="19872"></source>
+</class>
+
+<class classid="190" nclones="2" nlines="12" similarity="83">
+<source file="jabref-4.0-beta/src/test/java/org/jabref/model/TreeNodeTest.java" startline="459" endline="470" pcid="19902"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/model/TreeNodeTest.java" startline="473" endline="485" pcid="19903"></source>
+</class>
+
+<class classid="191" nclones="2" nlines="12" similarity="83">
+<source file="jabref-4.0-beta/src/test/java/org/jabref/model/TreeNodeTest.java" startline="496" endline="507" pcid="19905"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/model/TreeNodeTest.java" startline="510" endline="522" pcid="19906"></source>
+</class>
+
+<class classid="192" nclones="3" nlines="14" similarity="75">
+<source file="jabref-4.0-beta/src/test/java/org/jabref/shared/DBMSProcessorTest.java" startline="96" endline="116" pcid="19948"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/shared/DBMSProcessorTest.java" startline="131" endline="148" pcid="19952"></source>
+<source file="jabref-4.0-beta/src/test/java/org/jabref/shared/DBMSProcessorTest.java" startline="174" endline="187" pcid="19958"></source>
+</class>
+
+</clones>

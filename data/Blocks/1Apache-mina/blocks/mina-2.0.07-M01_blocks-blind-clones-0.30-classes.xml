@@ -1,0 +1,473 @@
+<clones>
+<systeminfo processor="nicad5" system="mina-2.0.07-M01" granularity="blocks-blind" threshold="30%" minlines="10" maxlines="2500"/>
+<cloneinfo npcs="3521" npairs="388"/>
+<runinfo ncompares="72097" cputime="124"/>
+<classinfo nclasses="74"/>
+
+<class classid="1" nclones="2" nlines="12" similarity="100">
+<source file="mina-2.0.07-M01/benchmarks/src/test/java/org/apache/mina/core/BenchmarkBinaryTest.java" startline="77" endline="92" pcid="3"></source>
+<source file="mina-2.0.07-M01/benchmarks2/src/test/java/org/apache/mina/core/BenchmarkBinaryTest.java" startline="76" endline="91" pcid="206"></source>
+</class>
+
+<class classid="2" nclones="2" nlines="11" similarity="100">
+<source file="mina-2.0.07-M01/benchmarks/src/test/java/org/apache/mina/core/BenchmarkBinaryTest.java" startline="95" endline="105" pcid="6"></source>
+<source file="mina-2.0.07-M01/benchmarks2/src/test/java/org/apache/mina/core/BenchmarkBinaryTest.java" startline="94" endline="104" pcid="209"></source>
+</class>
+
+<class classid="3" nclones="4" nlines="16" similarity="70">
+<source file="mina-2.0.07-M01/benchmarks/src/test/java/org/apache/mina/core/BenchmarkClientFactory.java" startline="35" endline="52" pcid="13"></source>
+<source file="mina-2.0.07-M01/benchmarks/src/test/java/org/apache/mina/core/BenchmarkServerFactory.java" startline="38" endline="55" pcid="14"></source>
+<source file="mina-2.0.07-M01/benchmarks2/src/test/java/org/apache/mina/core/BenchmarkClientFactory.java" startline="33" endline="44" pcid="212"></source>
+<source file="mina-2.0.07-M01/benchmarks2/src/test/java/org/apache/mina/core/BenchmarkServerFactory.java" startline="37" endline="50" pcid="213"></source>
+</class>
+
+<class classid="4" nclones="5" nlines="14" similarity="71">
+<source file="mina-2.0.07-M01/benchmarks/src/test/java/org/apache/mina/core/bio/udp/BioUdpBenchmarkClient.java" startline="54" endline="67" pcid="17"></source>
+<source file="mina-2.0.07-M01/benchmarks/src/test/java/org/apache/mina/core/nio/tcp/Netty3TcpBenchmarkClient.java" startline="72" endline="82" pcid="112"></source>
+<source file="mina-2.0.07-M01/benchmarks2/src/test/java/org/apache/mina/core/nio/udp/Netty4UdpBenchmarkClient.java" startline="64" endline="74" pcid="297"></source>
+<source file="mina-2.0.07-M01/benchmarks2/src/test/java/org/apache/mina/core/nio/tcp/Netty4TcpBenchmarkClient.java" startline="65" endline="75" pcid="252"></source>
+<source file="mina-2.0.07-M01/benchmarks/src/test/java/org/apache/mina/core/nio/udp/Netty3UdpBenchmarkClient.java" startline="73" endline="83" pcid="178"></source>
+</class>
+
+<class classid="5" nclones="5" nlines="80" similarity="92">
+<source file="mina-2.0.07-M01/benchmarks/src/test/java/org/apache/mina/core/bio/udp/BioUdpBenchmarkServer.java" startline="66" endline="157" pcid="24"></source>
+<source file="mina-2.0.07-M01/benchmarks/src/test/java/org/apache/mina/core/nio/udp/Mina3UdpBenchmarkServer.java" startline="66" endline="157" pcid="157"></source>
+<source file="mina-2.0.07-M01/benchmarks2/src/test/java/org/apache/mina/core/nio/tcp/Mina3TcpBenchmarkServer.java" startline="62" endline="148" pcid="231"></source>
+<source file="mina-2.0.07-M01/benchmarks2/src/test/java/org/apache/mina/core/nio/udp/Mina3UdpBenchmarkServer.java" startline="66" endline="157" pcid="276"></source>
+<source file="mina-2.0.07-M01/benchmarks/src/test/java/org/apache/mina/core/nio/tcp/Mina3TcpBenchmarkServer.java" startline="64" endline="151" pcid="91"></source>
+</class>
+
+<class classid="6" nclones="9" nlines="48" similarity="75">
+<source file="mina-2.0.07-M01/benchmarks/src/test/java/org/apache/mina/core/bio/udp/BioUdpBenchmarkServer.java" startline="77" endline="127" pcid="26"></source>
+<source file="mina-2.0.07-M01/benchmarks2/src/test/java/org/apache/mina/core/nio/udp/Netty4UdpBenchmarkServer.java" startline="110" endline="158" pcid="313"></source>
+<source file="mina-2.0.07-M01/benchmarks/src/test/java/org/apache/mina/core/nio/tcp/Netty3TcpBenchmarkServer.java" startline="123" endline="170" pcid="129"></source>
+<source file="mina-2.0.07-M01/benchmarks/src/test/java/org/apache/mina/core/nio/udp/Netty3UdpBenchmarkServer.java" startline="117" endline="165" pcid="194"></source>
+<source file="mina-2.0.07-M01/benchmarks2/src/test/java/org/apache/mina/core/nio/tcp/Netty4TcpBenchmarkServer.java" startline="78" endline="136" pcid="263"></source>
+<source file="mina-2.0.07-M01/benchmarks/src/test/java/org/apache/mina/core/nio/tcp/Mina3TcpBenchmarkServer.java" startline="73" endline="122" pcid="93"></source>
+<source file="mina-2.0.07-M01/benchmarks2/src/test/java/org/apache/mina/core/nio/udp/Mina3UdpBenchmarkServer.java" startline="77" endline="127" pcid="278"></source>
+<source file="mina-2.0.07-M01/benchmarks2/src/test/java/org/apache/mina/core/nio/tcp/Mina3TcpBenchmarkServer.java" startline="71" endline="120" pcid="233"></source>
+<source file="mina-2.0.07-M01/benchmarks/src/test/java/org/apache/mina/core/nio/udp/Mina3UdpBenchmarkServer.java" startline="77" endline="127" pcid="159"></source>
+</class>
+
+<class classid="7" nclones="2" nlines="51" similarity="81">
+<source file="mina-2.0.07-M01/benchmarks/src/test/java/org/apache/mina/core/nio/tcp/Mina3TcpBenchmarkClient.java" startline="45" endline="99" pcid="76"></source>
+<source file="mina-2.0.07-M01/benchmarks/src/test/java/org/apache/mina/core/nio/udp/Mina3UdpBenchmarkClient.java" startline="48" endline="109" pcid="139"></source>
+</class>
+
+<class classid="8" nclones="4" nlines="42" similarity="95">
+<source file="mina-2.0.07-M01/benchmarks/src/test/java/org/apache/mina/core/nio/tcp/Netty3TcpBenchmarkClient.java" startline="57" endline="96" pcid="108"></source>
+<source file="mina-2.0.07-M01/benchmarks/src/test/java/org/apache/mina/core/nio/udp/Netty3UdpBenchmarkClient.java" startline="58" endline="97" pcid="174"></source>
+<source file="mina-2.0.07-M01/benchmarks2/src/test/java/org/apache/mina/core/nio/tcp/Netty4TcpBenchmarkClient.java" startline="50" endline="89" pcid="248"></source>
+<source file="mina-2.0.07-M01/benchmarks2/src/test/java/org/apache/mina/core/nio/udp/Netty4UdpBenchmarkClient.java" startline="50" endline="88" pcid="293"></source>
+</class>
+
+<class classid="9" nclones="3" nlines="84" similarity="93">
+<source file="mina-2.0.07-M01/benchmarks/src/test/java/org/apache/mina/core/nio/tcp/Netty3TcpBenchmarkServer.java" startline="97" endline="185" pcid="124"></source>
+<source file="mina-2.0.07-M01/benchmarks/src/test/java/org/apache/mina/core/nio/udp/Netty3UdpBenchmarkServer.java" startline="97" endline="180" pcid="190"></source>
+<source file="mina-2.0.07-M01/benchmarks2/src/test/java/org/apache/mina/core/nio/udp/Netty4UdpBenchmarkServer.java" startline="90" endline="173" pcid="309"></source>
+</class>
+
+<class classid="10" nclones="2" nlines="21" similarity="77">
+<source file="mina-2.0.07-M01/codec/src/main/java/org/apache/mina/codec/IoBuffer.java" startline="353" endline="375" pcid="578"></source>
+<source file="mina-2.0.07-M01/codec/src/main/java/org/apache/mina/codec/IoBuffer.java" startline="703" endline="728" pcid="637"></source>
+</class>
+
+<class classid="11" nclones="5" nlines="11" similarity="72">
+<source file="mina-2.0.07-M01/codec/src/main/java/org/apache/mina/codec/IoBuffer.java" startline="462" endline="472" pcid="595"></source>
+<source file="mina-2.0.07-M01/codec/src/main/java/org/apache/mina/codec/IoBuffer.java" startline="817" endline="826" pcid="655"></source>
+<source file="mina-2.0.07-M01/codec/src/main/java/org/apache/mina/codec/IoBuffer.java" startline="488" endline="498" pcid="600"></source>
+<source file="mina-2.0.07-M01/codec/src/main/java/org/apache/mina/codec/IoBuffer.java" startline="842" endline="852" pcid="660"></source>
+<source file="mina-2.0.07-M01/codec/src/main/java/org/apache/mina/codec/IoBuffer.java" startline="861" endline="870" pcid="664"></source>
+</class>
+
+<class classid="12" nclones="2" nlines="14" similarity="80">
+<source file="mina-2.0.07-M01/codec/src/main/java/org/apache/mina/codec/IoBuffer.java" startline="662" endline="676" pcid="628"></source>
+<source file="mina-2.0.07-M01/codec/src/main/java/org/apache/mina/codec/IoBuffer.java" startline="681" endline="698" pcid="632"></source>
+</class>
+
+<class classid="13" nclones="2" nlines="11" similarity="75">
+<source file="mina-2.0.07-M01/codec/src/main/java/org/apache/mina/codec/IoBuffer.java" startline="935" endline="946" pcid="677"></source>
+<source file="mina-2.0.07-M01/codec/src/main/java/org/apache/mina/codec/IoBuffer.java" startline="1049" endline="1058" pcid="698"></source>
+</class>
+
+<class classid="14" nclones="2" nlines="53" similarity="78">
+<source file="mina-2.0.07-M01/codec/src/main/java/org/apache/mina/codec/textline/TextLineDecoder.java" startline="177" endline="246" pcid="741"></source>
+<source file="mina-2.0.07-M01/codec/src/main/java/org/apache/mina/codec/textline/TextLineDecoder.java" startline="253" endline="313" pcid="749"></source>
+</class>
+
+<class classid="15" nclones="2" nlines="10" similarity="70">
+<source file="mina-2.0.07-M01/codec/src/test/java/org/apache/mina/codec/delimited/ints/IntEncodingTest.java" startline="130" endline="140" pcid="835"></source>
+<source file="mina-2.0.07-M01/examples/src/main/java/org/apache/mina/examples/http/BogusSslContextFactory.java" startline="84" endline="92" pcid="2299"></source>
+</class>
+
+<class classid="16" nclones="2" nlines="11" similarity="83">
+<source file="mina-2.0.07-M01/codec/src/test/java/org/apache/mina/codec/IoBufferTest.java" startline="122" endline="133" pcid="877"></source>
+<source file="mina-2.0.07-M01/codec/src/test/java/org/apache/mina/codec/IoBufferTest.java" startline="139" endline="152" pcid="878"></source>
+</class>
+
+<class classid="17" nclones="2" nlines="13" similarity="78">
+<source file="mina-2.0.07-M01/codec/src/test/java/org/apache/mina/codec/IoBufferTest.java" startline="408" endline="421" pcid="898"></source>
+<source file="mina-2.0.07-M01/codec/src/test/java/org/apache/mina/codec/IoBufferTest.java" startline="428" endline="444" pcid="899"></source>
+</class>
+
+<class classid="18" nclones="2" nlines="10" similarity="70">
+<source file="mina-2.0.07-M01/codec/src/test/java/org/apache/mina/codec/IoBufferTest.java" startline="450" endline="462" pcid="900"></source>
+<source file="mina-2.0.07-M01/codec/src/test/java/org/apache/mina/codec/IoBufferTest.java" startline="468" endline="480" pcid="901"></source>
+</class>
+
+<class classid="19" nclones="2" nlines="15" similarity="70">
+<source file="mina-2.0.07-M01/codec/src/test/java/org/apache/mina/codec/IoBufferTest.java" startline="633" endline="654" pcid="911"></source>
+<source file="mina-2.0.07-M01/codec/src/test/java/org/apache/mina/codec/IoBufferTest.java" startline="705" endline="722" pcid="915"></source>
+</class>
+
+<class classid="20" nclones="4" nlines="23" similarity="75">
+<source file="mina-2.0.07-M01/codec/src/test/java/org/apache/mina/codec/IoBufferTest.java" startline="782" endline="811" pcid="919"></source>
+<source file="mina-2.0.07-M01/codec/src/test/java/org/apache/mina/codec/IoBufferTest.java" startline="996" endline="1021" pcid="949"></source>
+<source file="mina-2.0.07-M01/codec/src/test/java/org/apache/mina/codec/IoBufferTest.java" startline="1024" endline="1048" pcid="951"></source>
+<source file="mina-2.0.07-M01/codec/src/test/java/org/apache/mina/codec/IoBufferTest.java" startline="1051" endline="1078" pcid="953"></source>
+</class>
+
+<class classid="21" nclones="2" nlines="30" similarity="73">
+<source file="mina-2.0.07-M01/codec/src/test/java/org/apache/mina/codec/IoBufferTest.java" startline="814" endline="845" pcid="921"></source>
+<source file="mina-2.0.07-M01/codec/src/test/java/org/apache/mina/codec/IoBufferTest.java" startline="958" endline="993" pcid="943"></source>
+</class>
+
+<class classid="22" nclones="3" nlines="12" similarity="75">
+<source file="mina-2.0.07-M01/codec/src/test/java/org/apache/mina/codec/textline/AutoTextLineDecoderTest.java" startline="73" endline="84" pcid="964"></source>
+<source file="mina-2.0.07-M01/codec/src/test/java/org/apache/mina/codec/textline/UnixTextLineDecoderTest.java" startline="74" endline="85" pcid="973"></source>
+<source file="mina-2.0.07-M01/codec/src/test/java/org/apache/mina/codec/textline/WindowsTextLineDecoderTest.java" startline="73" endline="84" pcid="984"></source>
+</class>
+
+<class classid="23" nclones="6" nlines="13" similarity="76">
+<source file="mina-2.0.07-M01/codec/src/test/java/org/apache/mina/codec/textline/AutoTextLineDecoderTest.java" startline="87" endline="98" pcid="965"></source>
+<source file="mina-2.0.07-M01/codec/src/test/java/org/apache/mina/codec/textline/UnixTextLineDecoderTest.java" startline="102" endline="113" pcid="976"></source>
+<source file="mina-2.0.07-M01/codec/src/test/java/org/apache/mina/codec/textline/UnixTextLineDecoderTest.java" startline="88" endline="99" pcid="974"></source>
+<source file="mina-2.0.07-M01/codec/src/test/java/org/apache/mina/codec/textline/WindowsTextLineDecoderTest.java" startline="87" endline="97" pcid="985"></source>
+<source file="mina-2.0.07-M01/codec/src/test/java/org/apache/mina/codec/textline/WindowsTextLineDecoderTest.java" startline="100" endline="111" pcid="987"></source>
+<source file="mina-2.0.07-M01/codec/src/test/java/org/apache/mina/codec/textline/AutoTextLineDecoderTest.java" startline="101" endline="112" pcid="967"></source>
+</class>
+
+<class classid="24" nclones="2" nlines="21" similarity="76">
+<source file="mina-2.0.07-M01/core/src/main/java/org/apache/mina/filter/logging/LoggingFilter.java" startline="99" endline="119" pcid="1042"></source>
+<source file="mina-2.0.07-M01/core/src/main/java/org/apache/mina/filter/logging/LoggingFilter.java" startline="127" endline="147" pcid="1043"></source>
+</class>
+
+<class classid="25" nclones="2" nlines="10" similarity="70">
+<source file="mina-2.0.07-M01/core/src/main/java/org/apache/mina/service/executor/OrderedHandlerExecutor.java" startline="64" endline="73" pcid="1132"></source>
+<source file="mina-2.0.07-M01/core/src/main/java/org/apache/mina/service/executor/OrderedHandlerExecutor.java" startline="97" endline="108" pcid="1138"></source>
+</class>
+
+<class classid="26" nclones="2" nlines="30" similarity="75">
+<source file="mina-2.0.07-M01/core/src/main/java/org/apache/mina/service/idlechecker/IndexedIdleChecker.java" startline="120" endline="163" pcid="1157"></source>
+<source file="mina-2.0.07-M01/core/src/main/java/org/apache/mina/service/idlechecker/IndexedIdleChecker.java" startline="169" endline="204" pcid="1167"></source>
+</class>
+
+<class classid="27" nclones="4" nlines="23" similarity="72">
+<source file="mina-2.0.07-M01/core/src/main/java/org/apache/mina/session/AbstractIoSession.java" startline="547" endline="574" pcid="1242"></source>
+<source file="mina-2.0.07-M01/core/src/main/java/org/apache/mina/session/AbstractIoSession.java" startline="579" endline="605" pcid="1250"></source>
+<source file="mina-2.0.07-M01/core/src/main/java/org/apache/mina/session/AbstractIoSession.java" startline="737" endline="766" pcid="1285"></source>
+<source file="mina-2.0.07-M01/core/src/main/java/org/apache/mina/session/AbstractIoSession.java" startline="610" endline="636" pcid="1258"></source>
+</class>
+
+<class classid="28" nclones="2" nlines="33" similarity="72">
+<source file="mina-2.0.07-M01/core/src/main/java/org/apache/mina/session/AbstractIoSession.java" startline="657" endline="698" pcid="1269"></source>
+<source file="mina-2.0.07-M01/core/src/main/java/org/apache/mina/session/AbstractIoSession.java" startline="795" endline="834" pcid="1297"></source>
+</class>
+
+<class classid="29" nclones="2" nlines="10" similarity="100">
+<source file="mina-2.0.07-M01/core/src/main/java/org/apache/mina/session/AbstractIoSessionConfig.java" startline="62" endline="71" pcid="1316"></source>
+<source file="mina-2.0.07-M01/core/src/main/java/org/apache/mina/transport/tcp/ProxyTcpSessionConfig.java" startline="55" endline="64" pcid="1777"></source>
+</class>
+
+<class classid="30" nclones="2" nlines="12" similarity="100">
+<source file="mina-2.0.07-M01/core/src/main/java/org/apache/mina/session/AbstractIoSessionConfig.java" startline="77" endline="88" pcid="1317"></source>
+<source file="mina-2.0.07-M01/core/src/main/java/org/apache/mina/transport/tcp/ProxyTcpSessionConfig.java" startline="70" endline="81" pcid="1778"></source>
+</class>
+
+<class classid="31" nclones="2" nlines="10" similarity="70">
+<source file="mina-2.0.07-M01/core/src/main/java/org/apache/mina/session/DefaultWriteRequest.java" startline="110" endline="121" pcid="1361"></source>
+<source file="mina-2.0.07-M01/core/src/main/java/org/apache/mina/session/DefaultWriteRequest.java" startline="125" endline="137" pcid="1365"></source>
+</class>
+
+<class classid="32" nclones="2" nlines="11" similarity="90">
+<source file="mina-2.0.07-M01/core/src/main/java/org/apache/mina/transport/nio/AbstractNioSession.java" startline="195" endline="210" pcid="1436"></source>
+<source file="mina-2.0.07-M01/core/src/main/java/org/apache/mina/transport/nio/AbstractNioSession.java" startline="286" endline="305" pcid="1450"></source>
+</class>
+
+<class classid="33" nclones="4" nlines="10" similarity="80">
+<source file="mina-2.0.07-M01/core/src/main/java/org/apache/mina/transport/nio/NioTcpClient.java" startline="172" endline="180" pcid="1529"></source>
+<source file="mina-2.0.07-M01/core/src/main/java/org/apache/mina/transport/nio/NioUdpClient.java" startline="115" endline="124" pcid="1645"></source>
+<source file="mina-2.0.07-M01/core/src/main/java/org/apache/mina/transport/nio/NioTcpClient.java" startline="186" endline="194" pcid="1533"></source>
+<source file="mina-2.0.07-M01/core/src/main/java/org/apache/mina/transport/nio/NioUdpClient.java" startline="130" endline="138" pcid="1649"></source>
+</class>
+
+<class classid="34" nclones="2" nlines="11" similarity="72">
+<source file="mina-2.0.07-M01/core/src/main/java/org/apache/mina/transport/nio/NioTcpClient.java" startline="237" endline="249" pcid="1543"></source>
+<source file="mina-2.0.07-M01/core/src/main/java/org/apache/mina/transport/nio/NioTcpSession.java" startline="349" endline="362" pcid="1628"></source>
+</class>
+
+<class classid="35" nclones="2" nlines="17" similarity="76">
+<source file="mina-2.0.07-M01/core/src/main/java/org/apache/mina/transport/nio/NioTcpServer.java" startline="214" endline="233" pcid="1561"></source>
+<source file="mina-2.0.07-M01/core/src/main/java/org/apache/mina/transport/nio/NioUdpServer.java" startline="186" endline="202" pcid="1667"></source>
+</class>
+
+<class classid="36" nclones="2" nlines="10" similarity="100">
+<source file="mina-2.0.07-M01/core/src/main/java/org/apache/mina/transport/nio/NioTcpSession.java" startline="93" endline="104" pcid="1586"></source>
+<source file="mina-2.0.07-M01/core/src/main/java/org/apache/mina/transport/nio/NioTcpSession.java" startline="110" endline="122" pcid="1589"></source>
+</class>
+
+<class classid="37" nclones="2" nlines="17" similarity="78">
+<source file="mina-2.0.07-M01/core/src/main/java/org/apache/mina/transport/nio/NioTcpSession.java" startline="146" endline="161" pcid="1594"></source>
+<source file="mina-2.0.07-M01/core/src/main/java/org/apache/mina/transport/nio/NioUdpSession.java" startline="216" endline="239" pcid="1707"></source>
+</class>
+
+<class classid="38" nclones="2" nlines="12" similarity="71">
+<source file="mina-2.0.07-M01/core/src/main/java/org/apache/mina/transport/nio/NioTcpSession.java" startline="260" endline="268" pcid="1611"></source>
+<source file="mina-2.0.07-M01/core/src/main/java/org/apache/mina/transport/nio/NioUdpSession.java" startline="86" endline="99" pcid="1691"></source>
+</class>
+
+<class classid="39" nclones="2" nlines="16" similarity="82">
+<source file="mina-2.0.07-M01/core/src/main/java/org/apache/mina/util/AbstractIoFuture.java" startline="143" endline="160" pcid="1862"></source>
+<source file="mina-2.0.07-M01/core/src/main/java/org/apache/mina/util/AbstractIoFuture.java" startline="167" endline="188" pcid="1866"></source>
+</class>
+
+<class classid="40" nclones="2" nlines="12" similarity="91">
+<source file="mina-2.0.07-M01/core/src/main/java/org/apache/mina/util/AbstractIoFuture.java" startline="249" endline="262" pcid="1877"></source>
+<source file="mina-2.0.07-M01/core/src/main/java/org/apache/mina/util/AbstractIoFuture.java" startline="272" endline="287" pcid="1880"></source>
+</class>
+
+<class classid="41" nclones="2" nlines="10" similarity="100">
+<source file="mina-2.0.07-M01/core/src/test/java/org/apache/mina/service/executor/HandlerCallerTest.java" startline="58" endline="73" pcid="1917"></source>
+<source file="mina-2.0.07-M01/core/src/test/java/org/apache/mina/service/executor/HandlerCallerTest.java" startline="76" endline="91" pcid="1918"></source>
+</class>
+
+<class classid="42" nclones="3" nlines="13" similarity="92">
+<source file="mina-2.0.07-M01/core/src/test/java/org/apache/mina/service/executor/HandlerCallerTest.java" startline="94" endline="112" pcid="1919"></source>
+<source file="mina-2.0.07-M01/core/src/test/java/org/apache/mina/service/executor/HandlerCallerTest.java" startline="115" endline="133" pcid="1920"></source>
+<source file="mina-2.0.07-M01/core/src/test/java/org/apache/mina/service/executor/HandlerCallerTest.java" startline="136" endline="154" pcid="1921"></source>
+</class>
+
+<class classid="43" nclones="2" nlines="11" similarity="72">
+<source file="mina-2.0.07-M01/core/src/test/java/org/apache/mina/service/idlecheker/IndexedIdleChekerTest.java" startline="57" endline="71" pcid="1929"></source>
+<source file="mina-2.0.07-M01/core/src/test/java/org/apache/mina/service/idlecheker/IndexedIdleChekerTest.java" startline="74" endline="89" pcid="1930"></source>
+</class>
+
+<class classid="44" nclones="2" nlines="51" similarity="87">
+<source file="mina-2.0.07-M01/core/src/test/java/org/apache/mina/transport/bio/BioUdpServerFilterEventTest.java" startline="64" endline="142" pcid="2000"></source>
+<source file="mina-2.0.07-M01/core/src/test/java/org/apache/mina/transport/nio/NioUdpServerFilterEventTest.java" startline="62" endline="130" pcid="2098"></source>
+</class>
+
+<class classid="45" nclones="5" nlines="11" similarity="100">
+<source file="mina-2.0.07-M01/core/src/test/java/org/apache/mina/transport/bio/BioUdpServerFilterEventTest.java" startline="148" endline="157" pcid="2008"></source>
+<source file="mina-2.0.07-M01/core/src/test/java/org/apache/mina/transport/nio/NioTcpClientFilterEventTest.java" startline="147" endline="156" pcid="2032"></source>
+<source file="mina-2.0.07-M01/core/src/test/java/org/apache/mina/transport/nio/NioUdpClientFilterEventTest.java" startline="148" endline="157" pcid="2089"></source>
+<source file="mina-2.0.07-M01/core/src/test/java/org/apache/mina/transport/nio/NioUdpServerFilterEventTest.java" startline="136" endline="145" pcid="2106"></source>
+<source file="mina-2.0.07-M01/core/src/test/java/org/apache/mina/transport/nio/NioTcpServerFilterEventTest.java" startline="198" endline="207" pcid="2059"></source>
+</class>
+
+<class classid="46" nclones="4" nlines="40" similarity="74">
+<source file="mina-2.0.07-M01/core/src/test/java/org/apache/mina/transport/nio/NioTcpServerFilterEventTest.java" startline="66" endline="127" pcid="2047"></source>
+<source file="mina-2.0.07-M01/core/src/test/java/org/apache/mina/transport/nio/NioTcpServerHandlerTest.java" startline="127" endline="180" pcid="2072"></source>
+<source file="mina-2.0.07-M01/core/src/test/java/org/apache/mina/transport/nio/NioTcpServerHandlerTest.java" startline="68" endline="124" pcid="2067"></source>
+<source file="mina-2.0.07-M01/core/src/test/java/org/apache/mina/transport/nio/NioTcpServerFilterEventTest.java" startline="135" endline="192" pcid="2054"></source>
+</class>
+
+<class classid="47" nclones="8" nlines="25" similarity="76">
+<source file="mina-2.0.07-M01/core/src/test/java/org/apache/mina/transport/nio/ProxySocketSessionConfigTest.java" startline="76" endline="104" pcid="2117"></source>
+<source file="mina-2.0.07-M01/core/src/test/java/org/apache/mina/transport/nio/ProxySocketSessionConfigTest.java" startline="168" endline="195" pcid="2132"></source>
+<source file="mina-2.0.07-M01/core/src/test/java/org/apache/mina/transport/nio/ProxySocketSessionConfigTest.java" startline="137" endline="165" pcid="2127"></source>
+<source file="mina-2.0.07-M01/core/src/test/java/org/apache/mina/transport/nio/ProxySocketSessionConfigTest.java" startline="198" endline="225" pcid="2137"></source>
+<source file="mina-2.0.07-M01/core/src/test/java/org/apache/mina/transport/nio/ProxySocketSessionConfigTest.java" startline="107" endline="134" pcid="2122"></source>
+<source file="mina-2.0.07-M01/core/src/test/java/org/apache/mina/transport/nio/ProxySocketSessionConfigTest.java" startline="228" endline="255" pcid="2142"></source>
+<source file="mina-2.0.07-M01/core/src/test/java/org/apache/mina/transport/nio/ProxySocketSessionConfigTest.java" startline="258" endline="285" pcid="2147"></source>
+<source file="mina-2.0.07-M01/core/src/test/java/org/apache/mina/transport/nio/ProxySocketSessionConfigTest.java" startline="288" endline="319" pcid="2152"></source>
+</class>
+
+<class classid="48" nclones="6" nlines="12" similarity="75">
+<source file="mina-2.0.07-M01/core/src/test/java/org/apache/mina/util/AbstractIoFutureTest.java" startline="64" endline="80" pcid="2174"></source>
+<source file="mina-2.0.07-M01/core/src/test/java/org/apache/mina/util/AbstractIoFutureTest.java" startline="326" endline="342" pcid="2209"></source>
+<source file="mina-2.0.07-M01/core/src/test/java/org/apache/mina/util/AbstractIoFutureTest.java" startline="179" endline="194" pcid="2189"></source>
+<source file="mina-2.0.07-M01/core/src/test/java/org/apache/mina/util/AbstractIoFutureTest.java" startline="159" endline="175" pcid="2188"></source>
+<source file="mina-2.0.07-M01/core/src/test/java/org/apache/mina/util/AbstractIoFutureTest.java" startline="84" endline="99" pcid="2175"></source>
+<source file="mina-2.0.07-M01/core/src/test/java/org/apache/mina/util/AbstractIoFutureTest.java" startline="305" endline="322" pcid="2208"></source>
+</class>
+
+<class classid="49" nclones="2" nlines="31" similarity="87">
+<source file="mina-2.0.07-M01/core/src/test/java/org/apache/mina/util/AbstractIoFutureTest.java" startline="102" endline="130" pcid="2176"></source>
+<source file="mina-2.0.07-M01/core/src/test/java/org/apache/mina/util/AbstractIoFutureTest.java" startline="224" endline="252" pcid="2195"></source>
+</class>
+
+<class classid="50" nclones="2" nlines="22" similarity="82">
+<source file="mina-2.0.07-M01/core/src/test/java/org/apache/mina/util/AbstractIoFutureTest.java" startline="133" endline="155" pcid="2184"></source>
+<source file="mina-2.0.07-M01/core/src/test/java/org/apache/mina/util/AbstractIoFutureTest.java" startline="197" endline="221" pcid="2190"></source>
+</class>
+
+<class classid="51" nclones="2" nlines="17" similarity="100">
+<source file="mina-2.0.07-M01/examples/src/main/java/org/apache/mina/examples/http/HttpsTest.java" startline="77" endline="95" pcid="2321"></source>
+<source file="mina-2.0.07-M01/examples/src/main/java/org/apache/mina/examples/http/HttpTest.java" startline="75" endline="93" pcid="2329"></source>
+</class>
+
+<class classid="52" nclones="2" nlines="13" similarity="84">
+<source file="mina-2.0.07-M01/examples/src/main/java/org/apache/mina/examples/http/HttpsTest.java" startline="97" endline="110" pcid="2327"></source>
+<source file="mina-2.0.07-M01/examples/src/main/java/org/apache/mina/examples/http/HttpTest.java" startline="95" endline="110" pcid="2335"></source>
+</class>
+
+<class classid="53" nclones="2" nlines="12" similarity="83">
+<source file="mina-2.0.07-M01/http/src/main/java/org/apache/mina/http/api/DefaultHttpResponse.java" startline="112" endline="125" pcid="2356"></source>
+<source file="mina-2.0.07-M01/http/src/main/java/org/apache/mina/http/HttpRequestImpl.java" startline="146" endline="161" pcid="2405"></source>
+</class>
+
+<class classid="54" nclones="3" nlines="11" similarity="90">
+<source file="mina-2.0.07-M01/http/src/test/java/org/apache/mina/http/HttpServerDecoderTest.java" startline="40" endline="51" pcid="2425"></source>
+<source file="mina-2.0.07-M01/http/src/test/java/org/apache/mina/http/HttpServerDecoderTest.java" startline="55" endline="65" pcid="2426"></source>
+<source file="mina-2.0.07-M01/http/src/test/java/org/apache/mina/http/HttpServerDecoderTest.java" startline="69" endline="79" pcid="2427"></source>
+</class>
+
+<class classid="55" nclones="5" nlines="54" similarity="71">
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/AddressBookProtos.java" startline="146" endline="203" pcid="2465"></source>
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/AddressBookProtos.java" startline="384" endline="431" pcid="2498"></source>
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/Calc.java" startline="102" endline="153" pcid="2932"></source>
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/AddressBookProtos.java" startline="1957" endline="1998" pcid="2785"></source>
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/Calc.java" startline="805" endline="839" pcid="3046"></source>
+</class>
+
+<class classid="56" nclones="3" nlines="12" similarity="83">
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/AddressBookProtos.java" startline="264" endline="275" pcid="2484"></source>
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/Calc.java" startline="223" endline="236" pcid="2950"></source>
+<source file="mina-2.0.07-M01/thrift/src/test/java/org/apache/mina/generated/thrift/UserProfile.java" startline="85" endline="96" pcid="3157"></source>
+</class>
+
+<class classid="57" nclones="3" nlines="14" similarity="100">
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/AddressBookProtos.java" startline="474" endline="486" pcid="2515"></source>
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/AddressBookProtos.java" startline="1004" endline="1016" pcid="2607"></source>
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/AddressBookProtos.java" startline="934" endline="946" pcid="2597"></source>
+</class>
+
+<class classid="58" nclones="9" nlines="11" similarity="72">
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/AddressBookProtos.java" startline="491" endline="501" pcid="2519"></source>
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/AddressBookProtos.java" startline="1452" endline="1462" pcid="2702"></source>
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/AddressBookProtos.java" startline="1566" endline="1575" pcid="2715"></source>
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/AddressBookProtos.java" startline="1438" endline="1447" pcid="2699"></source>
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/AddressBookProtos.java" startline="1021" endline="1030" pcid="2611"></source>
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/AddressBookProtos.java" startline="951" endline="960" pcid="2601"></source>
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/AddressBookProtos.java" startline="1580" endline="1590" pcid="2718"></source>
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/AddressBookProtos.java" startline="818" endline="828" pcid="2582"></source>
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/AddressBookProtos.java" startline="804" endline="813" pcid="2579"></source>
+</class>
+
+<class classid="59" nclones="2" nlines="10" similarity="100">
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/AddressBookProtos.java" startline="529" endline="540" pcid="2525"></source>
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/Calc.java" startline="891" endline="902" pcid="3062"></source>
+</class>
+
+<class classid="60" nclones="5" nlines="15" similarity="70">
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/AddressBookProtos.java" startline="555" endline="570" pcid="2530"></source>
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/Calc.java" startline="385" endline="403" pcid="2974"></source>
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/Calc.java" startline="914" endline="926" pcid="3066"></source>
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/AddressBookProtos.java" startline="1124" endline="1145" pcid="2630"></source>
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/AddressBookProtos.java" startline="2095" endline="2107" pcid="2811"></source>
+</class>
+
+<class classid="61" nclones="2" nlines="18" similarity="75">
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/AddressBookProtos.java" startline="721" endline="737" pcid="2562"></source>
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/Calc.java" startline="552" endline="572" pcid="3007"></source>
+</class>
+
+<class classid="62" nclones="5" nlines="16" similarity="87">
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/AddressBookProtos.java" startline="773" endline="787" pcid="2573"></source>
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/AddressBookProtos.java" startline="1407" endline="1421" pcid="2693"></source>
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/Calc.java" startline="616" endline="629" pcid="3022"></source>
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/Calc.java" startline="1113" endline="1126" pcid="3106"></source>
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/AddressBookProtos.java" startline="2333" endline="2347" pcid="2863"></source>
+</class>
+
+<class classid="63" nclones="4" nlines="18" similarity="71">
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/AddressBookProtos.java" startline="1082" endline="1103" pcid="2620"></source>
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/Calc.java" startline="348" endline="367" pcid="2966"></source>
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/AddressBookProtos.java" startline="1388" endline="1404" pcid="2688"></source>
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/Calc.java" startline="599" endline="613" pcid="3018"></source>
+</class>
+
+<class classid="64" nclones="4" nlines="13" similarity="71">
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/AddressBookProtos.java" startline="1359" endline="1370" pcid="2680"></source>
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/AddressBookProtos.java" startline="2293" endline="2304" pcid="2852"></source>
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/AddressBookProtos.java" startline="2304" endline="2317" pcid="2856"></source>
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/AddressBookProtos.java" startline="1370" endline="1383" pcid="2684"></source>
+</class>
+
+<class classid="65" nclones="19" nlines="12" similarity="71">
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/AddressBookProtos.java" startline="1679" endline="1691" pcid="2737"></source>
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/AddressBookProtos.java" startline="2497" endline="2506" pcid="2900"></source>
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/AddressBookProtos.java" startline="1711" endline="1723" pcid="2744"></source>
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/AddressBookProtos.java" startline="1777" endline="1786" pcid="2758"></source>
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/AddressBookProtos.java" startline="1729" endline="1741" pcid="2748"></source>
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/AddressBookProtos.java" startline="2450" endline="2462" pcid="2890"></source>
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/AddressBookProtos.java" startline="2401" endline="2413" pcid="2879"></source>
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/AddressBookProtos.java" startline="2433" endline="2445" pcid="2886"></source>
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/AddressBookProtos.java" startline="1791" endline="1800" pcid="2761"></source>
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/AddressBookProtos.java" startline="1805" endline="1814" pcid="2764"></source>
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/AddressBookProtos.java" startline="2419" endline="2428" pcid="2883"></source>
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/AddressBookProtos.java" startline="1762" endline="1771" pcid="2755"></source>
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/AddressBookProtos.java" startline="1747" endline="1756" pcid="2752"></source>
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/AddressBookProtos.java" startline="1697" endline="1706" pcid="2741"></source>
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/AddressBookProtos.java" startline="2467" endline="2476" pcid="2894"></source>
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/AddressBookProtos.java" startline="2525" endline="2534" pcid="2906"></source>
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/AddressBookProtos.java" startline="2482" endline="2491" pcid="2897"></source>
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/AddressBookProtos.java" startline="2511" endline="2520" pcid="2903"></source>
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/AddressBookProtos.java" startline="2233" endline="2242" pcid="2836"></source>
+</class>
+
+<class classid="66" nclones="2" nlines="16" similarity="70">
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/AddressBookProtos.java" startline="2625" endline="2656" pcid="2923"></source>
+<source file="mina-2.0.07-M01/protobuf/src/test/java/org/apache/mina/generated/protoc/Calc.java" startline="1191" endline="1214" pcid="3117"></source>
+</class>
+
+<class classid="67" nclones="5" nlines="12" similarity="71">
+<source file="mina-2.0.07-M01/thrift/src/test/java/org/apache/mina/generated/thrift/UserProfile.java" startline="293" endline="306" pcid="3195"></source>
+<source file="mina-2.0.07-M01/thrift/src/test/java/org/apache/mina/generated/thrift/UserProfile.java" startline="309" endline="323" pcid="3196"></source>
+<source file="mina-2.0.07-M01/thrift/src/test/java/org/apache/mina/generated/thrift/UserStorage.java" startline="1097" endline="1107" pcid="3422"></source>
+<source file="mina-2.0.07-M01/thrift/src/test/java/org/apache/mina/generated/thrift/UserStorage.java" startline="460" endline="470" pcid="3317"></source>
+<source file="mina-2.0.07-M01/thrift/src/test/java/org/apache/mina/generated/thrift/UserStorage.java" startline="1464" endline="1474" pcid="3483"></source>
+</class>
+
+<class classid="68" nclones="3" nlines="12" similarity="100">
+<source file="mina-2.0.07-M01/thrift/src/test/java/org/apache/mina/generated/thrift/UserStorage.java" startline="437" endline="448" pcid="3313"></source>
+<source file="mina-2.0.07-M01/thrift/src/test/java/org/apache/mina/generated/thrift/UserStorage.java" startline="1441" endline="1452" pcid="3479"></source>
+<source file="mina-2.0.07-M01/thrift/src/test/java/org/apache/mina/generated/thrift/UserStorage.java" startline="1074" endline="1085" pcid="3418"></source>
+</class>
+
+<class classid="69" nclones="3" nlines="10" similarity="70">
+<source file="mina-2.0.07-M01/thrift/src/test/java/org/apache/mina/generated/thrift/UserStorage.java" startline="481" endline="495" pcid="3320"></source>
+<source file="mina-2.0.07-M01/thrift/src/test/java/org/apache/mina/generated/thrift/UserStorage.java" startline="1118" endline="1132" pcid="3425"></source>
+<source file="mina-2.0.07-M01/thrift/src/test/java/org/apache/mina/generated/thrift/UserStorage.java" startline="1485" endline="1499" pcid="3486"></source>
+</class>
+
+<class classid="70" nclones="3" nlines="18" similarity="100">
+<source file="mina-2.0.07-M01/thrift/src/test/java/org/apache/mina/generated/thrift/UserStorage.java" startline="509" endline="528" pcid="3323"></source>
+<source file="mina-2.0.07-M01/thrift/src/test/java/org/apache/mina/generated/thrift/UserStorage.java" startline="1146" endline="1165" pcid="3428"></source>
+<source file="mina-2.0.07-M01/thrift/src/test/java/org/apache/mina/generated/thrift/UserStorage.java" startline="1513" endline="1532" pcid="3489"></source>
+</class>
+
+<class classid="71" nclones="2" nlines="14" similarity="85">
+<source file="mina-2.0.07-M01/thrift/src/test/java/org/apache/mina/generated/thrift/UserStorage.java" startline="543" endline="556" pcid="3331"></source>
+<source file="mina-2.0.07-M01/thrift/src/test/java/org/apache/mina/generated/thrift/UserStorage.java" startline="1547" endline="1560" pcid="3497"></source>
+</class>
+
+<class classid="72" nclones="3" nlines="27" similarity="92">
+<source file="mina-2.0.07-M01/thrift/src/test/java/org/apache/mina/generated/thrift/UserStorage.java" startline="593" endline="620" pcid="3343"></source>
+<source file="mina-2.0.07-M01/thrift/src/test/java/org/apache/mina/generated/thrift/UserStorage.java" startline="1597" endline="1624" pcid="3509"></source>
+<source file="mina-2.0.07-M01/thrift/src/test/java/org/apache/mina/generated/thrift/UserStorage.java" startline="1225" endline="1251" pcid="3445"></source>
+</class>
+
+<class classid="73" nclones="2" nlines="11" similarity="100">
+<source file="mina-2.0.07-M01/thrift/src/test/java/org/apache/mina/generated/thrift/UserStorage.java" startline="623" endline="634" pcid="3348"></source>
+<source file="mina-2.0.07-M01/thrift/src/test/java/org/apache/mina/generated/thrift/UserStorage.java" startline="1627" endline="1638" pcid="3514"></source>
+</class>
+
+<class classid="74" nclones="3" nlines="11" similarity="90">
+<source file="mina-2.0.07-M01/thrift/src/test/java/org/apache/mina/generated/thrift/UserStorage.java" startline="648" endline="658" pcid="3351"></source>
+<source file="mina-2.0.07-M01/thrift/src/test/java/org/apache/mina/generated/thrift/UserStorage.java" startline="1652" endline="1662" pcid="3517"></source>
+<source file="mina-2.0.07-M01/thrift/src/test/java/org/apache/mina/generated/thrift/UserStorage.java" startline="1277" endline="1287" pcid="3452"></source>
+</class>
+
+</clones>

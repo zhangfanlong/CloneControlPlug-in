@@ -1,0 +1,773 @@
+<clones>
+<systeminfo processor="nicad5" system="jEdit-3.0.2" granularity="blocks-blind" threshold="30%" minlines="10" maxlines="2500"/>
+<cloneinfo npcs="6821" npairs="1367"/>
+<runinfo ncompares="528250" cputime="280"/>
+<classinfo nclasses="107"/>
+
+<class classid="1" nclones="2" nlines="14" similarity="78">
+<source file="JEdit-3.0.2/bsh/BSHAllocationExpression.java" startline="77" endline="99" pcid="68"></source>
+<source file="JEdit-3.0.2/bsh/BSHAllocationExpression.java" startline="103" endline="124" pcid="72"></source>
+</class>
+
+<class classid="2" nclones="2" nlines="19" similarity="70">
+<source file="JEdit-3.0.2/bsh/BSHForStatement.java" startline="59" endline="90" pcid="140"></source>
+<source file="JEdit-3.0.2/bsh/BSHWhileStatement.java" startline="44" endline="67" pcid="262"></source>
+</class>
+
+<class classid="3" nclones="2" nlines="22" similarity="79">
+<source file="JEdit-3.0.2/bsh/BSHLHSPrimarySuffix.java" startline="44" endline="70" pcid="151"></source>
+<source file="JEdit-3.0.2/bsh/BSHPrimarySuffix.java" startline="48" endline="96" pcid="203"></source>
+</class>
+
+<class classid="4" nclones="2" nlines="13" similarity="84">
+<source file="JEdit-3.0.2/bsh/BSHLHSPrimarySuffix.java" startline="75" endline="90" pcid="155"></source>
+<source file="JEdit-3.0.2/bsh/BSHPrimarySuffix.java" startline="105" endline="121" pcid="207"></source>
+</class>
+
+<class classid="5" nclones="2" nlines="12" similarity="91">
+<source file="JEdit-3.0.2/bsh/BSHLHSPrimarySuffix.java" startline="93" endline="109" pcid="159"></source>
+<source file="JEdit-3.0.2/bsh/BSHPrimarySuffix.java" startline="124" endline="140" pcid="211"></source>
+</class>
+
+<class classid="6" nclones="14" nlines="10" similarity="70">
+<source file="JEdit-3.0.2/bsh/BshMethod.java" startline="48" endline="62" pcid="175"></source>
+<source file="JEdit-3.0.2/gnu/regexp/CharIndexedInputStream.java" startline="72" endline="80" pcid="2422"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/gui/OptionsDialog.java" startline="283" endline="295" pcid="4219"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/util/WorkThreadPool.java" startline="147" endline="159" pcid="6786"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/JARClassLoader.java" startline="135" endline="149" pcid="4597"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/util/Log.java" startline="133" endline="145" pcid="6711"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/search/HyperSearchResult.java" startline="49" endline="63" pcid="5470"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/gui/EnhancedCheckBoxMenuItem.java" startline="133" endline="146" pcid="3973"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/gui/HelpViewer.java" startline="261" endline="274" pcid="4047"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/syntax/TokenMarker.java" startline="158" endline="172" pcid="5737"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/jEdit.java" startline="1352" endline="1366" pcid="4764"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/Registers.java" startline="455" endline="468" pcid="5357"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/util/Log.java" startline="152" endline="165" pcid="6715"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/JARClassLoader.java" startline="321" endline="332" pcid="4623"></source>
+</class>
+
+<class classid="7" nclones="18" nlines="34" similarity="70">
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="672" endline="718" pcid="377"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="3264" endline="3320" pcid="783"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="3103" endline="3151" pcid="762"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="3173" endline="3214" pcid="774"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="3257" endline="3322" pcid="782"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="1368" endline="1398" pcid="501"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="3276" endline="3319" pcid="784"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="3574" endline="3601" pcid="834"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="2832" endline="2859" pcid="712"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="912" endline="941" pcid="422"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="3770" endline="3801" pcid="873"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="3578" endline="3600" pcid="836"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="3179" endline="3213" pcid="777"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="2184" endline="2204" pcid="601"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="3233" endline="3253" pcid="781"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="1207" endline="1232" pcid="479"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="2268" endline="2288" pcid="608"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="1371" endline="1397" pcid="503"></source>
+</class>
+
+<class classid="8" nclones="26" nlines="57" similarity="70">
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="736" endline="783" pcid="380"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="3603" endline="3657" pcid="837"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="1201" endline="1252" pcid="478"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="2374" endline="2416" pcid="626"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="2899" endline="2954" pcid="725"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="2567" endline="2609" pcid="665"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="1085" endline="1134" pcid="451"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="3342" endline="3383" pcid="786"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="812" endline="856" pcid="398"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="3855" endline="3909" pcid="896"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="3659" endline="3700" pcid="850"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="2326" endline="2372" pcid="612"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="858" endline="899" pcid="410"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="2826" endline="2879" pcid="711"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="1139" endline="1199" pcid="465"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="3764" endline="3821" pcid="872"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="1017" endline="1075" pcid="438"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="3823" endline="3853" pcid="884"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="1400" endline="1431" pcid="504"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="3385" endline="3417" pcid="798"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="1491" endline="1529" pcid="518"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="3423" endline="3461" pcid="810"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="2956" endline="3021" pcid="739"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="3097" endline="3171" pcid="761"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="943" endline="1015" pcid="423"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="2420" endline="2481" pcid="639"></source>
+</class>
+
+<class classid="9" nclones="4" nlines="14" similarity="70">
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="749" endline="762" pcid="383"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="791" endline="803" pcid="396"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="3324" endline="3340" pcid="785"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="2338" endline="2351" pcid="615"></source>
+</class>
+
+<class classid="10" nclones="30" nlines="22" similarity="100">
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="763" endline="777" pcid="384"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="3833" endline="3847" pcid="886"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="3801" endline="3815" pcid="874"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="2666" endline="2680" pcid="681"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="1179" endline="1193" pcid="468"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="2778" endline="2792" pcid="696"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="1504" endline="1518" pcid="520"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="2859" endline="2873" pcid="713"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="1411" endline="1425" pcid="506"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="3552" endline="3566" pcid="824"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="3441" endline="3455" pcid="812"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="2540" endline="2554" pcid="655"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="3151" endline="3165" pcid="764"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="3001" endline="3015" pcid="747"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="1055" endline="1069" pcid="441"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="3397" endline="3411" pcid="800"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="2455" endline="2469" pcid="641"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="995" endline="1009" pcid="428"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="1232" endline="1246" pcid="480"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="3637" endline="3651" pcid="840"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="2352" endline="2366" pcid="616"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="1114" endline="1128" pcid="455"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="2934" endline="2948" pcid="729"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="3889" endline="3903" pcid="899"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="879" endline="893" pcid="412"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="2589" endline="2603" pcid="668"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="3363" endline="3377" pcid="788"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="3680" endline="3694" pcid="853"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="2396" endline="2410" pcid="629"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="836" endline="850" pcid="400"></source>
+</class>
+
+<class classid="11" nclones="2" nlines="22" similarity="86">
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="785" endline="804" pcid="394"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="2332" endline="2352" pcid="613"></source>
+</class>
+
+<class classid="12" nclones="4" nlines="15" similarity="73">
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="818" endline="836" pcid="399"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="3712" endline="3727" pcid="865"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="3741" endline="3756" pcid="869"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="864" endline="879" pcid="411"></source>
+</class>
+
+<class classid="13" nclones="7" nlines="13" similarity="71">
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="1037" endline="1048" pcid="440"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="2882" endline="2897" pcid="723"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="3621" endline="3632" pcid="839"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="3665" endline="3680" pcid="851"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="2380" endline="2396" pcid="627"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="3865" endline="3879" pcid="898"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="2573" endline="2589" pcid="666"></source>
+</class>
+
+<class classid="14" nclones="3" nlines="12" similarity="75">
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="1166" endline="1178" pcid="467"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="3668" endline="3679" pcid="852"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="2885" endline="2896" pcid="724"></source>
+</class>
+
+<class classid="15" nclones="9" nlines="46" similarity="76">
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="1531" endline="1574" pcid="530"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="1576" endline="1619" pcid="535"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="1993" endline="2040" pcid="579"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="1948" endline="1991" pcid="574"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="1699" endline="1742" pcid="550"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="1621" endline="1664" pcid="540"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="1744" endline="1787" pcid="555"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="1887" endline="1946" pcid="569"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="1818" endline="1885" pcid="564"></source>
+</class>
+
+<class classid="16" nclones="2" nlines="30" similarity="80">
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="1666" endline="1697" pcid="545"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="1789" endline="1816" pcid="560"></source>
+</class>
+
+<class classid="17" nclones="2" nlines="63" similarity="84">
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="2042" endline="2102" pcid="584"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="2146" endline="2206" pcid="596"></source>
+</class>
+
+<class classid="18" nclones="2" nlines="21" similarity="100">
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="2104" endline="2123" pcid="588"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="2125" endline="2144" pcid="592"></source>
+</class>
+
+<class classid="19" nclones="2" nlines="85" similarity="85">
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="2483" endline="2560" pcid="651"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="2611" endline="2686" pcid="678"></source>
+</class>
+
+<class classid="20" nclones="2" nlines="27" similarity="96">
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="3706" endline="3733" pcid="864"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="3735" endline="3762" pcid="868"></source>
+</class>
+
+<class classid="21" nclones="68" nlines="14" similarity="71">
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="4058" endline="4068" pcid="930"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="4736" endline="4746" pcid="1054"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="4430" endline="4440" pcid="997"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="4336" endline="4346" pcid="980"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="5206" endline="5216" pcid="1135"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="4134" endline="4144" pcid="946"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="4994" endline="5004" pcid="1101"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="5012" endline="5022" pcid="1105"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="4178" endline="4188" pcid="953"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="5832" endline="5842" pcid="1236"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="4387" endline="4397" pcid="989"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="4245" endline="4255" pcid="964"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="5429" endline="5439" pcid="1170"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="4606" endline="4616" pcid="1032"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="4269" endline="4279" pcid="969"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="4710" endline="4720" pcid="1049"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="4652" endline="4665" pcid="1041"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="4582" endline="4594" pcid="1028"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="5476" endline="5487" pcid="1177"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="5881" endline="5891" pcid="1245"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="4919" endline="4933" pcid="1088"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="4826" endline="4835" pcid="1069"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="5672" endline="5684" pcid="1208"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="5063" endline="5072" pcid="1112"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="5166" endline="5178" pcid="1129"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="4677" endline="4686" pcid="1044"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="5230" endline="5239" pcid="1140"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="5465" endline="5474" pcid="1175"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="5495" endline="5504" pcid="1180"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="4983" endline="4992" pcid="1099"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="5528" endline="5540" pcid="1185"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="5862" endline="5873" pcid="1242"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="5784" endline="5795" pcid="1227"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="4311" endline="4322" pcid="976"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="4641" endline="4650" pcid="1039"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="5659" endline="5670" pcid="1206"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="4374" endline="4385" pcid="987"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="5597" endline="5609" pcid="1196"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="4220" endline="4231" pcid="960"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="4618" endline="4627" pcid="1035"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="4070" endline="4081" pcid="933"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="4884" endline="4893" pcid="1082"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="4417" endline="4428" pcid="995"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="4858" endline="4871" pcid="1077"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="5380" endline="5395" pcid="1161"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="4523" endline="4536" pcid="1020"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="5720" endline="5734" pcid="1216"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="5553" endline="5566" pcid="1189"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="5091" endline="5104" pcid="1118"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="5305" endline="5320" pcid="1149"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="5797" endline="5812" pcid="1229"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="4112" endline="4125" pcid="942"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="5922" endline="5935" pcid="1254"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="5383" endline="5393" pcid="1162"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="4114" endline="4124" pcid="943"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="5555" endline="5565" pcid="1190"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="5308" endline="5318" pcid="1150"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="5093" endline="5103" pcid="1119"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="4525" endline="4535" pcid="1021"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="4860" endline="4870" pcid="1078"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="5924" endline="5934" pcid="1255"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="5800" endline="5810" pcid="1230"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="4856" endline="4872" pcid="1076"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="4521" endline="4537" pcid="1019"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="5920" endline="5936" pcid="1253"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="4110" endline="4126" pcid="941"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="5551" endline="5567" pcid="1188"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="5089" endline="5105" pcid="1117"></source>
+</class>
+
+<class classid="22" nclones="8" nlines="34" similarity="70">
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="4103" endline="4132" pcid="938"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="5917" endline="5940" pcid="1252"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="5084" endline="5108" pcid="1115"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="5542" endline="5569" pcid="1187"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="4849" endline="4876" pcid="1073"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="4509" endline="4543" pcid="1013"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="4515" endline="4540" pcid="1016"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="4511" endline="4542" pcid="1014"></source>
+</class>
+
+<class classid="23" nclones="7" nlines="11" similarity="78">
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="4208" endline="4218" pcid="959"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="5635" endline="5645" pcid="1203"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="4748" endline="4758" pcid="1057"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="5024" endline="5034" pcid="1108"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="5036" endline="5049" pcid="1109"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="5132" endline="5142" pcid="1125"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="5269" endline="5279" pcid="1145"></source>
+</class>
+
+<class classid="24" nclones="5" nlines="11" similarity="81">
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="4299" endline="4309" pcid="975"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="5577" endline="5587" pcid="1194"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="5241" endline="5251" pcid="1142"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="5441" endline="5451" pcid="1173"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="5453" endline="5463" pcid="1174"></source>
+</class>
+
+<class classid="25" nclones="6" nlines="11" similarity="75">
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="5966" endline="5974" pcid="1259"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="5987" endline="5995" pcid="1261"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="6017" endline="6025" pcid="1264"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="5976" endline="5985" pcid="1260"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="6008" endline="6015" pcid="1263"></source>
+<source file="JEdit-3.0.2/bsh/Interpreter.java" startline="5997" endline="6006" pcid="1262"></source>
+</class>
+
+<class classid="26" nclones="6" nlines="17" similarity="70">
+<source file="JEdit-3.0.2/bsh/InterpreterTokenManager.java" startline="1047" endline="1063" pcid="1405"></source>
+<source file="JEdit-3.0.2/bsh/InterpreterTokenManager.java" startline="1065" endline="1081" pcid="1408"></source>
+<source file="JEdit-3.0.2/bsh/InterpreterTokenManager.java" startline="1101" endline="1117" pcid="1414"></source>
+<source file="JEdit-3.0.2/bsh/InterpreterTokenManager.java" startline="1119" endline="1135" pcid="1417"></source>
+<source file="JEdit-3.0.2/bsh/InterpreterTokenManager.java" startline="1137" endline="1153" pcid="1420"></source>
+<source file="JEdit-3.0.2/bsh/InterpreterTokenManager.java" startline="1083" endline="1099" pcid="1411"></source>
+</class>
+
+<class classid="27" nclones="2" nlines="12" similarity="91">
+<source file="JEdit-3.0.2/bsh/JJTInterpreterState.java" startline="103" endline="113" pcid="1486"></source>
+<source file="JEdit-3.0.2/bsh/JJTInterpreterState.java" startline="122" endline="133" pcid="1489"></source>
+</class>
+
+<class classid="28" nclones="2" nlines="15" similarity="73">
+<source file="JEdit-3.0.2/bsh/NameSpace.java" startline="599" endline="618" pcid="1719"></source>
+<source file="JEdit-3.0.2/bsh/NameSpace.java" startline="621" endline="640" pcid="1722"></source>
+</class>
+
+<class classid="29" nclones="2" nlines="45" similarity="100">
+<source file="JEdit-3.0.2/bsh/ParseException.java" startline="166" endline="209" pcid="1747"></source>
+<source file="JEdit-3.0.2/bsh/TokenMgrError.java" startline="40" endline="83" pcid="1930"></source>
+</class>
+
+<class classid="30" nclones="4" nlines="47" similarity="72">
+<source file="JEdit-3.0.2/bsh/Primitive.java" startline="204" endline="276" pcid="1777"></source>
+<source file="JEdit-3.0.2/bsh/Primitive.java" startline="418" endline="475" pcid="1780"></source>
+<source file="JEdit-3.0.2/bsh/Primitive.java" startline="357" endline="414" pcid="1779"></source>
+<source file="JEdit-3.0.2/bsh/Primitive.java" startline="280" endline="352" pcid="1778"></source>
+</class>
+
+<class classid="31" nclones="2" nlines="17" similarity="88">
+<source file="JEdit-3.0.2/bsh/Primitive.java" startline="579" endline="602" pcid="1791"></source>
+<source file="JEdit-3.0.2/bsh/Primitive.java" startline="605" endline="628" pcid="1792"></source>
+</class>
+
+<class classid="32" nclones="2" nlines="11" similarity="81">
+<source file="JEdit-3.0.2/bsh/Primitive.java" startline="631" endline="645" pcid="1793"></source>
+<source file="JEdit-3.0.2/bsh/Primitive.java" startline="648" endline="662" pcid="1794"></source>
+</class>
+
+<class classid="33" nclones="2" nlines="21" similarity="90">
+<source file="JEdit-3.0.2/bsh/Reflect.java" startline="437" endline="472" pcid="1848"></source>
+<source file="JEdit-3.0.2/bsh/Reflect.java" startline="511" endline="541" pcid="1858"></source>
+</class>
+
+<class classid="34" nclones="2" nlines="20" similarity="85">
+<source file="JEdit-3.0.2/bsh/Reflect.java" startline="481" endline="504" pcid="1853"></source>
+<source file="JEdit-3.0.2/bsh/Reflect.java" startline="549" endline="575" pcid="1863"></source>
+</class>
+
+<class classid="35" nclones="2" nlines="11" similarity="72">
+<source file="JEdit-3.0.2/bsh/Reflect.java" startline="641" endline="657" pcid="1873"></source>
+<source file="JEdit-3.0.2/bsh/Reflect.java" startline="661" endline="677" pcid="1876"></source>
+</class>
+
+<class classid="36" nclones="2" nlines="16" similarity="87">
+<source file="JEdit-3.0.2/com/microstar/xml/XmlParser.java" startline="785" endline="800" pcid="2009"></source>
+<source file="JEdit-3.0.2/com/microstar/xml/XmlParser.java" startline="803" endline="819" pcid="2013"></source>
+</class>
+
+<class classid="37" nclones="2" nlines="12" similarity="83">
+<source file="JEdit-3.0.2/com/microstar/xml/XmlParser.java" startline="3663" endline="3677" pcid="2348"></source>
+<source file="JEdit-3.0.2/com/microstar/xml/XmlParser.java" startline="3729" endline="3739" pcid="2355"></source>
+</class>
+
+<class classid="38" nclones="2" nlines="12" similarity="75">
+<source file="JEdit-3.0.2/gnu/regexp/RE.java" startline="868" endline="880" pcid="2511"></source>
+<source file="JEdit-3.0.2/gnu/regexp/RE.java" startline="1173" endline="1187" pcid="2540"></source>
+</class>
+
+<class classid="39" nclones="2" nlines="12" similarity="83">
+<source file="JEdit-3.0.2/gnu/regexp/RE.java" startline="910" endline="922" pcid="2517"></source>
+<source file="JEdit-3.0.2/gnu/regexp/RETokenRepeated.java" startline="61" endline="71" pcid="2650"></source>
+</class>
+
+<class classid="40" nclones="7" nlines="14" similarity="73">
+<source file="JEdit-3.0.2/installer/SwingProgress.java" startline="94" endline="110" pcid="2736"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/EditServer.java" startline="153" endline="169" pcid="3759"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/gui/SplashScreen.java" startline="66" endline="81" pcid="4288"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/EditServer.java" startline="193" endline="209" pcid="3767"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/EditServer.java" startline="173" endline="189" pcid="3763"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/search/BufferListSet.java" startline="104" endline="124" pcid="5423"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/search/BufferListSet.java" startline="150" endline="170" pcid="5431"></source>
+</class>
+
+<class classid="41" nclones="6" nlines="10" similarity="70">
+<source file="JEdit-3.0.2/installer/SwingProgress.java" startline="113" endline="126" pcid="2740"></source>
+<source file="JEdit-3.0.2/installer/SwingProgress.java" startline="129" endline="142" pcid="2742"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/EditServer.java" startline="139" endline="149" pcid="3757"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/Buffer.java" startline="2060" endline="2074" pcid="3554"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/search/HyperSearchResults.java" startline="153" endline="169" pcid="5494"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/textarea/Gutter.java" startline="212" endline="229" pcid="5956"></source>
+</class>
+
+<class classid="42" nclones="2" nlines="13" similarity="100">
+<source file="JEdit-3.0.2/installer/Wizard.java" startline="153" endline="170" pcid="2758"></source>
+<source file="JEdit-3.0.2/installer/Wizard.java" startline="173" endline="190" pcid="2760"></source>
+</class>
+
+<class classid="43" nclones="3" nlines="14" similarity="71">
+<source file="JEdit-3.0.2/jars/PluginManager/InstallPluginsDialog.java" startline="185" endline="206" pcid="2824"></source>
+<source file="JEdit-3.0.2/jars/PluginManager/UpdatePluginsDialog.java" startline="146" endline="165" pcid="2972"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/browser/BrowserView.java" startline="66" endline="84" pcid="3181"></source>
+</class>
+
+<class classid="44" nclones="2" nlines="24" similarity="88">
+<source file="JEdit-3.0.2/jars/PluginManager/InstallPluginsDialog.java" startline="239" endline="264" pcid="2828"></source>
+<source file="JEdit-3.0.2/jars/PluginManager/UpdatePluginsDialog.java" startline="197" endline="228" pcid="2975"></source>
+</class>
+
+<class classid="45" nclones="13" nlines="11" similarity="70">
+<source file="JEdit-3.0.2/jars/PluginManager/JCheckBoxList.java" startline="120" endline="131" pcid="2850"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/options/DockingOptionPane.java" startline="199" endline="212" pcid="5164"></source>
+<source file="JEdit-3.0.2/jars/PluginManager/JCheckBoxList.java" startline="134" endline="144" pcid="2851"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/options/ColorOptionPane.java" startline="157" endline="168" pcid="5109"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/options/AbbrevsOptionPane.java" startline="219" endline="233" pcid="5086"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/options/ShortcutsOptionPane.java" startline="140" endline="153" pcid="5229"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/options/DockingOptionPane.java" startline="185" endline="196" pcid="5163"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/options/StyleOptionPane.java" startline="139" endline="150" pcid="5247"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/options/ColorOptionPane.java" startline="179" endline="189" pcid="5111"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/options/ShortcutsOptionPane.java" startline="170" endline="180" pcid="5232"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/options/AbbrevsOptionPane.java" startline="263" endline="273" pcid="5090"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/options/StyleOptionPane.java" startline="161" endline="171" pcid="5249"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/options/DockingOptionPane.java" startline="241" endline="253" pcid="5167"></source>
+</class>
+
+<class classid="46" nclones="3" nlines="11" similarity="72">
+<source file="JEdit-3.0.2/jars/PluginManager/PluginManagerPlugin.java" startline="176" endline="189" pcid="2946"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/jEdit.java" startline="670" endline="681" pcid="4694"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/browser/VFSFileChooserDialog.java" startline="175" endline="187" pcid="3349"></source>
+</class>
+
+<class classid="47" nclones="2" nlines="14" similarity="71">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/Abbrevs.java" startline="273" endline="290" pcid="3008"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/jEdit.java" startline="2181" endline="2198" pcid="4848"></source>
+</class>
+
+<class classid="48" nclones="5" nlines="10" similarity="70">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/Abbrevs.java" startline="322" endline="333" pcid="3018"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/jEdit.java" startline="1823" endline="1836" pcid="4819"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/gui/HelpViewer.java" startline="50" endline="62" pcid="4023"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/util/WorkThreadPool.java" startline="330" endline="345" pcid="6812"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/EditBus.java" startline="99" endline="112" pcid="3652"></source>
+</class>
+
+<class classid="49" nclones="2" nlines="28" similarity="89">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/BeanShell.java" startline="193" endline="235" pcid="3096"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/BeanShell.java" startline="255" endline="294" pcid="3102"></source>
+</class>
+
+<class classid="50" nclones="2" nlines="17" similarity="94">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/browser/BrowserIORequest.java" startline="75" endline="93" pcid="3122"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/io/BufferIORequest.java" startline="98" endline="114" pcid="4387"></source>
+</class>
+
+<class classid="51" nclones="4" nlines="28" similarity="75">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/browser/BrowserIORequest.java" startline="131" endline="168" pcid="3124"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/browser/BrowserIORequest.java" startline="207" endline="249" pcid="3140"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/browser/BrowserIORequest.java" startline="252" endline="285" pcid="3149"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/browser/BrowserIORequest.java" startline="171" endline="204" pcid="3132"></source>
+</class>
+
+<class classid="52" nclones="2" nlines="10" similarity="80">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/browser/VFSBrowser.java" startline="846" endline="857" pcid="3327"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/browser/VFSBrowser.java" startline="881" endline="892" pcid="3331"></source>
+</class>
+
+<class classid="53" nclones="2" nlines="10" similarity="90">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/browser/VFSFileChooserDialog.java" startline="145" endline="156" pcid="3344"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/browser/VFSFileChooserDialog.java" startline="259" endline="273" pcid="3358"></source>
+</class>
+
+<class classid="54" nclones="2" nlines="19" similarity="100">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/Buffer.java" startline="996" endline="1021" pcid="3451"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/Buffer.java" startline="1030" endline="1055" pcid="3456"></source>
+</class>
+
+<class classid="55" nclones="2" nlines="26" similarity="92">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/Buffer.java" startline="1200" endline="1237" pcid="3473"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/Buffer.java" startline="1245" endline="1279" pcid="3478"></source>
+</class>
+
+<class classid="56" nclones="2" nlines="14" similarity="85">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/Buffer.java" startline="1934" endline="1954" pcid="3543"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/Buffer.java" startline="1962" endline="1981" pcid="3546"></source>
+</class>
+
+<class classid="57" nclones="2" nlines="16" similarity="93">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/gui/CloseDialog.java" startline="130" endline="150" pcid="3818"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/gui/CloseDialog.java" startline="152" endline="170" pcid="3821"></source>
+</class>
+
+<class classid="58" nclones="2" nlines="10" similarity="100">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/gui/DockableWindowManager.java" startline="434" endline="450" pcid="3943"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/gui/DockableWindowManager.java" startline="453" endline="469" pcid="3946"></source>
+</class>
+
+<class classid="59" nclones="2" nlines="16" similarity="82">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/gui/EnhancedCheckBoxMenuItem.java" startline="40" endline="61" pcid="3963"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/gui/EnhancedMenuItem.java" startline="41" endline="68" pcid="3992"></source>
+</class>
+
+<class classid="60" nclones="2" nlines="11" similarity="100">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/gui/EnhancedCheckBoxMenuItem.java" startline="78" endline="96" pcid="3968"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/gui/EnhancedMenuItem.java" startline="85" endline="103" pcid="3998"></source>
+</class>
+
+<class classid="61" nclones="2" nlines="12" similarity="100">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/gui/EnhancedDialog.java" startline="72" endline="84" pcid="3980"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/gui/EnhancedDialog.java" startline="87" endline="99" pcid="3983"></source>
+</class>
+
+<class classid="62" nclones="2" nlines="12" similarity="75">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/gui/FontSelector.java" startline="192" endline="208" pcid="4010"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/gui/FontSelector.java" startline="268" endline="282" pcid="4015"></source>
+</class>
+
+<class classid="63" nclones="4" nlines="12" similarity="75">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/gui/HelpViewer.java" startline="259" endline="275" pcid="4046"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/io/BufferIORequest.java" startline="215" endline="229" pcid="4399"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/io/BufferIORequest.java" startline="766" endline="780" pcid="4459"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/io/BufferIORequest.java" startline="588" endline="602" pcid="4432"></source>
+</class>
+
+<class classid="64" nclones="2" nlines="22" similarity="90">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/gui/HistoryTextField.java" startline="183" endline="212" pcid="4090"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/gui/HistoryTextField.java" startline="215" endline="244" pcid="4095"></source>
+</class>
+
+<class classid="65" nclones="4" nlines="11" similarity="72">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/gui/InputHandler.java" startline="173" endline="187" pcid="4126"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/gui/InputHandler.java" startline="270" endline="285" pcid="4137"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/textarea/JEditTextArea.java" startline="1488" endline="1501" pcid="6137"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/gui/InputHandler.java" startline="231" endline="242" pcid="4132"></source>
+</class>
+
+<class classid="66" nclones="4" nlines="12" similarity="100">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/gui/OptionsDialog.java" startline="477" endline="495" pcid="4252"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/gui/OptionsDialog.java" startline="499" endline="517" pcid="4255"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/gui/OptionsDialog.java" startline="521" endline="539" pcid="4258"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/gui/OptionsDialog.java" startline="543" endline="561" pcid="4261"></source>
+</class>
+
+<class classid="67" nclones="2" nlines="15" similarity="80">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/gui/ToolBarModel.java" startline="54" endline="72" pcid="4295"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/gui/ToolBarModel.java" startline="75" endline="92" pcid="4298"></source>
+</class>
+
+<class classid="68" nclones="2" nlines="10" similarity="100">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/GUIUtilities.java" startline="709" endline="725" pcid="4367"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/GUIUtilities.java" startline="728" endline="744" pcid="4370"></source>
+</class>
+
+<class classid="69" nclones="2" nlines="50" similarity="76">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/io/BufferIORequest.java" startline="148" endline="230" pcid="4389"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/io/BufferIORequest.java" startline="717" endline="781" pcid="4451"></source>
+</class>
+
+<class classid="70" nclones="2" nlines="11" similarity="90">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/io/UrlVFS.java" startline="61" endline="73" pcid="4524"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/io/UrlVFS.java" startline="77" endline="90" pcid="4527"></source>
+</class>
+
+<class classid="71" nclones="3" nlines="10" similarity="75">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/io/VFS.java" startline="166" endline="186" pcid="4537"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/io/VFS.java" startline="220" endline="234" pcid="4541"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/io/VFS.java" startline="196" endline="210" pcid="4539"></source>
+</class>
+
+<class classid="72" nclones="2" nlines="12" similarity="83">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/JARClassLoader.java" startline="81" endline="99" pcid="4590"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/JARClassLoader.java" startline="102" endline="119" pcid="4593"></source>
+</class>
+
+<class classid="73" nclones="2" nlines="10" similarity="100">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/jEdit.java" startline="1607" endline="1616" pcid="4792"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/jEdit.java" startline="1726" endline="1735" pcid="4805"></source>
+</class>
+
+<class classid="74" nclones="2" nlines="10" similarity="70">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/jEdit.java" startline="1656" endline="1668" pcid="4798"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/View.java" startline="435" endline="447" pcid="6625"></source>
+</class>
+
+<class classid="75" nclones="2" nlines="22" similarity="90">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/jEdit.java" startline="2328" endline="2360" pcid="4868"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/jEdit.java" startline="2377" endline="2405" pcid="4876"></source>
+</class>
+
+<class classid="76" nclones="2" nlines="23" similarity="75">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/Macros.java" startline="233" endline="264" pcid="4898"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/Macros.java" startline="272" endline="312" pcid="4903"></source>
+</class>
+
+<class classid="77" nclones="3" nlines="15" similarity="70">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/MiscUtilities.java" startline="233" endline="247" pcid="4963"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/MiscUtilities.java" startline="279" endline="296" pcid="4967"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/MiscUtilities.java" startline="256" endline="270" pcid="4965"></source>
+</class>
+
+<class classid="78" nclones="3" nlines="10" similarity="70">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/MiscUtilities.java" startline="236" endline="245" pcid="4964"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/textarea/JEditTextArea.java" startline="3426" endline="3437" pcid="6366"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/MiscUtilities.java" startline="259" endline="268" pcid="4966"></source>
+</class>
+
+<class classid="79" nclones="2" nlines="10" similarity="90">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/options/AbbrevsOptionPane.java" startline="121" endline="130" pcid="5070"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/options/ShortcutsOptionPane.java" startline="74" endline="83" pcid="5221"></source>
+</class>
+
+<class classid="80" nclones="2" nlines="11" similarity="72">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/options/AbbrevsOptionPane.java" startline="194" endline="206" pcid="5081"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/options/MacroShortcutsOptionPane.java" startline="49" endline="61" pcid="5193"></source>
+</class>
+
+<class classid="81" nclones="2" nlines="17" similarity="100">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/options/ColorOptionPane.java" startline="65" endline="81" pcid="5103"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/options/StyleOptionPane.java" startline="65" endline="81" pcid="5241"></source>
+</class>
+
+<class classid="82" nclones="2" nlines="32" similarity="96">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/options/ContextOptionPane.java" startline="197" endline="240" pcid="5138"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/options/ToolBarOptionPane.java" startline="277" endline="320" pcid="5290"></source>
+</class>
+
+<class classid="83" nclones="2" nlines="11" similarity="90">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/search/HyperSearchResults.java" startline="103" endline="119" pcid="5486"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/search/HyperSearchResults.java" startline="121" endline="137" pcid="5489"></source>
+</class>
+
+<class classid="84" nclones="2" nlines="12" similarity="83">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/Sessions.java" startline="43" endline="61" pcid="5623"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/Sessions.java" startline="116" endline="132" pcid="5631"></source>
+</class>
+
+<class classid="85" nclones="6" nlines="15" similarity="86">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/syntax/ParserRuleFactory.java" startline="74" endline="95" pcid="5657"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/syntax/ParserRuleFactory.java" startline="170" endline="189" pcid="5669"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/syntax/ParserRuleFactory.java" startline="99" endline="120" pcid="5660"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/syntax/ParserRuleFactory.java" startline="124" endline="145" pcid="5663"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/syntax/ParserRuleFactory.java" startline="148" endline="167" pcid="5666"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/syntax/ParserRuleFactory.java" startline="192" endline="211" pcid="5672"></source>
+</class>
+
+<class classid="86" nclones="4" nlines="12" similarity="75">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/syntax/XModeHandler.java" startline="273" endline="288" pcid="5887"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/syntax/XModeHandler.java" startline="326" endline="339" pcid="5893"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/syntax/XModeHandler.java" startline="290" endline="306" pcid="5889"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/syntax/XModeHandler.java" startline="308" endline="324" pcid="5891"></source>
+</class>
+
+<class classid="87" nclones="2" nlines="12" similarity="91">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/textarea/JEditTextArea.java" startline="898" endline="914" pcid="6080"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/textarea/JEditTextArea.java" startline="948" endline="964" pcid="6085"></source>
+</class>
+
+<class classid="88" nclones="2" nlines="22" similarity="90">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/textarea/JEditTextArea.java" startline="1660" endline="1688" pcid="6160"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/textarea/JEditTextArea.java" startline="1745" endline="1773" pcid="6175"></source>
+</class>
+
+<class classid="89" nclones="2" nlines="31" similarity="80">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/textarea/JEditTextArea.java" startline="1695" endline="1738" pcid="6167"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/textarea/JEditTextArea.java" startline="1910" endline="1953" pcid="6203"></source>
+</class>
+
+<class classid="90" nclones="2" nlines="15" similarity="86">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/textarea/JEditTextArea.java" startline="1780" endline="1800" pcid="6182"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/textarea/JEditTextArea.java" startline="1883" endline="1903" pcid="6199"></source>
+</class>
+
+<class classid="91" nclones="2" nlines="29" similarity="76">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/textarea/JEditTextArea.java" startline="1839" endline="1876" pcid="6191"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/textarea/JEditTextArea.java" startline="2732" endline="2771" pcid="6287"></source>
+</class>
+
+<class classid="92" nclones="2" nlines="13" similarity="84">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/textarea/JEditTextArea.java" startline="1994" endline="2013" pcid="6214"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/textarea/JEditTextArea.java" startline="2206" endline="2225" pcid="6236"></source>
+</class>
+
+<class classid="93" nclones="2" nlines="16" similarity="87">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/textarea/JEditTextArea.java" startline="2020" endline="2043" pcid="6217"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/textarea/JEditTextArea.java" startline="2232" endline="2254" pcid="6239"></source>
+</class>
+
+<class classid="94" nclones="2" nlines="19" similarity="78">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/textarea/JEditTextArea.java" startline="2050" endline="2076" pcid="6220"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/textarea/JEditTextArea.java" startline="2261" endline="2287" pcid="6242"></source>
+</class>
+
+<class classid="95" nclones="2" nlines="16" similarity="75">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/textarea/JEditTextArea.java" startline="2083" endline="2107" pcid="6224"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/textarea/JEditTextArea.java" startline="2294" endline="2318" pcid="6246"></source>
+</class>
+
+<class classid="96" nclones="2" nlines="13" similarity="76">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/textarea/JEditTextArea.java" startline="2114" endline="2132" pcid="6226"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/textarea/JEditTextArea.java" startline="2325" endline="2343" pcid="6248"></source>
+</class>
+
+<class classid="97" nclones="2" nlines="21" similarity="76">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/textarea/JEditTextArea.java" startline="2139" endline="2168" pcid="6229"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/textarea/JEditTextArea.java" startline="2350" endline="2379" pcid="6251"></source>
+</class>
+
+<class classid="98" nclones="3" nlines="16" similarity="75">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/textarea/JEditTextArea.java" startline="2388" endline="2406" pcid="6255"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/textarea/JEditTextArea.java" startline="4144" endline="4164" pcid="6434"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/textarea/JEditTextArea.java" startline="2415" endline="2433" pcid="6257"></source>
+</class>
+
+<class classid="99" nclones="2" nlines="22" similarity="72">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/textarea/JEditTextArea.java" startline="2584" endline="2614" pcid="6267"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/textarea/JEditTextArea.java" startline="2678" endline="2707" pcid="6279"></source>
+</class>
+
+<class classid="100" nclones="2" nlines="10" similarity="70">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/textarea/JEditTextArea.java" startline="3196" endline="3209" pcid="6349"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/textarea/JEditTextArea.java" startline="3217" endline="3231" pcid="6351"></source>
+</class>
+
+<class classid="101" nclones="2" nlines="21" similarity="100">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/textarea/JEditTextArea.java" startline="3741" endline="3767" pcid="6398"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/textarea/JEditTextArea.java" startline="3770" endline="3796" pcid="6400"></source>
+</class>
+
+<class classid="102" nclones="2" nlines="25" similarity="73">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/textarea/JEditTextArea.java" startline="3919" endline="3958" pcid="6411"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/textarea/JEditTextArea.java" startline="3961" endline="4007" pcid="6415"></source>
+</class>
+
+<class classid="103" nclones="2" nlines="16" similarity="75">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/TextUtilities.java" startline="272" endline="293" pcid="6560"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/TextUtilities.java" startline="303" endline="326" pcid="6563"></source>
+</class>
+
+<class classid="104" nclones="2" nlines="10" similarity="70">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/TextUtilities.java" startline="466" endline="477" pcid="6578"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/TextUtilities.java" startline="479" endline="490" pcid="6579"></source>
+</class>
+
+<class classid="105" nclones="3" nlines="11" similarity="72">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/View.java" startline="290" endline="303" pcid="6606"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/View.java" startline="1168" endline="1180" pcid="6697"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/View.java" startline="310" endline="323" pcid="6609"></source>
+</class>
+
+<class classid="106" nclones="2" nlines="13" similarity="78">
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/View.java" startline="433" endline="448" pcid="6624"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/jedit/View.java" startline="454" endline="473" pcid="6627"></source>
+</class>
+
+<class classid="107" nclones="2" nlines="11" similarity="90">
+<source file="JEdit-3.0.2/org/gjt/sp/util/WorkThreadPool.java" startline="274" endline="302" pcid="6808"></source>
+<source file="JEdit-3.0.2/org/gjt/sp/util/WorkThreadPool.java" startline="358" endline="383" pcid="6817"></source>
+</class>
+
+</clones>

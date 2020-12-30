@@ -1,0 +1,1901 @@
+<clones>
+<systeminfo processor="nicad5" system="jfreechart-0.9.15" granularity="blocks-blind" threshold="30%" minlines="10" maxlines="2500"/>
+<cloneinfo npcs="11477" npairs="10068"/>
+<runinfo ncompares="1138446" cputime="499"/>
+<classinfo nclasses="262"/>
+
+<class classid="1" nclones="9" nlines="10" similarity="70">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/AbstractTitle.java" startline="393" endline="409" pcid="26"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/XYDataItem.java" startline="157" endline="170" pcid="11388"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/TimeSeriesDataItem.java" startline="207" endline="220" pcid="11126"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/TimePeriodValue.java" startline="148" endline="161" pcid="10860"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/SymbolicTickUnit.java" startline="78" endline="89" pcid="1454"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/SymbolicAxis.java" startline="655" endline="665" pcid="1444"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/AbstractCategoryItemRenderer.java" startline="972" endline="981" pcid="6244"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/AbstractCategoryItemRenderer.java" startline="950" endline="962" pcid="6240"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/AbstractCategoryItemRenderer.java" startline="928" endline="940" pcid="6236"></source>
+</class>
+
+<class classid="2" nclones="2" nlines="11" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/AbstractTitle.java" startline="434" endline="446" pcid="31"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/JFreeChart.java" startline="1016" endline="1027" pcid="3319"></source>
+</class>
+
+<class classid="3" nclones="2" nlines="12" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/AbstractTitle.java" startline="455" endline="468" pcid="35"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/AbstractTitle.java" startline="477" endline="490" pcid="36"></source>
+</class>
+
+<class classid="4" nclones="2" nlines="26" similarity="71">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/AbstractTitle.java" startline="499" endline="535" pcid="37"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/TextTitle.java" startline="487" endline="519" pcid="8392"></source>
+</class>
+
+<class classid="5" nclones="68" nlines="17" similarity="70">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/annotations/CategoryTextAnnotation.java" startline="199" endline="223" pcid="58"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CombinedDomainCategoryPlot.java" startline="415" endline="439" pcid="4320"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CombinedRangeXYPlot.java" startline="529" endline="550" pcid="4478"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/labels/StandardCategoryItemLabelGenerator.java" startline="216" endline="237" pcid="3625"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CombinedRangeCategoryPlot.java" startline="411" endline="435" pcid="4421"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/CategoryAxis.java" startline="984" endline="1007" pcid="436"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/DateTickUnit.java" startline="301" endline="327" pcid="768"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CombinedDomainXYPlot.java" startline="524" endline="545" pcid="4374"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/urls/StandardCategoryURLGenerator.java" startline="140" endline="165" pcid="8667"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/XYSeries.java" startline="438" endline="458" pcid="11450"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/TimeSeriesCollection.java" startline="622" endline="643" pcid="11108"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/StandardXYItemRenderer.java" startline="602" endline="627" pcid="7813"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/labels/StandardContourToolTipGenerator.java" startline="104" endline="122" pcid="3639"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/AbstractXYItemRenderer.java" startline="710" endline="734" pcid="6526"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/labels/IntervalCategoryItemLabelGenerator.java" startline="203" endline="224" pcid="3498"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/annotations/XYLineAnnotation.java" startline="143" endline="167" pcid="142"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/Spacer.java" startline="266" endline="287" pcid="8256"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/needle/MeterNeedle.java" startline="339" endline="359" pcid="3868"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/ItemLabelPosition.java" startline="135" endline="157" pcid="7086"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/CategoryLabelPosition.java" startline="140" endline="162" pcid="456"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/NumberAxis.java" startline="1176" endline="1205" pcid="1209"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/MarkerAxisBand.java" startline="209" endline="232" pcid="1111"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/annotations/XYDrawableAnnotation.java" startline="127" endline="150" pcid="135"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/DateAxis.java" startline="271" endline="293" pcid="613"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/AxisSpace.java" startline="352" endline="373" pcid="325"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/Range.java" startline="173" endline="192" pcid="9928"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/BarRenderer.java" startline="801" endline="821" pcid="6686"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/TickUnits.java" startline="443" endline="459" pcid="1493"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/labels/BoxAndWhiskerToolTipGenerator.java" startline="153" endline="169" pcid="3442"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/labels/HighLowToolTipGenerator.java" startline="154" endline="170" pcid="3477"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/DefaultKeyedValue.java" startline="104" endline="127" pcid="9164"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/annotations/XYPointerAnnotation.java" startline="357" endline="383" pcid="167"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/Legend.java" startline="222" endline="239" pcid="3730"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/urls/StandardPieURLGenerator.java" startline="118" endline="135" pcid="8677"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/labels/TimeSeriesToolTipGenerator.java" startline="177" endline="193" pcid="3715"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/FastScatterPlot.java" startline="440" endline="462" pcid="4801"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/labels/StandardXYZToolTipGenerator.java" startline="128" endline="145" pcid="3686"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/labels/StandardXYToolTipGenerator.java" startline="166" endline="182" pcid="3676"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/labels/StandardPieToolTipGenerator.java" startline="139" endline="154" pcid="3662"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/labels/StandardPieItemLabelGenerator.java" startline="138" endline="153" pcid="3651"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/DefaultTableXYDataset.java" startline="358" endline="375" pcid="9356"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/DefaultValueDataset.java" startline="109" endline="125" pcid="9365"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/MatrixSeriesCollection.java" startline="222" endline="238" pcid="9830"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/XYSeriesCollection.java" startline="285" endline="302" pcid="11474"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/TickUnit.java" startline="132" endline="149" pcid="1473"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/DefaultKeyedValueDataset.java" startline="135" endline="153" pcid="9180"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/XYBoxAndWhiskerRenderer.java" startline="654" endline="674" pcid="8016"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/WaterfallBarRenderer.java" startline="371" endline="393" pcid="7932"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/DefaultDrawingSupplier.java" startline="284" endline="324" pcid="4735"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/ui/ColorPalette.java" startline="382" endline="411" pcid="8495"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/needle/ArrowNeedle.java" startline="127" endline="139" pcid="3820"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/DateAxis.java" startline="239" endline="255" pcid="609"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/labels/SymbolicXYToolTipGenerator.java" startline="133" endline="147" pcid="3699"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/CyclicNumberAxis.java" startline="845" endline="873" pcid="597"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/Marker.java" startline="280" endline="307" pcid="3773"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CompassPlot.java" startline="619" endline="646" pcid="4532"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/Plot.java" startline="896" endline="932" pcid="5472"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/JFreeChart.java" startline="1103" endline="1133" pcid="3331"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/needle/PointerNeedle.java" startline="116" endline="127" pcid="3892"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/needle/ShipNeedle.java" startline="93" endline="104" pcid="3898"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/needle/PlumNeedle.java" startline="96" endline="107" pcid="3883"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/needle/PinNeedle.java" startline="108" endline="119" pcid="3877"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/needle/WindNeedle.java" startline="98" endline="109" pcid="3905"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/needle/LineNeedle.java" startline="90" endline="101" pcid="3826"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/needle/LongNeedle.java" startline="136" endline="147" pcid="3837"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/CandlestickRenderer.java" startline="702" endline="724" pcid="6841"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/Axis.java" startline="905" endline="949" pcid="258"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/MeterPlot.java" startline="1131" endline="1172" pcid="5081"></source>
+</class>
+
+<class classid="6" nclones="70" nlines="13" similarity="70">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/annotations/junit/CategoryTextAnnotationTests.java" startline="111" endline="123" pcid="69"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/XYBoxAndWhiskerRendererTests.java" startline="102" endline="114" pcid="7352"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/junit/AxisSpaceTests.java" startline="74" endline="86" pcid="794"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/junit/XYPlotTests.java" startline="284" endline="297" pcid="4972"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/LayeredBarRendererTests.java" startline="102" endline="114" pcid="7219"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/IntervalBarRendererTests.java" startline="102" endline="114" pcid="7203"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/XYBarRendererTests.java" startline="103" endline="115" pcid="7342"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/HighLowRendererTests.java" startline="103" endline="115" pcid="7193"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/YIntervalRendererTests.java" startline="102" endline="114" pcid="7412"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/junit/CombinedRangeCategoryPlotTests.java" startline="99" endline="111" pcid="4893"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/GanttRendererTests.java" startline="103" endline="115" pcid="7183"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/DefaultCategoryItemRendererTests.java" startline="104" endline="116" pcid="7168"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/junit/CombinedDomainXYPlotTests.java" startline="103" endline="115" pcid="4881"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/junit/CombinedDomainCategoryPlotTests.java" startline="100" endline="112" pcid="4869"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/MinMaxCategoryRendererTests.java" startline="102" endline="114" pcid="7241"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/ClusteredXYBarRendererTests.java" startline="103" endline="115" pcid="7158"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/XYStepRendererTests.java" startline="102" endline="114" pcid="7402"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/StackedBarRendererTests.java" startline="102" endline="114" pcid="7292"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/CandlestickRendererTests.java" startline="103" endline="115" pcid="7148"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/BoxAndWhiskerRendererTests.java" startline="102" endline="114" pcid="7138"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/junit/PiePlotTests.java" startline="250" endline="263" pcid="4956"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/labels/junit/TimeSeriesToolTipGeneratorTests.java" startline="83" endline="95" pcid="3598"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/junit/AxisTests.java" startline="79" endline="91" pcid="799"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/XYStepAreaRendererTests.java" startline="103" endline="115" pcid="7392"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/labels/junit/SymbolicXYToolTipGeneratorTests.java" startline="81" endline="93" pcid="3590"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/BarRendererTests.java" startline="105" endline="117" pcid="7127"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/WindItemRendererTests.java" startline="102" endline="114" pcid="7332"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/BarRenderer3DTests.java" startline="103" endline="115" pcid="7117"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/junit/SegmentedTimelineTests.java" startline="924" endline="936" pcid="964"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/junit/FastScatterPlotTests.java" startline="94" endline="107" pcid="4935"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/junit/CategoryAxisTests.java" startline="111" endline="123" pcid="814"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/StatisticalBarRendererTests.java" startline="102" endline="114" pcid="7312"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/junit/CyclicNumberAxisTests.java" startline="84" endline="96" pcid="830"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/labels/junit/StandardXYZToolTipGeneratorTests.java" startline="82" endline="94" pcid="3582"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/StackedAreaRendererTests.java" startline="102" endline="115" pcid="7262"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/AreaXYRendererTests.java" startline="103" endline="115" pcid="7107"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/AreaRendererTests.java" startline="103" endline="115" pcid="7097"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/labels/junit/StandardXYToolTipGeneratorTests.java" startline="82" endline="94" pcid="3574"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/junit/ColorBarTests.java" startline="81" endline="93" pcid="822"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/annotations/junit/XYPointerAnnotationTests.java" startline="145" endline="158" pcid="99"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/labels/junit/StandardPieItemLabelGeneratorTests.java" startline="83" endline="95" pcid="3566"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/StackedBarRenderer3DTests.java" startline="102" endline="114" pcid="7282"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/StackedAreaXYRendererTests.java" startline="102" endline="115" pcid="7272"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/labels/junit/StandardCategoryItemLabelGeneratorTests.java" startline="83" endline="95" pcid="3548"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/junit/CombinedRangeXYPlotTests.java" startline="103" endline="115" pcid="4905"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/StandardXYItemRendererTests.java" startline="103" endline="115" pcid="7302"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/junit/CategoryAxis3DTests.java" startline="81" endline="93" pcid="805"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/junit/DefaultKeyedValueDatasetTests.java" startline="101" endline="113" pcid="9636"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/junit/NumberAxisTests.java" startline="90" endline="102" pcid="873"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/labels/junit/BoxAndWhiskerToolTipGeneratorTests.java" startline="82" endline="94" pcid="3509"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/labels/junit/CustomXYToolTipGeneratorTests.java" startline="83" endline="95" pcid="3517"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/junit/DateAxisTests.java" startline="126" endline="138" pcid="840"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/junit/DefaultKeyedValueTests.java" startline="101" endline="113" pcid="9683"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/annotations/junit/XYLineAnnotationTests.java" startline="96" endline="109" pcid="90"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/XYDotRendererTests.java" startline="102" endline="114" pcid="7382"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/LineAndShapeRendererTests.java" startline="102" endline="117" pcid="7229"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/junit/ValueAxisTests.java" startline="79" endline="91" pcid="981"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/labels/junit/IntervalCategoryItemLabelGeneratorTests.java" startline="83" endline="95" pcid="3533"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/junit/CategoryPlotTests.java" startline="313" endline="326" pcid="4852"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/XYDifferenceRendererTests.java" startline="103" endline="115" pcid="7372"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/annotations/junit/XYTextAnnotationTests.java" startline="92" endline="104" pcid="108"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/annotations/junit/XYDrawableAnnotationTests.java" startline="93" endline="105" pcid="81"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/XYBubbleRendererTests.java" startline="102" endline="114" pcid="7362"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/labels/junit/HighLowToolTipGeneratorTests.java" startline="82" endline="94" pcid="3525"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/junit/DefaultKeyedValues2DTests.java" startline="81" endline="96" pcid="9652"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/junit/DefaultKeyedValues2DDatasetTests.java" startline="81" endline="96" pcid="9644"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/junit/PieDatasetTests.java" startline="81" endline="96" pcid="9695"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/junit/DefaultKeyedValuesTests.java" startline="90" endline="105" pcid="9669"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/junit/DefaultKeyedValuesDatasetTests.java" startline="82" endline="97" pcid="9660"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/WaterfallBarRendererTests.java" startline="128" endline="147" pcid="7322"></source>
+</class>
+
+<class classid="7" nclones="106" nlines="17" similarity="71">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/annotations/junit/CategoryTextAnnotationTests.java" startline="128" endline="148" pcid="72"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/junit/QuarterTests.java" startline="234" endline="254" pcid="10517"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/urls/junit/StandardPieURLGeneratorTests.java" startline="81" endline="101" pcid="8657"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/urls/junit/StandardCategoryURLGeneratorTests.java" startline="81" endline="101" pcid="8652"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/junit/MonthTests.java" startline="237" endline="257" pcid="10495"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/junit/Pie3DPlotTests.java" startline="81" endline="101" pcid="4950"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/junit/PieDatasetTests.java" startline="101" endline="126" pcid="9698"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/annotations/junit/XYPointerAnnotationTests.java" startline="163" endline="183" pcid="102"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/junit/WeekTests.java" startline="148" endline="168" pcid="10615"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/junit/DefaultKeyedValuesTests.java" startline="273" endline="297" pcid="9677"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/junit/DateTickUnitTests.java" startline="81" endline="101" pcid="853"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/junit/SecondTests.java" startline="157" endline="177" pcid="10528"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/junit/YearTests.java" startline="224" endline="244" pcid="10637"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/junit/SegmentedTimelineTests.java" startline="781" endline="798" pcid="944"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/GanttRendererTests.java" startline="120" endline="140" pcid="7186"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/junit/MinuteTests.java" startline="155" endline="175" pcid="10473"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/junit/CategoryAxis3DTests.java" startline="98" endline="118" pcid="808"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/junit/SimpleTimePeriodTests.java" startline="110" endline="130" pcid="10537"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/junit/ColorBarTests.java" startline="98" endline="118" pcid="825"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/junit/MillisecondTests.java" startline="160" endline="180" pcid="10462"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/junit/DefaultKeyedValues2DTests.java" startline="101" endline="126" pcid="9655"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/BarRenderer3DTests.java" startline="120" endline="140" pcid="7120"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/junit/HourTests.java" startline="211" endline="231" pcid="10451"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/junit/FixedMillisecondTests.java" startline="83" endline="103" pcid="10435"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/junit/DayTests.java" startline="212" endline="232" pcid="10429"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/annotations/junit/XYDrawableAnnotationTests.java" startline="110" endline="130" pcid="84"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/junit/CategoryAxisTests.java" startline="128" endline="148" pcid="817"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/junit/TimeSeriesDataItemTests.java" startline="109" endline="129" pcid="10579"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/junit/CombinedDomainCategoryPlotTests.java" startline="117" endline="137" pcid="4872"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/labels/junit/BoxAndWhiskerToolTipGeneratorTests.java" startline="99" endline="120" pcid="3512"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/ClusteredXYBarRendererTests.java" startline="120" endline="140" pcid="7161"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/labels/junit/HighLowToolTipGeneratorTests.java" startline="99" endline="119" pcid="3528"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/labels/junit/IntervalCategoryItemLabelGeneratorTests.java" startline="100" endline="121" pcid="3536"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/junit/DateAxisTests.java" startline="228" endline="249" pcid="848"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/labels/junit/IntervalCategoryToolTipGeneratorTests.java" startline="82" endline="103" pcid="3541"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/junit/DefaultKeyedValueDatasetTests.java" startline="118" endline="138" pcid="9639"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/BarRendererTests.java" startline="122" endline="142" pcid="7130"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/junit/CombinedRangeXYPlotTests.java" startline="120" endline="140" pcid="4908"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/labels/junit/StandardCategoryItemLabelGeneratorTests.java" startline="100" endline="121" pcid="3551"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/labels/junit/StandardCategoryToolTipGeneratorTests.java" startline="82" endline="103" pcid="3556"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/labels/junit/StandardContourToolTipGeneratorTests.java" startline="81" endline="102" pcid="3561"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/XYStepRendererTests.java" startline="119" endline="139" pcid="7405"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/labels/junit/StandardPieItemLabelGeneratorTests.java" startline="100" endline="121" pcid="3569"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/CandlestickRendererTests.java" startline="120" endline="140" pcid="7151"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/BoxAndWhiskerRendererTests.java" startline="119" endline="139" pcid="7141"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/IntervalBarRendererTests.java" startline="119" endline="139" pcid="7206"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/XYStepAreaRendererTests.java" startline="120" endline="139" pcid="7395"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/labels/junit/StandardXYToolTipGeneratorTests.java" startline="99" endline="120" pcid="3577"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/junit/MeterPlotTests.java" startline="97" endline="117" pcid="4945"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/DefaultDrawingSupplierTests.java" startline="81" endline="101" pcid="7176"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/junit/JFreeChartTests.java" startline="153" endline="178" pcid="3378"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/labels/junit/StandardXYZToolTipGeneratorTests.java" startline="99" endline="119" pcid="3585"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/StandardXYItemRendererTests.java" startline="120" endline="140" pcid="7305"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/WindItemRendererTests.java" startline="119" endline="139" pcid="7335"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/XYBarRendererTests.java" startline="120" endline="140" pcid="7345"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/junit/CombinedRangeCategoryPlotTests.java" startline="116" endline="136" pcid="4896"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/labels/junit/SymbolicXYToolTipGeneratorTests.java" startline="98" endline="118" pcid="3593"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/junit/DefaultKeyedValues2DDatasetTests.java" startline="101" endline="126" pcid="9647"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/junit/MarkerTests.java" startline="110" endline="131" pcid="3388"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/junit/LogarithmicAxisTests.java" startline="81" endline="101" pcid="858"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/XYBoxAndWhiskerRendererTests.java" startline="119" endline="139" pcid="7355"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/junit/PiePlotTests.java" startline="268" endline="288" pcid="4959"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/labels/junit/TimeSeriesToolTipGeneratorTests.java" startline="100" endline="121" pcid="3601"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/StatisticalBarRendererTests.java" startline="119" endline="139" pcid="7315"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/DefaultCategoryItemRendererTests.java" startline="121" endline="141" pcid="7171"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/junit/CompassPlotTests.java" startline="97" endline="117" pcid="4924"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/HighLowRendererTests.java" startline="120" endline="140" pcid="7196"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/XYBubbleRendererTests.java" startline="119" endline="139" pcid="7365"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/annotations/junit/XYTextAnnotationTests.java" startline="109" endline="129" pcid="111"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/junit/SpacerTests.java" startline="112" endline="133" pcid="3409"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/YIntervalRendererTests.java" startline="119" endline="139" pcid="7415"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/junit/DefaultKeyedValueTests.java" startline="118" endline="138" pcid="9686"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/junit/FastScatterPlotTests.java" startline="112" endline="136" pcid="4938"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/junit/RangeTests.java" startline="81" endline="101" pcid="9703"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/junit/AxisLocationTests.java" startline="101" endline="122" pcid="787"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/XYDotRendererTests.java" startline="119" endline="139" pcid="7385"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/junit/TimePeriodValueTests.java" startline="107" endline="127" pcid="10567"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/MinMaxCategoryRendererTests.java" startline="119" endline="139" pcid="7244"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/junit/ContourPlotTests.java" startline="81" endline="101" pcid="4929"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/ItemLabelPositionTests.java" startline="90" endline="110" pcid="7212"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/junit/MarkerAxisBandTests.java" startline="81" endline="101" pcid="863"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/SignalRendererTests.java" startline="81" endline="101" pcid="7255"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/LineAndShapeRendererTests.java" startline="174" endline="194" pcid="7234"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/StackedBarRendererTests.java" startline="119" endline="139" pcid="7295"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/StackedAreaRendererTests.java" startline="120" endline="140" pcid="7265"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/junit/XYPlotTests.java" startline="319" endline="343" pcid="4978"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/junit/NumberAxis3DTests.java" startline="81" endline="101" pcid="868"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/AreaRendererTests.java" startline="120" endline="140" pcid="7100"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/junit/XYPlotTests.java" startline="349" endline="374" pcid="4981"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/LayeredBarRendererTests.java" startline="119" endline="139" pcid="7222"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/junit/NumberAxisTests.java" startline="183" endline="203" pcid="879"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/WaterfallBarRendererTests.java" startline="152" endline="172" pcid="7325"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/StackedAreaXYRendererTests.java" startline="120" endline="140" pcid="7275"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/junit/CategoryPlotTests.java" startline="361" endline="386" pcid="4858"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/junit/SymbolicAxisTests.java" startline="81" endline="102" pcid="976"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/junit/SegmentedTimelineTests.java" startline="973" endline="994" pcid="968"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/junit/CombinedDomainXYPlotTests.java" startline="120" endline="140" pcid="4884"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/junit/JFreeChartTests.java" startline="123" endline="148" pcid="3375"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/junit/CyclicNumberAxisTests.java" startline="152" endline="172" pcid="834"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/XYDifferenceRendererTests.java" startline="120" endline="140" pcid="7375"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/annotations/junit/XYLineAnnotationTests.java" startline="114" endline="135" pcid="93"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/AreaXYRendererTests.java" startline="120" endline="140" pcid="7110"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/junit/DefaultKeyedValuesDatasetTests.java" startline="102" endline="127" pcid="9663"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/junit/StackedBarRenderer3DTests.java" startline="119" endline="139" pcid="7285"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/junit/ThermometerPlotTests.java" startline="81" endline="101" pcid="4966"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/junit/CategoryPlotTests.java" startline="331" endline="356" pcid="4855"></source>
+</class>
+
+<class classid="8" nclones="3" nlines="11" similarity="72">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/annotations/XYPointerAnnotation.java" startline="130" endline="142" pcid="149"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/ClipPath.java" startline="152" endline="165" pcid="1967"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/statistics/BoxAndWhiskerItem.java" startline="97" endline="109" pcid="10014"></source>
+</class>
+
+<class classid="9" nclones="5" nlines="11" similarity="83">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/Axis.java" startline="864" endline="896" pcid="255"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/labels/IntervalCategoryItemLabelGenerator.java" startline="233" endline="248" pcid="3504"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/labels/TimeSeriesToolTipGenerator.java" startline="154" endline="168" pcid="3712"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/labels/StandardCategoryItemLabelGenerator.java" startline="246" endline="261" pcid="3631"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/labels/StandardXYToolTipGenerator.java" startline="143" endline="157" pcid="3673"></source>
+</class>
+
+<class classid="10" nclones="11" nlines="13" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/AxisLocation.java" startline="95" endline="111" pcid="276"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/DialShape.java" startline="88" endline="104" pcid="4756"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/DatasetRenderingOrder.java" startline="88" endline="104" pcid="4720"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/MarkerLabelPosition.java" startline="93" endline="109" pcid="3781"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/ItemLabelAnchor.java" startline="156" endline="172" pcid="7019"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/PlotOrientation.java" startline="88" endline="104" pcid="5515"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/KeyedValueComparatorType.java" startline="84" endline="98" pcid="9799"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/TimePeriodAnchor.java" startline="88" endline="104" pcid="10844"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/CategoryAnchor.java" startline="89" endline="105" pcid="343"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/RangeType.java" startline="94" endline="110" pcid="7606"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/DateTickMarkPosition.java" startline="91" endline="107" pcid="750"></source>
+</class>
+
+<class classid="11" nclones="3" nlines="14" similarity="80">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/AxisLocation.java" startline="120" endline="134" pcid="280"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/DialShape.java" startline="113" endline="124" pcid="4760"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/CategoryAnchor.java" startline="114" endline="125" pcid="347"></source>
+</class>
+
+<class classid="12" nclones="2" nlines="16" similarity="72">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/CategoryAxis.java" startline="557" endline="577" pcid="385"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/CategoryAxis.java" startline="590" endline="608" pcid="390"></source>
+</class>
+
+<class classid="13" nclones="2" nlines="23" similarity="79">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/CategoryAxis3D.java" startline="89" endline="121" pcid="445"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/NumberAxis3D.java" startline="107" endline="144" pcid="1216"></source>
+</class>
+
+<class classid="14" nclones="2" nlines="13" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/ColorBar.java" startline="261" endline="273" pcid="483"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/ColorBar.java" startline="274" endline="286" pcid="485"></source>
+</class>
+
+<class classid="15" nclones="2" nlines="105" similarity="81">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/CyclicNumberAxis.java" startline="294" endline="410" pcid="518"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/CyclicNumberAxis.java" startline="412" endline="537" pcid="534"></source>
+</class>
+
+<class classid="16" nclones="2" nlines="12" similarity="91">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/CyclicNumberAxis.java" startline="365" endline="376" pcid="529"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/CyclicNumberAxis.java" startline="377" endline="388" pcid="531"></source>
+</class>
+
+<class classid="17" nclones="2" nlines="27" similarity="92">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/CyclicNumberAxis.java" startline="461" endline="489" pcid="540"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/CyclicNumberAxis.java" startline="490" endline="515" pcid="545"></source>
+</class>
+
+<class classid="18" nclones="2" nlines="13" similarity="84">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/CyclicNumberAxis.java" startline="463" endline="475" pcid="541"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/CyclicNumberAxis.java" startline="476" endline="488" pcid="543"></source>
+</class>
+
+<class classid="19" nclones="2" nlines="12" similarity="91">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/CyclicNumberAxis.java" startline="491" endline="502" pcid="546"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/CyclicNumberAxis.java" startline="503" endline="514" pcid="548"></source>
+</class>
+
+<class classid="20" nclones="2" nlines="11" similarity="72">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/CyclicNumberAxis.java" startline="602" endline="611" pcid="563"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/CyclicNumberAxis.java" startline="612" endline="621" pcid="567"></source>
+</class>
+
+<class classid="21" nclones="3" nlines="19" similarity="73">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/CyclicNumberAxis.java" startline="740" endline="758" pcid="581"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/CyclicNumberAxis.java" startline="765" endline="783" pcid="587"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/ValueAxis.java" startline="556" endline="574" pcid="1531"></source>
+</class>
+
+<class classid="22" nclones="6" nlines="12" similarity="75">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/DateAxis.java" startline="480" endline="495" pcid="637"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="511" endline="525" pcid="5707"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="740" endline="754" pcid="5742"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CategoryPlot.java" startline="464" endline="478" pcid="3921"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/DateAxis.java" startline="515" endline="530" pcid="641"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CategoryPlot.java" startline="679" endline="693" pcid="3954"></source>
+</class>
+
+<class classid="23" nclones="2" nlines="10" similarity="80">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/DateAxis.java" startline="606" endline="615" pcid="651"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/DateAxis.java" startline="616" endline="625" pcid="654"></source>
+</class>
+
+<class classid="24" nclones="2" nlines="22" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/DateAxis.java" startline="1101" endline="1130" pcid="699"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/DateAxis.java" startline="1145" endline="1186" pcid="702"></source>
+</class>
+
+<class classid="25" nclones="2" nlines="31" similarity="96">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/DateAxis.java" startline="1200" endline="1236" pcid="705"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/DateAxis.java" startline="1250" endline="1286" pcid="710"></source>
+</class>
+
+<class classid="26" nclones="4" nlines="10" similarity="90">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/DateAxis.java" startline="1304" endline="1315" pcid="715"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/SymbolicAxis.java" startline="433" endline="444" pcid="1411"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/NumberAxis.java" startline="974" endline="985" pcid="1180"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/LogarithmicAxis.java" startline="561" endline="572" pcid="1039"></source>
+</class>
+
+<class classid="27" nclones="4" nlines="44" similarity="71">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/DateAxis.java" startline="1349" endline="1395" pcid="721"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/NumberAxis.java" startline="1099" endline="1146" pcid="1198"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/LogarithmicAxis.java" startline="684" endline="746" pcid="1058"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/NumberAxis.java" startline="1016" endline="1063" pcid="1185"></source>
+</class>
+
+<class classid="28" nclones="3" nlines="12" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/DateAxis.java" startline="1366" endline="1377" pcid="724"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/SymbolicAxis.java" startline="515" endline="526" pcid="1423"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/LogarithmicAxis.java" startline="718" endline="729" pcid="1059"></source>
+</class>
+
+<class classid="29" nclones="12" nlines="12" similarity="71">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/DateAxis.java" startline="1378" endline="1389" pcid="727"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/SymbolicAxis.java" startline="527" endline="538" pcid="1426"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/LogarithmicAxis.java" startline="922" endline="933" pcid="1097"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/SymbolicAxis.java" startline="627" endline="638" pcid="1441"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/LogarithmicAxis.java" startline="908" endline="921" pcid="1094"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/DateAxis.java" startline="1477" endline="1488" pcid="738"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/NumberAxis.java" startline="1130" endline="1141" pcid="1204"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/NumberAxis.java" startline="1116" endline="1129" pcid="1201"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/LogarithmicAxis.java" startline="730" endline="741" pcid="1062"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/NumberAxis.java" startline="1046" endline="1057" pcid="1192"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/SymbolicAxis.java" startline="615" endline="626" pcid="1438"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/DateAxis.java" startline="1465" endline="1476" pcid="735"></source>
+</class>
+
+<class classid="30" nclones="3" nlines="39" similarity="70">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/DateAxis.java" startline="1454" endline="1498" pcid="733"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/LogarithmicAxis.java" startline="885" endline="938" pcid="1093"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/NumberAxis.java" startline="1098" endline="1147" pcid="1197"></source>
+</class>
+
+<class classid="31" nclones="2" nlines="12" similarity="75">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/DateAxis.java" startline="1514" endline="1534" pcid="742"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/NumberAxis.java" startline="517" endline="545" pcid="1163"></source>
+</class>
+
+<class classid="32" nclones="7" nlines="15" similarity="77">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/junit/AxisPackageTests.java" startline="59" endline="73" pcid="790"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/junit/DataTimePackageTests.java" startline="57" endline="74" pcid="10415"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/junit/PlotPackageTests.java" startline="58" endline="74" pcid="4962"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/junit/DataPackageTests.java" startline="62" endline="77" pcid="9625"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/labels/junit/TooltipsPackageTests.java" startline="58" endline="70" pcid="3604"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/labels/junit/LabelsPackageTests.java" startline="59" endline="73" pcid="3544"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/junit/ChartPackageTests.java" startline="59" endline="71" pcid="3370"></source>
+</class>
+
+<class classid="33" nclones="2" nlines="17" similarity="70">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/junit/SegmentedTimelineTests.java" startline="819" endline="835" pcid="948"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/junit/SegmentedTimelineTests.java" startline="862" endline="883" pcid="954"></source>
+</class>
+
+<class classid="34" nclones="2" nlines="29" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/LogarithmicAxis.java" startline="298" endline="336" pcid="1002"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/LogarithmicAxis.java" startline="348" endline="389" pcid="1010"></source>
+</class>
+
+<class classid="35" nclones="4" nlines="22" similarity="77">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/LogarithmicAxis.java" startline="479" endline="505" pcid="1029"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/LogarithmicAxis.java" startline="518" endline="543" pcid="1034"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/NumberAxis.java" startline="439" endline="462" pcid="1155"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/NumberAxis.java" startline="403" endline="426" pcid="1150"></source>
+</class>
+
+<class classid="36" nclones="3" nlines="14" similarity="71">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/NumberAxis.java" startline="365" endline="378" pcid="1144"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/SymbolicAxis.java" startline="391" endline="404" pcid="1405"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/SymbolicAxis.java" startline="371" endline="384" pcid="1398"></source>
+</class>
+
+<class classid="37" nclones="2" nlines="58" similarity="90">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/NumberAxis.java" startline="556" endline="623" pcid="1165"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/TickUnits.java" startline="183" endline="244" pcid="1488"></source>
+</class>
+
+<class classid="38" nclones="2" nlines="35" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/NumberAxis.java" startline="630" endline="668" pcid="1166"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/TickUnits.java" startline="253" endline="291" pcid="1489"></source>
+</class>
+
+<class classid="39" nclones="2" nlines="58" similarity="94">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/NumberAxis.java" startline="681" endline="747" pcid="1167"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/TickUnits.java" startline="306" endline="369" pcid="1490"></source>
+</class>
+
+<class classid="40" nclones="2" nlines="36" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/NumberAxis.java" startline="757" endline="797" pcid="1168"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/TickUnits.java" startline="381" endline="421" pcid="1491"></source>
+</class>
+
+<class classid="41" nclones="2" nlines="17" similarity="88">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/NumberAxis.java" startline="892" endline="917" pcid="1176"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/NumberAxis.java" startline="930" endline="955" pcid="1178"></source>
+</class>
+
+<class classid="42" nclones="4" nlines="63" similarity="71">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/NumberAxis.java" startline="1001" endline="1066" pcid="1183"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/NumberAxis.java" startline="1083" endline="1150" pcid="1195"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/SymbolicAxis.java" startline="461" endline="546" pcid="1414"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/SymbolicAxis.java" startline="562" endline="646" pcid="1429"></source>
+</class>
+
+<class classid="43" nclones="2" nlines="21" similarity="76">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/SegmentedTimeline.java" startline="752" endline="781" pcid="1277"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/SegmentedTimeline.java" startline="819" endline="849" pcid="1286"></source>
+</class>
+
+<class classid="44" nclones="2" nlines="34" similarity="91">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/SymbolicAxis.java" startline="279" endline="321" pcid="1384"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/SymbolicAxis.java" startline="687" endline="727" pcid="1447"></source>
+</class>
+
+<class classid="45" nclones="2" nlines="20" similarity="75">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/SymbolicAxis.java" startline="370" endline="389" pcid="1397"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/SymbolicAxis.java" startline="390" endline="409" pcid="1404"></source>
+</class>
+
+<class classid="46" nclones="2" nlines="17" similarity="70">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/TickUnit.java" startline="105" endline="123" pcid="1467"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/DefaultWindDataset.java" startline="292" endline="308" pcid="9393"></source>
+</class>
+
+<class classid="47" nclones="2" nlines="10" similarity="70">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/TickUnits.java" startline="123" endline="135" pcid="1481"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/TickUnits.java" startline="145" endline="156" pcid="1484"></source>
+</class>
+
+<class classid="48" nclones="2" nlines="20" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/ValueAxis.java" startline="430" endline="452" pcid="1516"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/ValueAxis.java" startline="454" endline="475" pcid="1519"></source>
+</class>
+
+<class classid="49" nclones="2" nlines="21" similarity="95">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/ValueAxis.java" startline="678" endline="700" pcid="1550"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/ValueAxis.java" startline="715" endline="737" pcid="1555"></source>
+</class>
+
+<class classid="50" nclones="16" nlines="11" similarity="72">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/ValueAxis.java" startline="683" endline="693" pcid="1551"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CategoryPlot.java" startline="2343" endline="2353" pcid="4198"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/ValueAxis.java" startline="720" endline="730" pcid="1556"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="2235" endline="2245" pcid="5956"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="2215" endline="2225" pcid="5953"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="2169" endline="2180" pcid="5947"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="2141" endline="2153" pcid="5942"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CombinedDomainXYPlot.java" startline="173" endline="187" pcid="4332"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CombinedRangeXYPlot.java" startline="461" endline="475" pcid="4469"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CombinedRangeCategoryPlot.java" startline="320" endline="334" pcid="4409"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CombinedDomainXYPlot.java" startline="424" endline="439" pcid="4362"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/entity/StandardEntityCollection.java" startline="86" endline="99" pcid="3155"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CombinedRangeXYPlot.java" startline="389" endline="404" pcid="4461"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CombinedRangeCategoryPlot.java" startline="341" endline="356" pcid="4412"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CombinedDomainCategoryPlot.java" startline="334" endline="349" pcid="4308"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/TimeSeriesCollection.java" startline="299" endline="312" pcid="11074"></source>
+</class>
+
+<class classid="51" nclones="2" nlines="13" similarity="71">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/ValueAxis.java" startline="794" endline="804" pcid="1565"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/axis/ValueAxis.java" startline="832" endline="851" pcid="1571"></source>
+</class>
+
+<class classid="52" nclones="15" nlines="18" similarity="71">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/ChartFactory.java" startline="183" endline="205" pcid="1635"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/ChartFactory.java" startline="225" endline="247" pcid="1638"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/ChartFactory.java" startline="1270" endline="1295" pcid="1703"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/ChartFactory.java" startline="264" endline="284" pcid="1641"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/ChartFactory.java" startline="1318" endline="1343" pcid="1706"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/ChartFactory.java" startline="903" endline="932" pcid="1684"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/ChartFactory.java" startline="1006" endline="1031" pcid="1690"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/ChartFactory.java" startline="640" endline="665" pcid="1668"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/ChartFactory.java" startline="548" endline="576" pcid="1662"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/ChartFactory.java" startline="1414" endline="1439" pcid="1712"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/ChartFactory.java" startline="1106" endline="1132" pcid="1696"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/ChartFactory.java" startline="1366" endline="1391" pcid="1709"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/ChartFactory.java" startline="856" endline="880" pcid="1681"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/ChartFactory.java" startline="955" endline="984" pcid="1687"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/ChartFactory.java" startline="1058" endline="1083" pcid="1693"></source>
+</class>
+
+<class classid="53" nclones="6" nlines="16" similarity="75">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/ChartFactory.java" startline="307" endline="328" pcid="1644"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/ChartFactory.java" startline="499" endline="525" pcid="1658"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/ChartFactory.java" startline="599" endline="619" pcid="1665"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/ChartFactory.java" startline="783" endline="802" pcid="1677"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/ChartFactory.java" startline="351" endline="370" pcid="1647"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/ChartFactory.java" startline="455" endline="476" pcid="1655"></source>
+</class>
+
+<class classid="54" nclones="2" nlines="29" similarity="76">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/ChartFactory.java" startline="393" endline="432" pcid="1650"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/ChartFactory.java" startline="688" endline="729" pcid="1671"></source>
+</class>
+
+<class classid="55" nclones="10" nlines="10" similarity="70">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/ChartPanel.java" startline="714" endline="724" pcid="1761"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/AbstractRenderer.java" startline="306" endline="315" pcid="6251"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/AbstractRenderer.java" startline="436" endline="445" pcid="6267"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/PiePlot.java" startline="1313" endline="1323" pcid="5309"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/AbstractRenderer.java" startline="563" endline="572" pcid="6283"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/PiePlot.java" startline="1202" endline="1212" pcid="5297"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/AbstractRenderer.java" startline="690" endline="699" pcid="6299"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/AbstractRenderer.java" startline="817" endline="826" pcid="6315"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/PiePlot.java" startline="1049" endline="1059" pcid="5281"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/Plot.java" startline="479" endline="489" pcid="5421"></source>
+</class>
+
+<class classid="56" nclones="2" nlines="26" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/ChartPanel.java" startline="1262" endline="1294" pcid="1841"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/ChartPanel.java" startline="1303" endline="1335" pcid="1849"></source>
+</class>
+
+<class classid="57" nclones="2" nlines="15" similarity="86">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/ChartPanel.java" startline="1496" endline="1516" pcid="1875"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/ChartPanel.java" startline="1523" endline="1543" pcid="1879"></source>
+</class>
+
+<class classid="58" nclones="3" nlines="10" similarity="70">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/ChartPanel.java" startline="1502" endline="1514" pcid="1876"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/JFreeChartDemo.java" startline="419" endline="428" pcid="2441"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/ChartPanel.java" startline="1529" endline="1541" pcid="1880"></source>
+</class>
+
+<class classid="59" nclones="2" nlines="11" similarity="90">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/ChartPanel.java" startline="1678" endline="1688" pcid="1900"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/ChartPanel.java" startline="1690" endline="1700" pcid="1902"></source>
+</class>
+
+<class classid="60" nclones="2" nlines="11" similarity="72">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/ChartUtilities.java" startline="680" endline="691" pcid="1961"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CombinedDomainCategoryPlot.java" startline="362" endline="372" pcid="4313"></source>
+</class>
+
+<class classid="61" nclones="4" nlines="10" similarity="70">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/AreaChartDemo.java" startline="78" endline="103" pcid="2022"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/MarkerDemo1.java" startline="80" endline="91" pcid="2525"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/BubblePlotDemo.java" startline="62" endline="74" pcid="2060"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/ScatterPlotDemo2.java" startline="63" endline="76" pcid="2794"></source>
+</class>
+
+<class classid="62" nclones="2" nlines="27" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/BarChartDemo.java" startline="91" endline="128" pcid="2037"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/DualAxisDemo4.java" startline="139" endline="176" pcid="2294"></source>
+</class>
+
+<class classid="63" nclones="2" nlines="16" similarity="87">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/BarChartDemo.java" startline="137" endline="188" pcid="2038"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/BarChartDemo4.java" startline="123" endline="170" pcid="2048"></source>
+</class>
+
+<class classid="64" nclones="2" nlines="17" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/BubblyBubblesDemo.java" startline="81" endline="112" pcid="2063"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/BubblyBubblesDemo2.java" startline="81" endline="116" pcid="2071"></source>
+</class>
+
+<class classid="65" nclones="2" nlines="10" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/BubblyBubblesDemo.java" startline="119" endline="129" pcid="2064"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/BubblyBubblesDemo2.java" startline="134" endline="144" pcid="2072"></source>
+</class>
+
+<class classid="66" nclones="2" nlines="12" similarity="83">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/BubblyBubblesDemo.java" startline="147" endline="163" pcid="2065"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/BubblyBubblesDemo2.java" startline="152" endline="167" pcid="2073"></source>
+</class>
+
+<class classid="67" nclones="2" nlines="14" similarity="85">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/BubblyBubblesDemo.java" startline="172" endline="187" pcid="2067"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/BubblyBubblesDemo2.java" startline="176" endline="193" pcid="2075"></source>
+</class>
+
+<class classid="68" nclones="4" nlines="24" similarity="70">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/ChartTiming1.java" startline="74" endline="114" pcid="2083"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/ChartTiming2.java" startline="76" endline="113" pcid="2089"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/ChartTiming3.java" startline="78" endline="123" pcid="2095"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/ChartTiming4.java" startline="77" endline="111" pcid="2102"></source>
+</class>
+
+<class classid="69" nclones="8" nlines="34" similarity="71">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/CombinedCategoryPlotDemo1.java" startline="85" endline="123" pcid="2114"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/CombinedCategoryPlotDemo2.java" startline="90" endline="128" pcid="2119"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/junit/CombinedDomainCategoryPlotTests.java" startline="144" endline="182" pcid="4875"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/junit/CombinedRangeCategoryPlotTests.java" startline="143" endline="181" pcid="4899"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/LineChartDemo1.java" startline="92" endline="141" pcid="2509"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/DualAxisDemo3.java" startline="120" endline="169" pcid="2290"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/DualAxisDemo.java" startline="133" endline="182" pcid="2281"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/junit/JFreeChartTests.java" startline="183" endline="259" pcid="3381"></source>
+</class>
+
+<class classid="70" nclones="3" nlines="30" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/CombinedCategoryPlotDemo1.java" startline="130" endline="168" pcid="2115"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/junit/CombinedRangeCategoryPlotTests.java" startline="188" endline="226" pcid="4900"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/junit/CombinedDomainCategoryPlotTests.java" startline="189" endline="227" pcid="4876"></source>
+</class>
+
+<class classid="71" nclones="3" nlines="22" similarity="86">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/CombinedCategoryPlotDemo1.java" startline="186" endline="218" pcid="2116"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/junit/CombinedDomainCategoryPlotTests.java" startline="234" endline="258" pcid="4877"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/junit/CombinedRangeCategoryPlotTests.java" startline="233" endline="256" pcid="4901"></source>
+</class>
+
+<class classid="72" nclones="4" nlines="24" similarity="76">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/CombinedXYPlotDemo1.java" startline="85" endline="120" pcid="2124"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/junit/CombinedRangeXYPlotTests.java" startline="225" endline="255" pcid="4913"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/junit/CombinedDomainXYPlotTests.java" startline="225" endline="255" pcid="4889"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/CombinedXYPlotDemo4.java" startline="85" endline="129" pcid="2137"></source>
+</class>
+
+<class classid="73" nclones="4" nlines="38" similarity="94">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/CombinedXYPlotDemo1.java" startline="127" endline="169" pcid="2125"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/junit/CombinedRangeXYPlotTests.java" startline="147" endline="189" pcid="4911"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/CombinedXYPlotDemo4.java" startline="136" endline="178" pcid="2138"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/junit/CombinedDomainXYPlotTests.java" startline="147" endline="189" pcid="4887"></source>
+</class>
+
+<class classid="74" nclones="4" nlines="18" similarity="94">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/CombinedXYPlotDemo1.java" startline="176" endline="198" pcid="2126"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/junit/CombinedDomainXYPlotTests.java" startline="196" endline="218" pcid="4888"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/junit/CombinedRangeXYPlotTests.java" startline="196" endline="218" pcid="4912"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/CombinedXYPlotDemo4.java" startline="185" endline="207" pcid="2139"></source>
+</class>
+
+<class classid="75" nclones="5" nlines="20" similarity="85">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/CombinedXYPlotDemo2.java" startline="133" endline="161" pcid="2130"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/junit/XYPlotTests.java" startline="429" endline="457" pcid="4989"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/junit/CombinedXYPlotTests.java" startline="141" endline="169" pcid="4919"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/OverlaidXYPlotDemo.java" startline="127" endline="149" pcid="2600"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/OverlaidXYPlotDemo2.java" startline="146" endline="169" pcid="2605"></source>
+</class>
+
+<class classid="76" nclones="4" nlines="18" similarity="85">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/CombinedXYPlotDemo2.java" startline="168" endline="190" pcid="2131"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/OverlaidXYPlotDemo.java" startline="167" endline="190" pcid="2601"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/junit/CombinedXYPlotTests.java" startline="176" endline="198" pcid="4920"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/OverlaidXYPlotDemo2.java" startline="176" endline="200" pcid="2606"></source>
+</class>
+
+<class classid="77" nclones="2" nlines="29" similarity="81">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/CombinedXYPlotDemo3.java" startline="86" endline="135" pcid="2134"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/CombinedXYPlotDemo5.java" startline="86" endline="141" pcid="2142"></source>
+</class>
+
+<class classid="78" nclones="2" nlines="12" similarity="91">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/CompassDemo.java" startline="293" endline="307" pcid="2154"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/ThermometerDemo.java" startline="415" endline="430" pcid="2930"></source>
+</class>
+
+<class classid="79" nclones="2" nlines="10" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/CompassDemo.java" startline="351" endline="362" pcid="2159"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/CompassDemo.java" startline="369" endline="380" pcid="2162"></source>
+</class>
+
+<class classid="80" nclones="2" nlines="12" similarity="75">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/ContourPlotDemo.java" startline="121" endline="134" pcid="2170"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/ContourPlotDemo2.java" startline="148" endline="162" pcid="2198"></source>
+</class>
+
+<class classid="81" nclones="2" nlines="63" similarity="83">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/ContourPlotDemo.java" startline="284" endline="354" pcid="2190"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/ContourPlotDemo2.java" startline="329" endline="395" pcid="2226"></source>
+</class>
+
+<class classid="82" nclones="4" nlines="21" similarity="73">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/DualAxisDemo.java" startline="71" endline="115" pcid="2280"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/DualAxisDemo5.java" startline="70" endline="113" pcid="2297"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/DualAxisDemo3.java" startline="71" endline="113" pcid="2289"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/DualAxisDemo4.java" startline="72" endline="121" pcid="2293"></source>
+</class>
+
+<class classid="83" nclones="3" nlines="19" similarity="71">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/DualAxisDemo.java" startline="189" endline="218" pcid="2282"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/DualAxisDemo4.java" startline="183" endline="206" pcid="2295"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/DualAxisDemo3.java" startline="176" endline="205" pcid="2291"></source>
+</class>
+
+<class classid="84" nclones="2" nlines="25" similarity="88">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/DualAxisDemo2.java" startline="125" endline="152" pcid="2286"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/MovingAverageDemo.java" startline="110" endline="151" pcid="2553"></source>
+</class>
+
+<class classid="85" nclones="2" nlines="81" similarity="78">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/ExtendedStackedBarRenderer.java" startline="114" endline="233" pcid="2322"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/StackedBarRenderer.java" startline="192" endline="280" pcid="7706"></source>
+</class>
+
+<class classid="86" nclones="10" nlines="13" similarity="71">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/ExtendedStackedBarRenderer.java" startline="132" endline="143" pcid="2324"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/StackedBarRenderer3D.java" startline="209" endline="220" pcid="7734"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/DatasetUtilities.java" startline="769" endline="780" pcid="8893"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/StackedBarRenderer.java" startline="210" endline="221" pcid="7708"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/ExtendedStackedBarRenderer.java" startline="291" endline="303" pcid="2352"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/DatasetUtilities.java" startline="1244" endline="1256" pcid="8962"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/DatasetUtilities.java" startline="853" endline="868" pcid="8905"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/WaferMapDataset.java" startline="155" endline="167" pcid="11269"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/DatasetUtilities.java" startline="811" endline="826" pcid="8899"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/ExtendedStackedBarRenderer.java" startline="313" endline="325" pcid="2356"></source>
+</class>
+
+<class classid="87" nclones="2" nlines="10" similarity="90">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/ExtendedStackedBarRenderer.java" startline="183" endline="197" pcid="2334"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/ExtendedStackedBarRenderer.java" startline="198" endline="212" pcid="2337"></source>
+</class>
+
+<class classid="88" nclones="14" nlines="15" similarity="82">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/ExtendedStackedBarRenderer.java" startline="215" endline="231" pcid="2340"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/GanttRenderer.java" startline="445" endline="461" pcid="6949"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/LineAndShapeRenderer.java" startline="420" endline="439" pcid="7517"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/GanttRenderer.java" startline="269" endline="286" pcid="6927"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/LayeredBarRenderer.java" startline="411" endline="426" pcid="7470"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/StackedAreaRenderer.java" startline="191" endline="209" pcid="7637"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/LayeredBarRenderer.java" startline="272" endline="287" pcid="7448"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/IntervalBarRenderer.java" startline="251" endline="267" pcid="6998"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/WaterfallBarRenderer.java" startline="344" endline="360" pcid="7928"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/AreaRenderer.java" startline="183" endline="201" pcid="6544"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/IntervalBarRenderer.java" startline="370" endline="387" pcid="7013"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/BarRenderer.java" startline="542" endline="559" pcid="6644"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/StackedBarRenderer3D.java" startline="299" endline="316" pcid="7748"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/StackedBarRenderer.java" startline="262" endline="278" pcid="7718"></source>
+</class>
+
+<class classid="89" nclones="2" nlines="15" similarity="93">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/ExtendedStackedBarRenderer.java" startline="244" endline="257" pcid="2344"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/ExtendedStackedBarRenderer.java" startline="268" endline="281" pcid="2348"></source>
+</class>
+
+<class classid="90" nclones="2" nlines="32" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/GanttDemo1.java" startline="103" endline="186" pcid="2366"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/JFreeChartDemoBase.java" startline="1401" endline="1484" pcid="2500"></source>
+</class>
+
+<class classid="91" nclones="3" nlines="16" similarity="75">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/ImageMapDemo1.java" startline="132" endline="151" pcid="2386"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/ImageMapDemo2.java" startline="123" endline="142" pcid="2392"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/ImageMapDemo3.java" startline="137" endline="156" pcid="2396"></source>
+</class>
+
+<class classid="92" nclones="5" nlines="14" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/InternalFrameDemo.java" startline="147" endline="163" pcid="2401"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/MultipleAxisDemo2.java" startline="151" endline="167" pcid="2566"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/TimeSeriesDemo11.java" startline="173" endline="189" pcid="2963"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/MultipleAxisDemo3.java" startline="158" endline="174" pcid="2571"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/MultipleAxisDemo1.java" startline="180" endline="196" pcid="2561"></source>
+</class>
+
+<class classid="93" nclones="3" nlines="13" similarity="92">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/JFreeChartDemoBase.java" startline="644" endline="664" pcid="2478"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/JFreeChartDemoBase.java" startline="671" endline="690" pcid="2479"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/JFreeChartDemoBase.java" startline="697" endline="716" pcid="2480"></source>
+</class>
+
+<class classid="94" nclones="2" nlines="11" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/MouseZoomDemo.java" startline="155" endline="165" pcid="2545"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/MouseZoomDemo.java" startline="166" endline="176" pcid="2548"></source>
+</class>
+
+<class classid="95" nclones="2" nlines="12" similarity="91">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/MultiPieChartDemo.java" startline="65" endline="107" pcid="2555"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/MultiPieChartDemo2.java" startline="63" endline="103" pcid="2557"></source>
+</class>
+
+<class classid="96" nclones="2" nlines="27" similarity="82">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/MultipleAxisDemo2.java" startline="86" endline="128" pcid="2565"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/MultipleAxisDemo3.java" startline="86" endline="135" pcid="2570"></source>
+</class>
+
+<class classid="97" nclones="2" nlines="10" similarity="70">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/SampleXYDatasetThread.java" startline="74" endline="85" pcid="2713"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/ThermometerDemo.java" startline="438" endline="448" pcid="2931"></source>
+</class>
+
+<class classid="98" nclones="3" nlines="33" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/SampleXYSymbolicDataset.java" startline="303" endline="339" pcid="2736"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/SampleXYSymbolicDataset.java" startline="357" endline="392" pcid="2742"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/SampleYSymbolicDataset.java" startline="295" endline="331" pcid="2778"></source>
+</class>
+
+<class classid="99" nclones="2" nlines="23" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/SampleXYSymbolicDataset.java" startline="417" endline="444" pcid="2749"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/SampleYSymbolicDataset.java" startline="357" endline="384" pcid="2785"></source>
+</class>
+
+<class classid="100" nclones="2" nlines="33" similarity="82">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/SurveyResultsDemo2.java" startline="108" endline="158" pcid="2866"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/SurveyResultsDemo3.java" startline="113" endline="171" pcid="2870"></source>
+</class>
+
+<class classid="101" nclones="2" nlines="27" similarity="71">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/SymbolicXYPlotDemo.java" startline="267" endline="318" pcid="2882"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/SymbolicXYPlotDemo.java" startline="339" endline="390" pcid="2883"></source>
+</class>
+
+<class classid="102" nclones="3" nlines="10" similarity="70">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/TimeSeriesDemo9.java" startline="165" endline="177" pcid="2990"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/DatasetUtilities.java" startline="666" endline="676" pcid="8880"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/DatasetUtilities.java" startline="704" endline="714" pcid="8883"></source>
+</class>
+
+<class classid="103" nclones="2" nlines="19" similarity="71">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/XMLBarChartDemo.java" startline="67" endline="103" pcid="3010"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/demo/XMLPieChartDemo.java" startline="68" endline="105" pcid="3014"></source>
+</class>
+
+<class classid="104" nclones="3" nlines="11" similarity="75">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/ImageTitle.java" startline="200" endline="212" pcid="3209"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/WaferMapRenderer.java" startline="136" endline="142" pcid="7862"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/Legend.java" startline="202" endline="213" pcid="3729"></source>
+</class>
+
+<class classid="105" nclones="2" nlines="36" similarity="89">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/ImageTitle.java" startline="263" endline="309" pcid="3212"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/ImageTitle.java" startline="319" endline="364" pcid="3220"></source>
+</class>
+
+<class classid="106" nclones="3" nlines="11" similarity="72">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/ImageTitle.java" startline="293" endline="302" pcid="3216"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/TextTitle.java" startline="442" endline="455" pcid="8384"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/ImageTitle.java" startline="348" endline="357" pcid="3225"></source>
+</class>
+
+<class classid="107" nclones="34" nlines="12" similarity="71">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/JFreeChart.java" startline="511" endline="529" pcid="3267"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/StackedBarRenderer3D.java" startline="286" endline="296" pcid="7745"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/PiePlot.java" startline="498" endline="515" pcid="5212"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="975" endline="994" pcid="5778"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/needle/MeterNeedle.java" startline="290" endline="303" pcid="3862"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/ThermometerPlot.java" startline="363" endline="382" pcid="5540"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="1126" endline="1136" pcid="5796"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/BarRenderer3D.java" startline="576" endline="586" pcid="6719"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CategoryPlot.java" startline="902" endline="921" pcid="3989"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/MeterPlot.java" startline="638" endline="657" pcid="5032"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/PiePlot.java" startline="464" endline="481" pcid="5208"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/ContourPlot.java" startline="259" endline="278" pcid="4547"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/ThermometerPlot.java" startline="321" endline="340" pcid="5536"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/JThermometer.java" startline="264" endline="275" pcid="4835"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/Pie3DPlot.java" startline="717" endline="730" pcid="5185"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/Pie3DPlot.java" startline="637" endline="650" pcid="5173"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/MinMaxCategoryRenderer.java" startline="452" endline="464" pcid="7553"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/Pie3DPlot.java" startline="550" endline="563" pcid="5160"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/Pie3DPlot.java" startline="469" endline="482" pcid="5148"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CategoryPlot.java" startline="1077" endline="1095" pcid="4008"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CategoryPlot.java" startline="792" endline="810" pcid="3971"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CategoryPlot.java" startline="576" endline="594" pcid="3937"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="628" endline="646" pcid="5724"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="856" endline="874" pcid="5759"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CategoryPlot.java" startline="702" endline="720" pcid="3957"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="764" endline="782" pcid="5745"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="532" endline="551" pcid="5710"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/ContourPlot.java" startline="310" endline="329" pcid="4552"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/ContourPlot.java" startline="352" endline="367" pcid="4557"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CategoryPlot.java" startline="1034" endline="1053" pcid="4002"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="1089" endline="1102" pcid="5791"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/WaferMapPlot.java" startline="155" endline="168" pcid="5663"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CategoryPlot.java" startline="486" endline="501" pcid="3924"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/ThermometerPlot.java" startline="400" endline="414" pcid="5544"></source>
+</class>
+
+<class classid="108" nclones="2" nlines="14" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/JFreeChart.java" startline="626" endline="641" pcid="3281"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/JFreeChart.java" startline="660" endline="675" pcid="3287"></source>
+</class>
+
+<class classid="109" nclones="5" nlines="14" similarity="93">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/junit/BarChart3DTests.java" startline="102" endline="119" pcid="3355"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/junit/BarChartTests.java" startline="102" endline="119" pcid="3364"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/junit/StackedHorizontalBarChartTests.java" startline="101" endline="118" pcid="3415"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/junit/StackedVerticalBarChartTests.java" startline="101" endline="118" pcid="3424"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/junit/ScatterPlotTests.java" startline="101" endline="119" pcid="3400"></source>
+</class>
+
+<class classid="110" nclones="4" nlines="12" similarity="91">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/junit/BarChart3DTests.java" startline="124" endline="145" pcid="3358"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/junit/BarChartTests.java" startline="124" endline="145" pcid="3367"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/junit/StackedHorizontalBarChartTests.java" startline="123" endline="144" pcid="3418"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/junit/StackedVerticalBarChartTests.java" startline="123" endline="144" pcid="3427"></source>
+</class>
+
+<class classid="111" nclones="2" nlines="31" similarity="72">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/labels/BoxAndWhiskerToolTipGenerator.java" startline="86" endline="125" pcid="3432"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/labels/HighLowToolTipGenerator.java" startline="91" endline="126" pcid="3468"></source>
+</class>
+
+<class classid="112" nclones="2" nlines="12" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/labels/CustomXYToolTipGenerator.java" startline="104" endline="118" pcid="3450"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/urls/CustomXYURLGenerator.java" startline="97" endline="111" pcid="8631"></source>
+</class>
+
+<class classid="113" nclones="2" nlines="28" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/labels/CustomXYToolTipGenerator.java" startline="169" endline="198" pcid="3458"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/urls/CustomXYURLGenerator.java" startline="142" endline="171" pcid="8637"></source>
+</class>
+
+<class classid="114" nclones="2" nlines="29" similarity="72">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/labels/IntervalCategoryItemLabelGenerator.java" startline="121" endline="157" pcid="3486"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/labels/IntervalCategoryItemLabelGenerator.java" startline="168" endline="194" pcid="3493"></source>
+</class>
+
+<class classid="115" nclones="2" nlines="27" similarity="74">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/labels/junit/CustomXYToolTipGeneratorTests.java" startline="100" endline="132" pcid="3520"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/urls/junit/CustomXYURLGeneratorTests.java" startline="82" endline="115" pcid="8647"></source>
+</class>
+
+<class classid="116" nclones="2" nlines="35" similarity="74">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/MeterLegend.java" startline="271" endline="314" pcid="3800"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/StandardLegend.java" startline="521" endline="588" pcid="8296"></source>
+</class>
+
+<class classid="117" nclones="8" nlines="14" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CategoryPlot.java" startline="555" endline="568" pcid="3933"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CategoryPlot.java" startline="845" endline="859" pcid="3981"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="690" endline="704" pcid="5735"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CategoryPlot.java" startline="771" endline="784" pcid="3967"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="607" endline="620" pcid="5720"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="835" endline="848" pcid="5755"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CategoryPlot.java" startline="629" endline="643" pcid="3947"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="918" endline="932" pcid="5770"></source>
+</class>
+
+<class classid="118" nclones="6" nlines="11" similarity="75">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CategoryPlot.java" startline="599" endline="608" pcid="3941"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CategoryPlot.java" startline="2593" endline="2603" pcid="4237"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="888" endline="897" pcid="5764"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CategoryPlot.java" startline="815" endline="824" pcid="3975"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="660" endline="669" pcid="5729"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CategoryPlot.java" startline="2632" endline="2642" pcid="4247"></source>
+</class>
+
+<class classid="119" nclones="2" nlines="32" similarity="93">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CategoryPlot.java" startline="1306" endline="1341" pcid="4033"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="3258" endline="3294" pcid="6110"></source>
+</class>
+
+<class classid="120" nclones="3" nlines="11" similarity="72">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CategoryPlot.java" startline="1311" endline="1320" pcid="4034"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CategoryPlot.java" startline="1327" endline="1336" pcid="4038"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CategoryPlot.java" startline="2271" endline="2282" pcid="4186"></source>
+</class>
+
+<class classid="121" nclones="3" nlines="16" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CategoryPlot.java" startline="1469" endline="1484" pcid="4060"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="1350" endline="1365" pcid="5820"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="1444" endline="1459" pcid="5835"></source>
+</class>
+
+<class classid="122" nclones="16" nlines="10" similarity="70">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CategoryPlot.java" startline="1517" endline="1527" pcid="4069"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/Plot.java" startline="1083" endline="1093" pcid="5501"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/Plot.java" startline="1105" endline="1115" pcid="5509"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="2331" endline="2341" pcid="5971"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="2312" endline="2322" pcid="5967"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/Plot.java" startline="1094" endline="1104" pcid="5505"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/Plot.java" startline="1014" endline="1024" pcid="5480"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/Plot.java" startline="1047" endline="1057" pcid="5492"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/Plot.java" startline="1072" endline="1082" pcid="5497"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/Plot.java" startline="1036" endline="1046" pcid="5488"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/Plot.java" startline="1025" endline="1035" pcid="5484"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/FastScatterPlot.java" startline="319" endline="329" pcid="4782"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/WaterfallBarRenderer.java" startline="309" endline="319" pcid="7920"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/Plot.java" startline="835" endline="846" pcid="5464"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/Plot.java" startline="858" endline="869" pcid="5467"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/PlotOrientation.java" startline="113" endline="122" pcid="5519"></source>
+</class>
+
+<class classid="123" nclones="3" nlines="20" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CategoryPlot.java" startline="1553" endline="1572" pcid="4074"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="1402" endline="1421" pcid="5829"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="1496" endline="1515" pcid="5844"></source>
+</class>
+
+<class classid="124" nclones="2" nlines="12" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CategoryPlot.java" startline="1588" endline="1599" pcid="4080"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="1531" endline="1542" pcid="5850"></source>
+</class>
+
+<class classid="125" nclones="3" nlines="14" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CategoryPlot.java" startline="1627" endline="1640" pcid="4085"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="2351" endline="2364" pcid="5975"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="2374" endline="2387" pcid="5979"></source>
+</class>
+
+<class classid="126" nclones="4" nlines="32" similarity="77">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CategoryPlot.java" startline="1805" endline="1848" pcid="4106"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CategoryPlot.java" startline="1860" endline="1894" pcid="4117"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="1627" endline="1661" pcid="5866"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="1579" endline="1615" pcid="5857"></source>
+</class>
+
+<class classid="127" nclones="2" nlines="61" similarity="87">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CategoryPlot.java" startline="2032" endline="2114" pcid="4144"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="1878" endline="1949" pcid="5902"></source>
+</class>
+
+<class classid="128" nclones="2" nlines="17" similarity="88">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CategoryPlot.java" startline="2147" endline="2168" pcid="4162"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CategoryPlot.java" startline="2169" endline="2190" pcid="4168"></source>
+</class>
+
+<class classid="129" nclones="3" nlines="12" similarity="75">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CategoryPlot.java" startline="2228" endline="2243" pcid="4179"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="1974" endline="1985" pcid="5915"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="2109" endline="2121" pcid="5937"></source>
+</class>
+
+<class classid="130" nclones="3" nlines="17" similarity="78">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CategoryPlot.java" startline="2295" endline="2315" pcid="4189"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="2163" endline="2183" pcid="5945"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="2133" endline="2154" pcid="5940"></source>
+</class>
+
+<class classid="131" nclones="3" nlines="15" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CategoryPlot.java" startline="2388" endline="2405" pcid="4205"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="2257" endline="2274" pcid="5959"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="2286" endline="2303" pcid="5963"></source>
+</class>
+
+<class classid="132" nclones="3" nlines="18" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CategoryPlot.java" startline="2491" endline="2508" pcid="4221"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="2526" endline="2543" pcid="5999"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="2500" endline="2517" pcid="5993"></source>
+</class>
+
+<class classid="133" nclones="12" nlines="14" similarity="71">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CategoryPlot.java" startline="2592" endline="2604" pcid="4236"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="2977" endline="2988" pcid="6063"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="3047" endline="3058" pcid="6081"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CategoryPlot.java" startline="2631" endline="2643" pcid="4246"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CategoryPlot.java" startline="2612" endline="2624" pcid="4241"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="2965" endline="2976" pcid="6059"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CategoryPlot.java" startline="2651" endline="2663" pcid="4251"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="3035" endline="3046" pcid="6077"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="3071" endline="3082" pcid="6086"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="3012" endline="3023" pcid="6072"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="3000" endline="3011" pcid="6068"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="3083" endline="3094" pcid="6090"></source>
+</class>
+
+<class classid="134" nclones="2" nlines="50" similarity="81">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CategoryPlot.java" startline="2703" endline="2774" pcid="4260"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="3303" endline="3374" pcid="6118"></source>
+</class>
+
+<class classid="135" nclones="4" nlines="15" similarity="73">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CombinedDomainCategoryPlot.java" startline="111" endline="122" pcid="4280"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CombinedRangeCategoryPlot.java" startline="108" endline="125" pcid="4383"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CombinedRangeXYPlot.java" startline="188" endline="215" pcid="4437"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CombinedDomainXYPlot.java" startline="227" endline="253" pcid="4338"></source>
+</class>
+
+<class classid="136" nclones="4" nlines="12" similarity="73">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CombinedDomainCategoryPlot.java" startline="131" endline="145" pcid="4281"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CombinedRangeXYPlot.java" startline="222" endline="237" pcid="4440"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CombinedRangeCategoryPlot.java" startline="132" endline="151" pcid="4385"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CombinedDomainXYPlot.java" startline="260" endline="274" pcid="4341"></source>
+</class>
+
+<class classid="137" nclones="4" nlines="54" similarity="87">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CombinedDomainCategoryPlot.java" startline="164" endline="234" pcid="4284"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CombinedDomainXYPlot.java" startline="293" endline="356" pcid="4344"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CombinedRangeCategoryPlot.java" startline="170" endline="234" pcid="4389"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CombinedRangeXYPlot.java" startline="256" endline="320" pcid="4443"></source>
+</class>
+
+<class classid="138" nclones="4" nlines="32" similarity="87">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CombinedDomainCategoryPlot.java" startline="247" endline="295" pcid="4297"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CombinedRangeCategoryPlot.java" startline="247" endline="294" pcid="4400"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CombinedRangeXYPlot.java" startline="333" endline="382" pcid="4454"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CombinedDomainXYPlot.java" startline="369" endline="417" pcid="4355"></source>
+</class>
+
+<class classid="139" nclones="4" nlines="11" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CombinedDomainCategoryPlot.java" startline="386" endline="397" pcid="4316"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CombinedRangeXYPlot.java" startline="500" endline="511" pcid="4474"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CombinedRangeCategoryPlot.java" startline="382" endline="393" pcid="4417"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CombinedDomainXYPlot.java" startline="495" endline="506" pcid="4370"></source>
+</class>
+
+<class classid="140" nclones="4" nlines="12" similarity="71">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CombinedDomainCategoryPlot.java" startline="449" endline="459" pcid="4325"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CombinedRangeCategoryPlot.java" startline="445" endline="460" pcid="4426"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CombinedRangeXYPlot.java" startline="560" endline="576" pcid="4483"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CombinedDomainXYPlot.java" startline="555" endline="572" pcid="4379"></source>
+</class>
+
+<class classid="141" nclones="2" nlines="12" similarity="75">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/CompassPlot.java" startline="629" endline="643" pcid="4535"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/AbstractCategoryItemRenderer.java" startline="690" endline="702" pcid="6195"></source>
+</class>
+
+<class classid="142" nclones="2" nlines="10" similarity="80">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/ContourPlot.java" startline="870" endline="887" pcid="4620"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/ContourPlot.java" startline="1005" endline="1019" pcid="4633"></source>
+</class>
+
+<class classid="143" nclones="2" nlines="14" similarity="92">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/ContourPlot.java" startline="1556" endline="1573" pcid="4691"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/ContourPlot.java" startline="1588" endline="1605" pcid="4693"></source>
+</class>
+
+<class classid="144" nclones="2" nlines="15" similarity="70">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/FastScatterPlot.java" startline="116" endline="137" pcid="4765"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/WaferMapPlot.java" startline="120" endline="137" pcid="5659"></source>
+</class>
+
+<class classid="145" nclones="2" nlines="21" similarity="95">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/FastScatterPlot.java" startline="338" endline="361" pcid="4785"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/FastScatterPlot.java" startline="370" endline="392" pcid="4791"></source>
+</class>
+
+<class classid="146" nclones="2" nlines="130" similarity="76">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/junit/CategoryPlotTests.java" startline="100" endline="308" pcid="4851"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/junit/XYPlotTests.java" startline="104" endline="279" pcid="4971"></source>
+</class>
+
+<class classid="147" nclones="2" nlines="26" similarity="96">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/junit/CategoryPlotTests.java" startline="396" endline="435" pcid="4861"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/junit/XYPlotTests.java" startline="384" endline="422" pcid="4984"></source>
+</class>
+
+<class classid="148" nclones="2" nlines="11" similarity="75">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/MeterPlot.java" startline="1201" endline="1212" pcid="5086"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/ThermometerPlot.java" startline="1397" endline="1410" pcid="5652"></source>
+</class>
+
+<class classid="149" nclones="2" nlines="110" similarity="91">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/Pie3DPlot.java" startline="463" endline="630" pcid="5145"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/Pie3DPlot.java" startline="631" endline="794" pcid="5170"></source>
+</class>
+
+<class classid="150" nclones="2" nlines="54" similarity="92">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/Pie3DPlot.java" startline="465" endline="546" pcid="5146"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/Pie3DPlot.java" startline="547" endline="629" pcid="5158"></source>
+</class>
+
+<class classid="151" nclones="2" nlines="20" similarity="72">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/Pie3DPlot.java" startline="483" endline="518" pcid="5150"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/Pie3DPlot.java" startline="520" endline="545" pcid="5155"></source>
+</class>
+
+<class classid="152" nclones="2" nlines="20" similarity="72">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/Pie3DPlot.java" startline="564" endline="600" pcid="5162"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/Pie3DPlot.java" startline="602" endline="628" pcid="5167"></source>
+</class>
+
+<class classid="153" nclones="2" nlines="54" similarity="94">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/Pie3DPlot.java" startline="633" endline="713" pcid="5171"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/Pie3DPlot.java" startline="714" endline="792" pcid="5183"></source>
+</class>
+
+<class classid="154" nclones="2" nlines="20" similarity="72">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/Pie3DPlot.java" startline="651" endline="686" pcid="5175"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/Pie3DPlot.java" startline="688" endline="712" pcid="5180"></source>
+</class>
+
+<class classid="155" nclones="8" nlines="17" similarity="70">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/PiePlot.java" startline="1042" endline="1063" pcid="5279"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/AbstractRenderer.java" startline="427" endline="448" pcid="6265"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/PiePlot.java" startline="1195" endline="1216" pcid="5295"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/AbstractRenderer.java" startline="808" endline="829" pcid="6313"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/AbstractRenderer.java" startline="681" endline="702" pcid="6297"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/AbstractRenderer.java" startline="297" endline="318" pcid="6249"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/PiePlot.java" startline="1306" endline="1327" pcid="5307"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/AbstractRenderer.java" startline="554" endline="575" pcid="6281"></source>
+</class>
+
+<class classid="156" nclones="3" nlines="17" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/Plot.java" startline="430" endline="448" pcid="5412"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/Plot.java" startline="601" endline="619" pcid="5438"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/Plot.java" startline="564" endline="582" pcid="5431"></source>
+</class>
+
+<class classid="157" nclones="2" nlines="48" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/Plot.java" startline="1012" endline="1059" pcid="5479"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/Plot.java" startline="1070" endline="1117" pcid="5496"></source>
+</class>
+
+<class classid="158" nclones="2" nlines="21" similarity="72">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/WaferMapPlot.java" startline="229" endline="251" pcid="5672"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/WaferMapPlot.java" startline="282" endline="302" pcid="5681"></source>
+</class>
+
+<class classid="159" nclones="2" nlines="22" similarity="90">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="1813" endline="1835" pcid="5892"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="1844" endline="1867" pcid="5897"></source>
+</class>
+
+<class classid="160" nclones="2" nlines="14" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="2019" endline="2036" pcid="5921"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="2045" endline="2062" pcid="5925"></source>
+</class>
+
+<class classid="161" nclones="4" nlines="29" similarity="86">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="2962" endline="2989" pcid="6058"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="3031" endline="3060" pcid="6076"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="2997" endline="3024" pcid="6067"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="3068" endline="3095" pcid="6085"></source>
+</class>
+
+<class classid="162" nclones="2" nlines="11" similarity="81">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="3264" endline="3273" pcid="6111"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="3280" endline="3289" pcid="6115"></source>
+</class>
+
+<class classid="163" nclones="2" nlines="14" similarity="86">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/plot/XYPlot.java" startline="3477" endline="3489" pcid="6129"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/AbstractRenderer.java" startline="1814" endline="1830" pcid="6428"></source>
+</class>
+
+<class classid="164" nclones="6" nlines="10" similarity="90">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/AbstractCategoryItemRenderer.java" startline="185" endline="200" pcid="6138"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/AbstractRenderer.java" startline="1442" endline="1457" pcid="6389"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/AbstractCategoryItemRenderer.java" startline="259" endline="274" pcid="6146"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/AbstractRenderer.java" startline="1083" endline="1097" pcid="6346"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/AbstractRenderer.java" startline="1200" endline="1214" pcid="6360"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/AbstractRenderer.java" startline="1316" endline="1331" pcid="6374"></source>
+</class>
+
+<class classid="165" nclones="3" nlines="29" similarity="76">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/AbstractCategoryItemRenderer.java" startline="542" endline="577" pcid="6174"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/AbstractXYItemRenderer.java" startline="582" endline="618" pcid="6508"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/AbstractXYItemRenderer.java" startline="464" endline="501" pcid="6492"></source>
+</class>
+
+<class classid="166" nclones="2" nlines="44" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/AbstractCategoryItemRenderer.java" startline="598" endline="643" pcid="6179"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/AbstractXYItemRenderer.java" startline="639" endline="684" pcid="6513"></source>
+</class>
+
+<class classid="167" nclones="3" nlines="18" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/AbstractCategoryItemRenderer.java" startline="605" endline="622" pcid="6180"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/AbstractXYItemRenderer.java" startline="547" endline="564" pcid="6503"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/AbstractXYItemRenderer.java" startline="646" endline="663" pcid="6514"></source>
+</class>
+
+<class classid="168" nclones="3" nlines="18" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/AbstractCategoryItemRenderer.java" startline="623" endline="640" pcid="6185"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/AbstractXYItemRenderer.java" startline="529" endline="546" pcid="6498"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/AbstractXYItemRenderer.java" startline="664" endline="681" pcid="6519"></source>
+</class>
+
+<class classid="169" nclones="2" nlines="19" similarity="70">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/AbstractCategoryItemRenderer.java" startline="653" endline="677" pcid="6190"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/AbstractXYItemRenderer.java" startline="284" endline="305" pcid="6476"></source>
+</class>
+
+<class classid="170" nclones="2" nlines="87" similarity="75">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/AbstractCategoryItemRenderer.java" startline="794" endline="876" pcid="6203"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/BarRenderer.java" startline="670" endline="768" pcid="6659"></source>
+</class>
+
+<class classid="171" nclones="2" nlines="10" similarity="90">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/AbstractXYItemRenderer.java" startline="326" endline="340" pcid="6480"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/AbstractXYItemRenderer.java" startline="357" endline="371" pcid="6482"></source>
+</class>
+
+<class classid="172" nclones="2" nlines="20" similarity="85">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/AbstractXYItemRenderer.java" startline="387" endline="410" pcid="6484"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/AbstractXYItemRenderer.java" startline="426" endline="449" pcid="6488"></source>
+</class>
+
+<class classid="173" nclones="3" nlines="11" similarity="75">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/AreaXYRenderer.java" startline="292" endline="307" pcid="6564"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/StackedAreaXYRenderer.java" startline="220" endline="236" pcid="7653"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/XYStepAreaRenderer.java" startline="287" endline="306" pcid="8117"></source>
+</class>
+
+<class classid="174" nclones="2" nlines="11" similarity="81">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/AreaXYRenderer.java" startline="317" endline="326" pcid="6569"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/XYStepAreaRenderer.java" startline="353" endline="365" pcid="8128"></source>
+</class>
+
+<class classid="175" nclones="2" nlines="16" similarity="87">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/AreaXYRenderer.java" startline="336" endline="354" pcid="6575"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/StackedAreaXYRenderer.java" startline="248" endline="268" pcid="7658"></source>
+</class>
+
+<class classid="176" nclones="2" nlines="16" similarity="82">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/AreaXYRenderer.java" startline="358" endline="381" pcid="6579"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/XYStepAreaRenderer.java" startline="378" endline="407" pcid="8134"></source>
+</class>
+
+<class classid="177" nclones="17" nlines="14" similarity="77">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/AreaXYRenderer.java" startline="404" endline="418" pcid="6588"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/XYStepAreaRenderer.java" startline="432" endline="446" pcid="8144"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/ClusteredXYBarRenderer.java" startline="231" endline="245" pcid="6869"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/XYDifferenceRenderer.java" startline="380" endline="395" pcid="8063"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/CandlestickRenderer.java" startline="680" endline="691" pcid="6838"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/XYBubbleRenderer.java" startline="235" endline="246" pcid="8033"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/YIntervalRenderer.java" startline="171" endline="185" pcid="8183"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/XYBoxAndWhiskerRenderer.java" startline="569" endline="580" pcid="8009"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/XYBoxAndWhiskerRenderer.java" startline="354" endline="365" pcid="7982"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/StandardXYItemRenderer.java" startline="559" endline="573" pcid="7804"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/SignalRenderer.java" startline="245" endline="256" pcid="7625"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/StackedAreaXYRenderer.java" startline="358" endline="372" pcid="7685"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/HighLowRenderer.java" startline="168" endline="182" pcid="6975"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/XYBarRenderer.java" startline="259" endline="273" pcid="7955"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/XYStepRenderer.java" startline="217" endline="236" pcid="8171"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/XYStepRenderer.java" startline="219" endline="235" pcid="8172"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/XYDifferenceRenderer.java" startline="406" endline="421" pcid="8068"></source>
+</class>
+
+<class classid="178" nclones="3" nlines="32" similarity="87">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/BarRenderer.java" startline="339" endline="372" pcid="6611"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/LayeredBarRenderer.java" startline="88" endline="121" pcid="7419"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/BoxAndWhiskerRenderer.java" startline="166" endline="205" pcid="6736"></source>
+</class>
+
+<class classid="179" nclones="5" nlines="10" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/BarRenderer.java" startline="443" endline="452" pcid="6628"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/LayeredBarRenderer.java" startline="201" endline="210" pcid="7435"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/StatisticalBarRenderer.java" startline="294" endline="303" pcid="7847"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/LayeredBarRenderer.java" startline="340" endline="349" pcid="7457"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/StatisticalBarRenderer.java" startline="180" endline="189" pcid="7833"></source>
+</class>
+
+<class classid="180" nclones="2" nlines="10" similarity="70">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/BarRenderer3D.java" startline="451" endline="461" pcid="6710"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/BarRenderer3D.java" startline="462" endline="472" pcid="6711"></source>
+</class>
+
+<class classid="181" nclones="2" nlines="12" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/BarRenderer3D.java" startline="554" endline="566" pcid="6717"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/StackedBarRenderer3D.java" startline="262" endline="274" pcid="7742"></source>
+</class>
+
+<class classid="182" nclones="2" nlines="18" similarity="88">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/BoxAndWhiskerRenderer.java" startline="503" endline="520" pcid="6766"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/XYBoxAndWhiskerRenderer.java" startline="511" endline="528" pcid="7998"></source>
+</class>
+
+<class classid="183" nclones="2" nlines="11" similarity="90">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/BoxAndWhiskerRenderer.java" startline="529" endline="540" pcid="6772"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/XYBoxAndWhiskerRenderer.java" startline="546" endline="557" pcid="8004"></source>
+</class>
+
+<class classid="184" nclones="2" nlines="58" similarity="77">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/ClusteredXYBarRenderer.java" startline="171" endline="247" pcid="6862"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/XYBarRenderer.java" startline="195" endline="275" pcid="7947"></source>
+</class>
+
+<class classid="185" nclones="2" nlines="79" similarity="75">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/GanttRenderer.java" startline="148" endline="288" pcid="6911"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/IntervalBarRenderer.java" startline="292" endline="389" pcid="7002"></source>
+</class>
+
+<class classid="186" nclones="2" nlines="11" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/GanttRenderer.java" startline="218" endline="249" pcid="6921"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/GanttRenderer.java" startline="382" endline="413" pcid="6941"></source>
+</class>
+
+<class classid="187" nclones="2" nlines="94" similarity="74">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/GanttRenderer.java" startline="311" endline="463" pcid="6931"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/IntervalBarRenderer.java" startline="149" endline="269" pcid="6985"></source>
+</class>
+
+<class classid="188" nclones="6" nlines="11" similarity="81">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/GanttRenderer.java" startline="356" endline="366" pcid="6935"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/GanttRenderer.java" startline="367" endline="377" pcid="6938"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/WaterfallBarRenderer.java" startline="285" endline="300" pcid="7915"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/IntervalBarRenderer.java" startline="193" endline="211" pcid="6989"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/WaterfallBarRenderer.java" startline="267" endline="284" pcid="7912"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/IntervalBarRenderer.java" startline="212" endline="228" pcid="6992"></source>
+</class>
+
+<class classid="189" nclones="2" nlines="49" similarity="71">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/HighLowRenderer.java" startline="127" endline="184" pcid="6973"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/YIntervalRenderer.java" startline="121" endline="187" pcid="8179"></source>
+</class>
+
+<class classid="190" nclones="2" nlines="78" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/ItemLabelAnchor.java" startline="183" endline="261" pcid="7023"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/ItemLabelAnchor.java" startline="272" endline="350" pcid="7049"></source>
+</class>
+
+<class classid="191" nclones="2" nlines="90" similarity="91">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/LayeredBarRenderer.java" startline="179" endline="288" pcid="7430"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/LayeredBarRenderer.java" startline="311" endline="427" pcid="7452"></source>
+</class>
+
+<class classid="192" nclones="2" nlines="12" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/LineAndShapeRenderer.java" startline="231" endline="247" pcid="7490"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/StandardXYItemRenderer.java" startline="275" endline="291" pcid="7764"></source>
+</class>
+
+<class classid="193" nclones="2" nlines="26" similarity="85">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/MinMaxCategoryRenderer.java" startline="446" endline="475" pcid="7552"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/MinMaxCategoryRenderer.java" startline="486" endline="511" pcid="7558"></source>
+</class>
+
+<class classid="194" nclones="2" nlines="12" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/StackedAreaRenderer.java" startline="225" endline="239" pcid="7641"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/StackedAreaXYRenderer.java" startline="390" endline="404" pcid="7689"></source>
+</class>
+
+<class classid="195" nclones="2" nlines="27" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/StackedBarRenderer.java" startline="138" endline="169" pcid="7699"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/StackedBarRenderer3D.java" startline="132" endline="163" pcid="7725"></source>
+</class>
+
+<class classid="196" nclones="2" nlines="71" similarity="95">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/StatisticalBarRenderer.java" startline="144" endline="235" pcid="7827"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/StatisticalBarRenderer.java" startline="258" endline="349" pcid="7841"></source>
+</class>
+
+<class classid="197" nclones="2" nlines="13" similarity="92">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/WaferMapRenderer.java" startline="340" endline="351" pcid="7889"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/WaferMapRenderer.java" startline="360" endline="371" pcid="7893"></source>
+</class>
+
+<class classid="198" nclones="2" nlines="37" similarity="81">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/XYDifferenceRenderer.java" startline="440" endline="488" pcid="8072"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/XYDifferenceRenderer.java" startline="502" endline="549" pcid="8079"></source>
+</class>
+
+<class classid="199" nclones="2" nlines="12" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/XYStepRenderer.java" startline="166" endline="178" pcid="8160"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/renderer/XYStepRenderer.java" startline="179" endline="191" pcid="8163"></source>
+</class>
+
+<class classid="200" nclones="6" nlines="10" similarity="70">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/Spacer.java" startline="111" endline="124" pcid="8237"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/Spacer.java" startline="227" endline="240" pcid="8252"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/Spacer.java" startline="159" endline="172" pcid="8243"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/Spacer.java" startline="183" endline="196" pcid="8246"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/Spacer.java" startline="135" endline="148" pcid="8240"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/Spacer.java" startline="205" endline="218" pcid="8249"></source>
+</class>
+
+<class classid="201" nclones="2" nlines="23" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/StandardLegendItemLayout.java" startline="95" endline="126" pcid="8345"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/StandardLegendItemLayout.java" startline="132" endline="162" pcid="8349"></source>
+</class>
+
+<class classid="202" nclones="2" nlines="12" similarity="75">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/TextTitle.java" startline="342" endline="358" pcid="8376"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/TextTitle.java" startline="367" endline="387" pcid="8378"></source>
+</class>
+
+<class classid="203" nclones="7" nlines="14" similarity="71">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/ui/AxisPropertyEditPanel.java" startline="142" endline="158" pcid="8402"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/Day.java" startline="289" endline="304" pcid="10245"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/Quarter.java" startline="237" endline="252" pcid="10776"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/Year.java" startline="215" endline="230" pcid="11205"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/Week.java" startline="345" endline="360" pcid="11158"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/Month.java" startline="244" endline="259" pcid="10727"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/TimeSeriesTableModel.java" startline="206" endline="220" pcid="11247"></source>
+</class>
+
+<class classid="204" nclones="2" nlines="18" similarity="72">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/ui/AxisPropertyEditPanel.java" startline="369" endline="386" pcid="8418"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/ui/LegendPropertyEditPanel.java" startline="222" endline="239" pcid="8509"></source>
+</class>
+
+<class classid="205" nclones="2" nlines="14" similarity="92">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/ui/NumberAxisPropertyEditPanel.java" startline="324" endline="338" pcid="8550"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/ui/NumberAxisPropertyEditPanel.java" startline="343" endline="357" pcid="8554"></source>
+</class>
+
+<class classid="206" nclones="3" nlines="12" similarity="71">
+<source file="jfreechart-0.9.15/src/org/jfree/chart/ui/PlotPropertyEditPanel.java" startline="387" endline="400" pcid="8600"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/ui/PlotPropertyEditPanel.java" startline="418" endline="427" pcid="8608"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/chart/ui/PlotPropertyEditPanel.java" startline="402" endline="415" pcid="8604"></source>
+</class>
+
+<class classid="207" nclones="6" nlines="13" similarity="71">
+<source file="jfreechart-0.9.15/src/org/jfree/data/CategoryToPieDataset.java" startline="87" endline="100" pcid="8706"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/CategoryToPieDataset.java" startline="201" endline="216" pcid="8711"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/CategoryToPieDataset.java" startline="176" endline="190" pcid="8710"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/CategoryToPieDataset.java" startline="155" endline="169" pcid="8709"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/CategoryToPieDataset.java" startline="132" endline="146" pcid="8708"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/CategoryToPieDataset.java" startline="109" endline="123" pcid="8707"></source>
+</class>
+
+<class classid="208" nclones="2" nlines="19" similarity="75">
+<source file="jfreechart-0.9.15/src/org/jfree/data/CombinedDataset.java" startline="372" endline="392" pcid="8743"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/CombinedDataset.java" startline="404" endline="421" pcid="8749"></source>
+</class>
+
+<class classid="209" nclones="12" nlines="38" similarity="70">
+<source file="jfreechart-0.9.15/src/org/jfree/data/DatasetUtilities.java" startline="140" endline="199" pcid="8774"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/DatasetUtilities.java" startline="322" endline="376" pcid="8811"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/DatasetUtilities.java" startline="259" endline="302" pcid="8800"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/DatasetUtilities.java" startline="391" endline="444" pcid="8824"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/DatasetUtilities.java" startline="223" endline="258" pcid="8791"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/DatasetUtilities.java" startline="159" endline="194" pcid="8778"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/DatasetUtilities.java" startline="411" endline="439" pcid="8828"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/DatasetUtilities.java" startline="342" endline="370" pcid="8815"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/DatasetUtilities.java" startline="474" endline="502" pcid="8840"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/DatasetUtilities.java" startline="503" endline="538" pcid="8848"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/DatasetUtilities.java" startline="573" endline="601" pcid="8861"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/DatasetUtilities.java" startline="602" endline="634" pcid="8869"></source>
+</class>
+
+<class classid="210" nclones="3" nlines="82" similarity="79">
+<source file="jfreechart-0.9.15/src/org/jfree/data/DatasetUtilities.java" startline="209" endline="307" pcid="8788"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/DatasetUtilities.java" startline="558" endline="639" pcid="8858"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/DatasetUtilities.java" startline="459" endline="543" pcid="8837"></source>
+</class>
+
+<class classid="211" nclones="3" nlines="28" similarity="77">
+<source file="jfreechart-0.9.15/src/org/jfree/data/DatasetUtilities.java" startline="755" endline="792" pcid="8890"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/DatasetUtilities.java" startline="844" endline="876" pcid="8903"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/DatasetUtilities.java" startline="802" endline="834" pcid="8897"></source>
+</class>
+
+<class classid="212" nclones="3" nlines="13" similarity="84">
+<source file="jfreechart-0.9.15/src/org/jfree/data/DatasetUtilities.java" startline="930" endline="942" pcid="8913"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/DatasetUtilities.java" startline="957" endline="969" pcid="8916"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/DatasetUtilities.java" startline="985" endline="997" pcid="8919"></source>
+</class>
+
+<class classid="213" nclones="2" nlines="20" similarity="75">
+<source file="jfreechart-0.9.15/src/org/jfree/data/DatasetUtilities.java" startline="1051" endline="1074" pcid="8928"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/DatasetUtilities.java" startline="1084" endline="1107" pcid="8934"></source>
+</class>
+
+<class classid="214" nclones="4" nlines="37" similarity="71">
+<source file="jfreechart-0.9.15/src/org/jfree/data/DefaultCategoryDataset.java" startline="289" endline="329" pcid="9001"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/DefaultPieDataset.java" startline="202" endline="240" pcid="9309"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/DefaultKeyedValues.java" startline="263" endline="301" pcid="9207"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/DefaultKeyedValues2D.java" startline="296" endline="336" pcid="9245"></source>
+</class>
+
+<class classid="215" nclones="2" nlines="10" similarity="90">
+<source file="jfreechart-0.9.15/src/org/jfree/data/DefaultContourDataset.java" startline="210" endline="218" pcid="9032"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/DefaultContourDataset.java" startline="225" endline="234" pcid="9035"></source>
+</class>
+
+<class classid="216" nclones="2" nlines="11" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/data/DefaultIntervalCategoryDataset.java" startline="559" endline="580" pcid="9136"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/DefaultIntervalCategoryDataset.java" startline="590" endline="611" pcid="9139"></source>
+</class>
+
+<class classid="217" nclones="2" nlines="13" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/data/DefaultKeyedValues.java" startline="125" endline="139" pcid="9191"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/KeyedObjects.java" startline="112" endline="126" pcid="9739"></source>
+</class>
+
+<class classid="218" nclones="2" nlines="11" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/data/DefaultKeyedValues.java" startline="198" endline="208" pcid="9199"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/KeyedObjects.java" startline="178" endline="188" pcid="9746"></source>
+</class>
+
+<class classid="219" nclones="2" nlines="11" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/data/DefaultKeyedValues2D.java" startline="100" endline="112" pcid="9223"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/KeyedObjects2D.java" startline="96" endline="108" pcid="9754"></source>
+</class>
+
+<class classid="220" nclones="2" nlines="17" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/data/DefaultKeyedValues2D.java" startline="214" endline="232" pcid="9235"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/KeyedObjects2D.java" startline="210" endline="228" pcid="9766"></source>
+</class>
+
+<class classid="221" nclones="3" nlines="11" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/data/DefaultMeterDataset.java" startline="301" endline="313" pcid="9282"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/DefaultMeterDataset.java" startline="344" endline="357" pcid="9288"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/DefaultMeterDataset.java" startline="322" endline="335" pcid="9285"></source>
+</class>
+
+<class classid="222" nclones="4" nlines="10" similarity="70">
+<source file="jfreechart-0.9.15/src/org/jfree/data/DefaultTableXYDataset.java" startline="297" endline="313" pcid="9349"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/MatrixSeriesCollection.java" startline="270" endline="283" pcid="9836"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/XYSeriesCollection.java" startline="238" endline="253" pcid="11469"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/gantt/TaskSeriesCollection.java" startline="240" endline="255" pcid="9436"></source>
+</class>
+
+<class classid="223" nclones="7" nlines="10" similarity="80">
+<source file="jfreechart-0.9.15/src/org/jfree/data/gantt/TaskSeriesCollection.java" startline="326" endline="337" pcid="9444"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/gantt/TaskSeriesCollection.java" startline="453" endline="465" pcid="9455"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/gantt/TaskSeriesCollection.java" startline="415" endline="426" pcid="9452"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/gantt/TaskSeriesCollection.java" startline="533" endline="543" pcid="9461"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/gantt/TaskSeriesCollection.java" startline="493" endline="505" pcid="9458"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/gantt/TaskSeriesCollection.java" startline="382" endline="391" pcid="9449"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/gantt/TaskSeriesCollection.java" startline="361" endline="372" pcid="9447"></source>
+</class>
+
+<class classid="224" nclones="2" nlines="13" similarity="84">
+<source file="jfreechart-0.9.15/src/org/jfree/data/HistogramDataset.java" startline="150" endline="162" pcid="9486"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/HistogramDataset.java" startline="171" endline="183" pcid="9490"></source>
+</class>
+
+<class classid="225" nclones="3" nlines="16" similarity="75">
+<source file="jfreechart-0.9.15/src/org/jfree/data/JDBCCategoryDataset.java" startline="113" endline="129" pcid="9512"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/JDBCXYDataset.java" startline="113" endline="128" pcid="9567"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/JDBCPieDataset.java" startline="93" endline="108" pcid="9545"></source>
+</class>
+
+<class classid="226" nclones="3" nlines="16" similarity="88">
+<source file="jfreechart-0.9.15/src/org/jfree/data/JDBCCategoryDataset.java" startline="294" endline="311" pcid="9537"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/JDBCXYDataset.java" startline="345" endline="360" pcid="9599"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/JDBCPieDataset.java" startline="215" endline="232" pcid="9559"></source>
+</class>
+
+<class classid="227" nclones="2" nlines="24" similarity="72">
+<source file="jfreechart-0.9.15/src/org/jfree/data/JDBCXYDataset.java" startline="201" endline="226" pcid="9580"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/JDBCXYDataset.java" startline="275" endline="300" pcid="9588"></source>
+</class>
+
+<class classid="228" nclones="2" nlines="12" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/data/junit/DefaultKeyedValueDatasetTests.java" startline="81" endline="96" pcid="9635"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/junit/DefaultKeyedValueTests.java" startline="81" endline="96" pcid="9682"></source>
+</class>
+
+<class classid="229" nclones="4" nlines="20" similarity="70">
+<source file="jfreechart-0.9.15/src/org/jfree/data/junit/DefaultKeyedValuesTests.java" startline="141" endline="169" pcid="9673"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/junit/DefaultKeyedValuesTests.java" startline="240" endline="268" pcid="9676"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/junit/DefaultKeyedValuesTests.java" startline="174" endline="202" pcid="9674"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/junit/DefaultKeyedValuesTests.java" startline="207" endline="235" pcid="9675"></source>
+</class>
+
+<class classid="230" nclones="4" nlines="12" similarity="75">
+<source file="jfreechart-0.9.15/src/org/jfree/data/junit/RegressionTests.java" startline="91" endline="105" pcid="9709"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/junit/RegressionTests.java" startline="187" endline="201" pcid="9718"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/junit/RegressionTests.java" startline="155" endline="169" pcid="9715"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/junit/RegressionTests.java" startline="123" endline="137" pcid="9712"></source>
+</class>
+
+<class classid="231" nclones="2" nlines="11" similarity="81">
+<source file="jfreechart-0.9.15/src/org/jfree/data/KeyedValueComparator.java" startline="116" endline="126" pcid="9787"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/KeyedValueComparator.java" startline="127" endline="137" pcid="9791"></source>
+</class>
+
+<class classid="232" nclones="2" nlines="40" similarity="72">
+<source file="jfreechart-0.9.15/src/org/jfree/data/MovingAverage.java" startline="128" endline="176" pcid="9851"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/MovingAverage.java" startline="339" endline="386" pcid="9876"></source>
+</class>
+
+<class classid="233" nclones="4" nlines="29" similarity="86">
+<source file="jfreechart-0.9.15/src/org/jfree/data/Regression.java" startline="58" endline="90" pcid="9933"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/Regression.java" startline="147" endline="179" pcid="9939"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/Regression.java" startline="103" endline="135" pcid="9936"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/Regression.java" startline="192" endline="224" pcid="9942"></source>
+</class>
+
+<class classid="234" nclones="2" nlines="18" similarity="88">
+<source file="jfreechart-0.9.15/src/org/jfree/data/statistics/BoxAndWhiskerCalculator.java" startline="225" endline="243" pcid="10002"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/statistics/BoxAndWhiskerCalculator.java" startline="252" endline="270" pcid="10008"></source>
+</class>
+
+<class classid="235" nclones="2" nlines="12" similarity="83">
+<source file="jfreechart-0.9.15/src/org/jfree/data/statistics/junit/BoxAndWhiskerCalculatorTests.java" startline="98" endline="108" pcid="10150"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/statistics/junit/BoxAndWhiskerCalculatorTests.java" startline="113" endline="124" pcid="10151"></source>
+</class>
+
+<class classid="236" nclones="2" nlines="11" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/data/statistics/Statistics.java" startline="74" endline="85" pcid="10157"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/Statistics.java" startline="77" endline="88" pcid="10177"></source>
+</class>
+
+<class classid="237" nclones="2" nlines="14" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/data/statistics/Statistics.java" startline="122" endline="149" pcid="10161"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/Statistics.java" startline="125" endline="152" pcid="10181"></source>
+</class>
+
+<class classid="238" nclones="2" nlines="30" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/data/statistics/Statistics.java" startline="159" endline="201" pcid="10164"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/Statistics.java" startline="162" endline="204" pcid="10184"></source>
+</class>
+
+<class classid="239" nclones="2" nlines="21" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/data/statistics/Statistics.java" startline="213" endline="239" pcid="10170"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/Statistics.java" startline="216" endline="242" pcid="10190"></source>
+</class>
+
+<class classid="240" nclones="2" nlines="12" similarity="83">
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/Day.java" startline="191" endline="204" pcid="10236"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/Day.java" startline="211" endline="224" pcid="10239"></source>
+</class>
+
+<class classid="241" nclones="9" nlines="15" similarity="71">
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/Day.java" startline="329" endline="356" pcid="10251"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/Hour.java" startline="329" endline="359" pcid="10407"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/Month.java" startline="286" endline="316" pcid="10733"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/TimeSeriesDataItem.java" startline="177" endline="197" pcid="11123"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/Minute.java" startline="303" endline="333" pcid="10697"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/Year.java" startline="258" endline="285" pcid="11211"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/Quarter.java" startline="280" endline="310" pcid="10782"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/Week.java" startline="388" endline="418" pcid="11164"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/Second.java" startline="281" endline="311" pcid="10825"></source>
+</class>
+
+<class classid="242" nclones="3" nlines="25" similarity="80">
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/FixedMillisecond.java" startline="169" endline="208" pcid="10365"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/Millisecond.java" startline="258" endline="297" pcid="10661"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/XYDataItem.java" startline="119" endline="150" pcid="11381"></source>
+</class>
+
+<class classid="243" nclones="10" nlines="16" similarity="70">
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/Hour.java" startline="190" endline="207" pcid="10390"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/Minute.java" startline="186" endline="203" pcid="10685"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/Week.java" startline="192" endline="214" pcid="11140"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/Quarter.java" startline="176" endline="193" pcid="10765"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/Week.java" startline="227" endline="243" pcid="11147"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/Minute.java" startline="162" endline="179" pcid="10680"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/Month.java" startline="174" endline="191" pcid="10715"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/Quarter.java" startline="200" endline="217" pcid="10770"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/Month.java" startline="198" endline="213" pcid="10720"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/Hour.java" startline="214" endline="231" pcid="10395"></source>
+</class>
+
+<class classid="244" nclones="2" nlines="12" similarity="84">
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/junit/MillisecondTests.java" startline="107" endline="119" pcid="10459"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/junit/SecondTests.java" startline="106" endline="116" pcid="10525"></source>
+</class>
+
+<class classid="245" nclones="2" nlines="27" similarity="77">
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/junit/MonthTests.java" startline="198" endline="232" pcid="10488"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/junit/QuarterTests.java" startline="195" endline="229" pcid="10510"></source>
+</class>
+
+<class classid="246" nclones="2" nlines="32" similarity="90">
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/junit/TimePeriodValuesTests.java" startline="95" endline="130" pcid="10543"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/junit/TimeSeriesTests.java" startline="100" endline="135" pcid="10584"></source>
+</class>
+
+<class classid="247" nclones="2" nlines="24" similarity="83">
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/junit/TimePeriodValuesTests.java" startline="135" endline="164" pcid="10550"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/junit/TimeSeriesTests.java" startline="140" endline="169" pcid="10591"></source>
+</class>
+
+<class classid="248" nclones="2" nlines="11" similarity="81">
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/junit/TimePeriodValuesTests.java" startline="169" endline="182" pcid="10555"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/junit/TimeSeriesTests.java" startline="174" endline="186" pcid="10596"></source>
+</class>
+
+<class classid="249" nclones="2" nlines="22" similarity="95">
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/junit/TimePeriodValuesTests.java" startline="187" endline="212" pcid="10558"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/junit/TimeSeriesTests.java" startline="215" endline="240" pcid="10601"></source>
+</class>
+
+<class classid="250" nclones="4" nlines="13" similarity="92">
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/Millisecond.java" startline="160" endline="175" pcid="10648"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/Second.java" startline="187" endline="203" pcid="10814"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/Second.java" startline="164" endline="180" pcid="10810"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/Millisecond.java" startline="182" endline="197" pcid="10652"></source>
+</class>
+
+<class classid="251" nclones="2" nlines="37" similarity="89">
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/Month.java" startline="361" endline="409" pcid="10740"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/Week.java" startline="432" endline="480" pcid="11169"></source>
+</class>
+
+<class classid="252" nclones="2" nlines="14" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/Month.java" startline="418" endline="432" pcid="10750"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/Week.java" startline="490" endline="504" pcid="11179"></source>
+</class>
+
+<class classid="253" nclones="2" nlines="21" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/TimePeriodValue.java" startline="114" endline="138" pcid="10854"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/TimeSeriesDataItem.java" startline="140" endline="164" pcid="11117"></source>
+</class>
+
+<class classid="254" nclones="2" nlines="35" similarity="88">
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/TimePeriodValues.java" startline="392" endline="432" pcid="10901"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/TimeSeries.java" startline="777" endline="820" pcid="11044"></source>
+</class>
+
+<class classid="255" nclones="3" nlines="18" similarity="94">
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/TimePeriodValues.java" startline="464" endline="484" pcid="10911"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/TimeSeries.java" startline="722" endline="742" pcid="11036"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/XYSeries.java" startline="407" endline="429" pcid="11445"></source>
+</class>
+
+<class classid="256" nclones="2" nlines="14" similarity="71">
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/TimePeriodValuesCollection.java" startline="147" endline="159" pcid="10927"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/TimeSeriesCollection.java" startline="172" endline="185" pcid="11058"></source>
+</class>
+
+<class classid="257" nclones="2" nlines="11" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/TimePeriodValuesCollection.java" startline="171" endline="181" pcid="10931"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/time/TimeSeriesCollection.java" startline="196" endline="206" pcid="11062"></source>
+</class>
+
+<class classid="258" nclones="4" nlines="13" similarity="84">
+<source file="jfreechart-0.9.15/src/org/jfree/data/TimeSeriesTableModel.java" startline="112" endline="126" pcid="11225"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/TimeSeriesTableModel.java" startline="169" endline="181" pcid="11237"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/TimeSeriesTableModel.java" startline="182" endline="194" pcid="11242"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/TimeSeriesTableModel.java" startline="135" endline="149" pcid="11230"></source>
+</class>
+
+<class classid="259" nclones="2" nlines="16" similarity="76">
+<source file="jfreechart-0.9.15/src/org/jfree/data/xml/CategoryDatasetHandler.java" startline="96" endline="114" pcid="11292"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/xml/PieDatasetHandler.java" startline="95" endline="110" pcid="11345"></source>
+</class>
+
+<class classid="260" nclones="2" nlines="14" similarity="80">
+<source file="jfreechart-0.9.15/src/org/jfree/data/xml/CategorySeriesHandler.java" startline="105" endline="121" pcid="11302"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/xml/ItemHandler.java" startline="125" endline="139" pcid="11324"></source>
+</class>
+
+<class classid="261" nclones="2" nlines="17" similarity="100">
+<source file="jfreechart-0.9.15/src/org/jfree/data/xml/DatasetReader.java" startline="85" endline="105" pcid="11310"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/xml/DatasetReader.java" startline="132" endline="151" pcid="11315"></source>
+</class>
+
+<class classid="262" nclones="2" nlines="11" similarity="72">
+<source file="jfreechart-0.9.15/src/org/jfree/data/XYDatasetTableModel.java" startline="118" endline="128" pcid="11400"></source>
+<source file="jfreechart-0.9.15/src/org/jfree/data/XYDatasetTableModel.java" startline="139" endline="149" pcid="11404"></source>
+</class>
+
+</clones>

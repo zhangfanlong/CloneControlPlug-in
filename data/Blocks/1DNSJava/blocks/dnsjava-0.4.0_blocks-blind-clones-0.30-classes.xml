@@ -1,0 +1,449 @@
+<clones>
+<systeminfo processor="nicad5" system="dnsjava-0.4" granularity="blocks-blind" threshold="30%" minlines="10" maxlines="2500"/>
+<cloneinfo npcs="1302" npairs="219"/>
+<runinfo ncompares="19197" cputime="77"/>
+<classinfo nclasses="81"/>
+
+<class classid="1" nclones="2" nlines="14" similarity="100">
+<source file="dnsjava-0.4/DNS/ARecord.java" startline="26" endline="44" pcid="12"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/ARecord.java" startline="26" endline="44" pcid="655"></source>
+</class>
+
+<class classid="2" nclones="2" nlines="17" similarity="100">
+<source file="dnsjava-0.4/DNS/ARecord.java" startline="49" endline="67" pcid="15"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/ARecord.java" startline="49" endline="67" pcid="658"></source>
+</class>
+
+<class classid="3" nclones="4" nlines="11" similarity="100">
+<source file="dnsjava-0.4/DNS/CERTRecord.java" startline="34" endline="45" pcid="24"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/KEYRecord.java" startline="35" endline="46" pcid="772"></source>
+<source file="dnsjava-0.4/DNS/KEYRecord.java" startline="35" endline="46" pcid="129"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/CERTRecord.java" startline="34" endline="45" pcid="667"></source>
+</class>
+
+<class classid="4" nclones="4" nlines="16" similarity="82">
+<source file="dnsjava-0.4/DNS/CERTRecord.java" startline="60" endline="75" pcid="27"></source>
+<source file="dnsjava-0.4/DNS/KEYRecord.java" startline="61" endline="77" pcid="132"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/CERTRecord.java" startline="60" endline="75" pcid="670"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/KEYRecord.java" startline="61" endline="77" pcid="775"></source>
+</class>
+
+<class classid="5" nclones="6" nlines="10" similarity="80">
+<source file="dnsjava-0.4/DNS/CERTRecord.java" startline="93" endline="105" pcid="33"></source>
+<source file="dnsjava-0.4/DNS/KEYRecord.java" startline="100" endline="113" pcid="139"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/SRVRecord.java" startline="88" endline="100" pcid="1068"></source>
+<source file="dnsjava-0.4/DNS/SRVRecord.java" startline="88" endline="100" pcid="425"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/KEYRecord.java" startline="100" endline="113" pcid="782"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/CERTRecord.java" startline="93" endline="105" pcid="676"></source>
+</class>
+
+<class classid="6" nclones="12" nlines="10" similarity="90">
+<source file="dnsjava-0.4/DNS/DClass.java" startline="33" endline="43" pcid="43"></source>
+<source file="dnsjava-0.4/DNS/Opcode.java" startline="29" endline="39" pcid="246"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/Type.java" startline="109" endline="119" pcid="1117"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/Rcode.java" startline="55" endline="65" pcid="904"></source>
+<source file="dnsjava-0.4/DNS/Section.java" startline="45" endline="55" pcid="348"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/Flags.java" startline="39" endline="49" pcid="726"></source>
+<source file="dnsjava-0.4/DNS/Type.java" startline="109" endline="119" pcid="474"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/Opcode.java" startline="29" endline="39" pcid="889"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/Section.java" startline="45" endline="55" pcid="991"></source>
+<source file="dnsjava-0.4/DNS/Rcode.java" startline="55" endline="65" pcid="261"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/DClass.java" startline="33" endline="43" pcid="686"></source>
+<source file="dnsjava-0.4/DNS/Flags.java" startline="39" endline="49" pcid="83"></source>
+</class>
+
+<class classid="7" nclones="2" nlines="41" similarity="100">
+<source file="dnsjava-0.4/DNS/dns.java" startline="27" endline="80" pcid="48"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/dns.java" startline="27" endline="80" pcid="691"></source>
+</class>
+
+<class classid="8" nclones="2" nlines="18" similarity="100">
+<source file="dnsjava-0.4/DNS/dns.java" startline="99" endline="115" pcid="59"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/dns.java" startline="99" endline="115" pcid="702"></source>
+</class>
+
+<class classid="9" nclones="4" nlines="24" similarity="100">
+<source file="dnsjava-0.4/DNS/FindResolver.java" startline="19" endline="44" pcid="66"></source>
+<source file="dnsjava-0.4/DNS/FindServer.java" startline="19" endline="44" pcid="74"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/FindResolver.java" startline="19" endline="44" pcid="709"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/FindServer.java" startline="19" endline="44" pcid="717"></source>
+</class>
+
+<class classid="10" nclones="2" nlines="12" similarity="100">
+<source file="dnsjava-0.4/DNS/Header.java" startline="121" endline="131" pcid="104"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/Header.java" startline="121" endline="131" pcid="747"></source>
+</class>
+
+<class classid="11" nclones="2" nlines="11" similarity="100">
+<source file="dnsjava-0.4/DNS/Header.java" startline="134" endline="143" pcid="106"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/Header.java" startline="134" endline="143" pcid="749"></source>
+</class>
+
+<class classid="12" nclones="2" nlines="10" similarity="100">
+<source file="dnsjava-0.4/DNS/Header.java" startline="146" endline="156" pcid="108"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/Header.java" startline="146" endline="156" pcid="751"></source>
+</class>
+
+<class classid="13" nclones="2" nlines="13" similarity="100">
+<source file="dnsjava-0.4/DNS/Header.java" startline="159" endline="173" pcid="110"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/Header.java" startline="159" endline="173" pcid="753"></source>
+</class>
+
+<class classid="14" nclones="2" nlines="11" similarity="100">
+<source file="dnsjava-0.4/DNS/HINFORecord.java" startline="69" endline="79" pcid="117"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/HINFORecord.java" startline="69" endline="79" pcid="760"></source>
+</class>
+
+<class classid="15" nclones="2" nlines="12" similarity="100">
+<source file="dnsjava-0.4/DNS/IO.java" startline="12" endline="26" pcid="119"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/IO.java" startline="12" endline="26" pcid="762"></source>
+</class>
+
+<class classid="16" nclones="2" nlines="16" similarity="100">
+<source file="dnsjava-0.4/DNS/IO.java" startline="29" endline="48" pcid="121"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/IO.java" startline="29" endline="48" pcid="764"></source>
+</class>
+
+<class classid="17" nclones="2" nlines="16" similarity="100">
+<source file="dnsjava-0.4/DNS/IO.java" startline="51" endline="66" pcid="124"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/IO.java" startline="51" endline="66" pcid="767"></source>
+</class>
+
+<class classid="18" nclones="2" nlines="15" similarity="100">
+<source file="dnsjava-0.4/DNS/Message.java" startline="30" endline="42" pcid="142"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/Message.java" startline="30" endline="42" pcid="785"></source>
+</class>
+
+<class classid="19" nclones="2" nlines="13" similarity="100">
+<source file="dnsjava-0.4/DNS/Message.java" startline="120" endline="131" pcid="157"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/Message.java" startline="120" endline="131" pcid="800"></source>
+</class>
+
+<class classid="20" nclones="2" nlines="17" similarity="100">
+<source file="dnsjava-0.4/DNS/Message.java" startline="147" endline="167" pcid="162"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/Message.java" startline="147" endline="167" pcid="805"></source>
+</class>
+
+<class classid="21" nclones="4" nlines="45" similarity="100">
+<source file="dnsjava-0.4/DNS/MyStringTokenizer.java" startline="78" endline="131" pcid="181"></source>
+<source file="dnsjava-0.4/DNS/utils/MyStringTokenizer.java" startline="78" endline="131" pcid="568"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/utils/MyStringTokenizer.java" startline="78" endline="131" pcid="1211"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/MyStringTokenizer.java" startline="78" endline="131" pcid="824"></source>
+</class>
+
+<class classid="22" nclones="2" nlines="26" similarity="100">
+<source file="dnsjava-0.4/DNS/Name.java" startline="20" endline="51" pcid="195"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/Name.java" startline="20" endline="51" pcid="838"></source>
+</class>
+
+<class classid="23" nclones="2" nlines="29" similarity="100">
+<source file="dnsjava-0.4/DNS/Name.java" startline="58" endline="92" pcid="201"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/Name.java" startline="58" endline="92" pcid="844"></source>
+</class>
+
+<class classid="24" nclones="2" nlines="19" similarity="100">
+<source file="dnsjava-0.4/DNS/Name.java" startline="144" endline="166" pcid="212"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/Name.java" startline="144" endline="166" pcid="855"></source>
+</class>
+
+<class classid="25" nclones="2" nlines="10" similarity="100">
+<source file="dnsjava-0.4/DNS/Name.java" startline="179" endline="190" pcid="218"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/Name.java" startline="179" endline="190" pcid="861"></source>
+</class>
+
+<class classid="26" nclones="2" nlines="14" similarity="100">
+<source file="dnsjava-0.4/DNS/NXTRecord.java" startline="26" endline="40" pcid="232"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/NXTRecord.java" startline="26" endline="40" pcid="875"></source>
+</class>
+
+<class classid="27" nclones="2" nlines="10" similarity="100">
+<source file="dnsjava-0.4/DNS/NXTRecord.java" startline="46" endline="56" pcid="234"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/NXTRecord.java" startline="46" endline="56" pcid="877"></source>
+</class>
+
+<class classid="28" nclones="2" nlines="12" similarity="100">
+<source file="dnsjava-0.4/DNS/NXTRecord.java" startline="59" endline="70" pcid="236"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/NXTRecord.java" startline="59" endline="70" pcid="879"></source>
+</class>
+
+<class classid="29" nclones="2" nlines="15" similarity="100">
+<source file="dnsjava-0.4/DNS/NXTRecord.java" startline="83" endline="99" pcid="241"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/NXTRecord.java" startline="83" endline="99" pcid="884"></source>
+</class>
+
+<class classid="30" nclones="2" nlines="17" similarity="100">
+<source file="dnsjava-0.4/DNS/Rcode.java" startline="30" endline="46" pcid="259"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/Rcode.java" startline="30" endline="46" pcid="902"></source>
+</class>
+
+<class classid="31" nclones="4" nlines="25" similarity="76">
+<source file="dnsjava-0.4/DNS/Record.java" startline="42" endline="80" pcid="266"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/Record.java" startline="42" endline="80" pcid="909"></source>
+<source file="dnsjava-0.4/DNS/Record.java" startline="212" endline="248" pcid="286"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/Record.java" startline="212" endline="248" pcid="929"></source>
+</class>
+
+<class classid="32" nclones="2" nlines="14" similarity="100">
+<source file="dnsjava-0.4/DNS/Record.java" startline="86" endline="100" pcid="271"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/Record.java" startline="86" endline="100" pcid="914"></source>
+</class>
+
+<class classid="33" nclones="2" nlines="18" similarity="100">
+<source file="dnsjava-0.4/DNS/Record.java" startline="115" endline="138" pcid="277"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/Record.java" startline="115" endline="138" pcid="920"></source>
+</class>
+
+<class classid="34" nclones="2" nlines="15" similarity="100">
+<source file="dnsjava-0.4/DNS/Record.java" startline="143" endline="160" pcid="278"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/Record.java" startline="143" endline="160" pcid="921"></source>
+</class>
+
+<class classid="35" nclones="2" nlines="12" similarity="100">
+<source file="dnsjava-0.4/DNS/Record.java" startline="171" endline="183" pcid="281"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/Record.java" startline="171" endline="183" pcid="924"></source>
+</class>
+
+<class classid="36" nclones="2" nlines="14" similarity="100">
+<source file="dnsjava-0.4/DNS/Record.java" startline="186" endline="199" pcid="283"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/Record.java" startline="186" endline="199" pcid="926"></source>
+</class>
+
+<class classid="37" nclones="2" nlines="15" similarity="100">
+<source file="dnsjava-0.4/DNS/Record.java" startline="277" endline="294" pcid="296"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/Record.java" startline="277" endline="294" pcid="939"></source>
+</class>
+
+<class classid="38" nclones="4" nlines="11" similarity="100">
+<source file="dnsjava-0.4/DNS/Resolver.java" startline="66" endline="76" pcid="310"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/SimpleResolver.java" startline="66" endline="76" pcid="1019"></source>
+<source file="dnsjava-0.4/DNS/SimpleResolver.java" startline="66" endline="76" pcid="376"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/Resolver.java" startline="66" endline="76" pcid="953"></source>
+</class>
+
+<class classid="39" nclones="4" nlines="34" similarity="100">
+<source file="dnsjava-0.4/DNS/Resolver.java" startline="79" endline="116" pcid="313"></source>
+<source file="dnsjava-0.4/DNS/SimpleResolver.java" startline="79" endline="116" pcid="379"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/Resolver.java" startline="79" endline="116" pcid="956"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/SimpleResolver.java" startline="79" endline="116" pcid="1022"></source>
+</class>
+
+<class classid="40" nclones="4" nlines="38" similarity="100">
+<source file="dnsjava-0.4/DNS/Resolver.java" startline="119" endline="170" pcid="319"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/SimpleResolver.java" startline="119" endline="170" pcid="1028"></source>
+<source file="dnsjava-0.4/DNS/SimpleResolver.java" startline="119" endline="170" pcid="385"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/Resolver.java" startline="119" endline="170" pcid="962"></source>
+</class>
+
+<class classid="41" nclones="4" nlines="73" similarity="100">
+<source file="dnsjava-0.4/DNS/Resolver.java" startline="173" endline="255" pcid="325"></source>
+<source file="dnsjava-0.4/DNS/SimpleResolver.java" startline="173" endline="255" pcid="391"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/Resolver.java" startline="173" endline="255" pcid="968"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/SimpleResolver.java" startline="173" endline="255" pcid="1034"></source>
+</class>
+
+<class classid="42" nclones="2" nlines="19" similarity="100">
+<source file="dnsjava-0.4/DNS/RRset.java" startline="44" endline="64" pcid="342"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/RRset.java" startline="44" endline="64" pcid="985"></source>
+</class>
+
+<class classid="43" nclones="2" nlines="10" similarity="100">
+<source file="dnsjava-0.4/DNS/Section.java" startline="19" endline="30" pcid="345"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/Section.java" startline="19" endline="30" pcid="988"></source>
+</class>
+
+<class classid="44" nclones="2" nlines="12" similarity="100">
+<source file="dnsjava-0.4/DNS/SIGRecord.java" startline="25" endline="36" pcid="351"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/SIGRecord.java" startline="25" endline="36" pcid="994"></source>
+</class>
+
+<class classid="45" nclones="2" nlines="15" similarity="100">
+<source file="dnsjava-0.4/DNS/SIGRecord.java" startline="42" endline="57" pcid="352"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/SIGRecord.java" startline="42" endline="57" pcid="995"></source>
+</class>
+
+<class classid="46" nclones="2" nlines="12" similarity="100">
+<source file="dnsjava-0.4/DNS/SIGRecord.java" startline="63" endline="75" pcid="353"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/SIGRecord.java" startline="63" endline="75" pcid="996"></source>
+</class>
+
+<class classid="47" nclones="2" nlines="22" similarity="100">
+<source file="dnsjava-0.4/DNS/SIGRecord.java" startline="78" endline="99" pcid="354"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/SIGRecord.java" startline="78" endline="99" pcid="997"></source>
+</class>
+
+<class classid="48" nclones="2" nlines="15" similarity="100">
+<source file="dnsjava-0.4/DNS/SIGRecord.java" startline="147" endline="165" pcid="365"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/SIGRecord.java" startline="147" endline="165" pcid="1008"></source>
+</class>
+
+<class classid="49" nclones="2" nlines="17" similarity="100">
+<source file="dnsjava-0.4/DNS/SIGRecord.java" startline="168" endline="185" pcid="366"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/SIGRecord.java" startline="168" endline="185" pcid="1009"></source>
+</class>
+
+<class classid="50" nclones="2" nlines="11" similarity="100">
+<source file="dnsjava-0.4/DNS/SIGRecord.java" startline="188" endline="200" pcid="367"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/SIGRecord.java" startline="188" endline="200" pcid="1010"></source>
+</class>
+
+<class classid="51" nclones="4" nlines="10" similarity="100">
+<source file="dnsjava-0.4/DNS/SOARecord.java" startline="19" endline="28" pcid="403"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/SOARecord.java" startline="19" endline="28" pcid="1046"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/TSIGRecord.java" startline="25" endline="34" pcid="1087"></source>
+<source file="dnsjava-0.4/DNS/TSIGRecord.java" startline="25" endline="34" pcid="444"></source>
+</class>
+
+<class classid="52" nclones="2" nlines="11" similarity="100">
+<source file="dnsjava-0.4/DNS/SOARecord.java" startline="33" endline="44" pcid="404"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/SOARecord.java" startline="33" endline="44" pcid="1047"></source>
+</class>
+
+<class classid="53" nclones="2" nlines="10" similarity="100">
+<source file="dnsjava-0.4/DNS/SOARecord.java" startline="50" endline="59" pcid="405"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/SOARecord.java" startline="50" endline="59" pcid="1048"></source>
+</class>
+
+<class classid="54" nclones="2" nlines="20" similarity="100">
+<source file="dnsjava-0.4/DNS/SOARecord.java" startline="63" endline="82" pcid="406"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/SOARecord.java" startline="63" endline="82" pcid="1049"></source>
+</class>
+
+<class classid="55" nclones="2" nlines="12" similarity="100">
+<source file="dnsjava-0.4/DNS/SOARecord.java" startline="120" endline="133" pcid="415"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/SOARecord.java" startline="120" endline="133" pcid="1058"></source>
+</class>
+
+<class classid="56" nclones="2" nlines="13" similarity="100">
+<source file="dnsjava-0.4/DNS/SRVRecord.java" startline="53" endline="65" pcid="419"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/SRVRecord.java" startline="53" endline="65" pcid="1062"></source>
+</class>
+
+<class classid="57" nclones="2" nlines="29" similarity="100">
+<source file="dnsjava-0.4/DNS/TSIG.java" startline="24" endline="60" pcid="427"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/TSIG.java" startline="24" endline="60" pcid="1070"></source>
+</class>
+
+<class classid="58" nclones="2" nlines="56" similarity="100">
+<source file="dnsjava-0.4/DNS/TSIG.java" startline="68" endline="138" pcid="430"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/TSIG.java" startline="68" endline="138" pcid="1073"></source>
+</class>
+
+<class classid="59" nclones="2" nlines="36" similarity="100">
+<source file="dnsjava-0.4/DNS/TSIG.java" startline="146" endline="194" pcid="439"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/TSIG.java" startline="146" endline="194" pcid="1082"></source>
+</class>
+
+<class classid="60" nclones="2" nlines="22" similarity="100">
+<source file="dnsjava-0.4/DNS/TSIGRecord.java" startline="39" endline="66" pcid="445"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/TSIGRecord.java" startline="39" endline="66" pcid="1088"></source>
+</class>
+
+<class classid="61" nclones="2" nlines="34" similarity="100">
+<source file="dnsjava-0.4/DNS/TSIGRecord.java" startline="69" endline="106" pcid="447"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/TSIGRecord.java" startline="69" endline="106" pcid="1090"></source>
+</class>
+
+<class classid="62" nclones="2" nlines="21" similarity="100">
+<source file="dnsjava-0.4/DNS/TSIGRecord.java" startline="144" endline="170" pcid="459"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/TSIGRecord.java" startline="144" endline="170" pcid="1102"></source>
+</class>
+
+<class classid="63" nclones="2" nlines="13" similarity="100">
+<source file="dnsjava-0.4/DNS/TXTRecord.java" startline="35" endline="48" pcid="463"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/TXTRecord.java" startline="35" endline="48" pcid="1106"></source>
+</class>
+
+<class classid="64" nclones="2" nlines="13" similarity="100">
+<source file="dnsjava-0.4/DNS/TXTRecord.java" startline="62" endline="74" pcid="466"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/TXTRecord.java" startline="62" endline="74" pcid="1109"></source>
+</class>
+
+<class classid="65" nclones="2" nlines="11" similarity="100">
+<source file="dnsjava-0.4/DNS/TXTRecord.java" startline="82" endline="95" pcid="470"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/TXTRecord.java" startline="82" endline="95" pcid="1113"></source>
+</class>
+
+<class classid="66" nclones="2" nlines="45" similarity="100">
+<source file="dnsjava-0.4/DNS/Type.java" startline="56" endline="100" pcid="472"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/Type.java" startline="56" endline="100" pcid="1115"></source>
+</class>
+
+<class classid="67" nclones="2" nlines="12" similarity="100">
+<source file="dnsjava-0.4/DNS/utils/base16.java" startline="14" endline="25" pcid="481"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/utils/base16.java" startline="14" endline="25" pcid="1124"></source>
+</class>
+
+<class classid="68" nclones="2" nlines="18" similarity="100">
+<source file="dnsjava-0.4/DNS/utils/base16.java" startline="28" endline="45" pcid="483"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/utils/base16.java" startline="28" endline="45" pcid="1126"></source>
+</class>
+
+<class classid="69" nclones="2" nlines="28" similarity="100">
+<source file="dnsjava-0.4/DNS/utils/base64.java" startline="14" endline="46" pcid="488"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/utils/base64.java" startline="14" endline="46" pcid="1131"></source>
+</class>
+
+<class classid="70" nclones="2" nlines="33" similarity="100">
+<source file="dnsjava-0.4/DNS/utils/base64.java" startline="49" endline="85" pcid="493"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/utils/base64.java" startline="49" endline="85" pcid="1136"></source>
+</class>
+
+<class classid="71" nclones="2" nlines="20" similarity="100">
+<source file="dnsjava-0.4/DNS/utils/hmacSigner.java" startline="26" endline="47" pcid="525"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/utils/hmacSigner.java" startline="26" endline="47" pcid="1168"></source>
+</class>
+
+<class classid="72" nclones="2" nlines="12" similarity="100">
+<source file="dnsjava-0.4/DNS/utils/hmacSigner.java" startline="68" endline="80" pcid="534"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/utils/hmacSigner.java" startline="68" endline="80" pcid="1177"></source>
+</class>
+
+<class classid="73" nclones="2" nlines="11" similarity="100">
+<source file="dnsjava-0.4/DNS/utils/md5.java" startline="92" endline="101" pcid="552"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/utils/md5.java" startline="92" endline="101" pcid="1195"></source>
+</class>
+
+<class classid="74" nclones="2" nlines="72" similarity="100">
+<source file="dnsjava-0.4/DNS/utils/md5.java" startline="104" endline="180" pcid="554"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/utils/md5.java" startline="104" endline="180" pcid="1197"></source>
+</class>
+
+<class classid="75" nclones="2" nlines="17" similarity="100">
+<source file="dnsjava-0.4/DNS/utils/md5.java" startline="183" endline="198" pcid="555"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/utils/md5.java" startline="183" endline="198" pcid="1198"></source>
+</class>
+
+<class classid="76" nclones="2" nlines="14" similarity="100">
+<source file="dnsjava-0.4/DNS/utils/md5.java" startline="201" endline="215" pcid="558"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/utils/md5.java" startline="201" endline="215" pcid="1201"></source>
+</class>
+
+<class classid="77" nclones="2" nlines="32" similarity="100">
+<source file="dnsjava-0.4/DNS/Zone.java" startline="20" endline="62" pcid="586"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/Zone.java" startline="20" endline="62" pcid="1229"></source>
+</class>
+
+<class classid="78" nclones="2" nlines="20" similarity="100">
+<source file="dnsjava-0.4/DNS/Zone.java" startline="96" endline="129" pcid="596"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/Zone.java" startline="96" endline="129" pcid="1239"></source>
+</class>
+
+<class classid="79" nclones="2" nlines="13" similarity="100">
+<source file="dnsjava-0.4/DNS/Zone.java" startline="132" endline="145" pcid="599"></source>
+<source file="dnsjava-0.4/org/xbill/DNS/Zone.java" startline="132" endline="145" pcid="1242"></source>
+</class>
+
+<class classid="80" nclones="2" nlines="10" similarity="100">
+<source file="dnsjava-0.4/jnamed.java" startline="267" endline="271" pcid="646"></source>
+<source file="dnsjava-0.4/jnamed.java" startline="274" endline="278" pcid="648"></source>
+</class>
+
+<class classid="81" nclones="5" nlines="15" similarity="70">
+<source file="dnsjava-0.4/update.java" startline="238" endline="256" pcid="1266"></source>
+<source file="dnsjava-0.4/update.java" startline="280" endline="298" pcid="1272"></source>
+<source file="dnsjava-0.4/update.java" startline="322" endline="340" pcid="1279"></source>
+<source file="dnsjava-0.4/update.java" startline="259" endline="277" pcid="1269"></source>
+<source file="dnsjava-0.4/update.java" startline="301" endline="319" pcid="1276"></source>
+</class>
+
+</clones>

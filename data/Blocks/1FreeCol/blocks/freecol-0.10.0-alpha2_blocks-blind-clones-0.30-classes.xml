@@ -1,0 +1,1351 @@
+<clones>
+<systeminfo processor="nicad5" system="freecol-0.10.0-alpha2" granularity="blocks-blind" threshold="30%" minlines="10" maxlines="2500"/>
+<cloneinfo npcs="20230" npairs="705"/>
+<runinfo ncompares="3104660" cputime="1468"/>
+<classinfo nclasses="225"/>
+
+<class classid="1" nclones="2" nlines="10" similarity="70">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/ClientOptions.java" startline="510" endline="519" pcid="36"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/control/InGameController.java" startline="1237" endline="1247" pcid="17274"></source>
+</class>
+
+<class classid="2" nclones="21" nlines="10" similarity="70">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/ClientOptions.java" startline="562" endline="570" pcid="46"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/metaserver/MetaServer.java" startline="193" endline="204" pcid="14015"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/FreeCol.java" startline="266" endline="275" pcid="13858"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/networking/Server.java" startline="224" endline="235" pcid="19121"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/FreeColObject.java" startline="158" endline="166" pcid="8146"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/Connection.java" startline="197" endline="205" pcid="12486"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/metaserver/NetworkHandler.java" startline="194" endline="204" pcid="14041"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/Connection.java" startline="314" endline="323" pcid="12504"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/resources/ColorResource.java" startline="79" endline="88" pcid="13532"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/ColonialAIPlayer.java" startline="987" endline="995" pcid="14842"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/NewPanel.java" startline="214" endline="222" pcid="5319"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/StandardAIPlayer.java" startline="1898" endline="1906" pcid="16859"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/NewAIPlayer.java" startline="212" endline="220" pcid="16404"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/TradeRoute.java" startline="252" endline="260" pcid="11511"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/i18n/NumberRules.java" startline="59" endline="70" pcid="2832"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/util/Introspector.java" startline="110" endline="122" pcid="13683"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Specification.java" startline="1142" endline="1150" pcid="10750"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Specification.java" startline="209" endline="221" pcid="10578"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/MonarchActionMessage.java" startline="163" endline="171" pcid="12872"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/FreeColGameObject.java" startline="332" endline="339" pcid="8053"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/FreeCol.java" startline="679" endline="687" pcid="13910"></source>
+</class>
+
+<class classid="3" nclones="6" nlines="10" similarity="72">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/control/ConnectController.java" startline="447" endline="455" pcid="128"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/control/InGameController.java" startline="1703" endline="1715" pcid="367"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/control/ConnectController.java" startline="471" endline="479" pcid="134"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/control/MapEditorController.java" startline="341" endline="349" pcid="1050"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/control/ConnectController.java" startline="463" endline="471" pcid="132"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/control/ConnectController.java" startline="455" endline="463" pcid="130"></source>
+</class>
+
+<class classid="4" nclones="2" nlines="24" similarity="80">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/control/InGameController.java" startline="740" endline="769" pcid="242"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/control/InGameController.java" startline="772" endline="794" pcid="249"></source>
+</class>
+
+<class classid="5" nclones="3" nlines="13" similarity="71">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/control/InGameController.java" startline="2892" endline="2905" pcid="510"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/control/InGameController.java" startline="3408" endline="3420" pcid="557"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/control/InGameController.java" startline="3307" endline="3319" pcid="546"></source>
+</class>
+
+<class classid="6" nclones="2" nlines="40" similarity="72">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/control/InGameController.java" startline="3217" endline="3268" pcid="537"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/control/InGameController.java" startline="3348" endline="3394" pcid="550"></source>
+</class>
+
+<class classid="7" nclones="2" nlines="17" similarity="70">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/control/InGameController.java" startline="5051" endline="5066" pcid="751"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/control/InGameController.java" startline="5091" endline="5108" pcid="763"></source>
+</class>
+
+<class classid="8" nclones="2" nlines="11" similarity="72">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/control/InGameInputHandler.java" startline="207" endline="216" pcid="822"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Market.java" startline="539" endline="548" pcid="9201"></source>
+</class>
+
+<class classid="9" nclones="13" nlines="10" similarity="70">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/control/InGameInputHandler.java" startline="290" endline="299" pcid="834"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/Message.java" startline="363" endline="372" pcid="12842"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/BuildQueuePanel.java" startline="424" endline="432" pcid="3441"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/NegotiationDialog.java" startline="543" endline="553" pcid="5281"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/NegotiationDialog.java" startline="298" endline="309" pcid="5237"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/util/Xml.java" startline="226" endline="238" pcid="13814"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/NegotiationDialog.java" startline="265" endline="276" pcid="5231"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/option/OptionGroup.java" startline="73" endline="81" pcid="13379"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/NationCellRenderer.java" startline="93" endline="101" pcid="5201"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/generator/TerrainGenerator.java" startline="1169" endline="1177" pcid="18375"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/ColonyPanel.java" startline="537" endline="546" pcid="3718"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/EuropePanel.java" startline="279" endline="288" pcid="4530"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/generator/TerrainGenerator.java" startline="778" endline="786" pcid="18308"></source>
+</class>
+
+<class classid="10" nclones="2" nlines="12" similarity="75">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/control/InGameInputHandler.java" startline="563" endline="574" pcid="872"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/AIInGameInputHandler.java" startline="224" endline="236" pcid="14438"></source>
+</class>
+
+<class classid="11" nclones="6" nlines="14" similarity="85">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/control/InGameInputHandler.java" startline="1443" endline="1454" pcid="963"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/control/InGameInputHandler.java" startline="1470" endline="1480" pcid="969"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/control/InGameInputHandler.java" startline="1695" endline="1706" pcid="1000"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/control/InGameInputHandler.java" startline="1649" endline="1660" pcid="993"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/control/InGameInputHandler.java" startline="1612" endline="1623" pcid="987"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/control/InGameInputHandler.java" startline="1571" endline="1582" pcid="980"></source>
+</class>
+
+<class classid="12" nclones="2" nlines="10" similarity="70">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/control/InputHandler.java" startline="90" endline="98" pcid="1010"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/AIColony.java" startline="433" endline="441" pcid="14110"></source>
+</class>
+
+<class classid="13" nclones="2" nlines="12" similarity="83">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/control/MapEditorController.java" startline="267" endline="282" pcid="1037"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/option/FileOptionUI.java" startline="85" endline="99" pcid="3106"></source>
+</class>
+
+<class classid="14" nclones="2" nlines="12" similarity="75">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/FreeColClient.java" startline="378" endline="393" pcid="1147"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/client/gui/sound/SoundTest.java" startline="40" endline="50" pcid="19369"></source>
+</class>
+
+<class classid="15" nclones="9" nlines="10" similarity="70">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/FreeColClient.java" startline="517" endline="525" pcid="1172"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/PlayerExploredTile.java" startline="310" endline="318" pcid="10094"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/PlayerExploredTile.java" startline="294" endline="302" pcid="10088"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/NewAIPlayer.java" startline="352" endline="362" pcid="16430"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/PlayerExploredTile.java" startline="302" endline="310" pcid="10091"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Game.java" startline="1038" endline="1047" pcid="8388"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/goal/GotoAdjacentGoal.java" startline="95" endline="103" pcid="15396"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/goal/CreateMissionAtSettlementGoal.java" startline="174" endline="182" pcid="15321"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/ColonialAIPlayer.java" startline="1486" endline="1496" pcid="14938"></source>
+</class>
+
+<class classid="16" nclones="2" nlines="10" similarity="90">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/action/AssignTradeRouteAction.java" startline="50" endline="59" pcid="1242"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/action/LoadAction.java" startline="52" endline="63" pcid="1387"></source>
+</class>
+
+<class classid="17" nclones="2" nlines="10" similarity="80">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/action/ChangeAction.java" startline="110" endline="118" pcid="1266"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/action/ChangeAction.java" startline="120" endline="128" pcid="1269"></source>
+</class>
+
+<class classid="18" nclones="2" nlines="68" similarity="91">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/action/DetermineHighSeasAction.java" startline="89" endline="172" pcid="1293"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/action/ScaleMapAction.java" startline="86" endline="170" pcid="1492"></source>
+</class>
+
+<class classid="19" nclones="3" nlines="13" similarity="100">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/action/DetermineHighSeasAction.java" startline="122" endline="133" pcid="1295"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/FreeColDialog.java" startline="377" endline="388" pcid="4684"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/action/ScaleMapAction.java" startline="120" endline="131" pcid="1494"></source>
+</class>
+
+<class classid="20" nclones="2" nlines="41" similarity="76">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/action/FreeColAction.java" startline="322" endline="357" pcid="1349"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/FreeColObject.java" startline="261" endline="300" pcid="8154"></source>
+</class>
+
+<class classid="21" nclones="2" nlines="25" similarity="100">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/action/FreeColAction.java" startline="362" endline="384" pcid="1356"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/FreeColObject.java" startline="371" endline="393" pcid="8167"></source>
+</class>
+
+<class classid="22" nclones="2" nlines="10" similarity="80">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/Canvas.java" startline="462" endline="469" pcid="1604"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/i18n/Messages.java" startline="115" endline="125" pcid="2729"></source>
+</class>
+
+<class classid="23" nclones="12" nlines="10" similarity="70">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/Canvas.java" startline="1154" endline="1165" pcid="1711"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/FreeColGameObjectType.java" startline="234" endline="243" pcid="8118"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/ColonyTile.java" startline="540" endline="549" pcid="7562"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Player.java" startline="577" endline="585" pcid="9637"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/ReportTurnPanel.java" startline="227" endline="236" pcid="5917"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/ReportIndianPanel.java" startline="129" endline="137" pcid="5654"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/i18n/Messages.java" startline="82" endline="91" pcid="2722"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/SelectDestinationDialog.java" startline="308" endline="318" pcid="6011"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/FreeColGameObject.java" startline="449" endline="457" pcid="8078"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/generator/SimpleMapGenerator.java" startline="824" endline="836" pcid="18157"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/StandardAIPlayer.java" startline="984" endline="995" pcid="16719"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/tools/SaveGameValidator.java" startline="56" endline="64" pcid="19231"></source>
+</class>
+
+<class classid="24" nclones="2" nlines="15" similarity="70">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/CanvasMapEditorMouseListener.java" startline="264" endline="276" pcid="1909"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/CanvasMapEditorMouseListener.java" startline="283" endline="300" pcid="1913"></source>
+</class>
+
+<class classid="25" nclones="2" nlines="44" similarity="91">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/CanvasMapEditorMouseListener.java" startline="333" endline="388" pcid="1923"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/CanvasMouseMotionListener.java" startline="175" endline="227" pcid="2030"></source>
+</class>
+
+<class classid="26" nclones="2" nlines="94" similarity="98">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/CanvasMapEditorMouseListener.java" startline="437" endline="519" pcid="1940"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/CanvasMouseMotionListener.java" startline="275" endline="357" pcid="2046"></source>
+</class>
+
+<class classid="27" nclones="4" nlines="12" similarity="75">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/CanvasMapEditorMouseListener.java" startline="459" endline="468" pcid="1949"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/CanvasMapEditorMouseListener.java" startline="482" endline="491" pcid="1958"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/CanvasMapEditorMouseListener.java" startline="468" endline="477" pcid="1953"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/CanvasMapEditorMouseListener.java" startline="492" endline="501" pcid="1962"></source>
+</class>
+
+<class classid="28" nclones="2" nlines="12" similarity="91">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/CanvasMouseMotionListener.java" startline="104" endline="115" pcid="2012"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/CanvasMouseMotionListener.java" startline="146" endline="160" pcid="2023"></source>
+</class>
+
+<class classid="29" nclones="4" nlines="12" similarity="75">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/CanvasMouseMotionListener.java" startline="297" endline="306" pcid="2055"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/CanvasMouseMotionListener.java" startline="330" endline="339" pcid="2068"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/CanvasMouseMotionListener.java" startline="320" endline="329" pcid="2064"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/CanvasMouseMotionListener.java" startline="306" endline="315" pcid="2059"></source>
+</class>
+
+<class classid="30" nclones="2" nlines="30" similarity="83">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/FAFile.java" startline="140" endline="170" pcid="2090"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/FAFile.java" startline="173" endline="200" pcid="2094"></source>
+</class>
+
+<class classid="31" nclones="3" nlines="15" similarity="73">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/FreeColMenuBar.java" startline="112" endline="129" pcid="2104"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/FreeColMenuBar.java" startline="181" endline="196" pcid="2111"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/FreeColMenuBar.java" startline="155" endline="170" pcid="2109"></source>
+</class>
+
+<class classid="32" nclones="3" nlines="10" similarity="70">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/FreeColMenuTest.java" startline="106" endline="114" pcid="2126"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/GUI.java" startline="2831" endline="2841" pcid="2483"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Map.java" startline="1676" endline="1684" pcid="9128"></source>
+</class>
+
+<class classid="33" nclones="14" nlines="11" similarity="70">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/GUI.java" startline="798" endline="809" pcid="2213"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/DiplomaticTrade.java" startline="255" endline="265" pcid="7636"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/DiplomaticTrade.java" startline="272" endline="282" pcid="7639"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Player.java" startline="1031" endline="1043" pcid="9704"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/REFAIPlayer.java" startline="284" endline="296" pcid="16557"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/ProductionCache.java" startline="272" endline="284" pcid="16488"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Colony.java" startline="1022" endline="1031" pcid="7263"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Player.java" startline="811" endline="823" pcid="9678"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/LabourData.java" startline="448" endline="457" pcid="4977"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/BuildQueuePanel.java" startline="436" endline="446" pcid="3444"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/BuildQueuePanel.java" startline="422" endline="434" pcid="3440"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Player.java" startline="728" endline="738" pcid="9662"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Player.java" startline="774" endline="784" pcid="9671"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Player.java" startline="527" endline="540" pcid="9628"></source>
+</class>
+
+<class classid="34" nclones="3" nlines="10" similarity="70">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/GUI.java" startline="1017" endline="1025" pcid="2243"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/TradeRouteInputDialog.java" startline="557" endline="565" pcid="6223"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/TradeRouteInputDialog.java" startline="170" endline="179" pcid="6155"></source>
+</class>
+
+<class classid="35" nclones="2" nlines="14" similarity="71">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/GUI.java" startline="1113" endline="1127" pcid="2256"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/GUI.java" startline="1148" endline="1162" pcid="2262"></source>
+</class>
+
+<class classid="36" nclones="2" nlines="10" similarity="100">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/GUI.java" startline="2266" endline="2274" pcid="2401"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/GUI.java" startline="2280" endline="2288" pcid="2405"></source>
+</class>
+
+<class classid="37" nclones="2" nlines="224" similarity="74">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/GUI.java" startline="2958" endline="3150" pcid="2511"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/GUI.java" startline="3150" endline="3354" pcid="2594"></source>
+</class>
+
+<class classid="38" nclones="2" nlines="70" similarity="77">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/GUI.java" startline="2964" endline="3026" pcid="2514"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/GUI.java" startline="3056" endline="3118" pcid="2554"></source>
+</class>
+
+<class classid="39" nclones="2" nlines="18" similarity="77">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/GUI.java" startline="2979" endline="2995" pcid="2521"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/GUI.java" startline="2995" endline="3011" pcid="2528"></source>
+</class>
+
+<class classid="40" nclones="2" nlines="34" similarity="76">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/GUI.java" startline="3026" endline="3056" pcid="2541"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/GUI.java" startline="3118" endline="3148" pcid="2581"></source>
+</class>
+
+<class classid="41" nclones="2" nlines="18" similarity="77">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/GUI.java" startline="3071" endline="3087" pcid="2561"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/GUI.java" startline="3087" endline="3103" pcid="2568"></source>
+</class>
+
+<class classid="42" nclones="2" nlines="70" similarity="77">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/GUI.java" startline="3153" endline="3215" pcid="2596"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/GUI.java" startline="3215" endline="3277" pcid="2623"></source>
+</class>
+
+<class classid="43" nclones="2" nlines="18" similarity="77">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/GUI.java" startline="3168" endline="3184" pcid="2603"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/GUI.java" startline="3184" endline="3200" pcid="2610"></source>
+</class>
+
+<class classid="44" nclones="2" nlines="18" similarity="77">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/GUI.java" startline="3230" endline="3246" pcid="2630"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/GUI.java" startline="3246" endline="3262" pcid="2637"></source>
+</class>
+
+<class classid="45" nclones="2" nlines="34" similarity="76">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/GUI.java" startline="3277" endline="3307" pcid="2650"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/GUI.java" startline="3307" endline="3337" pcid="2663"></source>
+</class>
+
+<class classid="46" nclones="14" nlines="11" similarity="71">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/i18n/DualNumberRule.java" startline="32" endline="40" pcid="2717"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Unit.java" startline="1428" endline="1438" pcid="11783"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Unit.java" startline="1557" endline="1567" pcid="11811"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Turn.java" startline="143" endline="152" pcid="11592"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Unit.java" startline="1536" endline="1548" pcid="11807"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/ReportTurnPanel.java" startline="340" endline="349" pcid="5948"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/AIGoods.java" startline="229" endline="237" pcid="14365"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Unit.java" startline="1511" endline="1527" pcid="11803"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Tile.java" startline="1174" endline="1183" pcid="11031"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Unit.java" startline="1488" endline="1502" pcid="11798"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Colony.java" startline="771" endline="779" pcid="7226"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Ability.java" startline="119" endline="127" pcid="6862"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Region.java" startline="176" endline="184" pcid="10204"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Region.java" startline="388" endline="396" pcid="10233"></source>
+</class>
+
+<class classid="47" nclones="2" nlines="13" similarity="76">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/i18n/Messages.java" startline="442" endline="454" pcid="2799"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/i18n/Messages.java" startline="463" endline="475" pcid="2803"></source>
+</class>
+
+<class classid="48" nclones="5" nlines="10" similarity="70">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/i18n/Messages.java" startline="560" endline="570" pcid="2818"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/resources/SZAResource.java" startline="58" endline="67" pcid="13642"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/control/InGameController.java" startline="456" endline="464" pcid="17194"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/control/InGameController.java" startline="485" endline="494" pcid="17199"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/FreeColServer.java" startline="1046" endline="1054" pcid="17850"></source>
+</class>
+
+<class classid="49" nclones="2" nlines="10" similarity="70">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/i18n/Rule.java" startline="78" endline="86" pcid="2885"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/ChoiceDialog.java" startline="128" endline="137" pcid="3643"></source>
+</class>
+
+<class classid="50" nclones="3" nlines="23" similarity="72">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/InGameMenuBar.java" startline="107" endline="137" pcid="2998"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/InGameMenuBar.java" startline="139" endline="171" pcid="2999"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/InGameMenuBar.java" startline="219" endline="247" pcid="3004"></source>
+</class>
+
+<class classid="51" nclones="2" nlines="26" similarity="74">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/option/LanguageOptionUI.java" startline="55" endline="84" pcid="3177"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/option/StringOptionUI.java" startline="56" endline="87" pcid="3310"></source>
+</class>
+
+<class classid="52" nclones="2" nlines="12" similarity="100">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/BuildQueuePanel.java" startline="283" endline="296" pcid="3402"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/BuildQueuePanel.java" startline="337" endline="350" pcid="3416"></source>
+</class>
+
+<class classid="53" nclones="2" nlines="14" similarity="73">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/BuildQueuePanel.java" startline="450" endline="461" pcid="3449"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/BuildQueuePanel.java" startline="465" endline="477" pcid="3456"></source>
+</class>
+
+<class classid="54" nclones="7" nlines="13" similarity="76">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/BuildQueuePanel.java" startline="804" endline="815" pcid="3520"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/UnitTypeChange.java" startline="139" endline="150" pcid="12244"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Feature.java" startline="165" endline="176" pcid="7832"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/FoundingFather.java" startline="196" endline="206" pcid="7990"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/SettlementType.java" startline="271" endline="282" pcid="10453"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/SettlementType.java" startline="239" endline="250" pcid="10446"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/FoundingFather.java" startline="195" endline="208" pcid="7989"></source>
+</class>
+
+<class classid="55" nclones="4" nlines="11" similarity="81">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/BuildQueuePanel.java" startline="916" endline="927" pcid="3540"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/TradeRouteInputDialog.java" startline="658" endline="669" pcid="6242"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/plaf/FreeColButtonUI.java" startline="79" endline="90" pcid="6354"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/plaf/FreeColComboBoxRenderer.java" startline="84" endline="95" pcid="6365"></source>
+</class>
+
+<class classid="56" nclones="5" nlines="19" similarity="70">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/ChatPanel.java" startline="84" endline="100" pcid="3629"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/LoadingSavegameDialog.java" startline="183" endline="201" pcid="5011"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/ServerListPanel.java" startline="181" endline="200" pcid="6054"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/EventPanel.java" startline="115" endline="128" pcid="4616"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/WarehouseDialog.java" startline="115" endline="137" pcid="6317"></source>
+</class>
+
+<class classid="57" nclones="2" nlines="14" similarity="100">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/ColonyPanel.java" startline="534" endline="549" pcid="3717"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/EuropePanel.java" startline="276" endline="291" pcid="4529"></source>
+</class>
+
+<class classid="58" nclones="2" nlines="19" similarity="85">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/ColonyPanel.java" startline="566" endline="584" pcid="3722"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/EuropePanel.java" startline="308" endline="323" pcid="4534"></source>
+</class>
+
+<class classid="59" nclones="2" nlines="14" similarity="71">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/ColonyPanel.java" startline="1254" endline="1267" pcid="3821"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/EuropePanel.java" startline="610" endline="625" pcid="4571"></source>
+</class>
+
+<class classid="60" nclones="2" nlines="13" similarity="84">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/ColopediaPanel.java" startline="553" endline="563" pcid="3939"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/ColopediaPanel.java" startline="686" endline="697" pcid="3960"></source>
+</class>
+
+<class classid="61" nclones="2" nlines="14" similarity="78">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/ColopediaPanel.java" startline="576" endline="588" pcid="3944"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/ColopediaPanel.java" startline="1077" endline="1089" pcid="4025"></source>
+</class>
+
+<class classid="62" nclones="2" nlines="15" similarity="80">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/ColopediaPanel.java" startline="746" endline="760" pcid="3973"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/ColopediaPanel.java" startline="879" endline="892" pcid="3996"></source>
+</class>
+
+<class classid="63" nclones="2" nlines="19" similarity="89">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/DefaultTransferHandler.java" startline="359" endline="381" pcid="4280"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/DefaultTransferHandler.java" startline="426" endline="447" pcid="4297"></source>
+</class>
+
+<class classid="64" nclones="6" nlines="11" similarity="72">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/DragListener.java" startline="306" endline="315" pcid="4412"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/DragListener.java" startline="315" endline="324" pcid="4414"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/TilePopup.java" startline="239" endline="247" pcid="6592"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/TilePopup.java" startline="477" endline="491" pcid="6627"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/DragListener.java" startline="428" endline="437" pcid="4428"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/TilePopup.java" startline="305" endline="314" pcid="6603"></source>
+</class>
+
+<class classid="65" nclones="2" nlines="16" similarity="76">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/DragListener.java" startline="594" endline="612" pcid="4458"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/DragListener.java" startline="612" endline="628" pcid="4461"></source>
+</class>
+
+<class classid="66" nclones="3" nlines="13" similarity="71">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/EuropePanel.java" startline="484" endline="502" pcid="4557"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/EuropePanel.java" startline="583" endline="596" pcid="4568"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/EuropePanel.java" startline="728" endline="743" pcid="4585"></source>
+</class>
+
+<class classid="67" nclones="2" nlines="25" similarity="88">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/NegotiationDialog.java" startline="252" endline="284" pcid="5229"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/NegotiationDialog.java" startline="286" endline="318" pcid="5235"></source>
+</class>
+
+<class classid="68" nclones="4" nlines="10" similarity="70">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/NegotiationDialog.java" startline="403" endline="411" pcid="5261"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/NegotiationDialog.java" startline="419" endline="427" pcid="5264"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/PlayersTable.java" startline="282" endline="290" pcid="5384"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/NegotiationDialog.java" startline="435" endline="443" pcid="5267"></source>
+</class>
+
+<class classid="69" nclones="4" nlines="15" similarity="73">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/NegotiationDialog.java" startline="505" endline="522" pcid="5277"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/NegotiationDialog.java" startline="707" endline="725" pcid="5305"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/NegotiationDialog.java" startline="769" endline="785" pcid="5310"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/NegotiationDialog.java" startline="603" endline="621" pcid="5290"></source>
+</class>
+
+<class classid="70" nclones="3" nlines="12" similarity="76">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/NewPanel.java" startline="213" endline="224" pcid="5318"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/FreeColServer.java" startline="1350" endline="1360" pcid="17887"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/NetworkReplyObject.java" startline="95" endline="105" pcid="12916"></source>
+</class>
+
+<class classid="71" nclones="3" nlines="10" similarity="70">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/OptionsDialog.java" startline="252" endline="260" pcid="5364"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/FeatureContainer.java" startline="148" endline="156" pcid="7905"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/common/model/FoundingFatherTest.java" startline="315" endline="325" pcid="19488"></source>
+</class>
+
+<class classid="72" nclones="2" nlines="43" similarity="70">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/PreCombatDialog.java" startline="174" endline="216" pcid="5430"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/WorkProductionPanel.java" startline="115" endline="155" pcid="6335"></source>
+</class>
+
+<class classid="73" nclones="2" nlines="17" similarity="94">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/ProductionLabel.java" startline="400" endline="425" pcid="5474"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/ProductionMultiplesLabel.java" startline="387" endline="412" pcid="5525"></source>
+</class>
+
+<class classid="74" nclones="2" nlines="20" similarity="80">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/ProductionLabel.java" startline="441" endline="458" pcid="5480"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/ProductionMultiplesLabel.java" startline="502" endline="523" pcid="5544"></source>
+</class>
+
+<class classid="75" nclones="2" nlines="10" similarity="80">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/ProductionMultiplesLabel.java" startline="418" endline="426" pcid="5529"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/ProductionMultiplesLabel.java" startline="433" endline="441" pcid="5532"></source>
+</class>
+
+<class classid="76" nclones="2" nlines="37" similarity="71">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/ReportCargoPanel.java" startline="76" endline="124" pcid="5572"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/ReportNavalPanel.java" startline="69" endline="129" pcid="5730"></source>
+</class>
+
+<class classid="77" nclones="2" nlines="36" similarity="97">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/ReportCargoPanel.java" startline="126" endline="163" pcid="5579"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/ReportNavalPanel.java" startline="132" endline="168" pcid="5740"></source>
+</class>
+
+<class classid="78" nclones="3" nlines="34" similarity="72">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/ReportCargoPanel.java" startline="165" endline="203" pcid="5588"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/ReportMilitaryPanel.java" startline="246" endline="274" pcid="5723"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/ReportNavalPanel.java" startline="170" endline="211" pcid="5749"></source>
+</class>
+
+<class classid="79" nclones="3" nlines="13" similarity="92">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/ReportRequirementsPanel.java" startline="290" endline="304" pcid="5844"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/ReportRequirementsPanel.java" startline="321" endline="334" pcid="5850"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/ReportRequirementsPanel.java" startline="306" endline="319" pcid="5847"></source>
+</class>
+
+<class classid="80" nclones="2" nlines="11" similarity="83">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/TilePanel.java" startline="118" endline="128" pcid="6116"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/TilePanel.java" startline="130" endline="144" pcid="6120"></source>
+</class>
+
+<class classid="81" nclones="2" nlines="10" similarity="70">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/panel/WorkProductionPanel.java" startline="120" endline="129" pcid="6337"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/AIColony.java" startline="392" endline="401" pcid="14097"></source>
+</class>
+
+<class classid="82" nclones="19" nlines="10" similarity="70">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/gui/ViewMode.java" startline="98" endline="109" pcid="6656"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Player.java" startline="1839" endline="1848" pcid="9804"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/EuropeanAIPlayer.java" startline="77" endline="86" pcid="15143"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/EuropeanAIPlayer.java" startline="319" endline="328" pcid="15197"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/generator/River.java" startline="269" endline="278" pcid="17993"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/goal/Goal.java" startline="505" endline="518" pcid="15374"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/StandardAIPlayer.java" startline="235" endline="244" pcid="16581"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/ColonialAIPlayer.java" startline="245" endline="254" pcid="14705"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Game.java" startline="666" endline="677" pcid="8331"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Game.java" startline="507" endline="517" pcid="8304"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/DiplomaticTrade.java" startline="239" endline="248" pcid="7633"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/StandardAIPlayer.java" startline="1281" endline="1292" pcid="16774"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/FreeColServer.java" startline="1064" endline="1073" pcid="17853"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/EuropeanAIPlayer.java" startline="704" endline="713" pcid="15270"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/ColonialAIPlayer.java" startline="1317" endline="1326" pcid="14906"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/StandardAIPlayer.java" startline="2262" endline="2271" pcid="16927"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/TileItemContainer.java" startline="535" endline="545" pcid="11397"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/AIColony.java" startline="192" endline="202" pcid="14058"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/TileItemContainer.java" startline="222" endline="235" pcid="11341"></source>
+</class>
+
+<class classid="83" nclones="3" nlines="14" similarity="71">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/client/Worker.java" startline="51" endline="63" pcid="6690"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/util/XMLStream.java" startline="57" endline="69" pcid="13829"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/client/gui/sound/SoundTest.java" startline="63" endline="75" pcid="19374"></source>
+</class>
+
+<class classid="84" nclones="3" nlines="24" similarity="70">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/io/FreeColModFile.java" startline="93" endline="112" pcid="6747"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/FreeColObject.java" startline="146" endline="167" pcid="8143"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/metaserver/MetaRegister.java" startline="115" endline="134" pcid="13978"></source>
+</class>
+
+<class classid="85" nclones="4" nlines="13" similarity="73">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/io/Mods.java" startline="84" endline="97" pcid="6788"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/AIPlayer.java" startline="120" endline="132" pcid="14574"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/AIPlayer.java" startline="153" endline="164" pcid="14580"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/EuropeanAIPlayer.java" startline="850" endline="861" pcid="15293"></source>
+</class>
+
+<class classid="86" nclones="2" nlines="12" similarity="75">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Building.java" startline="518" endline="526" pcid="6990"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Building.java" startline="545" endline="554" pcid="6997"></source>
+</class>
+
+<class classid="87" nclones="3" nlines="12" similarity="75">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Colony.java" startline="1377" endline="1388" pcid="7309"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Colony.java" startline="1489" endline="1508" pcid="7335"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Colony.java" startline="1428" endline="1438" pcid="7325"></source>
+</class>
+
+<class classid="88" nclones="2" nlines="10" similarity="80">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Colony.java" startline="1378" endline="1387" pcid="7310"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/ColonyTile.java" startline="478" endline="487" pcid="7550"></source>
+</class>
+
+<class classid="89" nclones="2" nlines="22" similarity="72">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Colony.java" startline="1827" endline="1846" pcid="7394"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Colony.java" startline="1872" endline="1896" pcid="7408"></source>
+</class>
+
+<class classid="90" nclones="3" nlines="13" similarity="84">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Colony.java" startline="2123" endline="2134" pcid="7444"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/common/model/ColonyProductionTest.java" startline="405" endline="417" pcid="19443"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/common/model/ColonyProductionTest.java" startline="360" endline="372" pcid="19439"></source>
+</class>
+
+<class classid="91" nclones="2" nlines="14" similarity="92">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/ColonyTile.java" startline="498" endline="512" pcid="7553"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/ColonyTile.java" startline="522" endline="536" pcid="7557"></source>
+</class>
+
+<class classid="92" nclones="3" nlines="10" similarity="70">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Europe.java" startline="248" endline="257" pcid="7707"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/control/InGameController.java" startline="996" endline="1005" pcid="17255"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/IndianSettlement.java" startline="595" endline="605" pcid="8756"></source>
+</class>
+
+<class classid="93" nclones="2" nlines="12" similarity="100">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/EuropeanNationType.java" startline="118" endline="129" pcid="7764"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/TileType.java" startline="290" endline="301" pcid="11439"></source>
+</class>
+
+<class classid="94" nclones="2" nlines="40" similarity="85">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/FeatureContainer.java" startline="276" endline="313" pcid="7926"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/FeatureContainer.java" startline="322" endline="363" pcid="7931"></source>
+</class>
+
+<class classid="95" nclones="2" nlines="11" similarity="100">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/FeatureContainer.java" startline="373" endline="383" pcid="7936"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/FeatureContainer.java" startline="393" endline="403" pcid="7939"></source>
+</class>
+
+<class classid="96" nclones="2" nlines="17" similarity="100">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/FeatureContainer.java" startline="411" endline="424" pcid="7942"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/FeatureContainer.java" startline="441" endline="454" pcid="7949"></source>
+</class>
+
+<class classid="97" nclones="2" nlines="17" similarity="83">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/FreeColGameObjectType.java" startline="265" endline="278" pcid="8126"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/FreeColGameObjectType.java" startline="278" endline="294" pcid="8130"></source>
+</class>
+
+<class classid="98" nclones="2" nlines="12" similarity="83">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/FreeColObject.java" startline="424" endline="437" pcid="8175"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/FreeColObject.java" startline="498" endline="509" pcid="8189"></source>
+</class>
+
+<class classid="99" nclones="2" nlines="19" similarity="70">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/IndianSettlement.java" startline="593" endline="611" pcid="8754"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Tile.java" startline="1080" endline="1094" pcid="11015"></source>
+</class>
+
+<class classid="100" nclones="5" nlines="13" similarity="71">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/IndianSettlement.java" startline="671" endline="682" pcid="8775"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/ColonialAIPlayer.java" startline="311" endline="325" pcid="14714"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/generator/SimpleMapGenerator.java" startline="659" endline="670" pcid="18132"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/generator/SimpleMapGenerator.java" startline="672" endline="683" pcid="18135"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/StandardAIPlayer.java" startline="301" endline="323" pcid="16590"></source>
+</class>
+
+<class classid="101" nclones="2" nlines="23" similarity="73">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/IndianSettlement.java" startline="732" endline="756" pcid="8781"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/IndianSettlement.java" startline="756" endline="781" pcid="8786"></source>
+</class>
+
+<class classid="102" nclones="3" nlines="24" similarity="76">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Limit.java" startline="134" endline="154" pcid="8905"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Limit.java" startline="162" endline="188" pcid="8906"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Limit.java" startline="196" endline="228" pcid="8907"></source>
+</class>
+
+<class classid="103" nclones="2" nlines="67" similarity="70">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Map.java" startline="466" endline="574" pcid="8998"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Map.java" startline="813" endline="912" pcid="9023"></source>
+</class>
+
+<class classid="104" nclones="2" nlines="25" similarity="72">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Map.java" startline="953" endline="985" pcid="9040"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/mission/CashInTreasureTrainMission.java" startline="113" endline="142" pcid="15579"></source>
+</class>
+
+<class classid="105" nclones="2" nlines="12" similarity="75">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Map.java" startline="965" endline="982" pcid="9043"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Map.java" startline="1009" endline="1026" pcid="9049"></source>
+</class>
+
+<class classid="106" nclones="2" nlines="11" similarity="81">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Map.java" startline="1544" endline="1553" pcid="9110"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Map.java" startline="1726" endline="1735" pcid="9134"></source>
+</class>
+
+<class classid="107" nclones="2" nlines="20" similarity="90">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Map.java" startline="1839" endline="1859" pcid="9149"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Tile.java" startline="1599" endline="1621" pcid="11098"></source>
+</class>
+
+<class classid="108" nclones="3" nlines="14" similarity="73">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Operand.java" startline="169" endline="182" pcid="9508"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Operand.java" startline="242" endline="254" pcid="9523"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Operand.java" startline="288" endline="299" pcid="9532"></source>
+</class>
+
+<class classid="109" nclones="2" nlines="41" similarity="77">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Operand.java" startline="222" endline="264" pcid="9519"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Operand.java" startline="274" endline="311" pcid="9529"></source>
+</class>
+
+<class classid="110" nclones="2" nlines="11" similarity="72">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Player.java" startline="2933" endline="2943" pcid="9972"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/StandardAIPlayer.java" startline="306" endline="321" pcid="16591"></source>
+</class>
+
+<class classid="111" nclones="2" nlines="10" similarity="90">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Player.java" startline="3444" endline="3452" pcid="10035"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Player.java" startline="3452" endline="3460" pcid="10037"></source>
+</class>
+
+<class classid="112" nclones="2" nlines="13" similarity="76">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/ProductionMap.java" startline="113" endline="123" pcid="10138"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/ProductionMap.java" startline="124" endline="135" pcid="10143"></source>
+</class>
+
+<class classid="113" nclones="2" nlines="16" similarity="100">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/SettlementType.java" startline="238" endline="252" pcid="10445"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/SettlementType.java" startline="270" endline="284" pcid="10452"></source>
+</class>
+
+<class classid="114" nclones="2" nlines="18" similarity="70">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Specification.java" startline="277" endline="296" pcid="10597"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/ColonyPlan.java" startline="224" endline="238" pcid="14958"></source>
+</class>
+
+<class classid="115" nclones="2" nlines="11" similarity="81">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Specification.java" startline="575" endline="584" pcid="10655"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Specification.java" startline="593" endline="602" pcid="10659"></source>
+</class>
+
+<class classid="116" nclones="3" nlines="10" similarity="80">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/StringTemplate.java" startline="202" endline="211" pcid="10788"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/StringTemplate.java" startline="289" endline="298" pcid="10801"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/StringTemplate.java" startline="239" endline="248" pcid="10794"></source>
+</class>
+
+<class classid="117" nclones="2" nlines="13" similarity="84">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/StringTemplate.java" startline="369" endline="379" pcid="10821"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/StringTemplate.java" startline="379" endline="392" pcid="10826"></source>
+</class>
+
+<class classid="118" nclones="2" nlines="13" similarity="84">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Tile.java" startline="1024" endline="1039" pcid="11005"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Tile.java" startline="1045" endline="1060" pcid="11010"></source>
+</class>
+
+<class classid="119" nclones="2" nlines="16" similarity="70">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Tile.java" startline="1886" endline="1897" pcid="11143"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/mission/WishRealizationMission.java" startline="237" endline="251" pcid="16363"></source>
+</class>
+
+<class classid="120" nclones="2" nlines="10" similarity="70">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/TradeRoute.java" startline="388" endline="397" pcid="11529"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/option/ListOption.java" startline="132" endline="144" pcid="13368"></source>
+</class>
+
+<class classid="121" nclones="2" nlines="10" similarity="100">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/TradeRouteStop.java" startline="182" endline="191" pcid="11569"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/TradeRouteStop.java" startline="191" endline="200" pcid="11572"></source>
+</class>
+
+<class classid="122" nclones="2" nlines="10" similarity="90">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Unit.java" startline="732" endline="747" pcid="11681"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Unit.java" startline="756" endline="771" pcid="11683"></source>
+</class>
+
+<class classid="123" nclones="2" nlines="24" similarity="76">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Unit.java" startline="839" endline="861" pcid="11691"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/Unit.java" startline="877" endline="902" pcid="11699"></source>
+</class>
+
+<class classid="124" nclones="2" nlines="11" similarity="81">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/UnitType.java" startline="514" endline="524" pcid="12177"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/model/UnitType.java" startline="589" endline="599" pcid="12190"></source>
+</class>
+
+<class classid="125" nclones="3" nlines="16" similarity="73">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/AbandonColonyMessage.java" startline="74" endline="97" pcid="12273"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/SetGoodsLevelsMessage.java" startline="83" endline="101" pcid="13124"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/PayForBuildingMessage.java" startline="73" endline="90" pcid="12949"></source>
+</class>
+
+<class classid="126" nclones="6" nlines="27" similarity="74">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/AskSkillMessage.java" startline="85" endline="119" pcid="12282"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/LearnSkillMessage.java" startline="85" endline="123" pcid="12772"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/DeclineMoundsMessage.java" startline="84" endline="113" pcid="12555"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/ScoutIndianSettlementMessage.java" startline="85" endline="120" pcid="13045"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/DemandTributeMessage.java" startline="86" endline="125" pcid="12582"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/SpySettlementMessage.java" startline="83" endline="117" pcid="13150"></source>
+</class>
+
+<class classid="127" nclones="2" nlines="24" similarity="72">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/AssignTradeRouteMessage.java" startline="81" endline="108" pcid="12308"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/SetDestinationMessage.java" startline="78" endline="100" pcid="13113"></source>
+</class>
+
+<class classid="128" nclones="2" nlines="36" similarity="89">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/BuyGoodsMessage.java" startline="88" endline="124" pcid="12344"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/SellGoodsMessage.java" startline="89" endline="131" pcid="13056"></source>
+</class>
+
+<class classid="129" nclones="4" nlines="23" similarity="84">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/BuyMessage.java" startline="97" endline="123" pcid="12358"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/SellMessage.java" startline="99" endline="127" pcid="13071"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/BuyPropositionMessage.java" startline="115" endline="145" pcid="12371"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/SellPropositionMessage.java" startline="112" endline="139" pcid="13084"></source>
+</class>
+
+<class classid="130" nclones="16" nlines="15" similarity="70">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/CashInTreasureTrainMessage.java" startline="72" endline="93" pcid="12382"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/MoveToAmericaMessage.java" startline="73" endline="89" pcid="12894"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/PutOutsideColonyMessage.java" startline="73" endline="92" pcid="12957"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/DisembarkMessage.java" startline="71" endline="84" pcid="12623"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/DisbandUnitMessage.java" startline="73" endline="86" pcid="12616"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/GoodsForSaleMessage.java" startline="104" endline="119" pcid="12713"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/LootCargoMessage.java" startline="109" endline="125" pcid="12794"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/UpdateCurrentStopMessage.java" startline="69" endline="82" pcid="13198"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/ClearSpecialityMessage.java" startline="73" endline="86" pcid="12458"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/LoadCargoMessage.java" startline="81" endline="93" pcid="12783"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/ChangeWorkTypeMessage.java" startline="82" endline="102" pcid="12417"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/JoinColonyMessage.java" startline="82" endline="102" pcid="12764"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/GetTransactionMessage.java" startline="82" endline="100" pcid="12694"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/CloseTransactionMessage.java" startline="80" endline="98" pcid="12465"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/ChangeStateMessage.java" startline="82" endline="107" pcid="12391"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/DeliverGiftMessage.java" startline="129" endline="152" pcid="12572"></source>
+</class>
+
+<class classid="131" nclones="2" nlines="13" similarity="78">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/Connection.java" startline="278" endline="290" pcid="12496"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/Connection.java" startline="357" endline="367" pcid="12509"></source>
+</class>
+
+<class classid="132" nclones="2" nlines="12" similarity="75">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/GoodsForSaleMessage.java" startline="126" endline="137" pcid="12716"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/LootCargoMessage.java" startline="132" endline="143" pcid="12797"></source>
+</class>
+
+<class classid="133" nclones="2" nlines="11" similarity="81">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/Message.java" startline="168" endline="179" pcid="12816"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/util/Xml.java" startline="50" endline="60" pcid="13770"></source>
+</class>
+
+<class classid="134" nclones="2" nlines="10" similarity="80">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/Message.java" startline="201" endline="213" pcid="12820"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/Message.java" startline="225" endline="236" pcid="12824"></source>
+</class>
+
+<class classid="135" nclones="2" nlines="24" similarity="72">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/MoveMessage.java" startline="84" endline="116" pcid="12884"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/NewRegionNameMessage.java" startline="81" endline="104" pcid="12933"></source>
+</class>
+
+<class classid="136" nclones="2" nlines="10" similarity="70">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/ReceivingThread.java" startline="288" endline="298" pcid="13002"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/server/generator/MapGeneratorTest.java" startline="222" endline="231" pcid="19944"></source>
+</class>
+
+<class classid="137" nclones="2" nlines="37" similarity="76">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/ReceivingThread.java" startline="391" endline="425" pcid="13014"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/ReceivingThread.java" startline="438" endline="480" pcid="13025"></source>
+</class>
+
+<class classid="138" nclones="2" nlines="18" similarity="77">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/networking/StatisticsMessage.java" startline="53" endline="69" pcid="13160"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/AIMain.java" startline="456" endline="474" pcid="14516"></source>
+</class>
+
+<class classid="139" nclones="2" nlines="16" similarity="75">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/option/AudioMixerOption.java" startline="68" endline="80" pcid="13234"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/option/LanguageOption.java" startline="68" endline="80" pcid="13306"></source>
+</class>
+
+<class classid="140" nclones="3" nlines="23" similarity="75">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/option/BooleanOption.java" startline="109" endline="131" pcid="13269"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/option/IntegerOption.java" startline="173" endline="197" pcid="13299"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/common/option/PercentageOption.java" startline="73" endline="103" pcid="13425"></source>
+</class>
+
+<class classid="141" nclones="2" nlines="18" similarity="73">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/metaserver/MetaServer.java" startline="135" endline="150" pcid="14005"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/networking/Server.java" startline="102" endline="137" pcid="19101"></source>
+</class>
+
+<class classid="142" nclones="2" nlines="24" similarity="80">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/metaserver/MetaServer.java" startline="183" endline="207" pcid="14012"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/networking/Server.java" startline="208" endline="240" pcid="19117"></source>
+</class>
+
+<class classid="143" nclones="2" nlines="12" similarity="91">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/AIColony.java" startline="473" endline="484" pcid="14121"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/AIColony.java" startline="487" endline="498" pcid="14125"></source>
+</class>
+
+<class classid="144" nclones="2" nlines="24" similarity="87">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/AIColony.java" startline="859" endline="889" pcid="14201"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/AIColony.java" startline="1102" endline="1131" pcid="14254"></source>
+</class>
+
+<class classid="145" nclones="2" nlines="10" similarity="70">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/AIColony.java" startline="1072" endline="1081" pcid="14250"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/generator/River.java" startline="209" endline="218" pcid="17982"></source>
+</class>
+
+<class classid="146" nclones="2" nlines="11" similarity="83">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/AIColony.java" startline="1260" endline="1268" pcid="14284"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/AIColony.java" startline="1278" endline="1290" pcid="14288"></source>
+</class>
+
+<class classid="147" nclones="2" nlines="15" similarity="100">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/AIGoods.java" startline="249" endline="270" pcid="14369"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/AIUnit.java" startline="265" endline="284" pcid="14627"></source>
+</class>
+
+<class classid="148" nclones="2" nlines="22" similarity="72">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/AIGoods.java" startline="310" endline="332" pcid="14378"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/AIUnit.java" startline="382" endline="403" pcid="14646"></source>
+</class>
+
+<class classid="149" nclones="2" nlines="12" similarity="91">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/AIPlayer.java" startline="213" endline="227" pcid="14589"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/EuropeanAIPlayer.java" startline="91" endline="105" pcid="15146"></source>
+</class>
+
+<class classid="150" nclones="2" nlines="19" similarity="76">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/AIPlayer.java" startline="304" endline="321" pcid="14602"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/NewAIPlayer.java" startline="140" endline="161" pcid="16388"></source>
+</class>
+
+<class classid="151" nclones="6" nlines="12" similarity="78">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/ColonialAIPlayer.java" startline="229" endline="240" pcid="14702"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/EuropeanAIPlayer.java" startline="871" endline="884" pcid="15297"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/ColonialAIPlayer.java" startline="290" endline="303" pcid="14711"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/StandardAIPlayer.java" startline="219" endline="230" pcid="16578"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/EuropeanAIPlayer.java" startline="639" endline="650" pcid="15259"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/StandardAIPlayer.java" startline="280" endline="293" pcid="16587"></source>
+</class>
+
+<class classid="152" nclones="3" nlines="14" similarity="100">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/ColonialAIPlayer.java" startline="264" endline="280" pcid="14708"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/EuropeanAIPlayer.java" startline="660" endline="676" pcid="15262"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/StandardAIPlayer.java" startline="254" endline="270" pcid="16584"></source>
+</class>
+
+<class classid="153" nclones="2" nlines="36" similarity="97">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/ColonialAIPlayer.java" startline="333" endline="371" pcid="14717"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/StandardAIPlayer.java" startline="331" endline="369" pcid="16594"></source>
+</class>
+
+<class classid="154" nclones="4" nlines="16" similarity="71">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/ColonialAIPlayer.java" startline="519" endline="542" pcid="14753"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/EuropeanAIPlayer.java" startline="812" endline="830" pcid="15291"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/StandardAIPlayer.java" startline="585" endline="602" pcid="16650"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/ColonialAIPlayer.java" startline="521" endline="538" pcid="14754"></source>
+</class>
+
+<class classid="155" nclones="2" nlines="62" similarity="84">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/ColonialAIPlayer.java" startline="587" endline="654" pcid="14760"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/StandardAIPlayer.java" startline="653" endline="724" pcid="16656"></source>
+</class>
+
+<class classid="156" nclones="2" nlines="11" similarity="100">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/ColonialAIPlayer.java" startline="660" endline="671" pcid="14774"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/EuropeanAIPlayer.java" startline="127" endline="138" pcid="15151"></source>
+</class>
+
+<class classid="157" nclones="6" nlines="13" similarity="84">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/ColonialAIPlayer.java" startline="689" endline="701" pcid="14779"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/StandardAIPlayer.java" startline="797" endline="809" pcid="16683"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/ColonialAIPlayer.java" startline="706" endline="723" pcid="14783"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/NewAIPlayer.java" startline="183" endline="199" pcid="16398"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/NewAIPlayer.java" startline="166" endline="178" pcid="16394"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/StandardAIPlayer.java" startline="814" endline="831" pcid="16687"></source>
+</class>
+
+<class classid="158" nclones="2" nlines="19" similarity="85">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/ColonialAIPlayer.java" startline="728" endline="745" pcid="14787"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/StandardAIPlayer.java" startline="836" endline="856" pcid="16691"></source>
+</class>
+
+<class classid="159" nclones="3" nlines="16" similarity="77">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/ColonialAIPlayer.java" startline="751" endline="765" pcid="14792"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/EuropeanAIPlayer.java" startline="163" endline="180" pcid="15158"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/StandardAIPlayer.java" startline="862" endline="880" pcid="16697"></source>
+</class>
+
+<class classid="160" nclones="3" nlines="158" similarity="83">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/ColonialAIPlayer.java" startline="770" endline="961" pcid="14796"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/REFAIPlayer.java" startline="104" endline="278" pcid="16516"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/StandardAIPlayer.java" startline="1522" endline="1738" pcid="16777"></source>
+</class>
+
+<class classid="161" nclones="2" nlines="28" similarity="77">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/ColonialAIPlayer.java" startline="852" endline="874" pcid="14812"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/ColonialAIPlayer.java" startline="890" endline="919" pcid="14822"></source>
+</class>
+
+<class classid="162" nclones="3" nlines="17" similarity="100">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/ColonialAIPlayer.java" startline="981" endline="997" pcid="14840"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/NewAIPlayer.java" startline="206" endline="222" pcid="16402"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/StandardAIPlayer.java" startline="1892" endline="1908" pcid="16857"></source>
+</class>
+
+<class classid="163" nclones="3" nlines="26" similarity="100">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/ColonialAIPlayer.java" startline="999" endline="1034" pcid="14845"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/EuropeanAIPlayer.java" startline="414" endline="453" pcid="15219"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/StandardAIPlayer.java" startline="1910" endline="1949" pcid="16862"></source>
+</class>
+
+<class classid="164" nclones="2" nlines="38" similarity="100">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/ColonialAIPlayer.java" startline="1036" endline="1081" pcid="14852"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/NewAIPlayer.java" startline="245" endline="290" pcid="16410"></source>
+</class>
+
+<class classid="165" nclones="3" nlines="135" similarity="95">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/ColonialAIPlayer.java" startline="1127" endline="1291" pcid="14870"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/StandardAIPlayer.java" startline="2065" endline="2234" pcid="16889"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/EuropeanAIPlayer.java" startline="462" endline="630" pcid="15226"></source>
+</class>
+
+<class classid="166" nclones="3" nlines="113" similarity="79">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/ColonialAIPlayer.java" startline="1297" endline="1434" pcid="14902"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/EuropeanAIPlayer.java" startline="682" endline="798" pcid="15265"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/StandardAIPlayer.java" startline="2240" endline="2379" pcid="16922"></source>
+</class>
+
+<class classid="167" nclones="2" nlines="19" similarity="84">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/ColonialAIPlayer.java" startline="1481" endline="1500" pcid="14936"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/NewAIPlayer.java" startline="348" endline="366" pcid="16428"></source>
+</class>
+
+<class classid="168" nclones="2" nlines="15" similarity="93">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/ColonyPlan.java" startline="646" endline="660" pcid="15043"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/ColonyPlan.java" startline="663" endline="677" pcid="15048"></source>
+</class>
+
+<class classid="169" nclones="2" nlines="13" similarity="100">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/ColonyPlan.java" startline="744" endline="756" pcid="15066"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/ColonyPlan.java" startline="762" endline="774" pcid="15069"></source>
+</class>
+
+<class classid="170" nclones="2" nlines="17" similarity="100">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/EuropeanAIPlayer.java" startline="331" endline="351" pcid="15200"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/EuropeanAIPlayer.java" startline="352" endline="371" pcid="15205"></source>
+</class>
+
+<class classid="171" nclones="2" nlines="12" similarity="91">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/EuropeanAIPlayer.java" startline="389" endline="398" pcid="15214"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/IndianAIPlayer.java" startline="188" endline="199" pcid="15468"></source>
+</class>
+
+<class classid="172" nclones="2" nlines="10" similarity="100">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/GoodsWish.java" startline="60" endline="71" pcid="15426"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/WorkerWish.java" startline="62" endline="73" pcid="16990"></source>
+</class>
+
+<class classid="173" nclones="2" nlines="12" similarity="75">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/IndianAIPlayer.java" startline="164" endline="174" pcid="15460"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/IndianAIPlayer.java" startline="174" endline="184" pcid="15464"></source>
+</class>
+
+<class classid="174" nclones="2" nlines="45" similarity="82">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/IndianAIPlayer.java" startline="207" endline="257" pcid="15471"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/StandardAIPlayer.java" startline="1743" endline="1791" pcid="16823"></source>
+</class>
+
+<class classid="175" nclones="2" nlines="65" similarity="87">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/IndianAIPlayer.java" startline="262" endline="334" pcid="15486"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/StandardAIPlayer.java" startline="1796" endline="1870" pcid="16836"></source>
+</class>
+
+<class classid="176" nclones="2" nlines="10" similarity="70">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/IndianAIPlayer.java" startline="318" endline="331" pcid="15502"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/StandardAIPlayer.java" startline="1775" endline="1788" pcid="16833"></source>
+</class>
+
+<class classid="177" nclones="4" nlines="39" similarity="71">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/IndianAIPlayer.java" startline="348" endline="385" pcid="15505"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/StandardAIPlayer.java" startline="551" endline="585" pcid="16640"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/StandardAIPlayer.java" startline="501" endline="536" pcid="16630"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/NewAIPlayer.java" startline="477" endline="512" pcid="16443"></source>
+</class>
+
+<class classid="178" nclones="3" nlines="15" similarity="100">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/IndianAIPlayer.java" startline="371" endline="384" pcid="15512"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/StandardAIPlayer.java" startline="521" endline="534" pcid="16635"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/NewAIPlayer.java" startline="497" endline="510" pcid="16448"></source>
+</class>
+
+<class classid="179" nclones="2" nlines="18" similarity="83">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/mission/DefendSettlementMission.java" startline="182" endline="194" pcid="15609"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/mission/PioneeringMission.java" startline="458" endline="472" pcid="15845"></source>
+</class>
+
+<class classid="180" nclones="7" nlines="10" similarity="70">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/mission/IndianDemandMission.java" startline="210" endline="219" pcid="15687"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/mission/TransportMission.java" startline="350" endline="359" pcid="16047"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/mission/TransportMission.java" startline="359" endline="368" pcid="16050"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/mission/TransportMission.java" startline="396" endline="405" pcid="16060"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/mission/TransportMission.java" startline="405" endline="414" pcid="16063"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/model/ServerPlayer.java" startline="384" endline="397" pcid="18604"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/model/ServerPlayer.java" startline="454" endline="471" pcid="18614"></source>
+</class>
+
+<class classid="181" nclones="2" nlines="14" similarity="71">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/mission/PioneeringMission.java" startline="261" endline="273" pcid="15811"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/mission/PrivateerMission.java" startline="114" endline="128" pcid="15894"></source>
+</class>
+
+<class classid="182" nclones="3" nlines="16" similarity="70">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/mission/PioneeringMission.java" startline="669" endline="683" pcid="15882"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/TileImprovementPlan.java" startline="218" endline="234" pcid="16968"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/WorkerWish.java" startline="173" endline="191" pcid="17000"></source>
+</class>
+
+<class classid="183" nclones="2" nlines="23" similarity="91">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/mission/TransportMission.java" startline="347" endline="369" pcid="16046"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/mission/TransportMission.java" startline="394" endline="415" pcid="16059"></source>
+</class>
+
+<class classid="184" nclones="2" nlines="28" similarity="85">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/REFAIPlayer.java" startline="71" endline="99" pcid="16514"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/StandardAIPlayer.java" startline="180" endline="210" pcid="16577"></source>
+</class>
+
+<class classid="185" nclones="2" nlines="27" similarity="82">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/REFAIPlayer.java" startline="176" endline="198" pcid="16533"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/REFAIPlayer.java" startline="214" endline="242" pcid="16543"></source>
+</class>
+
+<class classid="186" nclones="2" nlines="17" similarity="100">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/REFAIPlayer.java" startline="346" endline="363" pcid="16568"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/StandardAIPlayer.java" startline="762" endline="779" pcid="16676"></source>
+</class>
+
+<class classid="187" nclones="2" nlines="14" similarity="85">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/StandardAIPlayer.java" startline="933" endline="946" pcid="16709"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/StandardAIPlayer.java" startline="948" endline="961" pcid="16713"></source>
+</class>
+
+<class classid="188" nclones="2" nlines="27" similarity="82">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/StandardAIPlayer.java" startline="1629" endline="1651" pcid="16797"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/StandardAIPlayer.java" startline="1667" endline="1695" pcid="16807"></source>
+</class>
+
+<class classid="189" nclones="2" nlines="17" similarity="77">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/StandardAIPlayer.java" startline="1771" endline="1789" pcid="16832"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/ai/StandardAIPlayer.java" startline="1842" endline="1867" pcid="16849"></source>
+</class>
+
+<class classid="190" nclones="2" nlines="14" similarity="78">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/control/InGameController.java" startline="1267" endline="1287" pcid="17278"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/control/InGameController.java" startline="1301" endline="1321" pcid="17281"></source>
+</class>
+
+<class classid="191" nclones="2" nlines="13" similarity="100">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/control/InGameController.java" startline="1333" endline="1346" pcid="17284"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/control/InGameController.java" startline="1358" endline="1371" pcid="17286"></source>
+</class>
+
+<class classid="192" nclones="2" nlines="21" similarity="72">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/control/PreGameInputHandler.java" startline="171" endline="189" pcid="17628"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/control/PreGameInputHandler.java" startline="197" endline="217" pcid="17633"></source>
+</class>
+
+<class classid="193" nclones="2" nlines="10" similarity="70">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/generator/LandGenerator.java" startline="223" endline="234" pcid="17943"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/generator/TerrainGenerator.java" startline="552" endline="564" pcid="18266"></source>
+</class>
+
+<class classid="194" nclones="2" nlines="11" similarity="81">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/generator/SimpleMapGenerator.java" startline="719" endline="731" pcid="18140"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/server/ai/TensionTest.java" startline="86" endline="97" pcid="19865"></source>
+</class>
+
+<class classid="195" nclones="2" nlines="14" similarity="71">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/generator/TerrainGenerator.java" startline="692" endline="704" pcid="18288"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/generator/TerrainGenerator.java" startline="748" endline="759" pcid="18303"></source>
+</class>
+
+<class classid="196" nclones="2" nlines="13" similarity="100">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/model/ServerGame.java" startline="178" endline="190" pcid="18530"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/model/ServerGame.java" startline="191" endline="203" pcid="18534"></source>
+</class>
+
+<class classid="197" nclones="2" nlines="16" similarity="70">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/model/ServerPlayer.java" startline="895" endline="912" pcid="18667"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/model/ServerPlayer.java" startline="913" endline="933" pcid="18671"></source>
+</class>
+
+<class classid="198" nclones="6" nlines="10" similarity="71">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/model/ServerPlayer.java" startline="1666" endline="1674" pcid="18791"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/model/ServerPlayer.java" startline="1803" endline="1811" pcid="18815"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/model/ServerPlayer.java" startline="1823" endline="1835" pcid="18819"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/model/ServerPlayer.java" startline="1759" endline="1767" pcid="18807"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/model/ServerPlayer.java" startline="1686" endline="1694" pcid="18795"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/server/model/ServerPlayer.java" startline="1781" endline="1789" pcid="18811"></source>
+</class>
+
+<class classid="199" nclones="2" nlines="18" similarity="100">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/tools/InstallerTranslations.java" startline="186" endline="203" pcid="19199"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/tools/MergeTranslations.java" startline="109" endline="126" pcid="19223"></source>
+</class>
+
+<class classid="200" nclones="2" nlines="35" similarity="86">
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/tools/TranslationReport.java" startline="82" endline="119" pcid="19243"></source>
+<source file="freecol-0.10.0-alpha2/src/net/sf/freecol/tools/TranslationReport.java" startline="158" endline="186" pcid="19263"></source>
+</class>
+
+<class classid="201" nclones="2" nlines="13" similarity="76">
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/common/model/BuildingTest.java" startline="280" endline="290" pcid="19413"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/common/model/MonarchTest.java" startline="36" endline="50" pcid="19579"></source>
+</class>
+
+<class classid="202" nclones="2" nlines="19" similarity="84">
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/common/model/BuildingTest.java" startline="490" endline="513" pcid="19420"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/common/model/BuildingTest.java" startline="515" endline="538" pcid="19421"></source>
+</class>
+
+<class classid="203" nclones="2" nlines="31" similarity="93">
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/common/model/ColonyProductionTest.java" startline="33" endline="96" pcid="19422"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/common/model/ColonyProductionTest.java" startline="98" endline="162" pcid="19425"></source>
+</class>
+
+<class classid="204" nclones="2" nlines="29" similarity="73">
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/common/model/CombatTest.java" startline="276" endline="311" pcid="19461"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/common/model/CombatTest.java" startline="313" endline="353" pcid="19466"></source>
+</class>
+
+<class classid="205" nclones="2" nlines="11" similarity="90">
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/common/model/GoodsTest.java" startline="218" endline="236" pcid="19518"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/common/model/GoodsTest.java" startline="242" endline="263" pcid="19520"></source>
+</class>
+
+<class classid="206" nclones="4" nlines="15" similarity="80">
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/common/model/MapTest.java" startline="287" endline="307" pcid="19548"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/common/model/MapTest.java" startline="369" endline="390" pcid="19551"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/common/model/MapTest.java" startline="392" endline="412" pcid="19552"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/common/model/MapTest.java" startline="313" endline="335" pcid="19549"></source>
+</class>
+
+<class classid="207" nclones="2" nlines="28" similarity="89">
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/common/model/MovementTest.java" startline="96" endline="132" pcid="19588"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/common/model/MovementTest.java" startline="134" endline="168" pcid="19589"></source>
+</class>
+
+<class classid="208" nclones="2" nlines="33" similarity="75">
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/common/model/MovementTest.java" startline="170" endline="211" pcid="19590"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/common/model/MovementTest.java" startline="213" endline="252" pcid="19591"></source>
+</class>
+
+<class classid="209" nclones="2" nlines="17" similarity="100">
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/common/model/NationTypeTest.java" startline="39" endline="58" pcid="19594"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/common/model/NationTypeTest.java" startline="60" endline="78" pcid="19595"></source>
+</class>
+
+<class classid="210" nclones="3" nlines="12" similarity="100">
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/common/model/PlayerTest.java" startline="81" endline="92" pcid="19610"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/common/model/PlayerTest.java" startline="107" endline="118" pcid="19612"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/common/model/PlayerTest.java" startline="94" endline="105" pcid="19611"></source>
+</class>
+
+<class classid="211" nclones="2" nlines="10" similarity="100">
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/common/model/SerializationTest.java" startline="167" endline="176" pcid="19655"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/common/model/SerializationTest.java" startline="201" endline="210" pcid="19660"></source>
+</class>
+
+<class classid="212" nclones="9" nlines="26" similarity="71">
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/server/ai/ContactTest.java" startline="61" endline="90" pcid="19781"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/server/ai/ContactTest.java" startline="264" endline="294" pcid="19787"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/server/ai/ContactTest.java" startline="296" endline="331" pcid="19788"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/server/ai/ContactTest.java" startline="333" endline="364" pcid="19789"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/server/ai/ContactTest.java" startline="128" endline="158" pcid="19783"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/server/ai/ContactTest.java" startline="228" endline="262" pcid="19786"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/server/ai/ContactTest.java" startline="195" endline="226" pcid="19785"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/server/ai/ContactTest.java" startline="160" endline="193" pcid="19784"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/server/ai/ContactTest.java" startline="92" endline="126" pcid="19782"></source>
+</class>
+
+<class classid="213" nclones="4" nlines="24" similarity="73">
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/server/ai/mission/TransportMissionTest.java" startline="119" endline="149" pcid="19801"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/server/ai/mission/TransportMissionTest.java" startline="186" endline="222" pcid="19803"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/server/ai/mission/TransportMissionTest.java" startline="151" endline="184" pcid="19802"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/server/ai/mission/TransportMissionTest.java" startline="224" endline="271" pcid="19804"></source>
+</class>
+
+<class classid="214" nclones="2" nlines="23" similarity="82">
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/server/ai/mission/UnitSeekAndDestroyMissionTest.java" startline="54" endline="89" pcid="19806"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/server/ai/mission/UnitSeekAndDestroyMissionTest.java" startline="91" endline="123" pcid="19807"></source>
+</class>
+
+<class classid="215" nclones="2" nlines="26" similarity="80">
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/server/ai/REFTest.java" startline="62" endline="87" pcid="19825"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/server/ai/REFTest.java" startline="104" endline="129" pcid="19829"></source>
+</class>
+
+<class classid="216" nclones="2" nlines="43" similarity="84">
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/server/ai/StandardAIPlayerTest.java" startline="264" endline="321" pcid="19848"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/server/ai/StandardAIPlayerTest.java" startline="323" endline="378" pcid="19855"></source>
+</class>
+
+<class classid="217" nclones="3" nlines="21" similarity="76">
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/server/control/InGameControllerTest.java" startline="958" endline="988" pcid="19886"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/server/control/InGameControllerTest.java" startline="1408" endline="1436" pcid="19893"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/server/control/InGameControllerTest.java" startline="990" endline="1020" pcid="19887"></source>
+</class>
+
+<class classid="218" nclones="3" nlines="17" similarity="78">
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/server/control/InGameControllerTest.java" startline="1585" endline="1612" pcid="19898"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/server/control/InGameControllerTest.java" startline="1618" endline="1649" pcid="19899"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/server/control/InGameControllerTest.java" startline="1654" endline="1681" pcid="19900"></source>
+</class>
+
+<class classid="219" nclones="5" nlines="10" similarity="70">
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/server/control/InGameControllerTest.java" startline="1993" endline="2003" pcid="19913"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/server/control/InGameControllerTest.java" startline="2039" endline="2049" pcid="19918"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/server/control/InGameControllerTest.java" startline="2051" endline="2061" pcid="19919"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/server/control/InGameControllerTest.java" startline="2017" endline="2027" pcid="19915"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/server/control/InGameControllerTest.java" startline="2005" endline="2015" pcid="19914"></source>
+</class>
+
+<class classid="220" nclones="2" nlines="19" similarity="78">
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/server/generator/MapGeneratorTest.java" startline="47" endline="72" pcid="19923"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/server/generator/MapGeneratorTest.java" startline="74" endline="102" pcid="19928"></source>
+</class>
+
+<class classid="221" nclones="7" nlines="17" similarity="72">
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/server/model/ServerBuildingTest.java" startline="138" endline="168" pcid="19957"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/server/model/ServerBuildingTest.java" startline="170" endline="192" pcid="19958"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/server/model/ServerBuildingTest.java" startline="593" endline="616" pcid="19973"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/server/model/ServerBuildingTest.java" startline="534" endline="559" pcid="19971"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/server/model/ServerBuildingTest.java" startline="1091" endline="1114" pcid="19981"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/server/model/ServerBuildingTest.java" startline="194" endline="218" pcid="19959"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/server/model/ServerBuildingTest.java" startline="565" endline="588" pcid="19972"></source>
+</class>
+
+<class classid="222" nclones="2" nlines="25" similarity="76">
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/server/model/ServerBuildingTest.java" startline="399" endline="435" pcid="19967"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/server/model/ServerBuildingTest.java" startline="441" endline="472" pcid="19968"></source>
+</class>
+
+<class classid="223" nclones="2" nlines="14" similarity="85">
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/server/model/ServerPlayerTest.java" startline="363" endline="386" pcid="20040"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/server/model/ServerPlayerTest.java" startline="388" endline="407" pcid="20041"></source>
+</class>
+
+<class classid="224" nclones="2" nlines="14" similarity="73">
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/server/model/ServerPlayerTest.java" startline="441" endline="459" pcid="20044"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/server/model/ServerPlayerTest.java" startline="466" endline="486" pcid="20046"></source>
+</class>
+
+<class classid="225" nclones="2" nlines="17" similarity="77">
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/server/ServerTestHelper.java" startline="80" endline="93" pcid="20078"></source>
+<source file="freecol-0.10.0-alpha2/test/src/net/sf/freecol/server/ServerTestHelper.java" startline="99" endline="113" pcid="20083"></source>
+</class>
+
+</clones>

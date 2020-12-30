@@ -1,0 +1,2055 @@
+<clones>
+<systeminfo processor="nicad5" system="1.09.01" granularity="blocks-blind" threshold="30%" minlines="10" maxlines="2500"/>
+<cloneinfo npcs="29442" npairs="2010"/>
+<runinfo ncompares="4539358" cputime="3437"/>
+<classinfo nclasses="318"/>
+
+<class classid="1" nclones="151" nlines="10" similarity="70">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/AntClassLoader.java" startline="583" endline="605" pcid="122"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/splash/SplashTask.java" startline="250" endline="260" pcid="14405"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/DirectoryScanner.java" startline="1093" endline="1102" pcid="799"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/RecorderEntry.java" startline="355" endline="364" pcid="15861"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/depend/bcel/FullAnalyzer.java" startline="41" endline="53" pcid="21749"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/depend/bcel/AncestorAnalyzer.java" startline="42" endline="54" pcid="21709"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/junit/JUnitTest.java" startline="219" endline="231" pcid="12120"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java" startline="692" endline="700" pcid="12720"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/cvslib/CvsTagDiff.java" startline="340" endline="348" pcid="5340"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTaskMirrorImpl.java" startline="593" endline="601" pcid="13278"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/EchoProperties.java" startline="516" endline="524" pcid="9530"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/junit/BriefJUnitResultFormatter.java" startline="176" endline="185" pcid="11627"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/TelnetTask.java" startline="120" endline="129" pcid="13624"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/RExecTask.java" startline="377" endline="386" pcid="13573"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/MacroDefTest.java" startline="137" endline="145" pcid="26479"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/input/DefaultInputHandler.java" startline="63" endline="71" pcid="1919"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/LoaderUtils.java" startline="75" endline="85" pcid="22417"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Javac.java" startline="1153" endline="1166" pcid="7324"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/CVSPass.java" startline="124" endline="133" pcid="5452"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/SymbolicLinkUtils.java" startline="271" endline="287" pcid="23021"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/cvslib/CvsTagDiff.java" startline="456" endline="464" pcid="5363"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/zip/ZipFile.java" startline="217" endline="226" pcid="24528"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/selectors/modifiedselector/DigestAlgorithm.java" startline="117" endline="125" pcid="20745"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/ZipTest.java" startline="59" endline="69" pcid="27874"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/Path.java" startline="470" endline="478" pcid="18876"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/helper/AntXMLContext.java" startline="127" endline="135" pcid="1589"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/Commandline.java" startline="537" endline="545" pcid="18157"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Java.java" startline="806" endline="814" pcid="7164"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/Main.java" startline="614" endline="623" pcid="2622"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/LogStreamHandler.java" startline="59" endline="68" pcid="8002"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTaskMirrorImpl.java" startline="1937" endline="1947" pcid="13518"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/regexp/Jdk14RegexpMatcher.java" startline="64" endline="72" pcid="22660"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/JavaTest.java" startline="404" endline="412" pcid="26436"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/selectors/modifiedselector/PropertiesfileCache.java" startline="133" endline="142" pcid="20886"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/zip/ZipOutputStream.java" startline="313" endline="323" pcid="24626"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java" startline="2544" endline="2554" pcid="13018"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/IntrospectionHelper.java" startline="1124" endline="1132" pcid="2094"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/ExecuteWatchdog.java" startline="116" endline="129" pcid="6406"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Chmod.java" startline="179" endline="187" pcid="4195"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/BuildNumber.java" startline="156" endline="164" pcid="4022"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Redirector.java" startline="648" endline="660" pcid="15942"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/zip/AsiExtraField.java" startline="342" endline="351" pcid="24221"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/tar/TarEntry.java" startline="1031" endline="1040" pcid="23950"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/XMLCatalog.java" startline="1106" endline="1115" pcid="21384"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/testing/Funtest.java" startline="464" endline="474" pcid="14901"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/AntTest.java" startline="456" endline="465" pcid="25566"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/JAXPUtils.java" startline="245" endline="256" pcid="22187"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ssh/SSHExec.java" startline="322" endline="331" pcid="14755"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/Project.java" startline="860" endline="869" pcid="2819"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/AntClassLoader.java" startline="1062" endline="1072" pcid="196"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Checksum.java" startline="368" endline="376" pcid="4112"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/CloseResources.java" startline="46" endline="56" pcid="4237"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Property.java" startline="631" endline="642" pcid="15711"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/junit/XMLJUnitResultFormatter.java" startline="191" endline="202" pcid="12496"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/PumpStreamHandler.java" startline="118" endline="128" pcid="15758"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java" startline="808" endline="816" pcid="12261"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/Diagnostics.java" startline="382" endline="390" pcid="638"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/LayoutPreservingProperties.java" startline="693" endline="703" pcid="22290"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/XMLValidateTask.java" startline="458" endline="466" pcid="15351"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/ArgumentProcessorRegistry.java" startline="120" endline="131" pcid="332"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/unix/Symlink.java" startline="475" endline="484" pcid="15076"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/cvslib/ChangeLogTask.java" startline="385" endline="393" pcid="5285"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/BuildNumber.java" startline="98" endline="107" pcid="4012"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/listener/BigProjectLogger.java" startline="183" endline="193" pcid="2353"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/email/PlainMailer.java" startline="75" endline="83" pcid="5989"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/email/PlainMailer.java" startline="65" endline="73" pcid="5986"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/email/PlainMailer.java" startline="55" endline="63" pcid="5983"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/email/EmailTask.java" startline="477" endline="487" pcid="5862"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/JAXPUtils.java" startline="213" endline="222" pcid="22180"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/SchemaValidate.java" startline="304" endline="312" pcid="14123"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/XMLCatalog.java" startline="567" endline="577" pcid="21298"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Get.java" startline="567" endline="575" pcid="6710"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Nice.java" startline="66" endline="76" pcid="8547"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/compilers/CompilerAdapterFactory.java" startline="169" endline="179" pcid="4278"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/BaseResourceCollectionContainer.java" startline="228" endline="238" pcid="19520"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/Archives.java" startline="130" endline="139" pcid="19476"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/junit/JUnitTest.java" startline="492" endline="502" pcid="12161"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/MappedResourceCollection.java" startline="168" endline="179" pcid="19889"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/CommandlineJava.java" startline="182" endline="191" pcid="18195"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/regexp/JakartaRegexpMatcher.java" startline="58" endline="67" pcid="22631"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/selectors/AbstractSelectorContainer.java" startline="340" endline="352" pcid="20449"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/PatternSet.java" startline="520" endline="531" pcid="19003"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Manifest.java" startline="1057" endline="1065" pcid="8349"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/Main.java" startline="541" endline="551" pcid="2607"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/splash/SplashTask.java" startline="271" endline="280" pcid="14412"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/cvslib/RedirectingStreamHandler.java" startline="49" endline="58" pcid="5440"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/selectors/modifiedselector/PropertiesfileCache.java" startline="159" endline="169" pcid="20891"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/XMLCatalog.java" startline="676" endline="686" pcid="21320"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/types/selectors/ContainsRegexpTest.java" startline="42" endline="51" pcid="28481"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/types/MapperTest.java" startline="219" endline="227" pcid="28166"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Definer.java" startline="423" endline="433" pcid="5539"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/URLResource.java" startline="383" endline="392" pcid="20366"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/helper/ProjectHelper2.java" startline="224" endline="232" pcid="1666"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Jar.java" startline="463" endline="478" pcid="6924"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/types/selectors/SizeSelectorTest.java" startline="217" endline="225" pcid="28719"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java" startline="1086" endline="1095" pcid="12325"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/types/selectors/SizeSelectorTest.java" startline="207" endline="215" pcid="28716"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java" startline="1072" endline="1081" pcid="12320"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/filters/DynamicFilterTest.java" startline="57" endline="67" pcid="25049"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/filters/TokenFilterTest.java" startline="249" endline="259" pcid="25128"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/ConcatTest.java" startline="250" endline="260" pcid="25722"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Zip.java" startline="1063" endline="1073" pcid="17639"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/StyleTest.java" startline="185" endline="194" pcid="27563"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/URLResource.java" startline="146" endline="156" pcid="20323"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java" startline="432" endline="444" pcid="12655"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Expand.java" startline="214" endline="222" pcid="6471"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/IntrospectionHelperTest.java" startline="81" endline="89" pcid="25176"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/Project.java" startline="265" endline="274" pcid="2759"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/XMLValidateTask.java" startline="486" endline="507" pcid="15355"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Copy.java" startline="564" endline="572" pcid="5046"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Copy.java" startline="585" endline="593" pcid="5053"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/sound/AntSoundPlayer.java" startline="143" endline="154" pcid="14311"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/FilterSet.java" startline="476" endline="490" pcid="18509"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/Diagnostics.java" startline="243" endline="252" pcid="622"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/ReflectUtil.java" startline="46" endline="54" pcid="22564"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Available.java" startline="441" endline="453" pcid="3975"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/FileUtils.java" startline="1576" endline="1586" pcid="22040"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/types/PermissionsTest.java" startline="85" endline="93" pcid="28324"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/ExecuteJava.java" startline="195" endline="204" pcid="6273"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Property.java" startline="581" endline="590" pcid="15697"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/listener/MailLogger.java" startline="111" endline="121" pcid="2431"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Jar.java" startline="462" endline="479" pcid="6923"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ejb/WeblogicTOPLinkDeploymentTool.java" startline="64" endline="74" pcid="10287"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ejb/IPlanetEjbcTask.java" startline="309" endline="318" pcid="10075"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java" startline="930" endline="939" pcid="12766"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/launcher/CommandLauncher.java" startline="142" endline="152" pcid="7819"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTaskMirrorImpl.java" startline="833" endline="842" pcid="13324"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Copy.java" startline="1051" endline="1061" pcid="5149"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Copy.java" startline="631" endline="641" pcid="5065"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/Task.java" startline="199" endline="207" pcid="3450"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/ReflectUtil.java" startline="127" endline="137" pcid="22576"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/ReflectUtil.java" startline="82" endline="92" pcid="22570"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/ReflectUtil.java" startline="147" endline="156" pcid="22579"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/ReflectUtil.java" startline="103" endline="113" pcid="22573"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/Diagnostics.java" startline="254" endline="264" pcid="625"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/ReflectUtil.java" startline="62" endline="72" pcid="22567"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/AntClassLoader.java" startline="993" endline="1003" pcid="182"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/junit/JUnitTask.java" startline="1744" endline="1753" pcid="12058"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/GZip.java" startline="40" endline="51" pcid="6763"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/filters/ReplaceTokens.java" startline="248" endline="261" pcid="1274"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/ScriptRunnerBase.java" startline="212" endline="222" pcid="22871"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/compilers/JavacExternal.java" startline="73" endline="89" pcid="4412"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/ZipResource.java" startline="198" endline="209" pcid="20398"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/unix/Symlink.java" startline="434" endline="445" pcid="15068"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/listener/BigProjectLogger.java" startline="145" endline="153" pcid="2347"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/jsp/JspC.java" startline="527" endline="537" pcid="11472"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Copy.java" startline="519" endline="530" pcid="5037"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Javadoc.java" startline="1965" endline="1978" pcid="7584"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/BZip2.java" startline="42" endline="57" pcid="4043"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Replace.java" startline="627" endline="643" pcid="16092"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/UpToDate.java" startline="265" endline="275" pcid="17151"></source>
+</class>
+
+<class classid="2" nclones="2" nlines="11" similarity="81">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/AntClassLoader.java" startline="711" endline="721" pcid="137"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/AntClassLoader.java" startline="893" endline="903" pcid="168"></source>
+</class>
+
+<class classid="3" nclones="2" nlines="33" similarity="71">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/AntClassLoader.java" startline="776" endline="806" pcid="145"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/AntClassLoader.java" startline="991" endline="1023" pcid="181"></source>
+</class>
+
+<class classid="4" nclones="2" nlines="11" similarity="81">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/AntClassLoader.java" startline="1173" endline="1182" pcid="211"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/AntClassLoader.java" startline="1196" endline="1206" pcid="214"></source>
+</class>
+
+<class classid="5" nclones="2" nlines="13" similarity="76">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/AntTypeDefinition.java" startline="187" endline="197" pcid="286"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ejb/GenericDeploymentTool.java" startline="921" endline="938" pcid="9831"></source>
+</class>
+
+<class classid="6" nclones="2" nlines="25" similarity="73">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/ArgumentProcessorRegistry.java" startline="70" endline="95" pcid="320"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/ProjectHelperRepository.java" startline="76" endline="111" pcid="3079"></source>
+</class>
+
+<class classid="7" nclones="2" nlines="24" similarity="79">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/ArgumentProcessorRegistry.java" startline="145" endline="166" pcid="338"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/ProjectHelperRepository.java" startline="181" endline="207" pcid="3098"></source>
+</class>
+
+<class classid="8" nclones="2" nlines="20" similarity="95">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/ComponentHelper.java" startline="397" endline="416" pcid="411"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/ComponentHelper.java" startline="425" endline="444" pcid="418"></source>
+</class>
+
+<class classid="9" nclones="2" nlines="15" similarity="81">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/ComponentHelper.java" startline="759" endline="774" pcid="463"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/ComponentHelper.java" startline="822" endline="835" pcid="473"></source>
+</class>
+
+<class classid="10" nclones="4" nlines="10" similarity="70">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/DemuxOutputStream.java" startline="98" endline="108" pcid="576"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/script/ScriptDefBase.java" startline="74" endline="83" pcid="14198"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/unix/Symlink.java" startline="256" endline="265" pcid="15051"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/depend/Depend.java" startline="360" endline="373" pcid="9352"></source>
+</class>
+
+<class classid="11" nclones="2" nlines="22" similarity="90">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/DemuxOutputStream.java" startline="225" endline="248" pcid="592"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/LineOrientedOutputStream.java" startline="130" endline="152" pcid="22365"></source>
+</class>
+
+<class classid="12" nclones="3" nlines="14" similarity="71">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/Diagnostics.java" startline="196" endline="209" pcid="612"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/EnumeratedAttribute.java" startline="71" endline="84" pcid="18333"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/Diagnostics.java" startline="215" endline="228" pcid="616"></source>
+</class>
+
+<class classid="13" nclones="2" nlines="12" similarity="100">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/DirectoryScanner.java" startline="722" endline="731" pcid="719"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/DirectoryScanner.java" startline="745" endline="754" pcid="723"></source>
+</class>
+
+<class classid="14" nclones="2" nlines="17" similarity="76">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/DirectoryScanner.java" startline="836" endline="851" pcid="737"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/DirectoryScanner.java" startline="1089" endline="1104" pcid="797"></source>
+</class>
+
+<class classid="15" nclones="2" nlines="13" similarity="100">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/DirectoryScanner.java" startline="1372" endline="1386" pcid="850"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/DirectoryScanner.java" startline="1515" endline="1529" pcid="869"></source>
+</class>
+
+<class classid="16" nclones="34" nlines="11" similarity="70">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/DirectoryScanner.java" startline="1468" endline="1477" pcid="862"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/zip/Simple8BitZipEncoding.java" startline="218" endline="230" pcid="24319"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/ReflectUtil.java" startline="199" endline="207" pcid="22588"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/DirectoryScanner.java" startline="1539" endline="1548" pcid="873"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/AntStructure.java" startline="432" endline="443" pcid="3863"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Javadoc.java" startline="2229" endline="2237" pcid="7640"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/condition/HasMethod.java" startline="181" endline="190" pcid="4733"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/launch/Locator.java" startline="514" endline="522" pcid="2318"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/SplitClassLoader.java" startline="62" endline="71" pcid="22947"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/condition/HasMethod.java" startline="170" endline="179" pcid="4730"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/filters/StripLineComments.java" startline="185" endline="194" pcid="1389"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Rmic.java" startline="798" endline="807" pcid="16381"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Replace.java" startline="723" endline="732" pcid="16113"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java" startline="1843" endline="1853" pcid="12898"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/junit/DOMUtil.java" startline="210" endline="218" pcid="11682"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/filters/TabsToSpaces.java" startline="141" endline="153" pcid="1427"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/filters/PrefixLines.java" startline="152" endline="162" pcid="1240"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/filters/LineContains.java" startline="203" endline="214" pcid="1194"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/filters/SuffixLines.java" startline="162" endline="172" pcid="1413"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Java.java" startline="834" endline="844" pcid="7168"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/Commandline.java" startline="386" endline="394" pcid="18128"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTaskMirrorImpl.java" startline="1232" endline="1242" pcid="13392"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/filters/StripLineBreaks.java" startline="138" endline="152" pcid="1366"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/filters/HeadFilter.java" startline="186" endline="200" pcid="1166"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/ExecTask.java" startline="460" endline="469" pcid="6102"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ejb/JonasDeploymentTool.java" startline="793" endline="802" pcid="10168"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/Project.java" startline="430" endline="438" pcid="2779"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/Files.java" startline="181" endline="189" pcid="19737"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/Files.java" startline="211" endline="219" pcid="19741"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/filters/TailFilter.java" startline="186" endline="200" pcid="1444"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Classloader.java" startline="226" endline="236" pcid="4231"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/Rpm.java" startline="329" endline="340" pcid="14087"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/AbstractFileSet.java" startline="293" endline="303" pcid="17833"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/AbstractFileSet.java" startline="258" endline="268" pcid="17827"></source>
+</class>
+
+<class classid="17" nclones="2" nlines="12" similarity="100">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/DirectoryScanner.java" startline="1558" endline="1569" pcid="877"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/DirectoryScanner.java" startline="1644" endline="1655" pcid="885"></source>
+</class>
+
+<class classid="18" nclones="2" nlines="12" similarity="91">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/dispatch/DispatchUtils.java" startline="67" endline="81" pcid="929"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/dispatch/DispatchUtils.java" startline="99" endline="110" pcid="936"></source>
+</class>
+
+<class classid="19" nclones="2" nlines="22" similarity="82">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/filters/HeadFilter.java" startline="101" endline="125" pcid="1155"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/filters/TailFilter.java" startline="104" endline="125" pcid="1434"></source>
+</class>
+
+<class classid="20" nclones="3" nlines="36" similarity="70">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/filters/LineContains.java" startline="98" endline="131" pcid="1178"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/filters/StripLineComments.java" startline="92" endline="134" pcid="1373"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/filters/LineContainsRegExp.java" startline="102" endline="137" pcid="1203"></source>
+</class>
+
+<class classid="21" nclones="2" nlines="34" similarity="78">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/filters/PrefixLines.java" startline="80" endline="110" pcid="1228"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/filters/SuffixLines.java" startline="81" endline="120" pcid="1399"></source>
+</class>
+
+<class classid="22" nclones="2" nlines="10" similarity="70">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/filters/TokenFilter.java" startline="120" endline="128" pcid="1469"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/CommandLauncherTask.java" startline="25" endline="33" pcid="4243"></source>
+</class>
+
+<class classid="23" nclones="2" nlines="17" similarity="88">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/filters/TokenFilter.java" startline="472" endline="488" pcid="1507"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/filters/TokenFilter.java" startline="540" endline="556" pcid="1516"></source>
+</class>
+
+<class classid="24" nclones="2" nlines="11" similarity="72">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/filters/TokenFilter.java" startline="625" endline="634" pcid="1527"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/BuildFileTest.java" startline="266" endline="275" pcid="24873"></source>
+</class>
+
+<class classid="25" nclones="5" nlines="10" similarity="70">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/filters/util/ChainReaderHelper.java" startline="186" endline="195" pcid="1561"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Delete.java" startline="227" endline="236" pcid="5585"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Concat.java" startline="676" endline="685" pcid="4557"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/SQLExec.java" startline="328" endline="338" pcid="16474"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/LoadProperties.java" startline="238" endline="246" pcid="7955"></source>
+</class>
+
+<class classid="26" nclones="2" nlines="23" similarity="76">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/helper/DefaultExecutor.java" startline="37" endline="53" pcid="1630"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/helper/IgnoreDependenciesExecutor.java" startline="42" endline="63" pcid="1638"></source>
+</class>
+
+<class classid="27" nclones="4" nlines="13" similarity="73">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/helper/DefaultExecutor.java" startline="39" endline="49" pcid="1631"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Property.java" startline="511" endline="523" pcid="15681"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/XmlValidateTest.java" startline="115" endline="129" pcid="27299"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/XmlValidateTest.java" startline="133" endline="154" pcid="27304"></source>
+</class>
+
+<class classid="28" nclones="2" nlines="12" similarity="91">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/helper/ProjectHelper2.java" startline="279" endline="292" pcid="1676"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/helper/ProjectHelperImpl.java" startline="136" endline="149" pcid="1811"></source>
+</class>
+
+<class classid="29" nclones="2" nlines="21" similarity="72">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/helper/ProjectHelper2.java" startline="521" endline="550" pcid="1702"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/helper/ProjectHelperImpl.java" startline="289" endline="314" pcid="1826"></source>
+</class>
+
+<class classid="30" nclones="6" nlines="14" similarity="71">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/helper/ProjectHelper2.java" startline="811" endline="824" pcid="1745"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/Project.java" startline="1329" endline="1340" pcid="2875"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/Project.java" startline="1260" endline="1271" pcid="2864"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/helper/ProjectHelperImpl.java" startline="422" endline="435" pcid="1848"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/LeadPipeInputStream.java" startline="149" endline="159" pcid="22349"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/ConcatFileInputStream.java" startline="100" endline="110" pcid="21619"></source>
+</class>
+
+<class classid="31" nclones="23" nlines="10" similarity="70">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/helper/ProjectHelper2.java" startline="975" endline="983" pcid="1773"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/Difference.java" startline="50" endline="58" pcid="19626"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Zip.java" startline="1620" endline="1628" pcid="17719"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Recorder.java" startline="159" endline="167" pcid="15798"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/regexp/Jdk14RegexpRegexp.java" startline="93" endline="101" pcid="22689"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/depend/Depend.java" startline="194" endline="202" pcid="9326"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/StreamPumper.java" startline="222" endline="232" pcid="16649"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Rmic.java" startline="619" endline="633" pcid="16347"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/CopyfileTest.java" startline="59" endline="67" pcid="25873"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/KeySubst.java" startline="70" endline="79" pcid="7783"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Javadoc.java" startline="1919" endline="1927" pcid="7571"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/ResourceUtils.java" startline="450" endline="460" pcid="22779"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/Project.java" startline="2359" endline="2367" pcid="2983"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/Commandline.java" startline="305" endline="313" pcid="18115"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/junit/JUnitTask.java" startline="1334" endline="1343" pcid="11992"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/junit/JUnitTask.java" startline="1315" endline="1324" pcid="11988"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/junit/JUnitTask.java" startline="1297" endline="1306" pcid="11984"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/regexp/Jdk14RegexpRegexp.java" startline="68" endline="76" pcid="22683"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/regexp/JakartaOroRegexp.java" startline="55" endline="63" pcid="22622"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/regexp/JakartaRegexpRegexp.java" startline="68" endline="76" pcid="22652"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/jlink/jlink.java" startline="281" endline="290" pcid="11303"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/optional/ScriptRunner.java" startline="151" endline="163" pcid="22479"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/optional/JavaxScriptRunner.java" startline="88" endline="101" pcid="22441"></source>
+</class>
+
+<class classid="32" nclones="2" nlines="11" similarity="72">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/helper/ProjectHelperImpl.java" startline="829" endline="839" pcid="1890"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/Location.java" startline="89" endline="97" pcid="2510"></source>
+</class>
+
+<class classid="33" nclones="2" nlines="18" similarity="78">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/IntrospectionHelper.java" startline="256" endline="271" pcid="1984"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/IntrospectionHelper.java" startline="274" endline="297" pcid="1989"></source>
+</class>
+
+<class classid="34" nclones="2" nlines="14" similarity="80">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/IntrospectionHelper.java" startline="1090" endline="1101" pcid="2085"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/IntrospectionHelper.java" startline="1121" endline="1134" pcid="2093"></source>
+</class>
+
+<class classid="35" nclones="4" nlines="12" similarity="75">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/listener/CommonsLoggingListener.java" startline="115" endline="127" pcid="2365"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/listener/CommonsLoggingListener.java" startline="148" endline="161" pcid="2371"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/listener/Log4jListener.java" startline="97" endline="108" pcid="2416"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/listener/Log4jListener.java" startline="71" endline="80" pcid="2410"></source>
+</class>
+
+<class classid="36" nclones="2" nlines="19" similarity="71">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/listener/CommonsLoggingListener.java" startline="167" endline="183" pcid="2375"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/listener/CommonsLoggingListener.java" startline="189" endline="211" pcid="2380"></source>
+</class>
+
+<class classid="37" nclones="2" nlines="12" similarity="83">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/Main.java" startline="583" endline="595" pcid="2614"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/Main.java" startline="598" endline="611" pcid="2618"></source>
+</class>
+
+<class classid="38" nclones="3" nlines="11" similarity="72">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/Main.java" startline="927" endline="942" pcid="2676"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Replace.java" startline="740" endline="749" pcid="16116"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/extension/ExtensionUtil.java" startline="52" endline="64" pcid="10505"></source>
+</class>
+
+<class classid="39" nclones="6" nlines="11" similarity="70">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/Main.java" startline="1277" endline="1286" pcid="2720"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/mail/MailMessage.java" startline="314" endline="324" pcid="23728"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/selectors/BaseSelectorContainer.java" startline="93" endline="104" pcid="20477"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/selectors/SelectorUtils.java" startline="666" endline="675" pcid="21043"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/selectors/AbstractSelectorContainer.java" startline="101" endline="114" pcid="20412"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/DOMElementWriter.java" startline="570" endline="579" pcid="21858"></source>
+</class>
+
+<class classid="40" nclones="2" nlines="12" similarity="75">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/PathTokenizer.java" startline="109" endline="126" pcid="2739"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/PathTokenizer.java" startline="140" endline="155" pcid="2747"></source>
+</class>
+
+<class classid="41" nclones="2" nlines="11" similarity="72">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/Project.java" startline="934" endline="944" pcid="2828"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/junit/XMLJUnitResultFormatter.java" startline="147" endline="156" pcid="12487"></source>
+</class>
+
+<class classid="42" nclones="2" nlines="17" similarity="72">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/Project.java" startline="1406" endline="1427" pcid="2892"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/SubAnt.java" startline="242" endline="264" pcid="16685"></source>
+</class>
+
+<class classid="43" nclones="2" nlines="10" similarity="90">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/Project.java" startline="1829" endline="1838" pcid="2923"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/Project.java" startline="1908" endline="1918" pcid="2929"></source>
+</class>
+
+<class classid="44" nclones="4" nlines="10" similarity="70">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/Project.java" startline="2082" endline="2091" pcid="2952"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/Project.java" startline="2099" endline="2107" pcid="2954"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/Project.java" startline="2118" endline="2127" pcid="2957"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/Project.java" startline="2192" endline="2203" pcid="2966"></source>
+</class>
+
+<class classid="45" nclones="2" nlines="10" similarity="70">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/ProjectComponent.java" startline="144" endline="155" pcid="3008"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/pvcs/Pvcs.java" startline="247" endline="256" pcid="13912"></source>
+</class>
+
+<class classid="46" nclones="2" nlines="13" similarity="92">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/ProjectHelperRepository.java" startline="250" endline="265" pcid="3112"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/ProjectHelperRepository.java" startline="273" endline="288" pcid="3116"></source>
+</class>
+
+<class classid="47" nclones="3" nlines="10" similarity="70">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/property/ParseProperties.java" startline="108" endline="116" pcid="3166"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/RecorderEntry.java" startline="105" endline="115" pcid="15826"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/PathConvert.java" startline="392" endline="400" pcid="15542"></source>
+</class>
+
+<class classid="48" nclones="2" nlines="10" similarity="70">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/property/ParseProperties.java" startline="169" endline="180" pcid="3175"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/condition/HasMethod.java" startline="153" endline="162" pcid="4725"></source>
+</class>
+
+<class classid="49" nclones="2" nlines="13" similarity="76">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/PropertyHelper.java" startline="980" endline="993" pcid="3270"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/PropertyHelper.java" startline="1010" endline="1023" pcid="3274"></source>
+</class>
+
+<class classid="50" nclones="2" nlines="12" similarity="91">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/Target.java" startline="78" endline="90" pcid="3382"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/AbstractFileSet.java" startline="91" endline="102" pcid="17803"></source>
+</class>
+
+<class classid="51" nclones="2" nlines="13" similarity="100">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/Target.java" startline="306" endline="317" pcid="3408"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/Target.java" startline="353" endline="364" pcid="3413"></source>
+</class>
+
+<class classid="52" nclones="2" nlines="16" similarity="100">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/AbstractCvsTask.java" startline="195" endline="215" pcid="3523"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/AbstractCvsTask.java" startline="234" endline="254" pcid="3530"></source>
+</class>
+
+<class classid="53" nclones="3" nlines="13" similarity="76">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/AbstractCvsTask.java" startline="197" endline="212" pcid="3524"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/RegexpPatternMapper.java" startline="79" endline="92" pcid="22725"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/AbstractCvsTask.java" startline="236" endline="251" pcid="3531"></source>
+</class>
+
+<class classid="54" nclones="2" nlines="14" similarity="71">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Ant.java" startline="594" endline="609" pcid="3747"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/launcher/Java13CommandLauncher.java" startline="34" endline="48" pcid="7834"></source>
+</class>
+
+<class classid="55" nclones="2" nlines="10" similarity="100">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/AntStructure.java" startline="205" endline="213" pcid="3820"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/AntStructure.java" startline="217" endline="225" pcid="3823"></source>
+</class>
+
+<class classid="56" nclones="2" nlines="18" similarity="72">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/AntStructure.java" startline="364" endline="382" pcid="3846"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/AntStructure.java" startline="389" endline="405" pcid="3854"></source>
+</class>
+
+<class classid="57" nclones="2" nlines="11" similarity="72">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/AntStructure.java" startline="372" endline="381" pcid="3848"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/DeweyDecimal.java" startline="197" endline="208" pcid="21788"></source>
+</class>
+
+<class classid="58" nclones="2" nlines="35" similarity="72">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Available.java" startline="439" endline="476" pcid="3973"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/condition/HasMethod.java" startline="107" endline="144" pcid="4712"></source>
+</class>
+
+<class classid="59" nclones="2" nlines="35" similarity="70">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/BUnzip2.java" startline="57" endline="95" pcid="4034"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/GUnzip.java" startline="53" endline="80" pcid="6756"></source>
+</class>
+
+<class classid="60" nclones="2" nlines="18" similarity="72">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/compilers/DefaultCompilerAdapter.java" startline="394" endline="415" pcid="4337"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/rmic/DefaultRmicAdapter.java" startline="329" endline="350" pcid="16208"></source>
+</class>
+
+<class classid="61" nclones="6" nlines="10" similarity="70">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/condition/And.java" startline="38" endline="47" pcid="4605"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/selectors/NoneSelector.java" startline="62" endline="72" pcid="20906"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/condition/Or.java" startline="38" endline="47" pcid="4859"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/selectors/AndSelector.java" startline="61" endline="71" pcid="20456"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/selectors/OrSelector.java" startline="61" endline="72" pcid="20918"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/condition/IsSigned.java" startline="77" endline="87" pcid="4827"></source>
+</class>
+
+<class classid="62" nclones="2" nlines="11" similarity="90">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/condition/IsLastModified.java" startline="70" endline="79" pcid="4763"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Touch.java" startline="160" endline="169" pcid="16960"></source>
+</class>
+
+<class classid="63" nclones="2" nlines="29" similarity="70">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/condition/IsLastModified.java" startline="124" endline="152" pcid="4773"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Touch.java" startline="238" endline="264" pcid="16974"></source>
+</class>
+
+<class classid="64" nclones="2" nlines="17" similarity="78">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/condition/ParserSupports.java" startline="116" endline="132" pcid="4902"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/condition/ParserSupports.java" startline="138" endline="150" pcid="4907"></source>
+</class>
+
+<class classid="65" nclones="2" nlines="11" similarity="90">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Copy.java" startline="770" endline="779" pcid="5094"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Copy.java" startline="813" endline="822" pcid="5103"></source>
+</class>
+
+<class classid="66" nclones="2" nlines="35" similarity="72">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Copy.java" startline="862" endline="911" pcid="5115"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Copy.java" startline="945" endline="994" pcid="5132"></source>
+</class>
+
+<class classid="67" nclones="2" nlines="11" similarity="72">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/CopyPath.java" startline="149" endline="159" pcid="5201"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/ResourceCount.java" startline="73" endline="82" pcid="16146"></source>
+</class>
+
+<class classid="68" nclones="25" nlines="16" similarity="70">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/cvslib/ChangeLogParser.java" startline="297" endline="307" pcid="5246"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/tar/TarUtils.java" startline="256" endline="267" pcid="24136"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/tar/TarUtils.java" startline="314" endline="326" pcid="24145"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/tar/TarEntry.java" startline="781" endline="792" pcid="23918"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/tar/TarEntry.java" startline="866" endline="877" pcid="23928"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/junit/JUnitVersionHelper.java" startline="47" endline="58" pcid="12345"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/JavaTest.java" startline="283" endline="295" pcid="26408"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/util/FileUtilsTest.java" startline="215" endline="226" pcid="28906"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ejb/WebsphereDeploymentTool.java" startline="850" endline="863" pcid="10396"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ejb/WeblogicDeploymentTool.java" startline="884" endline="897" pcid="10277"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/PumpStreamHandler.java" startline="144" endline="159" pcid="15765"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/JarTest.java" startline="53" endline="68" pcid="26269"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/EchoProperties.java" startline="510" endline="525" pcid="9527"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Redirector.java" startline="964" endline="983" pcid="16002"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/junit/TestFormatter.java" startline="94" endline="111" pcid="26917"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/mail/MailMessage.java" startline="461" endline="479" pcid="23761"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/jlink/jlink.java" startline="302" endline="323" pcid="11307"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/junit/BriefJUnitResultFormatter.java" startline="169" endline="186" pcid="11624"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/extension/JarLibManifestTask.java" startline="214" endline="229" pcid="10576"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Jar.java" startline="334" endline="360" pcid="6897"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Jar.java" startline="378" endline="399" pcid="6909"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/EchoPropertiesTest.java" startline="193" endline="206" pcid="26691"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java" startline="1084" endline="1099" pcid="12323"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ejb/GenericDeploymentTool.java" startline="521" endline="548" pcid="9766"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java" startline="1071" endline="1082" pcid="12319"></source>
+</class>
+
+<class classid="69" nclones="2" nlines="13" similarity="78">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/cvslib/ChangeLogTask.java" startline="296" endline="309" pcid="5272"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/extension/JarLibDisplayTask.java" startline="81" endline="94" pcid="10553"></source>
+</class>
+
+<class classid="70" nclones="2" nlines="18" similarity="78">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/cvslib/CvsTagDiff.java" startline="351" endline="368" pcid="5344"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/cvslib/CvsTagDiff.java" startline="391" endline="410" pcid="5349"></source>
+</class>
+
+<class classid="71" nclones="4" nlines="10" similarity="70">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/cvslib/CvsUser.java" startline="79" endline="91" pcid="5402"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/extension/resolvers/AntResolver.java" startline="97" endline="107" pcid="10650"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/extension/ExtraAttribute.java" startline="74" endline="82" pcid="10529"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/extension/JarLibResolveTask.java" startline="256" endline="266" pcid="10615"></source>
+</class>
+
+<class classid="72" nclones="2" nlines="24" similarity="70">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Delete.java" startline="755" endline="776" pcid="5668"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Move.java" startline="301" endline="324" pcid="8529"></source>
+</class>
+
+<class classid="73" nclones="3" nlines="13" similarity="76">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Delete.java" startline="760" endline="771" pcid="5670"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Deltree.java" startline="93" endline="104" pcid="5697"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Move.java" startline="307" endline="319" pcid="8531"></source>
+</class>
+
+<class classid="74" nclones="2" nlines="10" similarity="100">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Ear.java" startline="66" endline="79" pcid="5745"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/War.java" startline="88" endline="101" pcid="17202"></source>
+</class>
+
+<class classid="75" nclones="2" nlines="25" similarity="72">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/email/EmailAddress.java" startline="68" endline="93" pcid="5791"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/mail/MailMessage.java" startline="364" endline="381" pcid="23737"></source>
+</class>
+
+<class classid="76" nclones="2" nlines="15" similarity="75">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/ExecuteOn.java" startline="394" endline="412" pcid="6342"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/ExecuteOn.java" startline="453" endline="473" pcid="6354"></source>
+</class>
+
+<class classid="77" nclones="12" nlines="10" similarity="70">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Get.java" startline="602" endline="612" pcid="6718"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Get.java" startline="615" endline="624" pcid="6721"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java" startline="2158" endline="2168" pcid="12946"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/ImportTask.java" startline="173" endline="183" pcid="6829"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Get.java" startline="699" endline="707" pcid="6734"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java" startline="2227" endline="2236" pcid="12960"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java" startline="2197" endline="2206" pcid="12954"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java" startline="2283" endline="2293" pcid="12969"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTaskMirrorImpl.java" startline="1591" endline="1600" pcid="13451"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTaskMirrorImpl.java" startline="1621" endline="1630" pcid="13457"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTaskMirrorImpl.java" startline="1677" endline="1687" pcid="13466"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTaskMirrorImpl.java" startline="1545" endline="1555" pcid="13440"></source>
+</class>
+
+<class classid="78" nclones="6" nlines="12" similarity="71">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/GUnzip.java" startline="61" endline="71" pcid="6758"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Tar.java" startline="478" endline="493" pcid="16865"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Zip.java" startline="1823" endline="1833" pcid="17745"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/ResourceUtils.java" startline="549" endline="559" pcid="22799"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Zip.java" startline="1809" endline="1823" pcid="17743"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Tar.java" startline="481" endline="490" pcid="16866"></source>
+</class>
+
+<class classid="79" nclones="2" nlines="24" similarity="76">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Jar.java" startline="303" endline="327" pcid="6890"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/ManifestTask.java" startline="229" endline="249" pcid="8406"></source>
+</class>
+
+<class classid="80" nclones="4" nlines="10" similarity="70">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Jar.java" startline="308" endline="316" pcid="6891"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Jar.java" startline="712" endline="720" pcid="6963"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Jar.java" startline="735" endline="743" pcid="6970"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/ManifestTask.java" startline="232" endline="240" pcid="8407"></source>
+</class>
+
+<class classid="81" nclones="2" nlines="22" similarity="77">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Jar.java" startline="707" endline="727" pcid="6961"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Jar.java" startline="733" endline="752" pcid="6969"></source>
+</class>
+
+<class classid="82" nclones="2" nlines="12" similarity="75">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Java.java" startline="742" endline="755" pcid="7153"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/junit/JUnitTask.java" startline="522" endline="533" pcid="11862"></source>
+</class>
+
+<class classid="83" nclones="2" nlines="10" similarity="70">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Javadoc.java" startline="1395" endline="1403" pcid="7485"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/Quantifier.java" startline="121" endline="129" pcid="19146"></source>
+</class>
+
+<class classid="84" nclones="3" nlines="17" similarity="70">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Jikes.java" startline="86" endline="105" pcid="7747"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/JavaEnvUtils.java" startline="519" endline="532" pcid="22155"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/Cab.java" startline="180" endline="197" pcid="8633"></source>
+</class>
+
+<class classid="85" nclones="2" nlines="23" similarity="78">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/launcher/PerlScriptCommandLauncher.java" startline="39" endline="72" pcid="7850"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/launcher/ScriptCommandLauncher.java" startline="39" endline="69" pcid="7856"></source>
+</class>
+
+<class classid="86" nclones="2" nlines="10" similarity="80">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/MacroDef.java" startline="669" endline="681" pcid="8087"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ssh/Directory.java" startline="138" endline="150" pcid="14462"></source>
+</class>
+
+<class classid="87" nclones="2" nlines="24" similarity="91">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/MakeUrl.java" startline="146" endline="169" pcid="8190"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/MakeUrl.java" startline="195" endline="217" pcid="8197"></source>
+</class>
+
+<class classid="88" nclones="3" nlines="10" similarity="70">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Manifest.java" startline="533" endline="542" pcid="8273"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/FilterChain.java" startline="406" endline="414" pcid="18450"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/PropertyHelperTask.java" startline="121" endline="131" pcid="15744"></source>
+</class>
+
+<class classid="89" nclones="2" nlines="13" similarity="71">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Mkdir.java" startline="101" endline="111" pcid="8480"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/FileUtils.java" startline="1575" endline="1588" pcid="22039"></source>
+</class>
+
+<class classid="90" nclones="3" nlines="16" similarity="72">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ANTLR.java" startline="249" endline="274" pcid="8573"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/junit/JUnitTask.java" startline="1569" endline="1596" pcid="12029"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/jdepend/JDependTask.java" startline="351" endline="376" pcid="11202"></source>
+</class>
+
+<class classid="91" nclones="2" nlines="16" similarity="87">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ANTLR.java" startline="423" endline="436" pcid="8612"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/jsp/compilers/JasperC.java" startline="167" endline="180" pcid="11388"></source>
+</class>
+
+<class classid="92" nclones="3" nlines="11" similarity="72">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ccm/CCMCheck.java" startline="143" endline="152" pcid="8671"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Touch.java" startline="311" endline="321" pcid="16989"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/XMLValidateTask.java" startline="314" endline="325" pcid="15326"></source>
+</class>
+
+<class classid="93" nclones="2" nlines="12" similarity="83">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ccm/CCMCheck.java" startline="158" endline="175" pcid="8673"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ccm/CCMReconfigure.java" startline="51" endline="67" pcid="8715"></source>
+</class>
+
+<class classid="94" nclones="4" nlines="13" similarity="71">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ccm/Continuus.java" startline="95" endline="105" pcid="8732"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/sos/SOS.java" startline="408" endline="422" pcid="14257"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/pvcs/Pvcs.java" startline="117" endline="130" pcid="13887"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/clearcase/ClearCase.java" startline="128" endline="140" pcid="9154"></source>
+</class>
+
+<class classid="95" nclones="13" nlines="19" similarity="76">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/clearcase/CCCheckin.java" startline="95" endline="122" pcid="8736"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/clearcase/CCMkdir.java" startline="77" endline="104" pcid="8919"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/clearcase/CCMkbl.java" startline="99" endline="126" pcid="8888"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/clearcase/CCRmtype.java" startline="104" endline="133" pcid="9053"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/clearcase/CCUnCheckout.java" startline="65" endline="92" pcid="9085"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/clearcase/CCCheckout.java" startline="114" endline="150" pcid="8765"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/clearcase/CCMklabel.java" startline="100" endline="132" pcid="8977"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/clearcase/CCMklbtype.java" startline="114" endline="140" pcid="9014"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/clearcase/CCLock.java" startline="102" endline="133" pcid="8811"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/clearcase/CCUpdate.java" startline="97" endline="128" pcid="9117"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/clearcase/CCMkattr.java" startline="101" endline="139" pcid="8846"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/clearcase/CCMkelem.java" startline="107" endline="134" pcid="8939"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/clearcase/CCUnlock.java" startline="81" endline="112" pcid="9094"></source>
+</class>
+
+<class classid="96" nclones="3" nlines="29" similarity="74">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/clearcase/CCCheckin.java" startline="128" endline="163" pcid="8740"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/clearcase/CCMkelem.java" startline="140" endline="185" pcid="8943"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/clearcase/CCMkbl.java" startline="132" endline="166" pcid="8892"></source>
+</class>
+
+<class classid="97" nclones="3" nlines="33" similarity="74">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/clearcase/CCCheckout.java" startline="179" endline="233" pcid="8771"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/clearcase/CCMklbtype.java" startline="146" endline="186" pcid="9018"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/clearcase/CCUpdate.java" startline="133" endline="168" pcid="9121"></source>
+</class>
+
+<class classid="98" nclones="3" nlines="26" similarity="76">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/clearcase/CCMkattr.java" startline="145" endline="183" pcid="8852"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/clearcase/CCMklabel.java" startline="138" endline="173" pcid="8982"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/clearcase/CCRmtype.java" startline="139" endline="163" pcid="9058"></source>
+</class>
+
+<class classid="99" nclones="6" nlines="15" similarity="93">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/depend/constantpool/ConstantPool.java" startline="160" endline="177" pcid="9210"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/depend/constantpool/ConstantPool.java" startline="320" endline="339" pcid="9230"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/depend/constantpool/ConstantPool.java" startline="187" endline="204" pcid="9214"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/depend/constantpool/ConstantPool.java" startline="290" endline="309" pcid="9226"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/depend/constantpool/ConstantPool.java" startline="218" endline="237" pcid="9218"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/depend/constantpool/ConstantPool.java" startline="253" endline="276" pcid="9222"></source>
+</class>
+
+<class classid="100" nclones="3" nlines="10" similarity="100">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/depend/constantpool/FieldRefCPInfo.java" startline="64" endline="81" pcid="9247"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/depend/constantpool/MethodRefCPInfo.java" startline="86" endline="103" pcid="9290"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/depend/constantpool/InterfaceMethodRefCPInfo.java" startline="70" endline="87" pcid="9262"></source>
+</class>
+
+<class classid="101" nclones="6" nlines="10" similarity="80">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/depend/constantpool/FieldRefCPInfo.java" startline="88" endline="100" pcid="9248"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/depend/constantpool/InvokeDynamicCPInfo.java" startline="59" endline="69" pcid="9271"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/depend/constantpool/MethodRefCPInfo.java" startline="65" endline="77" pcid="9287"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/depend/constantpool/MethodHandleCPInfo.java" startline="79" endline="90" pcid="9281"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/depend/constantpool/InterfaceMethodRefCPInfo.java" startline="94" endline="107" pcid="9263"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/depend/constantpool/NameAndTypeCPInfo.java" startline="52" endline="63" pcid="9302"></source>
+</class>
+
+<class classid="102" nclones="2" nlines="11" similarity="72">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/depend/Depend.java" startline="607" endline="620" pcid="9393"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/depend/Depend.java" startline="626" endline="637" pcid="9396"></source>
+</class>
+
+<class classid="103" nclones="7" nlines="10" similarity="72">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/EchoProperties.java" startline="271" endline="279" pcid="9479"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/EchoProperties.java" startline="297" endline="306" pcid="9486"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/jsp/JspC.java" startline="543" endline="555" pcid="11475"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/EchoProperties.java" startline="343" endline="352" pcid="9500"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/EchoProperties.java" startline="281" endline="289" pcid="9482"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/EchoProperties.java" startline="306" endline="315" pcid="9489"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/EchoProperties.java" startline="333" endline="341" pcid="9497"></source>
+</class>
+
+<class classid="104" nclones="2" nlines="23" similarity="76">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ejb/BorlandDeploymentTool.java" startline="208" endline="233" pcid="9545"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ejb/WeblogicDeploymentTool.java" startline="418" endline="449" pcid="10201"></source>
+</class>
+
+<class classid="105" nclones="2" nlines="24" similarity="75">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ejb/BorlandGenerateClient.java" startline="242" endline="274" pcid="9620"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ejb/BorlandGenerateClient.java" startline="280" endline="310" pcid="9624"></source>
+</class>
+
+<class classid="106" nclones="2" nlines="23" similarity="86">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ejb/DescriptorHandler.java" startline="273" endline="289" pcid="9652"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ejb/DescriptorHandler.java" startline="302" endline="319" pcid="9659"></source>
+</class>
+
+<class classid="107" nclones="2" nlines="10" similarity="90">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ejb/GenericDeploymentTool.java" startline="371" endline="382" pcid="9753"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ejb/WebsphereDeploymentTool.java" startline="367" endline="380" pcid="10317"></source>
+</class>
+
+<class classid="108" nclones="2" nlines="17" similarity="70">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ejb/IPlanetEjbcTask.java" startline="248" endline="264" pcid="10065"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/SchemaValidate.java" startline="246" endline="260" pcid="14112"></source>
+</class>
+
+<class classid="109" nclones="3" nlines="11" similarity="72">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ejb/JonasDeploymentTool.java" startline="348" endline="364" pcid="10107"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ejb/WebsphereDeploymentTool.java" startline="614" endline="629" pcid="10356"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ejb/WeblogicDeploymentTool.java" startline="658" endline="672" pcid="10240"></source>
+</class>
+
+<class classid="110" nclones="2" nlines="10" similarity="70">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ejb/JonasDeploymentTool.java" startline="367" endline="379" pcid="10109"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ejb/WeblogicTOPLinkDeploymentTool.java" startline="82" endline="99" pcid="10290"></source>
+</class>
+
+<class classid="111" nclones="2" nlines="13" similarity="71">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ejb/WeblogicDeploymentTool.java" startline="571" endline="582" pcid="10224"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/rmic/DefaultRmicAdapter.java" startline="266" endline="278" pcid="16197"></source>
+</class>
+
+<class classid="112" nclones="2" nlines="148" similarity="96">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ejb/WeblogicDeploymentTool.java" startline="710" endline="906" pcid="10244"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ejb/WebsphereDeploymentTool.java" startline="679" endline="872" pcid="10363"></source>
+</class>
+
+<class classid="113" nclones="3" nlines="35" similarity="77">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ejb/WeblogicDeploymentTool.java" startline="866" endline="903" pcid="10270"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/mail/MailMessageTest.java" startline="566" endline="600" pcid="29273"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ejb/WebsphereDeploymentTool.java" startline="832" endline="869" pcid="10389"></source>
+</class>
+
+<class classid="114" nclones="2" nlines="24" similarity="95">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/extension/Extension.java" startline="435" endline="473" pcid="10441"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/extension/Specification.java" startline="344" endline="382" pcid="10692"></source>
+</class>
+
+<class classid="115" nclones="2" nlines="41" similarity="86">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/extension/Extension.java" startline="494" endline="545" pcid="10450"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/extension/Specification.java" startline="401" endline="446" pcid="10701"></source>
+</class>
+
+<class classid="116" nclones="27" nlines="16" similarity="70">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/extension/ExtensionSet.java" startline="124" endline="140" pcid="10497"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/FilterChain.java" startline="400" endline="415" pcid="18447"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/ResourceList.java" startline="152" endline="169" pcid="19982"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/XMLCatalog.java" startline="450" endline="465" pcid="21284"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/comparators/Reverse.java" startline="76" endline="89" pcid="19593"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/AbstractResourceCollectionWrapper.java" startline="157" endline="169" pcid="19409"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/Resources.java" startline="234" endline="248" pcid="20042"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/BaseResourceCollectionContainer.java" startline="192" endline="206" pcid="19513"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/MappedResourceCollection.java" startline="189" endline="205" pcid="19892"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/AbstractFileSet.java" startline="904" endline="921" pcid="17924"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/comparators/DelegatedResourceComparator.java" startline="107" endline="124" pcid="19569"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/PropertySet.java" startline="559" endline="575" pcid="19131"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/selectors/BaseSelectorContainer.java" startline="328" endline="342" pcid="20506"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/selectors/AbstractSelectorContainer.java" startline="324" endline="338" pcid="20443"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/selectors/ResourceSelectorContainer.java" startline="112" endline="126" pcid="20184"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/ResourceDecorator.java" startline="208" endline="218" pcid="19957"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/AbstractClasspathResource.java" startline="235" endline="247" pcid="19382"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/Archives.java" startline="177" endline="188" pcid="19483"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/ArchiveResource.java" startline="280" endline="292" pcid="19457"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/AntFilterReader.java" startline="164" endline="176" pcid="17952"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/selectors/Compare.java" startline="131" endline="144" pcid="20093"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/Path.java" startline="488" endline="500" pcid="18879"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/Tokens.java" startline="120" endline="135" pcid="20286"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/optional/depend/ClassfileSet.java" startline="167" endline="181" pcid="18636"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/Restrict.java" startline="143" endline="155" pcid="20070"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/ArchiveFileSet.java" startline="550" endline="564" pcid="18019"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/Sort.java" startline="84" endline="96" pcid="20212"></source>
+</class>
+
+<class classid="117" nclones="3" nlines="11" similarity="72">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/extension/ExtensionSet.java" startline="130" endline="139" pcid="10500"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ssh/ScpToMessageBySftp.java" startline="197" endline="205" pcid="14673"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ssh/ScpToMessage.java" startline="190" endline="198" pcid="14630"></source>
+</class>
+
+<class classid="118" nclones="2" nlines="11" similarity="81">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/extension/JarLibAvailableTask.java" startline="108" endline="119" pcid="10539"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/extension/JarLibAvailableTask.java" startline="120" endline="129" pcid="10542"></source>
+</class>
+
+<class classid="119" nclones="2" nlines="16" similarity="77">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/extension/JarLibAvailableTask.java" startline="137" endline="155" pcid="10545"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/extension/JarLibDisplayTask.java" startline="104" endline="117" pcid="10557"></source>
+</class>
+
+<class classid="120" nclones="2" nlines="14" similarity="71">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/extension/JarLibManifestTask.java" startline="282" endline="294" pcid="10586"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/Commandline.java" startline="384" endline="395" pcid="18127"></source>
+</class>
+
+<class classid="121" nclones="2" nlines="10" similarity="70">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/extension/resolvers/URLResolver.java" startline="69" endline="81" pcid="10661"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/Mapper.java" startline="232" endline="242" pcid="18585"></source>
+</class>
+
+<class classid="122" nclones="2" nlines="11" similarity="100">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/image/Image.java" startline="328" endline="337" pcid="10831"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/image/Image.java" startline="337" endline="346" pcid="10835"></source>
+</class>
+
+<class classid="123" nclones="2" nlines="12" similarity="100">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/j2ee/JonasHotDeploymentTool.java" startline="236" endline="249" pcid="10897"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/j2ee/WebLogicHotDeploymentTool.java" startline="140" endline="153" pcid="10919"></source>
+</class>
+
+<class classid="124" nclones="2" nlines="15" similarity="93">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/javacc/JavaCC.java" startline="437" endline="457" pcid="10967"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/javacc/JavaCC.java" startline="472" endline="491" pcid="10972"></source>
+</class>
+
+<class classid="125" nclones="2" nlines="29" similarity="76">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/javacc/JJDoc.java" startline="190" endline="225" pcid="11002"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/javacc/JJTree.java" startline="303" endline="336" pcid="11039"></source>
+</class>
+
+<class classid="126" nclones="2" nlines="13" similarity="100">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/javah/Gcjh.java" startline="39" endline="50" pcid="11058"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/javah/Kaffeh.java" startline="44" endline="55" pcid="11079"></source>
+</class>
+
+<class classid="127" nclones="2" nlines="30" similarity="93">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/javah/Gcjh.java" startline="52" endline="87" pcid="11062"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/javah/Kaffeh.java" startline="57" endline="92" pcid="11083"></source>
+</class>
+
+<class classid="128" nclones="2" nlines="14" similarity="73">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/javah/JavahAdapterFactory.java" startline="83" endline="102" pcid="11073"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/native2ascii/Native2AsciiAdapterFactory.java" startline="81" endline="97" pcid="12572"></source>
+</class>
+
+<class classid="129" nclones="2" nlines="20" similarity="85">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/jdepend/JDependTask.java" startline="475" endline="503" pcid="11226"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/jdepend/JDependTask.java" startline="503" endline="531" pcid="11231"></source>
+</class>
+
+<class classid="130" nclones="2" nlines="11" similarity="81">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/jdepend/JDependTask.java" startline="617" endline="633" pcid="11250"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/jdepend/JDependTask.java" startline="635" endline="651" pcid="11253"></source>
+</class>
+
+<class classid="131" nclones="2" nlines="10" similarity="70">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/jlink/jlink.java" startline="159" endline="171" pcid="11282"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/jlink/jlink.java" startline="175" endline="185" pcid="11285"></source>
+</class>
+
+<class classid="132" nclones="2" nlines="15" similarity="86">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/junit/BriefJUnitResultFormatter.java" startline="118" endline="131" pcid="11617"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/junit/PlainJUnitResultFormatter.java" startline="99" endline="112" pcid="12382"></source>
+</class>
+
+<class classid="133" nclones="3" nlines="39" similarity="73">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/junit/BriefJUnitResultFormatter.java" startline="137" endline="187" pcid="11621"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/junit/SummaryJUnitResultFormatter.java" startline="139" endline="180" pcid="12429"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/junit/PlainJUnitResultFormatter.java" startline="119" endline="166" pcid="12386"></source>
+</class>
+
+<class classid="134" nclones="2" nlines="19" similarity="80">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/junit/BriefJUnitResultFormatter.java" startline="254" endline="271" pcid="11639"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/junit/PlainJUnitResultFormatter.java" startline="242" endline="261" pcid="12404"></source>
+</class>
+
+<class classid="135" nclones="2" nlines="16" similarity="93">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/junit/BriefJUnitResultFormatter.java" startline="279" endline="295" pcid="11644"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/junit/PlainJUnitResultFormatter.java" startline="268" endline="284" pcid="12410"></source>
+</class>
+
+<class classid="136" nclones="2" nlines="19" similarity="89">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/junit/JUnitTask.java" startline="724" endline="743" pcid="11885"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTask.java" startline="813" endline="832" pcid="13156"></source>
+</class>
+
+<class classid="137" nclones="2" nlines="11" similarity="100">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/native2ascii/KaffeNative2Ascii.java" startline="77" endline="86" pcid="12565"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/rmic/KaffeRmic.java" startline="94" endline="103" pcid="16242"></source>
+</class>
+
+<class classid="138" nclones="2" nlines="25" similarity="100">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java" startline="352" endline="380" pcid="12640"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTaskMirrorImpl.java" startline="253" endline="281" pcid="13198"></source>
+</class>
+
+<class classid="139" nclones="2" nlines="80" similarity="92">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java" startline="388" endline="483" pcid="12645"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTaskMirrorImpl.java" startline="289" endline="384" pcid="13203"></source>
+</class>
+
+<class classid="140" nclones="2" nlines="61" similarity="98">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java" startline="492" endline="554" pcid="12670"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTaskMirrorImpl.java" startline="393" endline="455" pcid="13228"></source>
+</class>
+
+<class classid="141" nclones="2" nlines="15" similarity="100">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java" startline="559" endline="574" pcid="12689"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTaskMirrorImpl.java" startline="460" endline="475" pcid="13247"></source>
+</class>
+
+<class classid="142" nclones="2" nlines="39" similarity="100">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java" startline="583" endline="621" pcid="12695"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTaskMirrorImpl.java" startline="484" endline="522" pcid="13253"></source>
+</class>
+
+<class classid="143" nclones="2" nlines="31" similarity="90">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java" startline="661" endline="690" pcid="12711"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTaskMirrorImpl.java" startline="562" endline="591" pcid="13269"></source>
+</class>
+
+<class classid="144" nclones="2" nlines="45" similarity="91">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java" startline="710" endline="756" pcid="12725"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTaskMirrorImpl.java" startline="611" endline="658" pcid="13283"></source>
+</class>
+
+<class classid="145" nclones="2" nlines="16" similarity="100">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java" startline="757" endline="769" pcid="12739"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTaskMirrorImpl.java" startline="659" endline="671" pcid="13297"></source>
+</class>
+
+<class classid="146" nclones="2" nlines="39" similarity="100">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java" startline="810" endline="852" pcid="12745"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTaskMirrorImpl.java" startline="712" endline="754" pcid="13303"></source>
+</class>
+
+<class classid="147" nclones="2" nlines="13" similarity="100">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java" startline="860" endline="874" pcid="12755"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTaskMirrorImpl.java" startline="762" endline="776" pcid="13313"></source>
+</class>
+
+<class classid="148" nclones="2" nlines="13" similarity="100">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java" startline="929" endline="941" pcid="12765"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTaskMirrorImpl.java" startline="832" endline="844" pcid="13323"></source>
+</class>
+
+<class classid="149" nclones="2" nlines="29" similarity="79">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java" startline="948" endline="977" pcid="12769"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTaskMirrorImpl.java" startline="851" endline="883" pcid="13327"></source>
+</class>
+
+<class classid="150" nclones="2" nlines="17" similarity="100">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java" startline="987" endline="1003" pcid="12775"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTaskMirrorImpl.java" startline="893" endline="909" pcid="13333"></source>
+</class>
+
+<class classid="151" nclones="2" nlines="11" similarity="90">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java" startline="1089" endline="1098" pcid="12790"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTaskMirrorImpl.java" startline="995" endline="1004" pcid="13348"></source>
+</class>
+
+<class classid="152" nclones="2" nlines="39" similarity="92">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java" startline="1126" endline="1164" pcid="12795"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTaskMirrorImpl.java" startline="1032" endline="1070" pcid="13353"></source>
+</class>
+
+<class classid="153" nclones="2" nlines="17" similarity="100">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java" startline="1553" endline="1574" pcid="12847"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTask.java" startline="588" endline="609" pcid="13111"></source>
+</class>
+
+<class classid="154" nclones="2" nlines="31" similarity="100">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java" startline="1661" endline="1701" pcid="12865"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTask.java" startline="722" endline="762" pcid="13135"></source>
+</class>
+
+<class classid="155" nclones="2" nlines="92" similarity="74">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java" startline="1730" endline="1824" pcid="12877"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTaskMirrorImpl.java" startline="1116" endline="1213" pcid="13370"></source>
+</class>
+
+<class classid="156" nclones="2" nlines="21" similarity="76">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java" startline="1837" endline="1861" pcid="12896"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTaskMirrorImpl.java" startline="1226" endline="1250" pcid="13390"></source>
+</class>
+
+<class classid="157" nclones="2" nlines="40" similarity="97">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java" startline="1894" endline="1945" pcid="12903"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTaskMirrorImpl.java" startline="1283" endline="1334" pcid="13397"></source>
+</class>
+
+<class classid="158" nclones="2" nlines="28" similarity="96">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java" startline="1952" endline="1981" pcid="12914"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTaskMirrorImpl.java" startline="1341" endline="1370" pcid="13408"></source>
+</class>
+
+<class classid="159" nclones="2" nlines="30" similarity="96">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java" startline="1985" endline="2014" pcid="12919"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTaskMirrorImpl.java" startline="1374" endline="1403" pcid="13413"></source>
+</class>
+
+<class classid="160" nclones="2" nlines="36" similarity="80">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java" startline="2029" endline="2084" pcid="12927"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTaskMirrorImpl.java" startline="1418" endline="1471" pcid="13421"></source>
+</class>
+
+<class classid="161" nclones="2" nlines="18" similarity="77">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java" startline="2095" endline="2115" pcid="12937"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTaskMirrorImpl.java" startline="1482" endline="1502" pcid="13431"></source>
+</class>
+
+<class classid="162" nclones="2" nlines="30" similarity="70">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java" startline="2138" endline="2177" pcid="12943"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTaskMirrorImpl.java" startline="1525" endline="1565" pcid="13437"></source>
+</class>
+
+<class classid="163" nclones="4" nlines="19" similarity="73">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java" startline="2192" endline="2211" pcid="12952"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java" startline="2222" endline="2241" pcid="12958"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTaskMirrorImpl.java" startline="1586" endline="1605" pcid="13449"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTaskMirrorImpl.java" startline="1616" endline="1635" pcid="13455"></source>
+</class>
+
+<class classid="164" nclones="2" nlines="37" similarity="78">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java" startline="2263" endline="2308" pcid="12965"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTaskMirrorImpl.java" startline="1657" endline="1703" pcid="13462"></source>
+</class>
+
+<class classid="165" nclones="2" nlines="11" similarity="81">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java" startline="2329" endline="2340" pcid="12976"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTaskMirrorImpl.java" startline="1730" endline="1741" pcid="13476"></source>
+</class>
+
+<class classid="166" nclones="2" nlines="40" similarity="77">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java" startline="2356" endline="2399" pcid="12979"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTaskMirrorImpl.java" startline="1757" endline="1800" pcid="13479"></source>
+</class>
+
+<class classid="167" nclones="8" nlines="10" similarity="70">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java" startline="2480" endline="2488" pcid="13005"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTaskMirrorImpl.java" startline="1888" endline="1896" pcid="13507"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java" startline="2515" endline="2523" pcid="13011"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java" startline="2494" endline="2502" pcid="13007"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTaskMirrorImpl.java" startline="1909" endline="1917" pcid="13511"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTaskMirrorImpl.java" startline="1874" endline="1882" pcid="13505"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTaskMirrorImpl.java" startline="1901" endline="1909" pcid="13509"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java" startline="2507" endline="2515" pcid="13009"></source>
+</class>
+
+<class classid="168" nclones="2" nlines="28" similarity="100">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java" startline="2586" endline="2606" pcid="13023"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTask.java" startline="862" endline="882" pcid="13163"></source>
+</class>
+
+<class classid="169" nclones="2" nlines="12" similarity="100">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java" startline="2644" endline="2654" pcid="13033"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTask.java" startline="920" endline="930" pcid="13173"></source>
+</class>
+
+<class classid="170" nclones="2" nlines="35" similarity="97">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/RExecTask.java" startline="202" endline="237" pcid="13533"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/TelnetTask.java" startline="339" endline="376" pcid="13648"></source>
+</class>
+
+<class classid="171" nclones="2" nlines="13" similarity="100">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/RExecTask.java" startline="244" endline="255" pcid="13543"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/TelnetTask.java" startline="383" endline="394" pcid="13658"></source>
+</class>
+
+<class classid="172" nclones="2" nlines="42" similarity="83">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/RExecTask.java" startline="340" endline="387" pcid="13563"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/net/TelnetTask.java" startline="83" endline="130" pcid="13614"></source>
+</class>
+
+<class classid="173" nclones="5" nlines="14" similarity="71">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/PropertyFile.java" startline="174" endline="187" pcid="13793"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/depend/AbstractAnalyzer.java" startline="267" endline="280" pcid="21704"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/PropertyFile.java" startline="187" endline="199" pcid="13797"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/ZipTest.java" startline="155" endline="167" pcid="27892"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/TraXLiaison.java" startline="288" endline="306" pcid="14944"></source>
+</class>
+
+<class classid="174" nclones="2" nlines="12" similarity="75">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/PropertyFile.java" startline="609" endline="618" pcid="13876"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/FileUtils.java" startline="1331" endline="1342" pcid="21998"></source>
+</class>
+
+<class classid="175" nclones="2" nlines="10" similarity="100">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/PropertyFile.java" startline="678" endline="688" pcid="13884"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Tstamp.java" startline="310" endline="320" pcid="17070"></source>
+</class>
+
+<class classid="176" nclones="4" nlines="13" similarity="71">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ReplaceRegExp.java" startline="384" endline="398" pcid="14012"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ReplaceRegExp.java" startline="402" endline="419" pcid="14015"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ReplaceRegExp.java" startline="420" endline="436" pcid="14019"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ReplaceRegExp.java" startline="419" endline="441" pcid="14018"></source>
+</class>
+
+<class classid="177" nclones="2" nlines="12" similarity="75">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/Rpm.java" startline="182" endline="193" pcid="14067"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Patch.java" startline="199" endline="210" pcid="15504"></source>
+</class>
+
+<class classid="178" nclones="4" nlines="11" similarity="72">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/SchemaValidate.java" startline="106" endline="116" pcid="14093"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/filters/TokenFilterTest.java" startline="212" endline="222" pcid="25120"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/filters/TokenFilterTest.java" startline="224" endline="235" pcid="25123"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/SchemaValidate.java" startline="135" endline="146" pcid="14098"></source>
+</class>
+
+<class classid="179" nclones="2" nlines="10" similarity="70">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/script/ScriptDef.java" startline="297" endline="312" pcid="14182"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/ssh/ScpTest.java" startline="140" endline="157" pcid="27200"></source>
+</class>
+
+<class classid="180" nclones="2" nlines="17" similarity="70">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/sos/SOS.java" startline="358" endline="375" pcid="14250"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/vss/MSVSS.java" startline="484" endline="501" pcid="15150"></source>
+</class>
+
+<class classid="181" nclones="3" nlines="20" similarity="72">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/sos/SOSCheckin.java" startline="72" endline="100" pcid="14272"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/sos/SOSCheckout.java" startline="61" endline="84" pcid="14278"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/sos/SOSGet.java" startline="81" endline="115" pcid="14285"></source>
+</class>
+
+<class classid="182" nclones="2" nlines="22" similarity="86">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ssh/Scp.java" startline="254" endline="282" pcid="14501"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ssh/Scp.java" startline="319" endline="343" pcid="14516"></source>
+</class>
+
+<class classid="183" nclones="3" nlines="12" similarity="76">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ssh/Scp.java" startline="258" endline="277" pcid="14502"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ssh/Scp.java" startline="298" endline="310" pcid="14511"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ssh/Scp.java" startline="323" endline="338" pcid="14517"></source>
+</class>
+
+<class classid="184" nclones="3" nlines="18" similarity="71">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ssh/ScpFromMessage.java" startline="128" endline="150" pcid="14552"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ssh/ScpToMessage.java" startline="149" endline="166" pcid="14621"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ssh/ScpToMessage.java" startline="168" endline="186" pcid="14625"></source>
+</class>
+
+<class classid="185" nclones="2" nlines="14" similarity="78">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ssh/ScpToMessageBySftp.java" startline="155" endline="168" pcid="14660"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ssh/ScpToMessageBySftp.java" startline="209" endline="222" pcid="14676"></source>
+</class>
+
+<class classid="186" nclones="2" nlines="13" similarity="76">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ssh/SSHExec.java" startline="321" endline="332" pcid="14754"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Zip.java" startline="794" endline="814" pcid="17590"></source>
+</class>
+
+<class classid="187" nclones="2" nlines="18" similarity="100">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ssh/SSHExec.java" startline="366" endline="381" pcid="14768"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ssh/SSHSession.java" startline="177" endline="192" pcid="14802"></source>
+</class>
+
+<class classid="188" nclones="2" nlines="16" similarity="100">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ssh/SSHSession.java" startline="88" endline="102" pcid="14787"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/ssh/SSHSession.java" startline="111" endline="125" pcid="14790"></source>
+</class>
+
+<class classid="189" nclones="2" nlines="20" similarity="95">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/TraXLiaison.java" startline="215" endline="238" pcid="14930"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/TraXLiaison.java" startline="241" endline="267" pcid="14935"></source>
+</class>
+
+<class classid="190" nclones="3" nlines="14" similarity="78">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/vss/MSVSS.java" startline="515" endline="526" pcid="15155"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/vss/MSVSS.java" startline="653" endline="663" pcid="15184"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/vss/MSVSS.java" startline="670" endline="683" pcid="15189"></source>
+</class>
+
+<class classid="191" nclones="8" nlines="17" similarity="70">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/vss/MSVSSADD.java" startline="38" endline="67" pcid="15205"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/vss/MSVSSCHECKOUT.java" startline="37" endline="72" pcid="15220"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/vss/MSVSSCREATE.java" startline="35" endline="63" pcid="15234"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/vss/MSVSSCP.java" startline="36" endline="59" pcid="15231"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/vss/MSVSSHISTORY.java" startline="39" endline="72" pcid="15251"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/vss/MSVSSLABEL.java" startline="35" endline="69" pcid="15270"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/vss/MSVSSCHECKIN.java" startline="36" endline="67" pcid="15213"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/optional/vss/MSVSSGET.java" startline="37" endline="71" pcid="15239"></source>
+</class>
+
+<class classid="192" nclones="6" nlines="11" similarity="72">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Property.java" startline="534" endline="544" pcid="15687"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/AntClassLoaderPerformance.java" startline="41" endline="52" pcid="24823"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/SQLExec.java" startline="834" endline="843" pcid="16561"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Replace.java" startline="427" endline="436" pcid="16062"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/zip/UTF8ZipFilesTest.java" startline="98" endline="109" pcid="29355"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Replace.java" startline="365" endline="376" pcid="16054"></source>
+</class>
+
+<class classid="193" nclones="3" nlines="10" similarity="100">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Redirector.java" startline="232" endline="240" pcid="15872"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Redirector.java" startline="397" endline="405" pcid="15900"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Redirector.java" startline="297" endline="305" pcid="15882"></source>
+</class>
+
+<class classid="194" nclones="2" nlines="30" similarity="93">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Redirector.java" startline="559" endline="599" pcid="15929"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Redirector.java" startline="601" endline="641" pcid="15935"></source>
+</class>
+
+<class classid="195" nclones="2" nlines="15" similarity="93">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Tar.java" startline="461" endline="475" pcid="16860"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Tar.java" startline="740" endline="755" pcid="16906"></source>
+</class>
+
+<class classid="196" nclones="3" nlines="16" similarity="70">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Untar.java" startline="104" endline="122" pcid="17098"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/selectors/modifiedselector/HashvalueAlgorithm.java" startline="54" endline="68" pcid="20768"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/taskdefs/Untar.java" startline="131" endline="149" pcid="17103"></source>
+</class>
+
+<class classid="197" nclones="2" nlines="12" similarity="83">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/AbstractFileSet.java" startline="112" endline="123" pcid="17804"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/Files.java" startline="85" endline="96" pcid="19722"></source>
+</class>
+
+<class classid="198" nclones="2" nlines="15" similarity="73">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/AbstractFileSet.java" startline="575" endline="589" pcid="17875"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/Files.java" startline="352" endline="366" pcid="19759"></source>
+</class>
+
+<class classid="199" nclones="2" nlines="15" similarity="76">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/AbstractFileSet.java" startline="814" endline="830" pcid="17909"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/DirSet.java" startline="100" endline="112" pcid="18329"></source>
+</class>
+
+<class classid="200" nclones="2" nlines="11" similarity="75">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/AbstractFileSet.java" startline="843" endline="852" pcid="17916"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/Files.java" startline="408" endline="419" pcid="19771"></source>
+</class>
+
+<class classid="201" nclones="5" nlines="11" similarity="75">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/AntFilterReader.java" startline="79" endline="89" pcid="17937"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/selectors/ExtendSelector.java" startline="107" endline="116" pcid="20661"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/Mapper.java" startline="121" endline="130" pcid="18563"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/AbstractClasspathResource.java" startline="49" endline="57" pcid="19349"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/XMLCatalog.java" startline="208" endline="218" pcid="21255"></source>
+</class>
+
+<class classid="202" nclones="15" nlines="10" similarity="70">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/AntFilterReader.java" startline="95" endline="104" pcid="17941"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/selectors/ResourceSelectorContainer.java" startline="58" endline="67" pcid="20175"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/Restrict.java" startline="56" endline="65" pcid="20055"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/Tokens.java" startline="101" endline="110" pcid="20283"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/XMLCatalog.java" startline="189" endline="198" pcid="21252"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/Mapper.java" startline="136" endline="145" pcid="18567"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/XMLCatalog.java" startline="245" endline="254" pcid="21261"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/RedirectorElement.java" startline="403" endline="412" pcid="19202"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/RedirectorElement.java" startline="418" endline="427" pcid="19204"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/RedirectorElement.java" startline="244" endline="253" pcid="19176"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/RedirectorElement.java" startline="307" endline="316" pcid="19187"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/RedirectorElement.java" startline="388" endline="397" pcid="19200"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/Files.java" startline="102" endline="111" pcid="19726"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/comparators/DelegatedResourceComparator.java" startline="43" endline="53" pcid="19557"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/RedirectorElement.java" startline="198" endline="208" pcid="19168"></source>
+</class>
+
+<class classid="203" nclones="2" nlines="10" similarity="90">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/ArchiveFileSet.java" startline="312" endline="321" pcid="17988"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/ArchiveFileSet.java" startline="328" endline="337" pcid="17991"></source>
+</class>
+
+<class classid="204" nclones="2" nlines="17" similarity="100">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/Assertions.java" startline="165" endline="183" pcid="18066"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/Assertions.java" startline="210" endline="228" pcid="18074"></source>
+</class>
+
+<class classid="205" nclones="2" nlines="29" similarity="89">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/optional/image/Arc.java" startline="86" endline="121" pcid="18673"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/optional/image/Ellipse.java" startline="53" endline="85" pcid="18709"></source>
+</class>
+
+<class classid="206" nclones="3" nlines="12" similarity="100">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/optional/image/Arc.java" startline="108" endline="119" pcid="18676"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/optional/image/Rectangle.java" startline="103" endline="115" pcid="18731"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/optional/image/Ellipse.java" startline="72" endline="83" pcid="18712"></source>
+</class>
+
+<class classid="207" nclones="2" nlines="13" similarity="84">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/optional/image/Rotate.java" startline="102" endline="115" pcid="18740"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/optional/image/Scale.java" startline="166" endline="179" pcid="18764"></source>
+</class>
+
+<class classid="208" nclones="2" nlines="13" similarity="84">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/optional/image/Scale.java" startline="77" endline="88" pcid="18747"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/optional/image/Scale.java" startline="94" endline="104" pcid="18750"></source>
+</class>
+
+<class classid="209" nclones="4" nlines="10" similarity="70">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/Path.java" startline="699" endline="709" pcid="18909"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/ZipResource.java" startline="176" endline="185" pcid="20394"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/StringResource.java" startline="181" endline="191" pcid="20231"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/ResourceDecorator.java" startline="192" endline="201" pcid="19954"></source>
+</class>
+
+<class classid="210" nclones="2" nlines="20" similarity="80">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/PatternSet.java" startline="219" endline="236" pcid="18943"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/PatternSet.java" startline="388" endline="405" pcid="18976"></source>
+</class>
+
+<class classid="211" nclones="2" nlines="11" similarity="100">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/PatternSet.java" startline="288" endline="298" pcid="18957"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/PatternSet.java" startline="306" endline="316" pcid="18961"></source>
+</class>
+
+<class classid="212" nclones="2" nlines="13" similarity="92">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/PatternSet.java" startline="479" endline="492" pcid="18994"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/PatternSet.java" startline="493" endline="506" pcid="18998"></source>
+</class>
+
+<class classid="213" nclones="3" nlines="15" similarity="86">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/RedirectorElement.java" startline="111" endline="125" pcid="19151"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/RedirectorElement.java" startline="131" endline="145" pcid="19156"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/RedirectorElement.java" startline="151" endline="165" pcid="19161"></source>
+</class>
+
+<class classid="214" nclones="3" nlines="14" similarity="100">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/RedirectorElement.java" startline="473" endline="486" pcid="19217"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/RedirectorElement.java" startline="501" endline="514" pcid="19227"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/RedirectorElement.java" startline="487" endline="500" pcid="19222"></source>
+</class>
+
+<class classid="215" nclones="2" nlines="10" similarity="90">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resolver/ApacheCatalog.java" startline="92" endline="104" pcid="19281"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resolver/ApacheCatalog.java" startline="104" endline="116" pcid="19284"></source>
+</class>
+
+<class classid="216" nclones="2" nlines="24" similarity="73">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/AbstractClasspathResource.java" startline="170" endline="192" pcid="19368"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/ZipResource.java" startline="129" endline="153" pcid="20385"></source>
+</class>
+
+<class classid="217" nclones="2" nlines="19" similarity="78">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/AbstractResourceCollectionWrapper.java" startline="64" endline="82" pcid="19394"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/BaseResourceCollectionContainer.java" startline="94" endline="111" pcid="19493"></source>
+</class>
+
+<class classid="218" nclones="4" nlines="16" similarity="76">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/AbstractResourceCollectionWrapper.java" startline="188" endline="203" pcid="19416"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/BaseResourceCollectionContainer.java" startline="244" endline="259" pcid="19523"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/Files.java" startline="385" endline="401" pcid="19766"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/Resources.java" startline="208" endline="224" pcid="20037"></source>
+</class>
+
+<class classid="219" nclones="2" nlines="11" similarity="72">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/ArchiveResource.java" startline="103" endline="114" pcid="19428"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/ResourceDecorator.java" startline="59" endline="71" pcid="19936"></source>
+</class>
+
+<class classid="220" nclones="4" nlines="13" similarity="76">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/ArchiveResource.java" startline="212" endline="225" pcid="19445"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/comparators/DelegatedResourceComparator.java" startline="61" endline="73" pcid="19560"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/URLResource.java" startline="294" endline="308" pcid="20349"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/FileResource.java" startline="295" endline="309" pcid="19689"></source>
+</class>
+
+<class classid="221" nclones="2" nlines="12" similarity="75">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/Archives.java" startline="74" endline="84" pcid="19466"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/Archives.java" startline="89" endline="100" pcid="19469"></source>
+</class>
+
+<class classid="222" nclones="3" nlines="11" similarity="72">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/MappedResourceCollection.java" startline="54" endline="66" pcid="19872"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/MappedResourceCollection.java" startline="73" endline="85" pcid="19875"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/selectors/Compare.java" startline="90" endline="100" pcid="20084"></source>
+</class>
+
+<class classid="223" nclones="2" nlines="10" similarity="70">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/TarResource.java" startline="161" endline="170" pcid="20263"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/EchoPropertiesTest.java" startline="118" endline="128" pcid="26674"></source>
+</class>
+
+<class classid="224" nclones="2" nlines="15" similarity="75">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/TarResource.java" startline="181" endline="196" pcid="20269"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/ZipResource.java" startline="211" endline="224" pcid="20402"></source>
+</class>
+
+<class classid="225" nclones="2" nlines="12" similarity="100">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/URLResource.java" startline="329" endline="339" pcid="20355"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/resources/URLResource.java" startline="350" endline="360" pcid="20359"></source>
+</class>
+
+<class classid="226" nclones="3" nlines="23" similarity="87">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/selectors/ContainsRegexpSelector.java" startline="119" endline="138" pcid="20518"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/selectors/FilenameSelector.java" startline="132" endline="151" pcid="20687"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/selectors/ContainsSelector.java" startline="120" endline="138" pcid="20547"></source>
+</class>
+
+<class classid="227" nclones="2" nlines="29" similarity="73">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/selectors/DepthSelector.java" startline="92" endline="116" pcid="20616"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/selectors/SizeSelector.java" startline="167" endline="192" pcid="21092"></source>
+</class>
+
+<class classid="228" nclones="2" nlines="16" similarity="100">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/selectors/MappingSelector.java" startline="96" endline="110" pcid="20718"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/selectors/PresentSelector.java" startline="134" endline="148" pcid="20936"></source>
+</class>
+
+<class classid="229" nclones="2" nlines="14" similarity="71">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/selectors/MappingSelector.java" startline="121" endline="143" pcid="20724"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/selectors/PresentSelector.java" startline="159" endline="179" pcid="20942"></source>
+</class>
+
+<class classid="230" nclones="3" nlines="11" similarity="81">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/selectors/SelectorUtils.java" startline="144" endline="154" pcid="20955"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/selectors/SelectorUtils.java" startline="256" endline="266" pcid="20972"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/selectors/SelectorUtils.java" startline="229" endline="239" pcid="20964"></source>
+</class>
+
+<class classid="231" nclones="2" nlines="36" similarity="86">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/selectors/SelectorUtils.java" startline="277" endline="315" pcid="20978"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/selectors/SelectorUtils.java" startline="441" endline="481" pcid="21008"></source>
+</class>
+
+<class classid="232" nclones="2" nlines="13" similarity="84">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/selectors/SelectorUtils.java" startline="400" endline="412" pcid="20998"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/selectors/SelectorUtils.java" startline="420" endline="432" pcid="21003"></source>
+</class>
+
+<class classid="233" nclones="2" nlines="16" similarity="93">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/TarFileSet.java" startline="207" endline="220" pcid="21217"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/ZipFileSet.java" startline="103" endline="116" pcid="21396"></source>
+</class>
+
+<class classid="234" nclones="2" nlines="28" similarity="70">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/TarScanner.java" startline="59" endline="81" pcid="21229"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/ZipScanner.java" startline="69" endline="95" pcid="21408"></source>
+</class>
+
+<class classid="235" nclones="2" nlines="31" similarity="74">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/XMLCatalog.java" startline="834" endline="886" pcid="21343"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/types/XMLCatalog.java" startline="1005" endline="1054" pcid="21364"></source>
+</class>
+
+<class classid="236" nclones="2" nlines="13" similarity="78">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/CollectionUtils.java" startline="179" endline="188" pcid="21590"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/CollectionUtils.java" startline="195" endline="207" pcid="21593"></source>
+</class>
+
+<class classid="237" nclones="2" nlines="57" similarity="73">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/depend/bcel/AncestorAnalyzer.java" startline="64" endline="132" pcid="21713"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/depend/bcel/FullAnalyzer.java" startline="63" endline="125" pcid="21753"></source>
+</class>
+
+<class classid="238" nclones="4" nlines="13" similarity="73">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/DeweyDecimal.java" startline="105" endline="118" pcid="21775"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/DeweyDecimal.java" startline="174" endline="190" pcid="21784"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/DeweyDecimal.java" startline="210" endline="220" pcid="21791"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/DeweyDecimal.java" startline="149" endline="165" pcid="21780"></source>
+</class>
+
+<class classid="239" nclones="2" nlines="11" similarity="81">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/FileUtils.java" startline="1158" endline="1170" pcid="21977"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/FileUtils.java" startline="1179" endline="1191" pcid="21980"></source>
+</class>
+
+<class classid="240" nclones="2" nlines="18" similarity="84">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/GlobPatternMapper.java" startline="110" endline="126" pcid="22070"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/GlobPatternMapper.java" startline="132" endline="146" pcid="22075"></source>
+</class>
+
+<class classid="241" nclones="2" nlines="18" similarity="88">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/JavaEnvUtils.java" startline="293" endline="322" pcid="22133"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/JavaEnvUtils.java" startline="334" endline="363" pcid="22139"></source>
+</class>
+
+<class classid="242" nclones="2" nlines="19" similarity="80">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/optional/ScriptRunner.java" startline="92" endline="109" pcid="22465"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/optional/ScriptRunner.java" startline="118" endline="134" pcid="22471"></source>
+</class>
+
+<class classid="243" nclones="3" nlines="17" similarity="77">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/regexp/JakartaOroMatcher.java" startline="129" endline="145" pcid="22609"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/regexp/Jdk14RegexpMatcher.java" startline="128" endline="145" pcid="22668"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/regexp/JakartaRegexpMatcher.java" startline="122" endline="138" pcid="22638"></source>
+</class>
+
+<class classid="244" nclones="3" nlines="13" similarity="100">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/regexp/JakartaOroMatcher.java" startline="152" endline="166" pcid="22613"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/regexp/JakartaRegexpMatcher.java" startline="145" endline="159" pcid="22642"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/regexp/Jdk14RegexpMatcher.java" startline="152" endline="167" pcid="22672"></source>
+</class>
+
+<class classid="245" nclones="4" nlines="28" similarity="74">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/regexp/JakartaOroRegexp.java" startline="46" endline="81" pcid="22618"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/regexp/JakartaRegexpRegexp.java" startline="60" endline="89" pcid="22649"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/regexp/Jdk14RegexpRegexp.java" startline="62" endline="83" pcid="22680"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/regexp/JakartaRegexpRegexp.java" startline="65" endline="83" pcid="22650"></source>
+</class>
+
+<class classid="246" nclones="2" nlines="15" similarity="73">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/regexp/JakartaRegexpRegexp.java" startline="67" endline="80" pcid="22651"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/RegexpPatternMapper.java" startline="139" endline="151" pcid="22739"></source>
+</class>
+
+<class classid="247" nclones="2" nlines="13" similarity="100">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/regexp/RegexpFactory.java" startline="53" endline="68" pcid="22694"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/regexp/RegexpMatcherFactory.java" startline="56" endline="71" pcid="22701"></source>
+</class>
+
+<class classid="248" nclones="2" nlines="47" similarity="76">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/ResourceUtils.java" startline="417" endline="465" pcid="22772"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/ResourceUtils.java" startline="468" endline="509" pcid="22783"></source>
+</class>
+
+<class classid="249" nclones="2" nlines="11" similarity="100">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/XMLFragment.java" startline="78" endline="87" pcid="23136"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/ant/util/XMLFragment.java" startline="144" endline="153" pcid="23146"></source>
+</class>
+
+<class classid="250" nclones="2" nlines="16" similarity="75">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/bzip2/BlockSort.java" startline="384" endline="398" pcid="23232"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/bzip2/BlockSort.java" startline="399" endline="413" pcid="23236"></source>
+</class>
+
+<class classid="251" nclones="2" nlines="14" similarity="71">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/bzip2/BlockSort.java" startline="840" endline="852" pcid="23329"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/bzip2/BlockSort.java" startline="854" endline="866" pcid="23333"></source>
+</class>
+
+<class classid="252" nclones="2" nlines="17" similarity="76">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/bzip2/CBZip2InputStream.java" startline="601" endline="617" pcid="23441"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/bzip2/CBZip2OutputStream.java" startline="1187" endline="1205" pcid="23643"></source>
+</class>
+
+<class classid="253" nclones="2" nlines="63" similarity="73">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/bzip2/CBZip2InputStream.java" startline="662" endline="730" pcid="23448"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/bzip2/CBZip2InputStream.java" startline="730" endline="798" pcid="23464"></source>
+</class>
+
+<class classid="254" nclones="5" nlines="11" similarity="100">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/bzip2/CBZip2InputStream.java" startline="689" endline="698" pcid="23455"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/bzip2/CBZip2InputStream.java" startline="819" endline="829" pcid="23480"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/bzip2/CBZip2InputStream.java" startline="704" endline="713" pcid="23459"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/bzip2/CBZip2InputStream.java" startline="769" endline="778" pcid="23471"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/bzip2/CBZip2InputStream.java" startline="784" endline="793" pcid="23475"></source>
+</class>
+
+<class classid="255" nclones="3" nlines="16" similarity="100">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/bzip2/CBZip2InputStream.java" startline="702" endline="716" pcid="23458"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/bzip2/CBZip2InputStream.java" startline="817" endline="832" pcid="23479"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/bzip2/CBZip2InputStream.java" startline="782" endline="796" pcid="23474"></source>
+</class>
+
+<class classid="256" nclones="2" nlines="14" similarity="71">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/bzip2/CBZip2InputStream.java" startline="949" endline="960" pcid="23507"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/bzip2/CBZip2InputStream.java" startline="976" endline="988" pcid="23514"></source>
+</class>
+
+<class classid="257" nclones="2" nlines="114" similarity="95">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/bzip2/CBZip2OutputStream.java" startline="220" endline="373" pcid="23521"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/bzip2/CBZip2OutputStream.java" startline="377" endline="524" pcid="23541"></source>
+</class>
+
+<class classid="258" nclones="2" nlines="14" similarity="100">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/bzip2/CBZip2OutputStream.java" startline="267" endline="285" pcid="23527"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/bzip2/CBZip2OutputStream.java" startline="297" endline="315" pcid="23531"></source>
+</class>
+
+<class classid="259" nclones="2" nlines="14" similarity="100">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/bzip2/CBZip2OutputStream.java" startline="422" endline="440" pcid="23547"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/bzip2/CBZip2OutputStream.java" startline="452" endline="470" pcid="23551"></source>
+</class>
+
+<class classid="260" nclones="3" nlines="10" similarity="72">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/bzip2/CBZip2OutputStream.java" startline="1233" endline="1244" pcid="23654"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/bzip2/CBZip2OutputStream.java" startline="1312" endline="1323" pcid="23666"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/bzip2/CBZip2OutputStream.java" startline="1325" endline="1336" pcid="23668"></source>
+</class>
+
+<class classid="261" nclones="2" nlines="24" similarity="77">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/bzip2/CBZip2OutputStream.java" startline="1466" endline="1491" pcid="23685"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/bzip2/CBZip2OutputStream.java" startline="1494" endline="1513" pcid="23692"></source>
+</class>
+
+<class classid="262" nclones="2" nlines="19" similarity="84">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/tar/TarBuffer.java" startline="329" endline="358" pcid="23824"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/tar/TarBuffer.java" startline="369" endline="398" pcid="23830"></source>
+</class>
+
+<class classid="263" nclones="2" nlines="23" similarity="100">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/zip/ExtraFieldUtils.java" startline="202" endline="229" pcid="24244"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/zip/ExtraFieldUtils.java" startline="237" endline="263" pcid="24248"></source>
+</class>
+
+<class classid="264" nclones="2" nlines="13" similarity="76">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/zip/Zip64ExtendedInformationExtraField.java" startline="167" endline="179" pcid="24371"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/zip/Zip64ExtendedInformationExtraField.java" startline="343" endline="354" pcid="24398"></source>
+</class>
+
+<class classid="265" nclones="2" nlines="12" similarity="75">
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/zip/ZipEntry.java" startline="298" endline="308" pcid="24456"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/main/org/apache/tools/zip/ZipEntry.java" startline="349" endline="359" pcid="24464"></source>
+</class>
+
+<class classid="266" nclones="2" nlines="10" similarity="80">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/AntClassLoaderTest.java" startline="54" endline="63" pcid="24831"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/AntClassLoaderTest.java" startline="64" endline="73" pcid="24832"></source>
+</class>
+
+<class classid="267" nclones="2" nlines="13" similarity="84">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/BuildFileTest.java" startline="358" endline="371" pcid="24883"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/BuildFileTest.java" startline="381" endline="392" pcid="24887"></source>
+</class>
+
+<class classid="268" nclones="2" nlines="12" similarity="83">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/DirectoryScannerTest.java" startline="110" endline="122" pcid="24928"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/DirectoryScannerTest.java" startline="124" endline="136" pcid="24930"></source>
+</class>
+
+<class classid="269" nclones="5" nlines="10" similarity="75">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/ExecutorTest.java" startline="94" endline="102" pcid="25009"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/ExecutorTest.java" startline="119" endline="127" pcid="25016"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/ExecutorTest.java" startline="104" endline="112" pcid="25012"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/ExecutorTest.java" startline="129" endline="137" pcid="25019"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/ExecutorTest.java" startline="139" endline="150" pcid="25022"></source>
+</class>
+
+<class classid="270" nclones="2" nlines="11" similarity="81">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/IncludeTest.java" startline="71" endline="84" pcid="25153"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/IncludeTest.java" startline="98" endline="111" pcid="25159"></source>
+</class>
+
+<class classid="271" nclones="2" nlines="13" similarity="76">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/IntrospectionHelperTest.java" startline="189" endline="201" pcid="25209"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/IntrospectionHelperTest.java" startline="447" endline="460" pcid="25275"></source>
+</class>
+
+<class classid="272" nclones="2" nlines="20" similarity="95">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/IntrospectionHelperTest.java" startline="203" endline="221" pcid="25211"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/IntrospectionHelperTest.java" startline="462" endline="481" pcid="25277"></source>
+</class>
+
+<class classid="273" nclones="2" nlines="11" similarity="72">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/launch/LocatorTest.java" startline="159" endline="168" pcid="25335"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/types/PathTest.java" startline="552" endline="561" pcid="28285"></source>
+</class>
+
+<class classid="274" nclones="2" nlines="12" similarity="91">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/ProjectTest.java" startline="153" endline="164" pcid="25385"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/util/FileUtilsTest.java" startline="603" endline="614" pcid="28952"></source>
+</class>
+
+<class classid="275" nclones="4" nlines="10" similarity="70">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/ProjectTest.java" startline="229" endline="240" pcid="25395"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/PropertyTest.java" startline="49" endline="59" pcid="27373"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/PropertyTest.java" startline="83" endline="93" pcid="27381"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/PropertyTest.java" startline="95" endline="105" pcid="27384"></source>
+</class>
+
+<class classid="276" nclones="4" nlines="10" similarity="75">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/AntTest.java" startline="120" endline="129" pcid="25492"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/AntTest.java" startline="180" endline="189" pcid="25498"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/AntTest.java" startline="224" endline="238" pcid="25505"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/SubAntTest.java" startline="96" endline="105" pcid="27576"></source>
+</class>
+
+<class classid="277" nclones="3" nlines="14" similarity="75">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/AntTest.java" startline="336" endline="348" pcid="25529"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/AntTest.java" startline="491" endline="509" pcid="25578"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/SubAntTest.java" startline="123" endline="135" pcid="27585"></source>
+</class>
+
+<class classid="278" nclones="2" nlines="14" similarity="92">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/cvslib/ChangeLogParserTest.java" startline="34" endline="47" pcid="25910"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/cvslib/ChangeLogParserTest.java" startline="49" endline="62" pcid="25911"></source>
+</class>
+
+<class classid="279" nclones="3" nlines="10" similarity="90">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/ExecuteJavaTest.java" startline="73" endline="87" pcid="26080"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/ExecuteWatchdogTest.java" startline="102" endline="112" pcid="26096"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/ExecuteJavaTest.java" startline="98" endline="112" pcid="26082"></source>
+</class>
+
+<class classid="280" nclones="2" nlines="10" similarity="70">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/FailTest.java" startline="125" endline="137" pcid="26122"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/FailTest.java" startline="151" endline="162" pcid="26126"></source>
+</class>
+
+<class classid="281" nclones="2" nlines="25" similarity="100">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/FixCrLfTest.java" startline="192" endline="217" pcid="26184"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/ReplaceTest.java" startline="100" endline="125" pcid="27429"></source>
+</class>
+
+<class classid="282" nclones="2" nlines="17" similarity="70">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/ManifestTest.java" startline="250" endline="268" pcid="26550"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/ManifestTest.java" startline="273" endline="291" pcid="26551"></source>
+</class>
+
+<class classid="283" nclones="6" nlines="15" similarity="70">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/depend/DependTest.java" startline="116" endline="125" pcid="26656"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/types/optional/depend/ClassFileSetTest.java" startline="98" endline="112" pcid="28180"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/types/optional/depend/ClassFileSetTest.java" startline="77" endline="93" pcid="28178"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/types/optional/depend/ClassFileSetTest.java" startline="52" endline="72" pcid="28176"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/types/optional/depend/ClassFileSetTest.java" startline="124" endline="146" pcid="28183"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/types/optional/depend/ClassFileSetTest.java" startline="151" endline="171" pcid="28185"></source>
+</class>
+
+<class classid="284" nclones="2" nlines="35" similarity="100">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/i18n/TranslateTest.java" startline="54" endline="94" pcid="26705"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/types/FilterSetTest.java" startline="180" endline="220" pcid="28108"></source>
+</class>
+
+<class classid="285" nclones="7" nlines="10" similarity="70">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/junit/JUnitReportTest.java" startline="117" endline="128" pcid="26790"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/junit/JUnitReportTest.java" startline="197" endline="208" pcid="26796"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/junit/JUnitReportTest.java" startline="171" endline="182" pcid="26794"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/junit/JUnitReportTest.java" startline="130" endline="141" pcid="26791"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/junit/JUnitReportTest.java" startline="144" endline="155" pcid="26792"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/junit/JUnitReportTest.java" startline="158" endline="169" pcid="26793"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/junit/JUnitReportTest.java" startline="184" endline="195" pcid="26795"></source>
+</class>
+
+<class classid="286" nclones="7" nlines="11" similarity="75">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/net/FTPTest.java" startline="105" endline="115" pcid="26960"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/net/FTPTest.java" startline="185" endline="197" pcid="26978"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/net/FTPTest.java" startline="145" endline="155" pcid="26969"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/net/FTPTest.java" startline="117" endline="129" pcid="26963"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/net/FTPTest.java" startline="131" endline="143" pcid="26966"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/net/FTPTest.java" startline="171" endline="184" pcid="26975"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/net/FTPTest.java" startline="157" endline="169" pcid="26972"></source>
+</class>
+
+<class classid="287" nclones="5" nlines="17" similarity="72">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/net/FTPTest.java" startline="219" endline="235" pcid="26984"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/net/FTPTest.java" startline="236" endline="252" pcid="26988"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/net/FTPTest.java" startline="273" endline="290" pcid="26996"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/net/FTPTest.java" startline="253" endline="271" pcid="26992"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/net/FTPTest.java" startline="291" endline="309" pcid="27000"></source>
+</class>
+
+<class classid="288" nclones="10" nlines="13" similarity="78">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/net/FTPTest.java" startline="334" endline="348" pcid="27007"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/net/FTPTest.java" startline="437" endline="455" pcid="27025"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/net/FTPTest.java" startline="476" endline="496" pcid="27031"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/net/FTPTest.java" startline="497" endline="517" pcid="27034"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/net/FTPTest.java" startline="385" endline="402" pcid="27016"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/net/FTPTest.java" startline="456" endline="475" pcid="27028"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/net/FTPTest.java" startline="367" endline="383" pcid="27013"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/net/FTPTest.java" startline="420" endline="435" pcid="27022"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/net/FTPTest.java" startline="350" endline="365" pcid="27010"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/net/FTPTest.java" startline="404" endline="418" pcid="27019"></source>
+</class>
+
+<class classid="289" nclones="2" nlines="14" similarity="92">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/net/FTPTest.java" startline="720" endline="742" pcid="27060"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/net/FTPTest.java" startline="876" endline="893" pcid="27093"></source>
+</class>
+
+<class classid="290" nclones="8" nlines="18" similarity="73">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/sos/SOSTest.java" startline="83" endline="110" pcid="27170"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/sos/SOSTest.java" startline="179" endline="203" pcid="27174"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/sos/SOSTest.java" startline="149" endline="176" pcid="27173"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/sos/SOSTest.java" startline="113" endline="137" pcid="27171"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/sos/SOSTest.java" startline="279" endline="301" pcid="27179"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/sos/SOSTest.java" startline="215" endline="241" pcid="27176"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/sos/SOSTest.java" startline="244" endline="267" pcid="27177"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/vss/MSVSSTest.java" startline="293" endline="316" pcid="27268"></source>
+</class>
+
+<class classid="291" nclones="4" nlines="12" similarity="75">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/TraXLiaisonTest.java" startline="100" endline="109" pcid="27223"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/types/PermissionsTest.java" startline="110" endline="120" pcid="28331"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/types/PermissionsTest.java" startline="96" endline="107" pcid="28327"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/types/PermissionsTest.java" startline="122" endline="133" pcid="28335"></source>
+</class>
+
+<class classid="292" nclones="2" nlines="12" similarity="100">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/TraXLiaisonTest.java" startline="112" endline="122" pcid="27227"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/util/JAXPUtilsTest.java" startline="32" endline="42" pcid="28977"></source>
+</class>
+
+<class classid="293" nclones="4" nlines="12" similarity="76">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/vss/MSVSSTest.java" startline="126" endline="145" pcid="27259"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/vss/MSVSSTest.java" startline="202" endline="219" pcid="27263"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/vss/MSVSSTest.java" startline="265" endline="282" pcid="27266"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/vss/MSVSSTest.java" startline="383" endline="401" pcid="27274"></source>
+</class>
+
+<class classid="294" nclones="2" nlines="13" similarity="76">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/vss/MSVSSTest.java" startline="177" endline="199" pcid="27262"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/optional/vss/MSVSSTest.java" startline="328" endline="347" pcid="27270"></source>
+</class>
+
+<class classid="295" nclones="2" nlines="15" similarity="73">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/SQLExecTest.java" startline="281" endline="294" pcid="27539"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/SQLExecTest.java" startline="296" endline="311" pcid="27540"></source>
+</class>
+
+<class classid="296" nclones="2" nlines="10" similarity="90">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/SyncTest.java" startline="74" endline="83" pcid="27600"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/SyncTest.java" startline="85" endline="94" pcid="27601"></source>
+</class>
+
+<class classid="297" nclones="2" nlines="13" similarity="84">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/TStampTest.java" startline="50" endline="64" pcid="27688"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/TStampTest.java" startline="71" endline="86" pcid="27689"></source>
+</class>
+
+<class classid="298" nclones="4" nlines="14" similarity="78">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/ZipTest.java" startline="177" endline="190" pcid="27898"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/ZipTest.java" startline="192" endline="205" pcid="27902"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/ZipTest.java" startline="222" endline="235" pcid="27910"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/taskdefs/ZipTest.java" startline="207" endline="220" pcid="27906"></source>
+</class>
+
+<class classid="299" nclones="3" nlines="54" similarity="72">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/types/AbstractFileSetTest.java" startline="185" endline="244" pcid="27948"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/types/FileListTest.java" startline="79" endline="136" pcid="28078"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/types/PatternSetTest.java" startline="122" endline="186" pcid="28309"></source>
+</class>
+
+<class classid="300" nclones="2" nlines="20" similarity="76">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/types/PathTest.java" startline="52" endline="67" pcid="28204"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/types/PathTest.java" startline="299" endline="317" pcid="28244"></source>
+</class>
+
+<class classid="301" nclones="3" nlines="11" similarity="81">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/types/PathTest.java" startline="516" endline="526" pcid="28282"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/types/PathTest.java" startline="540" endline="550" pcid="28284"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/types/PathTest.java" startline="528" endline="538" pcid="28283"></source>
+</class>
+
+<class classid="302" nclones="2" nlines="14" similarity="78">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/types/ResourceOutputTest.java" startline="67" endline="77" pcid="28369"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/types/ResourceOutputTest.java" startline="85" endline="96" pcid="28374"></source>
+</class>
+
+<class classid="303" nclones="2" nlines="23" similarity="86">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/types/selectors/ContainsSelectorTest.java" startline="48" endline="70" pcid="28490"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/types/selectors/FilenameSelectorTest.java" startline="45" endline="67" pcid="28548"></source>
+</class>
+
+<class classid="304" nclones="2" nlines="19" similarity="89">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/types/selectors/DependSelectorTest.java" startline="48" endline="68" pcid="28520"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/types/selectors/PresentSelectorTest.java" startline="48" endline="68" pcid="28683"></source>
+</class>
+
+<class classid="305" nclones="3" nlines="11" similarity="81">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/types/selectors/ModifiedSelectorTest.java" startline="107" endline="117" pcid="28575"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/types/selectors/ModifiedSelectorTest.java" startline="121" endline="132" pcid="28578"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/types/selectors/ModifiedSelectorTest.java" startline="136" endline="147" pcid="28581"></source>
+</class>
+
+<class classid="306" nclones="2" nlines="12" similarity="91">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/types/selectors/ModifiedSelectorTest.java" startline="563" endline="573" pcid="28625"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/types/selectors/ModifiedSelectorTest.java" startline="576" endline="586" pcid="28628"></source>
+</class>
+
+<class classid="307" nclones="2" nlines="38" similarity="70">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/types/selectors/ModifiedSelectorTest.java" startline="682" endline="763" pcid="28643"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/types/selectors/ModifiedSelectorTest.java" startline="776" endline="826" pcid="28647"></source>
+</class>
+
+<class classid="308" nclones="2" nlines="61" similarity="90">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/types/TarFileSetTest.java" startline="41" endline="112" pcid="28739"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/types/ZipFileSetTest.java" startline="41" endline="112" pcid="28814"></source>
+</class>
+
+<class classid="309" nclones="2" nlines="20" similarity="71">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/types/XMLCatalogTest.java" startline="79" endline="100" pcid="28762"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/types/XMLCatalogTest.java" startline="119" endline="145" pcid="28769"></source>
+</class>
+
+<class classid="310" nclones="2" nlines="16" similarity="93">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/types/XMLCatalogTest.java" startline="217" endline="236" pcid="28786"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/types/XMLCatalogTest.java" startline="238" endline="256" pcid="28789"></source>
+</class>
+
+<class classid="311" nclones="2" nlines="37" similarity="84">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/types/XMLCatalogTest.java" startline="258" endline="308" pcid="28792"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/types/XMLCatalogTest.java" startline="310" endline="352" pcid="28797"></source>
+</class>
+
+<class classid="312" nclones="2" nlines="18" similarity="94">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/util/DOMElementWriterTest.java" startline="55" endline="72" pcid="28871"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/util/DOMElementWriterTest.java" startline="74" endline="91" pcid="28872"></source>
+</class>
+
+<class classid="313" nclones="2" nlines="14" similarity="85">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/util/LayoutPreservingPropertiesTest.java" startline="184" endline="204" pcid="28986"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/util/LayoutPreservingPropertiesTest.java" startline="206" endline="228" pcid="28987"></source>
+</class>
+
+<class classid="314" nclones="2" nlines="11" similarity="90">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/util/VectorSetTest.java" startline="94" endline="104" pcid="29177"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/util/VectorSetTest.java" startline="181" endline="191" pcid="29187"></source>
+</class>
+
+<class classid="315" nclones="3" nlines="15" similarity="93">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/util/VectorSetTest.java" startline="113" endline="127" pcid="29181"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/util/VectorSetTest.java" startline="145" endline="159" pcid="29183"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/util/VectorSetTest.java" startline="129" endline="143" pcid="29182"></source>
+</class>
+
+<class classid="316" nclones="2" nlines="11" similarity="75">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/util/VectorSetTest.java" startline="193" endline="202" pcid="29190"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/ant/util/VectorSetTest.java" startline="204" endline="215" pcid="29191"></source>
+</class>
+
+<class classid="317" nclones="5" nlines="26" similarity="92">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/mail/MailMessageTest.java" startline="151" endline="201" pcid="29234"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/mail/MailMessageTest.java" startline="263" endline="312" pcid="29242"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/mail/MailMessageTest.java" startline="319" endline="367" pcid="29246"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/mail/MailMessageTest.java" startline="373" endline="421" pcid="29250"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/mail/MailMessageTest.java" startline="207" endline="257" pcid="29238"></source>
+</class>
+
+<class classid="318" nclones="2" nlines="20" similarity="71">
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/zip/ExtraFieldUtilsTest.java" startline="151" endline="175" pcid="29337"></source>
+<source file="1.09.01/ant-rel-1.9.1/src/tests/junit/org/apache/tools/zip/ExtraFieldUtilsTest.java" startline="177" endline="202" pcid="29340"></source>
+</class>
+
+</clones>

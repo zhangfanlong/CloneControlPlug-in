@@ -1,0 +1,1219 @@
+<clones>
+<systeminfo processor="nicad5" system="jfreechart-0.9.6" granularity="blocks-blind" threshold="30%" minlines="10" maxlines="2500"/>
+<cloneinfo npcs="7177" npairs="1238"/>
+<runinfo ncompares="392099" cputime="249"/>
+<classinfo nclasses="189"/>
+
+<class classid="1" nclones="7" nlines="10" similarity="70">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/AbstractTitle.java" startline="371" endline="385" pcid="21"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/TimeSeriesDemo5.java" startline="72" endline="81" pcid="2314"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/TimeSeriesDataPair.java" startline="100" endline="113" pcid="6892"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalSymbolicAxis.java" startline="164" endline="174" pcid="1044"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalSymbolicAxis.java" startline="460" endline="470" pcid="622"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/SymbolicTickUnit.java" startline="76" endline="87" pcid="652"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/XYDataPair.java" startline="155" endline="168" pcid="7096"></source>
+</class>
+
+<class classid="2" nclones="2" nlines="11" similarity="90">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/AbstractTitle.java" startline="410" endline="422" pcid="26"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/JFreeChart.java" startline="848" endline="859" pcid="2563"></source>
+</class>
+
+<class classid="3" nclones="2" nlines="12" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/AbstractTitle.java" startline="431" endline="440" pcid="30"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/AbstractTitle.java" startline="449" endline="458" pcid="31"></source>
+</class>
+
+<class classid="4" nclones="2" nlines="26" similarity="85">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/Axis.java" startline="730" endline="760" pcid="106"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalDateAxis.java" startline="352" endline="376" pcid="331"></source>
+</class>
+
+<class classid="5" nclones="6" nlines="12" similarity="75">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/DateAxis.java" startline="284" endline="299" pcid="146"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/XYPlot.java" startline="546" endline="560" pcid="3948"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/DateAxis.java" startline="318" endline="333" pcid="150"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/CategoryPlot.java" startline="439" endline="453" pcid="2808"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/CategoryPlot.java" startline="337" endline="351" pcid="2793"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/XYPlot.java" startline="685" endline="699" pcid="3966"></source>
+</class>
+
+<class classid="6" nclones="2" nlines="11" similarity="81">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/DateAxis.java" startline="398" endline="408" pcid="157"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/DateAxis.java" startline="410" endline="419" pcid="158"></source>
+</class>
+
+<class classid="7" nclones="3" nlines="11" similarity="72">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalCategoryAxis.java" startline="346" endline="361" pcid="208"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalCategoryAxis.java" startline="386" endline="399" pcid="216"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalCategoryAxis.java" startline="365" endline="379" pcid="212"></source>
+</class>
+
+<class classid="8" nclones="14" nlines="22" similarity="72">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalCategoryAxis.java" startline="419" endline="446" pcid="219"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalCategoryAxis.java" startline="461" endline="488" pcid="223"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalDateAxis.java" startline="431" endline="457" pcid="343"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalNumberAxis3D.java" startline="197" endline="219" pcid="550"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalNumberAxis.java" startline="466" endline="499" pcid="516"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalDateAxis.java" startline="473" endline="502" pcid="347"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalNumberAxis3D.java" startline="160" endline="182" pcid="547"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalNumberAxis.java" startline="514" endline="546" pcid="521"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalCategoryAxis.java" startline="259" endline="291" pcid="753"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalCategoryAxis.java" startline="306" endline="339" pcid="759"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalNumberAxis.java" startline="407" endline="450" pcid="1002"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalDateAxis.java" startline="328" endline="366" pcid="847"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalNumberAxis.java" startline="354" endline="392" pcid="995"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalDateAxis.java" startline="381" endline="424" pcid="854"></source>
+</class>
+
+<class classid="9" nclones="6" nlines="21" similarity="95">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalCategoryAxis.java" startline="499" endline="520" pcid="227"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalNumberAxis.java" startline="632" endline="652" pcid="531"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalNumberAxis3D.java" startline="230" endline="250" pcid="553"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalColorBarAxis.java" startline="339" endline="360" pcid="288"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalDateAxis.java" startline="590" endline="612" pcid="357"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalLogarithmicColorBarAxis.java" startline="244" endline="265" pcid="430"></source>
+</class>
+
+<class classid="10" nclones="2" nlines="11" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalCategoryAxis.java" startline="639" endline="653" pcid="249"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalCategoryAxis.java" startline="373" endline="387" pcid="769"></source>
+</class>
+
+<class classid="11" nclones="2" nlines="12" similarity="91">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalColorBarAxis.java" startline="101" endline="115" pcid="254"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalColorBarAxis.java" startline="98" endline="112" pcid="774"></source>
+</class>
+
+<class classid="12" nclones="4" nlines="68" similarity="81">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalColorBarAxis.java" startline="120" endline="199" pcid="255"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalNumberAxis.java" startline="217" endline="288" pcid="969"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalNumberAxis.java" startline="224" endline="302" pcid="470"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalColorBarAxis.java" startline="125" endline="198" pcid="775"></source>
+</class>
+
+<class classid="13" nclones="12" nlines="20" similarity="70">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalColorBarAxis.java" startline="151" endline="170" pcid="262"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalSymbolicAxis.java" startline="352" endline="371" pcid="604"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalSymbolicAxis.java" startline="332" endline="351" pcid="597"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalColorBarAxis.java" startline="171" endline="190" pcid="269"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalSymbolicAxis.java" startline="429" endline="448" pcid="1082"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalSymbolicAxis.java" startline="409" endline="428" pcid="1075"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalColorBarAxis.java" startline="171" endline="190" pcid="787"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalNumberAxis.java" startline="257" endline="276" pcid="477"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalNumberAxis.java" startline="277" endline="296" pcid="484"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalNumberAxis.java" startline="264" endline="283" pcid="981"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalColorBarAxis.java" startline="150" endline="170" pcid="780"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalNumberAxis.java" startline="243" endline="263" pcid="974"></source>
+</class>
+
+<class classid="14" nclones="2" nlines="52" similarity="83">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalColorBarAxis.java" startline="212" endline="286" pcid="276"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalLogarithmicColorBarAxis.java" startline="115" endline="191" pcid="418"></source>
+</class>
+
+<class classid="15" nclones="4" nlines="19" similarity="71">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalColorBarAxis.java" startline="242" endline="266" pcid="279"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalNumberAxis3D.java" startline="124" endline="146" pcid="542"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalDateAxis.java" startline="397" endline="417" pcid="338"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalNumberAxis.java" startline="432" endline="452" pcid="511"></source>
+</class>
+
+<class classid="16" nclones="3" nlines="12" similarity="83">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalColorBarAxis.java" startline="269" endline="284" pcid="284"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalNumberAxis3D.java" startline="96" endline="109" pcid="541"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalLogarithmicColorBarAxis.java" startline="174" endline="189" pcid="426"></source>
+</class>
+
+<class classid="17" nclones="4" nlines="19" similarity="73">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalColorBarAxis.java" startline="294" endline="319" pcid="285"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalColorBarAxis.java" startline="282" endline="305" pcid="803"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalLogarithmicColorBarAxis.java" startline="199" endline="223" pcid="427"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalLogarithmicColorBarAxis.java" startline="274" endline="298" pcid="948"></source>
+</class>
+
+<class classid="18" nclones="2" nlines="32" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalDateAxis.java" startline="218" endline="255" pcid="309"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalDateAxis.java" startline="179" endline="213" pcid="828"></source>
+</class>
+
+<class classid="19" nclones="3" nlines="50" similarity="70">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalDateAxis.java" startline="268" endline="326" pcid="316"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalNumberAxis.java" startline="315" endline="376" pcid="491"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalSymbolicAxis.java" startline="390" endline="451" pcid="611"></source>
+</class>
+
+<class classid="20" nclones="2" nlines="63" similarity="70">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalDateAxis.java" startline="336" endline="419" pcid="327"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalNumberAxis.java" startline="386" endline="454" pcid="503"></source>
+</class>
+
+<class classid="21" nclones="2" nlines="17" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalDateAxis.java" startline="513" endline="539" pcid="352"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalNumberAxis.java" startline="557" endline="582" pcid="526"></source>
+</class>
+
+<class classid="22" nclones="2" nlines="20" similarity="75">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalDateAxis.java" startline="554" endline="579" pcid="354"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalNumberAxis.java" startline="596" endline="621" pcid="528"></source>
+</class>
+
+<class classid="23" nclones="10" nlines="13" similarity="78">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalLogarithmicAxis.java" startline="157" endline="175" pcid="368"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalLogarithmicAxis.java" startline="186" endline="203" pcid="371"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalLogarithmicAxis.java" startline="214" endline="231" pcid="873"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalLogarithmicAxis.java" startline="185" endline="203" pcid="870"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalNumberAxis.java" startline="162" endline="178" pcid="963"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalDateAxis.java" startline="137" endline="149" pcid="822"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalNumberAxis.java" startline="189" endline="204" pcid="966"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalNumberAxis.java" startline="180" endline="194" pcid="464"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalNumberAxis.java" startline="205" endline="219" pcid="467"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalDateAxis.java" startline="160" endline="174" pcid="825"></source>
+</class>
+
+<class classid="24" nclones="4" nlines="32" similarity="75">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalLogarithmicAxis.java" startline="208" endline="251" pcid="374"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalLogarithmicColorBarAxis.java" startline="324" endline="371" pcid="440"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalLogarithmicAxis.java" startline="236" endline="284" pcid="876"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalLogarithmicColorBarAxis.java" startline="138" endline="189" pcid="931"></source>
+</class>
+
+<class classid="25" nclones="4" nlines="17" similarity="73">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalLogarithmicAxis.java" startline="263" endline="287" pcid="381"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalLogarithmicAxis.java" startline="353" endline="373" pcid="893"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalLogarithmicAxis.java" startline="299" endline="321" pcid="885"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalLogarithmicAxis.java" startline="299" endline="323" pcid="386"></source>
+</class>
+
+<class classid="26" nclones="2" nlines="10" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalLogarithmicAxis.java" startline="476" endline="486" pcid="414"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalLogarithmicAxis.java" startline="542" endline="552" pcid="924"></source>
+</class>
+
+<class classid="27" nclones="4" nlines="15" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalNumberAxis3D.java" startline="276" endline="292" pcid="561"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalNumberAxis3D.java" startline="299" endline="315" pcid="565"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalNumberAxis3D.java" startline="185" endline="201" pcid="1034"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalNumberAxis3D.java" startline="162" endline="178" pcid="1030"></source>
+</class>
+
+<class classid="28" nclones="7" nlines="10" similarity="70">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalNumberAxis3D.java" startline="280" endline="289" pcid="562"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/ui/PlotPropertyEditPanel.java" startline="406" endline="415" pcid="5376"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalNumberAxis3D.java" startline="189" endline="198" pcid="1035"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalNumberAxis3D.java" startline="303" endline="312" pcid="566"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalNumberAxis3D.java" startline="166" endline="175" pcid="1031"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/ui/PlotPropertyEditPanel.java" startline="390" endline="403" pcid="5372"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/ui/PlotPropertyEditPanel.java" startline="375" endline="388" pcid="5368"></source>
+</class>
+
+<class classid="29" nclones="2" nlines="14" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalSymbolicAxis.java" startline="160" endline="177" pcid="575"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalSymbolicAxis.java" startline="239" endline="256" pcid="1054"></source>
+</class>
+
+<class classid="30" nclones="2" nlines="34" similarity="94">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalSymbolicAxis.java" startline="243" endline="283" pcid="584"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalSymbolicAxis.java" startline="322" endline="360" pcid="1062"></source>
+</class>
+
+<class classid="31" nclones="2" nlines="59" similarity="98">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalSymbolicAxis.java" startline="306" endline="377" pcid="593"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalSymbolicAxis.java" startline="383" endline="452" pcid="1071"></source>
+</class>
+
+<class classid="32" nclones="6" nlines="14" similarity="71">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/HorizontalSymbolicAxis.java" startline="353" endline="366" pcid="605"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalColorBarAxis.java" startline="151" endline="164" pcid="781"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalNumberAxis.java" startline="244" endline="257" pcid="975"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalColorBarAxis.java" startline="172" endline="185" pcid="788"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalSymbolicAxis.java" startline="430" endline="443" pcid="1083"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalNumberAxis.java" startline="265" endline="278" pcid="982"></source>
+</class>
+
+<class classid="33" nclones="2" nlines="55" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/NumberAxis.java" startline="308" endline="369" pcid="644"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/TickUnits.java" startline="154" endline="215" pcid="682"></source>
+</class>
+
+<class classid="34" nclones="2" nlines="35" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/NumberAxis.java" startline="376" endline="414" pcid="645"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/TickUnits.java" startline="224" endline="262" pcid="683"></source>
+</class>
+
+<class classid="35" nclones="2" nlines="56" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/NumberAxis.java" startline="427" endline="490" pcid="646"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/TickUnits.java" startline="277" endline="340" pcid="684"></source>
+</class>
+
+<class classid="36" nclones="2" nlines="36" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/NumberAxis.java" startline="500" endline="540" pcid="647"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/TickUnits.java" startline="352" endline="392" pcid="685"></source>
+</class>
+
+<class classid="37" nclones="2" nlines="13" similarity="76">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/Tick.java" startline="95" endline="109" pcid="657"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/HorizontalIntervalBarRenderer.java" startline="171" endline="184" pcid="4429"></source>
+</class>
+
+<class classid="38" nclones="2" nlines="17" similarity="70">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/TickUnit.java" startline="102" endline="120" pcid="667"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/DefaultWindDataset.java" startline="292" endline="308" pcid="5989"></source>
+</class>
+
+<class classid="39" nclones="2" nlines="10" similarity="70">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/TickUnits.java" startline="94" endline="106" pcid="675"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/TickUnits.java" startline="116" endline="127" pcid="678"></source>
+</class>
+
+<class classid="40" nclones="2" nlines="13" similarity="71">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/ValueAxis.java" startline="247" endline="257" pcid="692"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/ValueAxis.java" startline="285" endline="304" pcid="698"></source>
+</class>
+
+<class classid="41" nclones="2" nlines="47" similarity="85">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalColorBarAxis.java" startline="207" endline="274" pcid="794"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalLogarithmicColorBarAxis.java" startline="200" endline="266" pcid="939"></source>
+</class>
+
+<class classid="42" nclones="5" nlines="14" similarity="71">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalColorBarAxis.java" startline="233" endline="250" pcid="797"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalNumberAxis3D.java" startline="138" endline="154" pcid="1027"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalNumberAxis.java" startline="326" endline="340" pcid="992"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalDateAxis.java" startline="299" endline="314" pcid="844"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalLogarithmicColorBarAxis.java" startline="226" endline="243" pcid="942"></source>
+</class>
+
+<class classid="43" nclones="2" nlines="21" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalColorBarAxis.java" startline="396" endline="428" pcid="812"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalLogarithmicColorBarAxis.java" startline="360" endline="394" pcid="954"></source>
+</class>
+
+<class classid="44" nclones="2" nlines="36" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalDateAxis.java" startline="271" endline="316" pcid="840"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalNumberAxis.java" startline="298" endline="342" pcid="988"></source>
+</class>
+
+<class classid="45" nclones="2" nlines="14" similarity="78">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalDateAxis.java" startline="435" endline="457" pcid="861"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalNumberAxis.java" startline="461" endline="485" pcid="1009"></source>
+</class>
+
+<class classid="46" nclones="2" nlines="29" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalLogarithmicAxis.java" startline="296" endline="338" pcid="884"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalLogarithmicAxis.java" startline="350" endline="389" pcid="892"></source>
+</class>
+
+<class classid="47" nclones="2" nlines="38" similarity="89">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalNumberAxis.java" startline="499" endline="543" pcid="1010"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/axis/VerticalSymbolicAxis.java" startline="188" endline="232" pcid="1047"></source>
+</class>
+
+<class classid="48" nclones="22" nlines="16" similarity="70">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/ChartFactory.java" startline="160" endline="182" pcid="1091"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/ChartFactory.java" startline="415" endline="441" pcid="1109"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/ChartFactory.java" startline="685" endline="707" pcid="1127"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/ChartFactory.java" startline="597" endline="620" pcid="1121"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/ChartFactory.java" startline="282" endline="304" pcid="1100"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/ChartFactory.java" startline="552" endline="576" pcid="1118"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/ChartFactory.java" startline="462" endline="484" pcid="1112"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/ChartFactory.java" startline="917" endline="944" pcid="1142"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/ChartFactory.java" startline="325" endline="347" pcid="1103"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/ChartFactory.java" startline="505" endline="531" pcid="1115"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/ChartFactory.java" startline="736" endline="758" pcid="1130"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/ChartFactory.java" startline="966" endline="989" pcid="1145"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/ChartFactory.java" startline="779" endline="802" pcid="1133"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/ChartFactory.java" startline="241" endline="261" pcid="1097"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/ChartFactory.java" startline="368" endline="394" pcid="1106"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/ChartFactory.java" startline="641" endline="664" pcid="1124"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/ChartFactory.java" startline="1186" endline="1210" pcid="1157"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/ChartFactory.java" startline="823" endline="846" pcid="1136"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/ChartFactory.java" startline="1062" endline="1084" pcid="1151"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/ChartFactory.java" startline="867" endline="896" pcid="1139"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/ChartFactory.java" startline="202" endline="224" pcid="1094"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/ChartFactory.java" startline="1016" endline="1041" pcid="1148"></source>
+</class>
+
+<class classid="49" nclones="2" nlines="12" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/ChartPanel.java" startline="1273" endline="1286" pcid="1285"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/ChartPanel.java" startline="1288" endline="1301" pcid="1288"></source>
+</class>
+
+<class classid="50" nclones="2" nlines="15" similarity="86">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/ChartPanel.java" startline="1360" endline="1380" pcid="1297"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/ChartPanel.java" startline="1387" endline="1407" pcid="1301"></source>
+</class>
+
+<class classid="51" nclones="4" nlines="10" similarity="70">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/ChartPanel.java" startline="1366" endline="1378" pcid="1298"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/servlet/JFreeServletDemo.java" startline="92" endline="101" pcid="2190"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/JFreeChartDemo.java" startline="420" endline="429" pcid="1622"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/ChartPanel.java" startline="1393" endline="1405" pcid="1302"></source>
+</class>
+
+<class classid="52" nclones="2" nlines="11" similarity="90">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/ChartPanel.java" startline="1533" endline="1543" pcid="1320"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/ChartPanel.java" startline="1545" endline="1555" pcid="1322"></source>
+</class>
+
+<class classid="53" nclones="2" nlines="21" similarity="78">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/AreaChartDemo.java" startline="69" endline="120" pcid="1392"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/StackedAreaChartDemo.java" startline="66" endline="115" pcid="2223"></source>
+</class>
+
+<class classid="54" nclones="4" nlines="24" similarity="70">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/ChartTiming1.java" startline="64" endline="101" pcid="1403"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/ChartTiming2.java" startline="65" endline="98" pcid="1408"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/ChartTiming4.java" startline="68" endline="101" pcid="1419"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/ChartTiming3.java" startline="67" endline="106" pcid="1413"></source>
+</class>
+
+<class classid="55" nclones="2" nlines="20" similarity="85">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/CombinedXYPlotDemo.java" startline="128" endline="156" pcid="1428"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/OverlaidXYPlotDemo.java" startline="129" endline="151" pcid="1741"></source>
+</class>
+
+<class classid="56" nclones="2" nlines="18" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/CombinedXYPlotDemo.java" startline="163" endline="185" pcid="1429"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/OverlaidXYPlotDemo.java" startline="158" endline="180" pcid="1742"></source>
+</class>
+
+<class classid="57" nclones="2" nlines="12" similarity="91">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/CompassDemo.java" startline="290" endline="304" pcid="1446"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/ThermometerDemo.java" startline="362" endline="377" pcid="2289"></source>
+</class>
+
+<class classid="58" nclones="2" nlines="10" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/CompassDemo.java" startline="337" endline="348" pcid="1451"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/CompassDemo.java" startline="355" endline="366" pcid="1454"></source>
+</class>
+
+<class classid="59" nclones="2" nlines="23" similarity="75">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/DualAxisDemo.java" startline="72" endline="122" pcid="1525"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/DualAxisDemo3.java" startline="71" endline="115" pcid="1534"></source>
+</class>
+
+<class classid="60" nclones="3" nlines="40" similarity="77">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/DualAxisDemo.java" startline="129" endline="178" pcid="1526"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/DualAxisDemo3.java" startline="122" endline="171" pcid="1535"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/VerticalBarChartDemo.java" startline="66" endline="149" pcid="2333"></source>
+</class>
+
+<class classid="61" nclones="2" nlines="21" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/DualAxisDemo.java" startline="185" endline="214" pcid="1527"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/DualAxisDemo3.java" startline="178" endline="207" pcid="1536"></source>
+</class>
+
+<class classid="62" nclones="3" nlines="22" similarity="79">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/DualAxisDemo2.java" startline="71" endline="101" pcid="1529"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/MovingAverageDemo.java" startline="69" endline="98" pcid="1707"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/TimeSeriesDemo.java" startline="72" endline="102" pcid="2302"></source>
+</class>
+
+<class classid="63" nclones="2" nlines="25" similarity="88">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/DualAxisDemo2.java" startline="108" endline="135" pcid="1531"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/MovingAverageDemo.java" startline="105" endline="135" pcid="1709"></source>
+</class>
+
+<class classid="64" nclones="3" nlines="16" similarity="75">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/ImageMapDemo1.java" startline="118" endline="137" pcid="1573"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/ImageMapDemo3.java" startline="126" endline="145" pcid="1583"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/ImageMapDemo2.java" startline="110" endline="129" pcid="1579"></source>
+</class>
+
+<class classid="65" nclones="2" nlines="15" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/JFreeChartDemo.java" startline="419" endline="433" pcid="1621"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/servlet/JFreeServletDemo.java" startline="91" endline="105" pcid="2189"></source>
+</class>
+
+<class classid="66" nclones="3" nlines="15" similarity="93">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/JFreeChartDemoBase.java" startline="627" endline="647" pcid="1659"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/JFreeChartDemoBase.java" startline="654" endline="674" pcid="1660"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/JFreeChartDemoBase.java" startline="681" endline="701" pcid="1661"></source>
+</class>
+
+<class classid="67" nclones="2" nlines="11" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/MouseZoomDemo.java" startline="133" endline="143" pcid="1701"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/MouseZoomDemo.java" startline="144" endline="154" pcid="1704"></source>
+</class>
+
+<class classid="68" nclones="2" nlines="12" similarity="91">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/MultiPieChartDemo.java" startline="65" endline="104" pcid="1711"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/MultiPieChartDemo2.java" startline="63" endline="102" pcid="1713"></source>
+</class>
+
+<class classid="69" nclones="2" nlines="20" similarity="71">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/Pie3DChartDemo1.java" startline="64" endline="95" pcid="1771"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/Pie3DChartDemo2.java" startline="64" endline="98" pcid="1773"></source>
+</class>
+
+<class classid="70" nclones="3" nlines="21" similarity="76">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/PieChartDemo1.java" startline="66" endline="99" pcid="1778"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/PieChartDemo4.java" startline="63" endline="102" pcid="1784"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/PieChartDemo2.java" startline="63" endline="98" pcid="1780"></source>
+</class>
+
+<class classid="71" nclones="2" nlines="10" similarity="70">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/SampleXYDatasetThread.java" startline="74" endline="85" pcid="1839"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/ThermometerDemo.java" startline="385" endline="394" pcid="2290"></source>
+</class>
+
+<class classid="72" nclones="3" nlines="33" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/SampleXYSymbolicDataset.java" startline="305" endline="341" pcid="1862"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/SampleXYSymbolicDataset.java" startline="361" endline="396" pcid="1868"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/SampleYSymbolicDataset.java" startline="288" endline="324" pcid="1904"></source>
+</class>
+
+<class classid="73" nclones="2" nlines="23" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/SampleXYSymbolicDataset.java" startline="421" endline="448" pcid="1875"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/SampleYSymbolicDataset.java" startline="350" endline="377" pcid="1911"></source>
+</class>
+
+<class classid="74" nclones="2" nlines="15" similarity="75">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/ScatterPlotDemo.java" startline="60" endline="76" pcid="1917"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/ScatterPlotDemo2.java" startline="62" endline="84" pcid="1919"></source>
+</class>
+
+<class classid="75" nclones="2" nlines="45" similarity="73">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/servlet/ImageDemoPie.java" startline="89" endline="147" pcid="2159"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/servlet/ImageDemoPie.java" startline="155" endline="209" pcid="2169"></source>
+</class>
+
+<class classid="76" nclones="2" nlines="27" similarity="71">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/SymbolicXYPlotDemo.java" startline="272" endline="323" pcid="2244"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/SymbolicXYPlotDemo.java" startline="333" endline="384" pcid="2245"></source>
+</class>
+
+<class classid="77" nclones="2" nlines="44" similarity="72">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/SymbolicYPlotDemo.java" startline="181" endline="256" pcid="2268"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/SymbolicYPlotDemo.java" startline="267" endline="337" pcid="2269"></source>
+</class>
+
+<class classid="78" nclones="3" nlines="10" similarity="70">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/TimeSeriesDemo9.java" startline="142" endline="154" pcid="2328"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/DatasetUtilities.java" startline="648" endline="658" pcid="5598"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/DatasetUtilities.java" startline="686" endline="696" pcid="5601"></source>
+</class>
+
+<class classid="79" nclones="2" nlines="20" similarity="71">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/XMLBarChartDemo.java" startline="67" endline="101" pcid="2346"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/demo/XMLPieChartDemo.java" startline="67" endline="102" pcid="2350"></source>
+</class>
+
+<class classid="80" nclones="9" nlines="11" similarity="75">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/entity/StandardEntityCollection.java" startline="86" endline="99" pcid="2425"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/OverlaidXYPlot.java" startline="211" endline="225" pcid="3403"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/OverlaidXYPlot.java" startline="235" endline="249" pcid="3406"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/OverlaidVerticalCategoryPlot.java" startline="201" endline="215" pcid="3387"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/OverlaidVerticalCategoryPlot.java" startline="150" endline="165" pcid="3381"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/OverlaidXYPlot.java" startline="154" endline="169" pcid="3397"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/CombinedXYPlot.java" startline="549" endline="565" pcid="2948"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/CombinedXYPlot.java" startline="453" endline="468" pcid="2941"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/CombinedXYPlot.java" startline="574" endline="590" pcid="2952"></source>
+</class>
+
+<class classid="81" nclones="2" nlines="12" similarity="75">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/ImageTitle.java" startline="193" endline="203" pcid="2464"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/Legend.java" startline="185" endline="196" pcid="2666"></source>
+</class>
+
+<class classid="82" nclones="2" nlines="37" similarity="94">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/ImageTitle.java" startline="253" endline="298" pcid="2469"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/ImageTitle.java" startline="308" endline="353" pcid="2478"></source>
+</class>
+
+<class classid="83" nclones="3" nlines="11" similarity="72">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/ImageTitle.java" startline="282" endline="291" pcid="2474"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/TextTitle.java" startline="381" endline="394" pcid="5141"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/ImageTitle.java" startline="337" endline="346" pcid="2483"></source>
+</class>
+
+<class classid="84" nclones="8" nlines="11" similarity="72">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/JFreeChart.java" startline="377" endline="395" pcid="2513"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/StackedVerticalBarRenderer3D.java" startline="254" endline="264" pcid="4741"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/needle/MeterNeedle.java" startline="284" endline="297" pcid="2757"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/ThermometerPlot.java" startline="297" endline="316" pcid="3740"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/Plot.java" startline="311" endline="330" pcid="3653"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/Plot.java" startline="346" endline="365" pcid="3657"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/JThermometer.java" startline="251" endline="262" pcid="3288"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/MinMaxCategoryRenderer.java" startline="441" endline="453" pcid="4564"></source>
+</class>
+
+<class classid="85" nclones="2" nlines="14" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/JFreeChart.java" startline="470" endline="485" pcid="2523"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/JFreeChart.java" startline="504" endline="519" pcid="2529"></source>
+</class>
+
+<class classid="86" nclones="2" nlines="14" similarity="80">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/junit/ChartPackageTests.java" startline="59" endline="71" pcid="2580"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/junit/DataPackageTests.java" startline="59" endline="73" pcid="6230"></source>
+</class>
+
+<class classid="87" nclones="7" nlines="14" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/junit/HorizontalBarChart3DTests.java" startline="98" endline="115" pcid="2585"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/junit/StackedHorizontalBarChartTests.java" startline="98" endline="115" pcid="2624"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/junit/ScatterPlotTests.java" startline="98" endline="115" pcid="2615"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/junit/VerticalBarChartTests.java" startline="98" endline="115" pcid="2651"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/junit/StackedVerticalBarChartTests.java" startline="98" endline="115" pcid="2633"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/junit/VerticalBarChart3DTests.java" startline="97" endline="114" pcid="2642"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/junit/HorizontalBarChartTests.java" startline="98" endline="115" pcid="2594"></source>
+</class>
+
+<class classid="88" nclones="6" nlines="12" similarity="91">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/junit/HorizontalBarChart3DTests.java" startline="120" endline="142" pcid="2588"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/junit/StackedVerticalBarChartTests.java" startline="120" endline="142" pcid="2636"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/junit/VerticalBarChartTests.java" startline="120" endline="142" pcid="2654"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/junit/StackedHorizontalBarChartTests.java" startline="120" endline="142" pcid="2627"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/junit/VerticalBarChart3DTests.java" startline="119" endline="141" pcid="2645"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/junit/HorizontalBarChartTests.java" startline="120" endline="142" pcid="2597"></source>
+</class>
+
+<class classid="89" nclones="2" nlines="35" similarity="74">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/MeterLegend.java" startline="272" endline="315" pcid="2707"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/StandardLegend.java" startline="427" endline="494" pcid="5082"></source>
+</class>
+
+<class classid="90" nclones="2" nlines="34" similarity="71">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/CategoryPlot.java" startline="201" endline="245" pcid="2778"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/XYPlot.java" startline="260" endline="303" pcid="3908"></source>
+</class>
+
+<class classid="91" nclones="8" nlines="21" similarity="85">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/CategoryPlot.java" startline="361" endline="390" pcid="2796"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/XYPlot.java" startline="570" endline="601" pcid="3951"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/CategoryPlot.java" startline="464" endline="493" pcid="2811"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/ThermometerPlot.java" startline="336" endline="363" pcid="3744"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/XYPlot.java" startline="710" endline="739" pcid="3969"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/ContourPlot.java" startline="269" endline="298" pcid="3025"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/XYPlot.java" startline="490" endline="519" pcid="3939"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/ContourPlot.java" startline="213" endline="244" pcid="3017"></source>
+</class>
+
+<class classid="92" nclones="3" nlines="10" similarity="70">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/CategoryPlot.java" startline="564" endline="574" pcid="2827"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/XYSeries.java" startline="310" endline="319" pcid="7126"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/TimeSeries.java" startline="657" endline="666" pcid="6852"></source>
+</class>
+
+<class classid="93" nclones="2" nlines="11" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/CombinedXYPlot.java" startline="602" endline="614" pcid="2956"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/OverlaidXYPlot.java" startline="261" endline="273" pcid="3409"></source>
+</class>
+
+<class classid="94" nclones="2" nlines="17" similarity="72">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/ContourPlot.java" startline="158" endline="181" pcid="3011"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/FastScatterPlot.java" startline="101" endline="120" pcid="3175"></source>
+</class>
+
+<class classid="95" nclones="7" nlines="11" similarity="81">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/ContourPlot.java" startline="389" endline="401" pcid="3044"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/ContourPlot.java" startline="432" endline="443" pcid="3052"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/PeriodMarkerPlot.java" startline="148" endline="160" pcid="3417"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/XYPlot.java" startline="927" endline="938" pcid="4000"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/ContourPlot.java" startline="411" endline="422" pcid="3048"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/XYPlot.java" startline="905" endline="917" pcid="3996"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/ThermometerPlot.java" startline="1153" endline="1164" pcid="3841"></source>
+</class>
+
+<class classid="96" nclones="3" nlines="10" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/ContourPlot.java" startline="624" endline="634" pcid="3081"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/XYPlot.java" startline="1086" endline="1095" pcid="4026"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/FastScatterPlot.java" startline="234" endline="244" pcid="3192"></source>
+</class>
+
+<class classid="97" nclones="2" nlines="14" similarity="92">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/ContourPlot.java" startline="929" endline="948" pcid="3114"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/XYPlot.java" startline="1261" endline="1280" pcid="4042"></source>
+</class>
+
+<class classid="98" nclones="2" nlines="16" similarity="87">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/ContourPlot.java" startline="955" endline="974" pcid="3117"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/XYPlot.java" startline="1287" endline="1306" pcid="4045"></source>
+</class>
+
+<class classid="99" nclones="2" nlines="16" similarity="72">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/ContourPlot.java" startline="1066" endline="1082" pcid="3128"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/XYPlot.java" startline="1383" endline="1405" pcid="4056"></source>
+</class>
+
+<class classid="100" nclones="15" nlines="13" similarity="71">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/ContourPlot.java" startline="1445" endline="1461" pcid="3169"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/HorizontalBarRenderer.java" startline="223" endline="240" pcid="4353"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/AbstractXYItemRenderer.java" startline="277" endline="294" pcid="4206"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/AbstractXYItemRenderer.java" startline="244" endline="261" pcid="4204"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/AbstractCategoryItemRenderer.java" startline="384" endline="401" pcid="4117"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/AbstractXYItemRenderer.java" startline="340" endline="356" pcid="4210"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/AbstractXYItemRenderer.java" startline="309" endline="325" pcid="4208"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/HorizontalBarRenderer.java" startline="255" endline="273" pcid="4355"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/AbstractCategoryItemRenderer.java" startline="418" endline="436" pcid="4119"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/HorizontalShapeRenderer.java" startline="214" endline="231" pcid="4461"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/ContourPlot.java" startline="1476" endline="1492" pcid="3171"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/HorizontalShapeRenderer.java" startline="245" endline="259" pcid="4463"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/HorizontalIntervalBarRenderer.java" startline="133" endline="147" pcid="4427"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/VerticalIntervalBarRenderer.java" startline="138" endline="152" pcid="4897"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/MinMaxCategoryRenderer.java" startline="306" endline="316" pcid="4549"></source>
+</class>
+
+<class classid="101" nclones="2" nlines="15" similarity="93">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/FastScatterPlot.java" startline="339" endline="352" pcid="3203"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/FastScatterPlot.java" startline="361" endline="374" pcid="3207"></source>
+</class>
+
+<class classid="102" nclones="2" nlines="94" similarity="95">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/HorizontalCategoryPlot.java" startline="213" endline="345" pcid="3224"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/VerticalCategoryPlot.java" startline="218" endline="350" pcid="3865"></source>
+</class>
+
+<class classid="103" nclones="4" nlines="12" similarity="71">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/HorizontalCategoryPlot.java" startline="296" endline="307" pcid="3237"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/XYPlot.java" startline="336" endline="345" pcid="3915"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/VerticalCategoryPlot.java" startline="301" endline="312" pcid="3878"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/XYPlot.java" startline="349" endline="362" pcid="3918"></source>
+</class>
+
+<class classid="104" nclones="4" nlines="11" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/HorizontalCategoryPlot.java" startline="311" endline="322" pcid="3240"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/XYPlot.java" startline="1039" endline="1050" pcid="4016"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/XYPlot.java" startline="1053" endline="1064" pcid="4019"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/VerticalCategoryPlot.java" startline="316" endline="327" pcid="3881"></source>
+</class>
+
+<class classid="105" nclones="4" nlines="29" similarity="72">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/HorizontalCategoryPlot.java" startline="355" endline="399" pcid="3247"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/HorizontalCategoryPlot.java" startline="409" endline="449" pcid="3253"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/VerticalCategoryPlot.java" startline="360" endline="404" pcid="3888"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/VerticalCategoryPlot.java" startline="415" endline="455" pcid="3894"></source>
+</class>
+
+<class classid="106" nclones="2" nlines="22" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/HorizontalCategoryPlot.java" startline="469" endline="503" pcid="3260"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/VerticalCategoryPlot.java" startline="475" endline="509" pcid="3901"></source>
+</class>
+
+<class classid="107" nclones="2" nlines="82" similarity="89">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/Pie3DPlot.java" startline="415" endline="539" pcid="3467"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/Pie3DPlot.java" startline="540" endline="663" pcid="3478"></source>
+</class>
+
+<class classid="108" nclones="2" nlines="40" similarity="90">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/Pie3DPlot.java" startline="417" endline="477" pcid="3468"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/Pie3DPlot.java" startline="478" endline="538" pcid="3473"></source>
+</class>
+
+<class classid="109" nclones="2" nlines="14" similarity="78">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/Pie3DPlot.java" startline="433" endline="454" pcid="3471"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/Pie3DPlot.java" startline="456" endline="476" pcid="3472"></source>
+</class>
+
+<class classid="110" nclones="2" nlines="14" similarity="78">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/Pie3DPlot.java" startline="493" endline="514" pcid="3476"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/Pie3DPlot.java" startline="516" endline="537" pcid="3477"></source>
+</class>
+
+<class classid="111" nclones="2" nlines="40" similarity="92">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/Pie3DPlot.java" startline="542" endline="601" pcid="3479"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/Pie3DPlot.java" startline="602" endline="661" pcid="3484"></source>
+</class>
+
+<class classid="112" nclones="2" nlines="14" similarity="78">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/Pie3DPlot.java" startline="558" endline="578" pcid="3482"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/Pie3DPlot.java" startline="580" endline="600" pcid="3483"></source>
+</class>
+
+<class classid="113" nclones="2" nlines="14" similarity="71">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/Pie3DPlot.java" startline="617" endline="637" pcid="3487"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/Pie3DPlot.java" startline="639" endline="660" pcid="3488"></source>
+</class>
+
+<class classid="114" nclones="3" nlines="11" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/PiePlot.java" startline="883" endline="893" pcid="3559"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/PiePlot.java" startline="968" endline="978" pcid="3571"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/PiePlot.java" startline="1050" endline="1060" pcid="3583"></source>
+</class>
+
+<class classid="115" nclones="3" nlines="14" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/PiePlot.java" startline="902" endline="917" pcid="3563"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/PiePlot.java" startline="987" endline="1002" pcid="3575"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/PiePlot.java" startline="1069" endline="1084" pcid="3587"></source>
+</class>
+
+<class classid="116" nclones="39" nlines="13" similarity="73">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/PiePlot.java" startline="1388" endline="1403" pcid="3624"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/ClusteredXYBarRenderer.java" startline="194" endline="208" pcid="4302"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/XYBubbleRenderer.java" startline="187" endline="198" pcid="4957"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/StackedVerticalBarRenderer3D.java" startline="267" endline="283" pcid="4744"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/SignalRenderer.java" startline="222" endline="233" pcid="4647"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/CandlestickRenderer.java" startline="364" endline="375" pcid="4291"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/YIntervalRenderer.java" startline="133" endline="147" pcid="4990"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/VerticalIntervalBarRenderer.java" startline="249" endline="264" pcid="4905"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/VerticalBarRenderer.java" startline="292" endline="307" pcid="4844"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/AreaXYRenderer.java" startline="354" endline="368" pcid="4251"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/ReverseXYItemRenderer.java" startline="242" endline="256" pcid="4608"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/StandardXYItemRenderer.java" startline="435" endline="449" pcid="4786"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/LineAndShapeRenderer.java" startline="300" endline="316" pcid="4508"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/HorizontalShapeRenderer.java" startline="337" endline="353" pcid="4473"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/HorizontalIntervalBarRenderer.java" startline="354" endline="369" pcid="4449"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/StackedHorizontalBarRenderer.java" startline="252" endline="267" pcid="4683"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/HorizontalIntervalBarRenderer.java" startline="256" endline="271" pcid="4438"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/HorizontalBarRenderer3D.java" startline="594" endline="609" pcid="4419"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/HorizontalBarRenderer.java" startline="387" endline="403" pcid="4375"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/StackedAreaRenderer.java" startline="179" endline="195" pcid="4657"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/HighLowRenderer.java" startline="144" endline="158" pcid="4338"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/StackedVerticalBarRenderer.java" startline="328" endline="344" pcid="4718"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/AreaRenderer.java" startline="166" endline="182" pcid="4220"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/VerticalXYBarRenderer.java" startline="201" endline="215" pcid="4943"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/StackedVerticalBarRenderer3D.java" startline="269" endline="282" pcid="4745"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/StackedAreaRenderer.java" startline="182" endline="194" pcid="4658"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/StackedHorizontalBarRenderer.java" startline="254" endline="266" pcid="4684"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/HorizontalShapeRenderer.java" startline="339" endline="352" pcid="4474"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/VerticalIntervalBarRenderer.java" startline="251" endline="263" pcid="4906"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/VerticalBarRenderer.java" startline="294" endline="306" pcid="4845"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/AreaRenderer.java" startline="168" endline="181" pcid="4221"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/StackedVerticalBarRenderer.java" startline="330" endline="343" pcid="4719"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/LineAndShapeRenderer.java" startline="302" endline="315" pcid="4509"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/HorizontalBarRenderer3D.java" startline="596" endline="608" pcid="4420"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/HorizontalIntervalBarRenderer.java" startline="258" endline="270" pcid="4439"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/HorizontalIntervalBarRenderer.java" startline="356" endline="368" pcid="4450"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/HorizontalBarRenderer.java" startline="389" endline="402" pcid="4376"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/MinMaxCategoryRenderer.java" startline="217" endline="228" pcid="4535"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/VerticalXYBarRenderer.java" startline="203" endline="214" pcid="4944"></source>
+</class>
+
+<class classid="117" nclones="3" nlines="17" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/Plot.java" startline="510" endline="528" pcid="3676"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/Plot.java" startline="612" endline="630" pcid="3691"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/Plot.java" startline="647" endline="665" pcid="3698"></source>
+</class>
+
+<class classid="118" nclones="8" nlines="10" similarity="70">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/Plot.java" startline="880" endline="891" pcid="3724"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/Spacer.java" startline="203" endline="216" pcid="5049"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/Spacer.java" startline="133" endline="146" pcid="5040"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/Spacer.java" startline="181" endline="194" pcid="5046"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/Plot.java" startline="903" endline="914" pcid="3727"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/Spacer.java" startline="157" endline="170" pcid="5043"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/Spacer.java" startline="225" endline="238" pcid="5052"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/Spacer.java" startline="109" endline="122" pcid="5037"></source>
+</class>
+
+<class classid="119" nclones="2" nlines="20" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/XYPlot.java" startline="403" endline="426" pcid="3925"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/XYPlot.java" startline="448" endline="471" pcid="3932"></source>
+</class>
+
+<class classid="120" nclones="2" nlines="11" similarity="72">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/XYPlot.java" startline="1128" endline="1141" pcid="4031"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/XYPlot.java" startline="1193" endline="1206" pcid="4038"></source>
+</class>
+
+<class classid="121" nclones="2" nlines="11" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/XYPlot.java" startline="1324" endline="1338" pcid="4049"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/plot/XYPlot.java" startline="1347" endline="1361" pcid="4052"></source>
+</class>
+
+<class classid="122" nclones="2" nlines="44" similarity="82">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/ClusteredXYBarRenderer.java" startline="146" endline="210" pcid="4298"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/VerticalXYBarRenderer.java" startline="159" endline="217" pcid="4940"></source>
+</class>
+
+<class classid="123" nclones="2" nlines="42" similarity="79">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/HighLowRenderer.java" startline="106" endline="160" pcid="4336"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/YIntervalRenderer.java" startline="98" endline="149" pcid="4988"></source>
+</class>
+
+<class classid="124" nclones="2" nlines="24" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/HorizontalBarRenderer.java" startline="154" endline="183" pcid="4346"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/VerticalBarRenderer.java" startline="150" endline="179" pcid="4820"></source>
+</class>
+
+<class classid="125" nclones="2" nlines="92" similarity="82">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/HorizontalBarRenderer.java" startline="296" endline="407" pcid="4357"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/VerticalBarRenderer.java" startline="202" endline="311" pcid="4826"></source>
+</class>
+
+<class classid="126" nclones="5" nlines="10" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/HorizontalBarRenderer.java" startline="316" endline="325" pcid="4362"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/VerticalStatisticalBarRenderer.java" startline="166" endline="175" pcid="4927"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/VerticalBarRenderer3D.java" startline="504" endline="513" pcid="4874"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/HorizontalBarRenderer3D.java" startline="474" endline="483" pcid="4402"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/VerticalBarRenderer.java" startline="237" endline="246" pcid="4833"></source>
+</class>
+
+<class classid="127" nclones="2" nlines="53" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/HorizontalBarRenderer3D.java" startline="199" endline="267" pcid="4386"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/VerticalBarRenderer3D.java" startline="213" endline="281" pcid="4856"></source>
+</class>
+
+<class classid="128" nclones="2" nlines="25" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/HorizontalBarRenderer3D.java" startline="276" endline="306" pcid="4389"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/VerticalBarRenderer3D.java" startline="290" endline="320" pcid="4859"></source>
+</class>
+
+<class classid="129" nclones="4" nlines="17" similarity="70">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/HorizontalBarRenderer3D.java" startline="323" endline="339" pcid="4391"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/VerticalBarRenderer3D.java" startline="369" endline="396" pcid="4862"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/VerticalBarRenderer3D.java" startline="337" endline="353" pcid="4861"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/HorizontalBarRenderer3D.java" startline="355" endline="381" pcid="4392"></source>
+</class>
+
+<class classid="130" nclones="2" nlines="20" similarity="85">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/HorizontalBarRenderer3D.java" startline="396" endline="421" pcid="4394"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/VerticalBarRenderer3D.java" startline="411" endline="440" pcid="4864"></source>
+</class>
+
+<class classid="131" nclones="2" nlines="135" similarity="77">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/HorizontalBarRenderer3D.java" startline="444" endline="613" pcid="4396"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/VerticalBarRenderer3D.java" startline="463" endline="628" pcid="4866"></source>
+</class>
+
+<class classid="132" nclones="2" nlines="51" similarity="83">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/HorizontalIntervalBarRenderer.java" startline="207" endline="272" pcid="4433"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/HorizontalIntervalBarRenderer.java" startline="295" endline="371" pcid="4442"></source>
+</class>
+
+<class classid="133" nclones="2" nlines="14" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/HorizontalShapeRenderer.java" startline="156" endline="174" pcid="4456"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/LineAndShapeRenderer.java" startline="164" endline="180" pcid="4491"></source>
+</class>
+
+<class classid="134" nclones="2" nlines="55" similarity="84">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/HorizontalShapeRenderer.java" startline="281" endline="357" pcid="4465"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/LineAndShapeRenderer.java" startline="248" endline="320" pcid="4501"></source>
+</class>
+
+<class classid="135" nclones="3" nlines="14" similarity="92">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/HorizontalShapeRenderer.java" startline="304" endline="323" pcid="4469"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/MinMaxCategoryRenderer.java" startline="199" endline="214" pcid="4532"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/LineAndShapeRenderer.java" startline="267" endline="286" pcid="4504"></source>
+</class>
+
+<class classid="136" nclones="4" nlines="10" similarity="71">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/HorizontalShapeRenderer.java" startline="325" endline="334" pcid="4472"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/MinMaxCategoryRenderer.java" startline="177" endline="188" pcid="4530"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/VerticalIntervalBarRenderer.java" startline="227" endline="246" pcid="4904"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/LineAndShapeRenderer.java" startline="288" endline="297" pcid="4507"></source>
+</class>
+
+<class classid="137" nclones="3" nlines="49" similarity="87">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/HorizontalShapeRenderer.java" startline="370" endline="420" pcid="4477"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/LineAndShapeRenderer.java" startline="333" endline="384" pcid="4512"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/MinMaxCategoryRenderer.java" startline="244" endline="293" pcid="4538"></source>
+</class>
+
+<class classid="138" nclones="2" nlines="26" similarity="85">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/MinMaxCategoryRenderer.java" startline="435" endline="464" pcid="4563"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/MinMaxCategoryRenderer.java" startline="475" endline="500" pcid="4569"></source>
+</class>
+
+<class classid="139" nclones="3" nlines="27" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/PaintTable.java" startline="115" endline="142" pcid="4581"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/ShapeTable.java" startline="136" endline="163" pcid="4627"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/StrokeTable.java" startline="136" endline="163" pcid="4809"></source>
+</class>
+
+<class classid="140" nclones="2" nlines="96" similarity="92">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/ReverseXYItemRenderer.java" startline="153" endline="277" pcid="4592"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/StandardXYItemRenderer.java" startline="345" endline="470" pcid="4770"></source>
+</class>
+
+<class classid="141" nclones="2" nlines="19" similarity="94">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/ShapeTable.java" startline="108" endline="127" pcid="4621"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/StrokeTable.java" startline="108" endline="127" pcid="4803"></source>
+</class>
+
+<class classid="142" nclones="3" nlines="19" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/StackedHorizontalBarRenderer.java" startline="146" endline="171" pcid="4669"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/StackedVerticalBarRenderer.java" startline="176" endline="201" pcid="4694"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/StackedVerticalBarRenderer3D.java" startline="117" endline="142" pcid="4724"></source>
+</class>
+
+<class classid="143" nclones="4" nlines="12" similarity="83">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/StackedHorizontalBarRenderer.java" startline="199" endline="210" pcid="4675"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/DatasetUtilities.java" startline="751" endline="762" pcid="5611"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/StackedVerticalBarRenderer3D.java" startline="181" endline="192" pcid="4730"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/StackedVerticalBarRenderer.java" startline="241" endline="252" pcid="4701"></source>
+</class>
+
+<class classid="144" nclones="2" nlines="22" similarity="79">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/StackedVerticalBarRenderer3D.java" startline="228" endline="252" pcid="4737"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/VerticalBarRenderer3D.java" startline="551" endline="571" pcid="4883"></source>
+</class>
+
+<class classid="145" nclones="2" nlines="11" similarity="90">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/VerticalBarRenderer.java" startline="278" endline="288" pcid="4843"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/VerticalBarRenderer3D.java" startline="583" endline="596" pcid="4888"></source>
+</class>
+
+<class classid="146" nclones="2" nlines="10" similarity="70">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/VerticalIntervalBarRenderer.java" startline="288" endline="298" pcid="4910"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/renderer/VerticalIntervalBarRenderer.java" startline="299" endline="310" pcid="4913"></source>
+</class>
+
+<class classid="147" nclones="2" nlines="23" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/StandardLegendItemLayout.java" startline="95" endline="126" pcid="5104"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/StandardLegendItemLayout.java" startline="132" endline="162" pcid="5108"></source>
+</class>
+
+<class classid="148" nclones="2" nlines="11" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/TextTitle.java" startline="286" endline="302" pcid="5131"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/TextTitle.java" startline="311" endline="327" pcid="5133"></source>
+</class>
+
+<class classid="149" nclones="2" nlines="17" similarity="72">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/tooltips/IntervalCategoryToolTipGenerator.java" startline="127" endline="144" pcid="5167"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/tooltips/StandardCategoryToolTipGenerator.java" startline="120" endline="135" pcid="5177"></source>
+</class>
+
+<class classid="150" nclones="8" nlines="13" similarity="71">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/ui/AxisPropertyEditPanel.java" startline="133" endline="149" pcid="5221"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/Week.java" startline="341" endline="356" pcid="6972"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/Year.java" startline="210" endline="225" pcid="7163"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/Day.java" startline="285" endline="300" pcid="5661"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/Month.java" startline="240" endline="255" pcid="6509"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/ui/ColorBarPropertyEditPanel.java" startline="186" endline="202" pcid="5276"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/Quarter.java" startline="239" endline="254" pcid="6588"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/TimeSeriesTableModel.java" startline="213" endline="227" pcid="6929"></source>
+</class>
+
+<class classid="151" nclones="2" nlines="18" similarity="72">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/ui/AxisPropertyEditPanel.java" startline="358" endline="375" pcid="5237"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/ui/LegendPropertyEditPanel.java" startline="213" endline="230" pcid="5287"></source>
+</class>
+
+<class classid="152" nclones="2" nlines="14" similarity="92">
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/ui/NumberAxisPropertyEditPanel.java" startline="310" endline="324" pcid="5328"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/chart/ui/NumberAxisPropertyEditPanel.java" startline="329" endline="343" pcid="5332"></source>
+</class>
+
+<class classid="153" nclones="6" nlines="13" similarity="71">
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/CategoryToPieDataset.java" startline="84" endline="97" pcid="5427"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/CategoryToPieDataset.java" startline="106" endline="120" pcid="5428"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/CategoryToPieDataset.java" startline="129" endline="143" pcid="5429"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/CategoryToPieDataset.java" startline="152" endline="166" pcid="5430"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/CategoryToPieDataset.java" startline="173" endline="187" pcid="5431"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/CategoryToPieDataset.java" startline="198" endline="213" pcid="5432"></source>
+</class>
+
+<class classid="154" nclones="2" nlines="19" similarity="75">
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/CombinedDataset.java" startline="371" endline="391" pcid="5463"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/CombinedDataset.java" startline="403" endline="420" pcid="5469"></source>
+</class>
+
+<class classid="155" nclones="12" nlines="37" similarity="70">
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/DatasetUtilities.java" startline="120" endline="180" pcid="5492"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/DatasetUtilities.java" startline="373" endline="426" pcid="5542"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/DatasetUtilities.java" startline="241" endline="284" pcid="5518"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/DatasetUtilities.java" startline="304" endline="358" pcid="5529"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/DatasetUtilities.java" startline="205" endline="240" pcid="5509"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/DatasetUtilities.java" startline="324" endline="352" pcid="5533"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/DatasetUtilities.java" startline="393" endline="421" pcid="5546"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/DatasetUtilities.java" startline="140" endline="175" pcid="5496"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/DatasetUtilities.java" startline="485" endline="520" pcid="5566"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/DatasetUtilities.java" startline="584" endline="616" pcid="5587"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/DatasetUtilities.java" startline="555" endline="583" pcid="5579"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/DatasetUtilities.java" startline="456" endline="484" pcid="5558"></source>
+</class>
+
+<class classid="156" nclones="3" nlines="82" similarity="80">
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/DatasetUtilities.java" startline="190" endline="289" pcid="5506"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/DatasetUtilities.java" startline="540" endline="621" pcid="5576"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/DatasetUtilities.java" startline="441" endline="525" pcid="5555"></source>
+</class>
+
+<class classid="157" nclones="3" nlines="28" similarity="77">
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/DatasetUtilities.java" startline="737" endline="774" pcid="5608"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/DatasetUtilities.java" startline="784" endline="816" pcid="5615"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/DatasetUtilities.java" startline="826" endline="858" pcid="5621"></source>
+</class>
+
+<class classid="158" nclones="2" nlines="13" similarity="92">
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/DatasetUtilities.java" startline="912" endline="924" pcid="5631"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/DatasetUtilities.java" startline="939" endline="951" pcid="5634"></source>
+</class>
+
+<class classid="159" nclones="2" nlines="12" similarity="83">
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/Day.java" startline="187" endline="200" pcid="5652"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/Day.java" startline="207" endline="220" pcid="5655"></source>
+</class>
+
+<class classid="160" nclones="9" nlines="15" similarity="71">
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/Day.java" startline="312" endline="339" pcid="5666"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/Minute.java" startline="274" endline="304" pcid="6479"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/Second.java" startline="247" endline="277" pcid="6662"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/Hour.java" startline="298" endline="328" pcid="6127"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/Quarter.java" startline="266" endline="296" pcid="6593"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/Year.java" startline="237" endline="264" pcid="7168"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/TimeSeriesDataPair.java" startline="153" endline="173" pcid="6898"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/Month.java" startline="266" endline="296" pcid="6514"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/Week.java" startline="368" endline="398" pcid="6977"></source>
+</class>
+
+<class classid="161" nclones="2" nlines="10" similarity="90">
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/DefaultContourDataset.java" startline="201" endline="209" pcid="5715"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/DefaultContourDataset.java" startline="216" endline="225" pcid="5718"></source>
+</class>
+
+<class classid="162" nclones="2" nlines="11" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/DefaultIntervalCategoryDataset.java" startline="559" endline="580" pcid="5819"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/DefaultIntervalCategoryDataset.java" startline="590" endline="611" pcid="5822"></source>
+</class>
+
+<class classid="163" nclones="2" nlines="13" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/DefaultKeyedValues.java" startline="115" endline="129" pcid="5853"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/KeyedObjects.java" startline="112" endline="126" pcid="6384"></source>
+</class>
+
+<class classid="164" nclones="2" nlines="11" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/DefaultKeyedValues.java" startline="188" endline="198" pcid="5861"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/KeyedObjects.java" startline="178" endline="188" pcid="6391"></source>
+</class>
+
+<class classid="165" nclones="2" nlines="11" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/DefaultKeyedValues2D.java" startline="97" endline="109" pcid="5869"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/KeyedObjects2D.java" startline="96" endline="108" pcid="6399"></source>
+</class>
+
+<class classid="166" nclones="2" nlines="17" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/DefaultKeyedValues2D.java" startline="211" endline="229" pcid="5881"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/KeyedObjects2D.java" startline="210" endline="228" pcid="6411"></source>
+</class>
+
+<class classid="167" nclones="3" nlines="11" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/DefaultMeterDataset.java" startline="298" endline="310" pcid="5915"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/DefaultMeterDataset.java" startline="341" endline="354" pcid="5921"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/DefaultMeterDataset.java" startline="319" endline="332" pcid="5918"></source>
+</class>
+
+<class classid="168" nclones="2" nlines="17" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/DynamicTimeSeriesCollection.java" startline="819" endline="828" pcid="6073"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/TimeSeriesCollection.java" startline="335" endline="346" pcid="6877"></source>
+</class>
+
+<class classid="169" nclones="3" nlines="25" similarity="80">
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/FixedMillisecond.java" startline="138" endline="177" pcid="6087"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/Millisecond.java" startline="221" endline="260" pcid="6444"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/XYDataPair.java" startline="117" endline="148" pcid="7089"></source>
+</class>
+
+<class classid="170" nclones="10" nlines="16" similarity="70">
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/Hour.java" startline="175" endline="192" pcid="6111"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/Hour.java" startline="199" endline="216" pcid="6116"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/Quarter.java" startline="202" endline="219" pcid="6582"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/Quarter.java" startline="178" endline="195" pcid="6577"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/Month.java" startline="194" endline="209" pcid="6502"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/Week.java" startline="188" endline="210" pcid="6954"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/Minute.java" startline="149" endline="166" pcid="6463"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/Minute.java" startline="173" endline="190" pcid="6468"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/Month.java" startline="170" endline="187" pcid="6497"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/Week.java" startline="223" endline="239" pcid="6961"></source>
+</class>
+
+<class classid="171" nclones="3" nlines="15" similarity="73">
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/JDBCCategoryDataset.java" startline="89" endline="105" pcid="6135"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/JDBCXYDataset.java" startline="102" endline="117" pcid="6174"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/JDBCPieDataset.java" startline="86" endline="101" pcid="6155"></source>
+</class>
+
+<class classid="172" nclones="2" nlines="64" similarity="80">
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/JDBCCategoryDataset.java" startline="138" endline="217" pcid="6141"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/JDBCPieDataset.java" startline="138" endline="207" pcid="6161"></source>
+</class>
+
+<class classid="173" nclones="3" nlines="16" similarity="88">
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/JDBCCategoryDataset.java" startline="199" endline="216" pcid="6148"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/JDBCXYDataset.java" startline="316" endline="331" pcid="6204"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/JDBCPieDataset.java" startline="189" endline="206" pcid="6167"></source>
+</class>
+
+<class classid="174" nclones="2" nlines="24" similarity="72">
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/JDBCXYDataset.java" startline="177" endline="202" pcid="6186"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/JDBCXYDataset.java" startline="246" endline="271" pcid="6193"></source>
+</class>
+
+<class classid="175" nclones="2" nlines="12" similarity="84">
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/junit/MillisecondTests.java" startline="98" endline="110" pcid="6260"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/junit/SecondTests.java" startline="97" endline="107" pcid="6326"></source>
+</class>
+
+<class classid="176" nclones="2" nlines="27" similarity="77">
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/junit/MonthTests.java" startline="188" endline="222" pcid="6281"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/junit/QuarterTests.java" startline="186" endline="220" pcid="6299"></source>
+</class>
+
+<class classid="177" nclones="4" nlines="12" similarity="75">
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/junit/RegressionTests.java" startline="90" endline="104" pcid="6309"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/junit/RegressionTests.java" startline="122" endline="136" pcid="6312"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/junit/RegressionTests.java" startline="154" endline="168" pcid="6315"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/junit/RegressionTests.java" startline="186" endline="200" pcid="6318"></source>
+</class>
+
+<class classid="178" nclones="4" nlines="13" similarity="92">
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/Millisecond.java" startline="139" endline="154" pcid="6432"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/Millisecond.java" startline="161" endline="176" pcid="6436"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/Second.java" startline="146" endline="162" pcid="6648"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/Second.java" startline="169" endline="185" pcid="6652"></source>
+</class>
+
+<class classid="179" nclones="2" nlines="37" similarity="89">
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/Month.java" startline="341" endline="389" pcid="6521"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/Week.java" startline="412" endline="460" pcid="6982"></source>
+</class>
+
+<class classid="180" nclones="2" nlines="14" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/Month.java" startline="398" endline="412" pcid="6531"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/Week.java" startline="470" endline="484" pcid="6992"></source>
+</class>
+
+<class classid="181" nclones="2" nlines="39" similarity="70">
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/MovingAverage.java" startline="78" endline="127" pcid="6541"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/MovingAverage.java" startline="194" endline="239" pcid="6557"></source>
+</class>
+
+<class classid="182" nclones="4" nlines="29" similarity="86">
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/Regression.java" startline="57" endline="89" pcid="6616"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/Regression.java" startline="102" endline="134" pcid="6619"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/Regression.java" startline="191" endline="223" pcid="6625"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/Regression.java" startline="146" endline="178" pcid="6622"></source>
+</class>
+
+<class classid="183" nclones="5" nlines="10" similarity="80">
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/TaskSeriesCollection.java" startline="240" endline="251" pcid="6777"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/TaskSeriesCollection.java" startline="275" endline="286" pcid="6780"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/TaskSeriesCollection.java" startline="296" endline="307" pcid="6782"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/TaskSeriesCollection.java" startline="374" endline="386" pcid="6788"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/TaskSeriesCollection.java" startline="334" endline="346" pcid="6785"></source>
+</class>
+
+<class classid="184" nclones="2" nlines="18" similarity="94">
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/TimeSeries.java" startline="651" endline="671" pcid="6850"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/XYSeries.java" startline="302" endline="324" pcid="7124"></source>
+</class>
+
+<class classid="185" nclones="4" nlines="13" similarity="84">
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/TimeSeriesTableModel.java" startline="119" endline="133" pcid="6907"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/TimeSeriesTableModel.java" startline="189" endline="201" pcid="6924"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/TimeSeriesTableModel.java" startline="176" endline="188" pcid="6919"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/TimeSeriesTableModel.java" startline="142" endline="156" pcid="6912"></source>
+</class>
+
+<class classid="186" nclones="2" nlines="16" similarity="76">
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/xml/CategoryDatasetHandler.java" startline="96" endline="114" pcid="7006"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/xml/PieDatasetHandler.java" startline="95" endline="110" pcid="7057"></source>
+</class>
+
+<class classid="187" nclones="2" nlines="14" similarity="80">
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/xml/CategorySeriesHandler.java" startline="106" endline="122" pcid="7016"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/xml/ItemHandler.java" startline="107" endline="121" pcid="7036"></source>
+</class>
+
+<class classid="188" nclones="2" nlines="17" similarity="100">
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/xml/DatasetReader.java" startline="83" endline="103" pcid="7024"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/xml/DatasetReader.java" startline="130" endline="149" pcid="7029"></source>
+</class>
+
+<class classid="189" nclones="2" nlines="10" similarity="70">
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/xml/KeyHandler.java" startline="111" endline="122" pcid="7047"></source>
+<source file="jfreechart-0.9.6/src/com/jrefinery/data/xml/ValueHandler.java" startline="108" endline="119" pcid="7077"></source>
+</class>
+
+</clones>

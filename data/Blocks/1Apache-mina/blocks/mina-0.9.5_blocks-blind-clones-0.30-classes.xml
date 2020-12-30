@@ -1,0 +1,366 @@
+<clones>
+<systeminfo processor="nicad5" system="mina-0.9.5" granularity="blocks-blind" threshold="30%" minlines="10" maxlines="2500"/>
+<cloneinfo npcs="3963" npairs="248"/>
+<runinfo ncompares="80408" cputime="124"/>
+<classinfo nclasses="62"/>
+
+<class classid="1" nclones="31" nlines="10" similarity="70">
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/common/ByteBuffer.java" startline="209" endline="224" pcid="11"></source>
+<source file="mina-0.9.5/examples/src/main/java/org/apache/mina/examples/echoserver/ssl/BogusSSLContextFactory.java" startline="94" endline="107" pcid="3226"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/SocketAcceptor.java" startline="149" endline="161" pcid="1701"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/SocketAcceptor.java" startline="214" endline="226" pcid="1714"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/SocketAcceptorConfig.java" startline="61" endline="73" pcid="1779"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/SocketConnector.java" startline="179" endline="191" pcid="1802"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/SocketSessionConfigImpl.java" startline="112" endline="124" pcid="1968"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/SocketSessionImpl.java" startline="351" endline="364" pcid="2052"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/SocketSessionImpl.java" startline="370" endline="382" pcid="2056"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/SocketSessionImpl.java" startline="397" endline="409" pcid="2063"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/support/DatagramSessionImpl.java" startline="291" endline="303" pcid="2368"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/support/DatagramSessionImpl.java" startline="349" endline="361" pcid="2383"></source>
+<source file="mina-0.9.5/core/src/test/java/org/apache/mina/filter/thread/ThreadPoolFilterRegressionTest.java" startline="263" endline="275" pcid="3053"></source>
+<source file="mina-0.9.5/examples/src/main/java/org/apache/mina/examples/echoserver/ssl/BogusSSLContextFactory.java" startline="112" endline="124" pcid="3230"></source>
+<source file="mina-0.9.5/examples/src/main/java/org/apache/mina/examples/echoserver/ssl/SSLSocketFactory.java" startline="113" endline="127" pcid="3276"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/handler/support/IoSessionInputStream.java" startline="132" endline="143" pcid="1660"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/SocketConnector.java" startline="294" endline="307" pcid="1824"></source>
+<source file="mina-0.9.5/core/src/test/java/org/apache/mina/common/ByteBufferTest.java" startline="84" endline="96" pcid="2717"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/filter/thread/LeaderFollowersThreadPool.java" startline="332" endline="346" pcid="1464"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/support/DatagramConnectorDelegate.java" startline="139" endline="152" pcid="2198"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/support/DatagramConnectorDelegate.java" startline="571" endline="584" pcid="2274"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/support/DatagramConnectorDelegate.java" startline="162" endline="174" pcid="2204"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/common/support/DefaultIoFuture.java" startline="79" endline="93" pcid="861"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/util/AvailablePortFinder.java" startline="130" endline="147" pcid="2515"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/SocketSessionImpl.java" startline="424" endline="437" pcid="2070"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/support/DatagramSessionImpl.java" startline="239" endline="252" pcid="2355"></source>
+<source file="mina-0.9.5/examples/src/main/java/org/apache/mina/examples/echoserver/ssl/SSLServerSocketFactory.java" startline="73" endline="86" pcid="3254"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/SocketAcceptor.java" startline="442" endline="461" pcid="1756"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/filter/thread/LeaderFollowersThreadPool.java" startline="208" endline="223" pcid="1445"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/filter/thread/LeaderFollowersThreadPool.java" startline="328" endline="349" pcid="1463"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/SocketConnector.java" startline="195" endline="213" pcid="1806"></source>
+</class>
+
+<class classid="2" nclones="2" nlines="74" similarity="78">
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/common/ByteBuffer.java" startline="946" endline="1042" pcid="66"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/common/ByteBuffer.java" startline="1051" endline="1164" pcid="84"></source>
+</class>
+
+<class classid="3" nclones="2" nlines="14" similarity="71">
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/common/ByteBuffer.java" startline="959" endline="977" pcid="68"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/common/ByteBuffer.java" startline="979" endline="997" pcid="73"></source>
+</class>
+
+<class classid="4" nclones="3" nlines="20" similarity="100">
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/common/ByteBuffer.java" startline="1011" endline="1037" pcid="79"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/common/ByteBuffer.java" startline="1393" endline="1419" pcid="133"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/common/ByteBuffer.java" startline="1133" endline="1159" pcid="100"></source>
+</class>
+
+<class classid="5" nclones="2" nlines="13" similarity="76">
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/common/ByteBuffer.java" startline="1083" endline="1100" pcid="89"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/common/ByteBuffer.java" startline="1102" endline="1119" pcid="94"></source>
+</class>
+
+<class classid="6" nclones="2" nlines="11" similarity="90">
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/common/ByteBuffer.java" startline="1811" endline="1823" pcid="173"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/common/ByteBuffer.java" startline="1869" endline="1882" pcid="181"></source>
+</class>
+
+<class classid="7" nclones="6" nlines="10" similarity="70">
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/common/DefaultIoFilterChainBuilder.java" startline="121" endline="132" pcid="305"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/common/support/AbstractIoFilterChain.java" startline="643" endline="654" pcid="630"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/handler/chain/IoHandlerChain.java" startline="263" endline="274" pcid="1571"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/common/DefaultIoFilterChainBuilder.java" startline="138" endline="149" pcid="308"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/common/support/AbstractIoFilterChain.java" startline="657" endline="668" pcid="633"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/handler/chain/IoHandlerChain.java" startline="277" endline="288" pcid="1574"></source>
+</class>
+
+<class classid="8" nclones="2" nlines="12" similarity="91">
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/common/DefaultIoFilterChainBuilder.java" startline="171" endline="183" pcid="313"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/common/DefaultIoFilterChainBuilder.java" startline="189" endline="203" pcid="316"></source>
+</class>
+
+<class classid="9" nclones="3" nlines="25" similarity="88">
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/common/DefaultIoFilterChainBuilder.java" startline="247" endline="280" pcid="326"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/common/support/AbstractIoFilterChain.java" startline="671" endline="706" pcid="636"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/handler/chain/IoHandlerChain.java" startline="291" endline="326" pcid="1577"></source>
+</class>
+
+<class classid="10" nclones="4" nlines="10" similarity="72">
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/common/DefaultIoFilterChainBuilder.java" startline="332" endline="344" pcid="339"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/filter/codec/textline/TextLineDecoder.java" startline="71" endline="83" pcid="1303"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/common/IoFilter.java" startline="334" endline="348" pcid="361"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/filter/codec/textline/TextLineEncoder.java" startline="63" endline="80" pcid="1336"></source>
+</class>
+
+<class classid="11" nclones="4" nlines="11" similarity="71">
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/common/PooledByteBufferAllocator.java" startline="254" endline="268" pcid="424"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/support/DatagramAcceptorDelegate.java" startline="133" endline="151" pcid="2085"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/support/DatagramConnectorDelegate.java" startline="204" endline="223" pcid="2212"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/support/DatagramConnectorDelegate.java" startline="202" endline="226" pcid="2211"></source>
+</class>
+
+<class classid="12" nclones="4" nlines="12" similarity="75">
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/common/PooledByteBufferAllocator.java" startline="347" endline="371" pcid="442"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/common/SimpleByteBufferAllocator.java" startline="87" endline="103" pcid="507"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/common/PooledByteBufferAllocator.java" startline="514" endline="527" pcid="470"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/common/PooledByteBufferAllocator.java" startline="349" endline="362" pcid="443"></source>
+</class>
+
+<class classid="13" nclones="2" nlines="10" similarity="80">
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/common/support/AbstractIoFilterChain.java" startline="440" endline="454" pcid="590"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/common/support/AbstractIoFilterChain.java" startline="523" endline="535" pcid="607"></source>
+</class>
+
+<class classid="14" nclones="3" nlines="11" similarity="72">
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/common/support/DefaultIoFuture.java" startline="148" endline="163" pcid="877"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/handler/support/IoSessionInputStream.java" startline="68" endline="81" pcid="1646"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/filter/thread/LeaderFollowersThreadPool.java" startline="287" endline="301" pcid="1457"></source>
+</class>
+
+<class classid="15" nclones="2" nlines="16" similarity="72">
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/common/support/IoServiceListenerSupport.java" startline="131" endline="148" pcid="942"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/common/support/IoServiceListenerSupport.java" startline="157" endline="181" pcid="947"></source>
+</class>
+
+<class classid="16" nclones="2" nlines="10" similarity="100">
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/filter/codec/demux/DemuxingProtocolCodecFactory.java" startline="116" endline="126" pcid="1082"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/filter/codec/demux/DemuxingProtocolCodecFactory.java" startline="134" endline="144" pcid="1085"></source>
+</class>
+
+<class classid="17" nclones="2" nlines="30" similarity="80">
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/filter/codec/ProtocolCodecFilter.java" startline="144" endline="186" pcid="1161"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/filter/codec/ProtocolCodecFilter.java" startline="208" endline="248" pcid="1173"></source>
+</class>
+
+<class classid="18" nclones="3" nlines="10" similarity="90">
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/filter/codec/ProtocolCodecFilter.java" startline="160" endline="172" pcid="1164"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/filter/codec/ProtocolCodecFilter.java" startline="260" endline="271" pcid="1183"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/filter/codec/ProtocolCodecFilter.java" startline="226" endline="237" pcid="1176"></source>
+</class>
+
+<class classid="19" nclones="2" nlines="12" similarity="91">
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/filter/codec/ProtocolCodecFilter.java" startline="317" endline="335" pcid="1193"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/filter/codec/ProtocolCodecFilter.java" startline="338" endline="356" pcid="1197"></source>
+</class>
+
+<class classid="20" nclones="2" nlines="40" similarity="70">
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/filter/codec/textline/TextLineDecoder.java" startline="166" endline="220" pcid="1317"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/filter/codec/textline/TextLineDecoder.java" startline="223" endline="277" pcid="1321"></source>
+</class>
+
+<class classid="21" nclones="2" nlines="10" similarity="70">
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/filter/ReadThrottleFilterBuilder.java" startline="124" endline="137" pcid="1368"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/filter/ReadThrottleFilterBuilder.java" startline="140" endline="154" pcid="1371"></source>
+</class>
+
+<class classid="22" nclones="2" nlines="11" similarity="90">
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/SocketAcceptor.java" startline="89" endline="102" pcid="1691"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/SocketConnector.java" startline="85" endline="98" pcid="1789"></source>
+</class>
+
+<class classid="23" nclones="2" nlines="29" similarity="80">
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/SocketAcceptor.java" startline="185" endline="234" pcid="1709"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/support/DatagramAcceptorDelegate.java" startline="126" endline="172" pcid="2084"></source>
+</class>
+
+<class classid="24" nclones="2" nlines="10" similarity="100">
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/SocketAcceptor.java" startline="237" endline="248" pcid="1719"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/support/DatagramAcceptorDelegate.java" startline="175" endline="186" pcid="2094"></source>
+</class>
+
+<class classid="25" nclones="5" nlines="39" similarity="81">
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/SocketAcceptor.java" startline="258" endline="313" pcid="1723"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/SocketIoProcessor.java" startline="555" endline="613" pcid="1945"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/support/DatagramAcceptorDelegate.java" startline="301" endline="357" pcid="2118"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/support/DatagramConnectorDelegate.java" startline="323" endline="380" pcid="2232"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/SocketConnector.java" startline="386" endline="448" pcid="1839"></source>
+</class>
+
+<class classid="26" nclones="2" nlines="52" similarity="73">
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/SocketAcceptor.java" startline="383" endline="463" pcid="1746"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/support/DatagramAcceptorDelegate.java" startline="535" endline="611" pcid="2158"></source>
+</class>
+
+<class classid="27" nclones="2" nlines="42" similarity="92">
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/SocketAcceptor.java" startline="467" endline="532" pcid="1761"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/support/DatagramAcceptorDelegate.java" startline="614" endline="676" pcid="2172"></source>
+</class>
+
+<class classid="28" nclones="3" nlines="19" similarity="75">
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/SocketAcceptorConfig.java" startline="49" endline="74" pcid="1776"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/support/DatagramSessionConfigImpl.java" startline="135" endline="157" pcid="2309"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/util/AvailablePortFinder.java" startline="173" endline="198" pcid="2522"></source>
+</class>
+
+<class classid="29" nclones="2" nlines="66" similarity="70">
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/SocketConnector.java" startline="131" endline="222" pcid="1796"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/support/DatagramConnectorDelegate.java" startline="80" endline="184" pcid="2189"></source>
+</class>
+
+<class classid="30" nclones="3" nlines="17" similarity="76">
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/SocketConnector.java" startline="240" endline="265" pcid="1815"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/support/DatagramAcceptorDelegate.java" startline="432" endline="457" pcid="2142"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/support/DatagramConnectorDelegate.java" startline="434" endline="459" pcid="2254"></source>
+</class>
+
+<class classid="31" nclones="2" nlines="11" similarity="100">
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/SocketFilterChain.java" startline="44" endline="60" pcid="1860"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/support/DatagramFilterChain.java" startline="42" endline="58" pcid="2287"></source>
+</class>
+
+<class classid="32" nclones="2" nlines="30" similarity="70">
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/SocketIoProcessor.java" startline="184" endline="232" pcid="1887"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/SocketIoProcessor.java" startline="375" endline="421" pcid="1917"></source>
+</class>
+
+<class classid="33" nclones="2" nlines="14" similarity="92">
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/SocketIoProcessor.java" startline="235" endline="255" pcid="1895"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/support/DatagramConnectorDelegate.java" startline="384" endline="403" pcid="2245"></source>
+</class>
+
+<class classid="34" nclones="2" nlines="27" similarity="100">
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/SocketIoProcessor.java" startline="497" endline="544" pcid="1937"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/support/DatagramConnectorDelegate.java" startline="266" endline="313" pcid="2224"></source>
+</class>
+
+<class classid="35" nclones="2" nlines="44" similarity="81">
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/SocketSessionConfigImpl.java" startline="58" endline="125" pcid="1959"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/support/DatagramSessionConfigImpl.java" startline="52" endline="105" pcid="2294"></source>
+</class>
+
+<class classid="36" nclones="2" nlines="26" similarity="85">
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/SocketSessionImpl.java" startline="74" endline="106" pcid="1993"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/support/DatagramSessionImpl.java" startline="73" endline="101" pcid="2324"></source>
+</class>
+
+<class classid="37" nclones="2" nlines="13" similarity="84">
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/SocketSessionImpl.java" startline="349" endline="367" pcid="2051"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/support/DatagramSessionImpl.java" startline="330" endline="346" pcid="2378"></source>
+</class>
+
+<class classid="38" nclones="2" nlines="21" similarity="80">
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/support/DatagramAcceptorDelegate.java" startline="401" endline="429" pcid="2137"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/support/DatagramConnectorDelegate.java" startline="406" endline="431" pcid="2249"></source>
+</class>
+
+<class classid="39" nclones="2" nlines="45" similarity="89">
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/support/DatagramAcceptorDelegate.java" startline="460" endline="532" pcid="2147"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/socket/nio/support/DatagramConnectorDelegate.java" startline="462" endline="528" pcid="2259"></source>
+</class>
+
+<class classid="40" nclones="2" nlines="10" similarity="70">
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/transport/vmpipe/support/VmPipeFilterChain.java" startline="88" endline="97" pcid="2407"></source>
+<source file="mina-0.9.5/examples/src/main/java/org/apache/mina/examples/proxy/AbstractProxyIoHandler.java" startline="58" endline="67" pcid="3305"></source>
+</class>
+
+<class classid="41" nclones="2" nlines="10" similarity="100">
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/util/ExpiringStack.java" startline="65" endline="77" pcid="2590"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/util/Stack.java" startline="65" endline="77" pcid="2697"></source>
+</class>
+
+<class classid="42" nclones="2" nlines="12" similarity="71">
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/util/ExpiringStack.java" startline="83" endline="99" pcid="2592"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/util/Stack.java" startline="83" endline="95" pcid="2699"></source>
+</class>
+
+<class classid="43" nclones="2" nlines="12" similarity="91">
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/util/ExpiringStack.java" startline="102" endline="114" pcid="2594"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/util/Stack.java" startline="98" endline="109" pcid="2701"></source>
+</class>
+
+<class classid="44" nclones="2" nlines="10" similarity="70">
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/util/Queue.java" startline="301" endline="312" pcid="2651"></source>
+<source file="mina-0.9.5/core/src/main/java/org/apache/mina/util/Queue.java" startline="336" endline="347" pcid="2657"></source>
+</class>
+
+<class classid="45" nclones="2" nlines="11" similarity="90">
+<source file="mina-0.9.5/core/src/test/java/org/apache/mina/common/ByteBufferTest.java" startline="59" endline="68" pcid="2713"></source>
+<source file="mina-0.9.5/core/src/test/java/org/apache/mina/common/ByteBufferTest.java" startline="71" endline="81" pcid="2715"></source>
+</class>
+
+<class classid="46" nclones="2" nlines="12" similarity="83">
+<source file="mina-0.9.5/core/src/test/java/org/apache/mina/common/ByteBufferTest.java" startline="545" endline="557" pcid="2749"></source>
+<source file="mina-0.9.5/core/src/test/java/org/apache/mina/common/ByteBufferTest.java" startline="560" endline="572" pcid="2750"></source>
+</class>
+
+<class classid="47" nclones="2" nlines="15" similarity="93">
+<source file="mina-0.9.5/core/src/test/java/org/apache/mina/common/DefaultIoFilterChainBuilderTest.java" startline="74" endline="91" pcid="2776"></source>
+<source file="mina-0.9.5/core/src/test/java/org/apache/mina/common/IoFilterChainTest.java" startline="78" endline="93" pcid="2786"></source>
+</class>
+
+<class classid="48" nclones="2" nlines="18" similarity="94">
+<source file="mina-0.9.5/core/src/test/java/org/apache/mina/common/DefaultIoFilterChainBuilderTest.java" startline="128" endline="153" pcid="2779"></source>
+<source file="mina-0.9.5/core/src/test/java/org/apache/mina/common/IoFilterChainTest.java" startline="126" endline="149" pcid="2789"></source>
+</class>
+
+<class classid="49" nclones="2" nlines="43" similarity="76">
+<source file="mina-0.9.5/core/src/test/java/org/apache/mina/common/IoFilterChainTest.java" startline="396" endline="458" pcid="2835"></source>
+<source file="mina-0.9.5/core/src/test/java/org/apache/mina/handler/chain/ChainedIoHandlerTest.java" startline="50" endline="121" pcid="3086"></source>
+</class>
+
+<class classid="50" nclones="2" nlines="22" similarity="72">
+<source file="mina-0.9.5/core/src/test/java/org/apache/mina/common/support/IoServiceListenerSupportTest.java" startline="95" endline="130" pcid="2872"></source>
+<source file="mina-0.9.5/core/src/test/java/org/apache/mina/common/support/IoServiceListenerSupportTest.java" startline="189" endline="219" pcid="2877"></source>
+</class>
+
+<class classid="51" nclones="2" nlines="51" similarity="81">
+<source file="mina-0.9.5/core/src/test/java/org/apache/mina/filter/codec/textline/TextLineDecoderTest.java" startline="55" endline="114" pcid="2933"></source>
+<source file="mina-0.9.5/core/src/test/java/org/apache/mina/filter/codec/textline/TextLineDecoderTest.java" startline="117" endline="183" pcid="2934"></source>
+</class>
+
+<class classid="52" nclones="2" nlines="34" similarity="70">
+<source file="mina-0.9.5/core/src/test/java/org/apache/mina/filter/StreamWriteFilterTest.java" startline="147" endline="191" pcid="2968"></source>
+<source file="mina-0.9.5/core/src/test/java/org/apache/mina/filter/StreamWriteFilterTest.java" startline="197" endline="255" pcid="2969"></source>
+</class>
+
+<class classid="53" nclones="2" nlines="30" similarity="100">
+<source file="mina-0.9.5/core/src/test/java/org/apache/mina/handler/demux/DemuxingIoHandlerTest.java" startline="82" endline="137" pcid="3102"></source>
+<source file="mina-0.9.5/core/src/test/java/org/apache/mina/handler/demux/DemuxingIoHandlerTest.java" startline="140" endline="195" pcid="3103"></source>
+</class>
+
+<class classid="54" nclones="2" nlines="10" similarity="100">
+<source file="mina-0.9.5/core/src/test/java/org/apache/mina/transport/AbstractBindTest.java" startline="208" endline="220" pcid="3131"></source>
+<source file="mina-0.9.5/examples/src/main/java/org/apache/mina/examples/echoserver/EchoProtocolHandler.java" startline="71" endline="83" pcid="3215"></source>
+</class>
+
+<class classid="55" nclones="2" nlines="24" similarity="80">
+<source file="mina-0.9.5/core/src/test/java/org/apache/mina/transport/socket/nio/SocketBindTest.java" startline="54" endline="85" pcid="3165"></source>
+<source file="mina-0.9.5/core/src/test/java/org/apache/mina/transport/vmpipe/VmPipeBindTest.java" startline="53" endline="89" pcid="3173"></source>
+</class>
+
+<class classid="56" nclones="2" nlines="20" similarity="70">
+<source file="mina-0.9.5/core/src/test/java/org/apache/mina/util/QueueTest.java" startline="151" endline="178" pcid="3199"></source>
+<source file="mina-0.9.5/core/src/test/java/org/apache/mina/util/QueueTest.java" startline="181" endline="205" pcid="3203"></source>
+</class>
+
+<class classid="57" nclones="2" nlines="11" similarity="90">
+<source file="mina-0.9.5/examples/src/main/java/org/apache/mina/examples/echoserver/Main.java" startline="48" endline="68" pcid="3217"></source>
+<source file="mina-0.9.5/examples/src/main/java/org/apache/mina/examples/httpserver/Main.java" startline="46" endline="64" pcid="3292"></source>
+</class>
+
+<class classid="58" nclones="2" nlines="11" similarity="90">
+<source file="mina-0.9.5/examples/src/main/java/org/apache/mina/examples/sumup/ClientSessionHandler.java" startline="58" endline="73" pcid="3327"></source>
+<source file="mina-0.9.5/examples/src/main/java/org/apache/mina/examples/sumup/ServerSessionHandler.java" startline="50" endline="65" pcid="3391"></source>
+</class>
+
+<class classid="59" nclones="2" nlines="25" similarity="80">
+<source file="mina-0.9.5/filter-compression/src/test/java/org/apache/mina/filter/CompressionFilterTest.java" startline="106" endline="147" pcid="3571"></source>
+<source file="mina-0.9.5/filter-compression/src/test/java/org/apache/mina/filter/CompressionFilterTest.java" startline="150" endline="188" pcid="3572"></source>
+</class>
+
+<class classid="60" nclones="3" nlines="10" similarity="71">
+<source file="mina-0.9.5/filter-ssl/src/main/java/org/apache/mina/filter/support/SSLHandler.java" startline="627" endline="638" pcid="3776"></source>
+<source file="mina-0.9.5/filter-ssl/src/main/java/org/apache/mina/filter/support/SSLHandler.java" startline="671" endline="683" pcid="3781"></source>
+<source file="mina-0.9.5/filter-ssl/src/main/java/org/apache/mina/filter/support/SSLHandler.java" startline="694" endline="706" pcid="3784"></source>
+</class>
+
+<class classid="61" nclones="2" nlines="14" similarity="100">
+<source file="mina-0.9.5/integration-spring/src/main/java/org/apache/mina/integration/spring/ssl/SSLContextFactoryBean.java" startline="83" endline="101" pcid="3871"></source>
+<source file="mina-0.9.5/integration-spring/src/main/java/org/apache/mina/integration/spring/ssl/SSLContextFactoryBean.java" startline="104" endline="122" pcid="3876"></source>
+</class>
+
+<class classid="62" nclones="2" nlines="23" similarity="76">
+<source file="mina-0.9.5/integration-spring/src/test/java/org/apache/mina/integration/spring/InetSocketAddressEditorTest.java" startline="62" endline="95" pcid="3921"></source>
+<source file="mina-0.9.5/integration-spring/src/test/java/org/apache/mina/integration/spring/VmPipeAddressEditorTest.java" startline="52" endline="77" pcid="3944"></source>
+</class>
+
+</clones>

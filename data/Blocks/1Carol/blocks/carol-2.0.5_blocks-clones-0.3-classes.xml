@@ -1,0 +1,185 @@
+<clones>
+<systeminfo processor="nicad3" system="_" granularity="locks" threshold="30%" minlines="10" maxlines="2500"/>
+<cloneinfo npcs="2837" npairs="56"/>
+<runinfo ncompares="52737" cputime="44897"/>
+<classinfo nclasses="33"/>
+
+<class classid="1" nclones="2" nlines="51" similarity="84">
+<source file="carol-2.0.5/src/org/objectweb/carol/jndi/ns/IRMIRegistry.java" startline="49" endline="102" pcid="160"></source>
+<source file="carol-2.0.5/src/org/objectweb/carol/jndi/ns/JRMPRegistry.java" startline="74" endline="127" pcid="40"></source>
+</class>
+
+<class classid="2" nclones="2" nlines="34" similarity="100">
+<source file="carol-2.0.5/src/org/objectweb/carol/jndi/spi/IIOPContext.java" startline="121" endline="154" pcid="473"></source>
+<source file="carol-2.0.5/src/org/objectweb/carol/jndi/spi/JacORBIIOPContext.java" startline="157" endline="191" pcid="374"></source>
+</class>
+
+<class classid="3" nclones="2" nlines="34" similarity="73">
+<source file="carol-2.0.5/src/org/objectweb/carol/cmi/LowerOrb.java" startline="186" endline="219" pcid="1243"></source>
+<source file="carol-2.0.5/src/org/objectweb/carol/cmi/LowerOrb.java" startline="152" endline="178" pcid="1233"></source>
+</class>
+
+<class classid="4" nclones="2" nlines="33" similarity="78">
+<source file="carol-2.0.5/src/org/objectweb/carol/jndi/spi/JRMPContext.java" startline="98" endline="132" pcid="505"></source>
+<source file="carol-2.0.5/src/org/objectweb/carol/jndi/spi/JEREMIEContext.java" startline="82" endline="111" pcid="265"></source>
+</class>
+
+<class classid="5" nclones="2" nlines="29" similarity="79">
+<source file="carol-2.0.5/src/org/objectweb/carol/jndi/ns/CmiRegistry.java" startline="68" endline="94" pcid="111"></source>
+<source file="carol-2.0.5/src/org/objectweb/carol/jndi/ns/JeremieRegistry.java" startline="90" endline="116" pcid="88"></source>
+</class>
+
+<class classid="6" nclones="2" nlines="28" similarity="75">
+<source file="carol-2.0.5/src/org/objectweb/carol/jndi/enc/java/CompNamingContext.java" startline="205" endline="236" pcid="697"></source>
+<source file="carol-2.0.5/src/org/objectweb/carol/jndi/enc/java/CompNamingContext.java" startline="258" endline="285" pcid="706"></source>
+</class>
+
+<class classid="7" nclones="3" nlines="27" similarity="92">
+<source file="carol-2.0.5/src/org/objectweb/carol/cmi/ClusterRegistryImpl_Cluster.java" startline="49" endline="74" pcid="1189"></source>
+<source file="carol-2.0.5/src/org/objectweb/carol/cmi/ClusterRegistryImpl_Cluster.java" startline="105" endline="129" pcid="1203"></source>
+<source file="carol-2.0.5/src/org/objectweb/carol/cmi/ClusterRegistryImpl_Cluster.java" startline="78" endline="102" pcid="1196"></source>
+</class>
+
+<class classid="8" nclones="2" nlines="25" similarity="72">
+<source file="carol-2.0.5/src/org/objectweb/carol/cmi/jndi/FlatCtx.java" startline="138" endline="163" pcid="1095"></source>
+<source file="carol-2.0.5/src/org/objectweb/carol/cmi/jndi/FlatCtx.java" startline="170" endline="193" pcid="1104"></source>
+</class>
+
+<class classid="9" nclones="3" nlines="25" similarity="88">
+<source file="carol-2.0.5/src/org/objectweb/carol/rmi/jrmp/interceptor/JClientInterceptorHelper.java" startline="153" endline="176" pcid="2236"></source>
+<source file="carol-2.0.5/src/org/objectweb/carol/rmi/jrmp/interceptor/JClientInterceptorHelper.java" startline="122" endline="145" pcid="2228"></source>
+<source file="carol-2.0.5/src/org/objectweb/carol/rmi/jrmp/interceptor/JClientInterceptorHelper.java" startline="91" endline="114" pcid="2220"></source>
+</class>
+
+<class classid="10" nclones="2" nlines="23" similarity="95">
+<source file="carol-2.0.5/src/org/objectweb/carol/jndi/spi/IIOPContextWrapperFactory.java" startline="90" endline="117" pcid="355"></source>
+<source file="carol-2.0.5/src/org/objectweb/carol/jndi/spi/JacORBIIOPContextWrapperFactory.java" startline="102" endline="128" pcid="276"></source>
+</class>
+
+<class classid="11" nclones="2" nlines="21" similarity="90">
+<source file="carol-2.0.5/src/org/objectweb/carol/cmi/ClusterRegistryClient.java" startline="110" endline="130" pcid="1274"></source>
+<source file="carol-2.0.5/src/org/objectweb/carol/cmi/ClusterRegistryClient.java" startline="88" endline="108" pcid="1268"></source>
+</class>
+
+<class classid="12" nclones="3" nlines="21" similarity="76">
+<source file="carol-2.0.5/src/org/objectweb/carol/rmi/jrmp/interceptor/JServerInterceptorHelper.java" startline="115" endline="135" pcid="2168"></source>
+<source file="carol-2.0.5/src/org/objectweb/carol/rmi/jrmp/interceptor/JServerInterceptorHelper.java" startline="142" endline="159" pcid="2174"></source>
+<source file="carol-2.0.5/src/org/objectweb/carol/rmi/jrmp/interceptor/JServerInterceptorHelper.java" startline="90" endline="107" pcid="2163"></source>
+</class>
+
+<class classid="13" nclones="2" nlines="21" similarity="76">
+<source file="carol-2.0.5/src/org/objectweb/carol/cmi/ClusterStubData.java" startline="260" endline="279" pcid="1340"></source>
+<source file="carol-2.0.5/src/org/objectweb/carol/cmi/ClusterStubData.java" startline="243" endline="260" pcid="1335"></source>
+</class>
+
+<class classid="14" nclones="2" nlines="18" similarity="94">
+<source file="carol-2.0.5/src/org/objectweb/carol/jndi/spi/JRMPLocalContext.java" startline="68" endline="83" pcid="257"></source>
+<source file="carol-2.0.5/src/org/objectweb/carol/jndi/spi/IIOPContext.java" startline="92" endline="108" pcid="467"></source>
+</class>
+
+<class classid="15" nclones="2" nlines="17" similarity="88">
+<source file="carol-2.0.5/src/org/objectweb/carol/jndi/registry/ManageableRegistry.java" startline="155" endline="170" pcid="530"></source>
+<source file="carol-2.0.5/src/org/objectweb/carol/jndi/registry/ManageableRegistry.java" startline="102" endline="117" pcid="518"></source>
+</class>
+
+<class classid="16" nclones="2" nlines="16" similarity="87">
+<source file="carol-2.0.5/src/org/objectweb/carol/jndi/enc/java/CompNamingContext.java" startline="385" endline="401" pcid="724"></source>
+<source file="carol-2.0.5/src/org/objectweb/carol/jndi/enc/java/CompNamingContext.java" startline="426" endline="442" pcid="730"></source>
+</class>
+
+<class classid="17" nclones="2" nlines="16" similarity="87">
+<source file="carol-2.0.5/src/org/objectweb/carol/cmi/ClusterStubData.java" startline="206" endline="219" pcid="1328"></source>
+<source file="carol-2.0.5/src/org/objectweb/carol/cmi/ClusterStubData.java" startline="194" endline="206" pcid="1324"></source>
+</class>
+
+<class classid="18" nclones="2" nlines="15" similarity="73">
+<source file="carol-2.0.5/src/org/objectweb/carol/rmi/multi/JeremiePRODelegate.java" startline="99" endline="111" pcid="2341"></source>
+<source file="carol-2.0.5/src/org/objectweb/carol/rmi/multi/JeremiePRODelegate.java" startline="120" endline="132" pcid="2346"></source>
+</class>
+
+<class classid="19" nclones="4" nlines="15" similarity="73">
+<source file="carol-2.0.5/src/org/objectweb/carol/jndi/ns/CmiRegistry.java" startline="70" endline="84" pcid="113"></source>
+<source file="carol-2.0.5/src/org/objectweb/carol/jndi/ns/IRMIRegistry.java" startline="76" endline="89" pcid="169"></source>
+<source file="carol-2.0.5/src/org/objectweb/carol/jndi/ns/JRMPRegistry.java" startline="101" endline="114" pcid="49"></source>
+<source file="carol-2.0.5/src/org/objectweb/carol/jndi/ns/JeremieRegistry.java" startline="92" endline="105" pcid="90"></source>
+</class>
+
+<class classid="20" nclones="3" nlines="14" similarity="71">
+<source file="carol-2.0.5/src/org/objectweb/carol/jndi/registry/RegistryWrapperContext.java" startline="257" endline="269" pcid="581"></source>
+<source file="carol-2.0.5/src/org/objectweb/carol/jndi/registry/RegistryWrapperContext.java" startline="292" endline="304" pcid="586"></source>
+<source file="carol-2.0.5/src/org/objectweb/carol/jndi/registry/RegistryWrapperContext.java" startline="201" endline="212" pcid="574"></source>
+</class>
+
+<class classid="21" nclones="3" nlines="14" similarity="85">
+<source file="carol-2.0.5/src/org/objectweb/carol/jndi/ns/IRMIRegistry.java" startline="109" endline="121" pcid="178"></source>
+<source file="carol-2.0.5/src/org/objectweb/carol/jndi/ns/JRMPRegistry.java" startline="134" endline="146" pcid="58"></source>
+<source file="carol-2.0.5/src/org/objectweb/carol/jndi/ns/JeremieRegistry.java" startline="126" endline="138" pcid="99"></source>
+</class>
+
+<class classid="22" nclones="2" nlines="14" similarity="71">
+<source file="carol-2.0.5/src/org/objectweb/carol/jndi/spi/JacORBIIOPContext.java" startline="246" endline="257" pcid="394"></source>
+<source file="carol-2.0.5/src/org/objectweb/carol/jndi/spi/JacORBIIOPContext.java" startline="223" endline="235" pcid="389"></source>
+</class>
+
+<class classid="23" nclones="2" nlines="13" similarity="76">
+<source file="carol-2.0.5/src/org/objectweb/carol/jndi/spi/JacORBIIOPContext.java" startline="89" endline="102" pcid="363"></source>
+<source file="carol-2.0.5/src/org/objectweb/carol/jndi/spi/IIOPContext.java" startline="69" endline="81" pcid="463"></source>
+</class>
+
+<class classid="24" nclones="3" nlines="12" similarity="100">
+<source file="carol-2.0.5/src/org/objectweb/carol/jndi/ns/IRMIRegistry.java" startline="135" endline="145" pcid="184"></source>
+<source file="carol-2.0.5/src/org/objectweb/carol/jndi/ns/JeremieRegistry.java" startline="144" endline="154" pcid="104"></source>
+<source file="carol-2.0.5/src/org/objectweb/carol/jndi/ns/JRMPRegistry.java" startline="160" endline="170" pcid="64"></source>
+</class>
+
+<class classid="25" nclones="2" nlines="12" similarity="83">
+<source file="carol-2.0.5/src/org/objectweb/carol/cmi/compiler/TemplateCompiler.java" startline="78" endline="88" pcid="1570"></source>
+<source file="carol-2.0.5/src/org/objectweb/carol/cmi/compiler/TemplateCompiler.java" startline="66" endline="76" pcid="1567"></source>
+</class>
+
+<class classid="26" nclones="2" nlines="12" similarity="91">
+<source file="carol-2.0.5/src/org/objectweb/carol/cmi/RoundRobin.java" startline="86" endline="96" pcid="1506"></source>
+<source file="carol-2.0.5/src/org/objectweb/carol/cmi/Random.java" startline="73" endline="82" pcid="1296"></source>
+</class>
+
+<class classid="27" nclones="3" nlines="12" similarity="72">
+<source file="carol-2.0.5/test/src/org/objectweb/carol/jtests/conform/basic/server/BasicMultiObject.java" startline="56" endline="69" pcid="2729"></source>
+<source file="carol-2.0.5/test/src/org/objectweb/carol/jtests/conform/basic/server/BasicMultiObject.java" startline="76" endline="87" pcid="2732"></source>
+<source file="carol-2.0.5/test/src/org/objectweb/carol/jtests/conform/basic/server/BasicMultiObject.java" startline="94" endline="104" pcid="2735"></source>
+</class>
+
+<class classid="28" nclones="4" nlines="11" similarity="100">
+<source file="carol-2.0.5/src/org/objectweb/carol/rmi/jrmp/interceptor/JRMPServerRequestInfoImpl.java" startline="78" endline="87" pcid="2266"></source>
+<source file="carol-2.0.5/src/org/objectweb/carol/rmi/jrmp/interceptor/JRMPServerRequestInfoImpl.java" startline="104" endline="113" pcid="2270"></source>
+<source file="carol-2.0.5/src/org/objectweb/carol/rmi/jrmp/interceptor/JRMPClientRequestInfoImpl.java" startline="69" endline="78" pcid="2295"></source>
+<source file="carol-2.0.5/src/org/objectweb/carol/rmi/jrmp/interceptor/JRMPClientRequestInfoImpl.java" startline="95" endline="104" pcid="2299"></source>
+</class>
+
+<class classid="29" nclones="2" nlines="11" similarity="81">
+<source file="carol-2.0.5/src/org/objectweb/carol/rmi/multi/IrmiPRODelegate.java" startline="85" endline="95" pcid="2388"></source>
+<source file="carol-2.0.5/src/org/objectweb/carol/rmi/multi/IrmiPRODelegate.java" startline="132" endline="142" pcid="2396"></source>
+</class>
+
+<class classid="30" nclones="2" nlines="11" similarity="72">
+<source file="carol-2.0.5/test/src/org/objectweb/carol/jtests/conform/basic/clients/MultiProtocolTests.java" startline="175" endline="185" pcid="2587"></source>
+<source file="carol-2.0.5/test/src/org/objectweb/carol/jtests/conform/basic/clients/MultiProtocolTests.java" startline="133" endline="141" pcid="2578"></source>
+</class>
+
+<class classid="31" nclones="4" nlines="10" similarity="90">
+<source file="carol-2.0.5/src/org/objectweb/carol/jndi/spi/JEREMIEContext.java" startline="93" endline="101" pcid="268"></source>
+<source file="carol-2.0.5/src/org/objectweb/carol/jndi/spi/JacORBIIOPContext.java" startline="178" endline="186" pcid="380"></source>
+<source file="carol-2.0.5/src/org/objectweb/carol/jndi/spi/IIOPContext.java" startline="141" endline="149" pcid="479"></source>
+<source file="carol-2.0.5/src/org/objectweb/carol/jndi/spi/JRMPContext.java" startline="115" endline="123" pcid="510"></source>
+</class>
+
+<class classid="32" nclones="2" nlines="10" similarity="90">
+<source file="carol-2.0.5/src/org/objectweb/carol/rmi/exception/NoSuchObjectExceptionHelper.java" startline="78" endline="86" pcid="2004"></source>
+<source file="carol-2.0.5/src/org/objectweb/carol/rmi/exception/NoSuchObjectExceptionHelper.java" startline="62" endline="70" pcid="2001"></source>
+</class>
+
+<class classid="33" nclones="2" nlines="10" similarity="80">
+<source file="carol-2.0.5/src/org/objectweb/carol/cmi/StubData.java" startline="49" endline="58" pcid="1480"></source>
+<source file="carol-2.0.5/src/org/objectweb/carol/cmi/StubData.java" startline="38" endline="47" pcid="1478"></source>
+</class>
+
+</clones>
